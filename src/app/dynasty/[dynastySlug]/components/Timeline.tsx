@@ -33,17 +33,15 @@ function dynastyColor(slug: string): string {
   return DYNASTY_COLORS[slug] || '#94A3B8';
 }
 
-// 每个条目的预估宽度（px）
 const ITEM_WIDTH = 120;
-// 容器 padding
-const PADDING = 80;
+const PADDING = 40;
 
 export default function Timeline({ entries, dynastyBands, currentDynastySlug, focusedNodeId, onEventClick }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
   const [visibleRange, setVisibleRange] = useState({ start: 0, end: 50 });
-  const [scrollLeft, setScrollLeft] = useState(0);
 
-  // Group entries by dynastySlug for visual separation
   function entryDynastySlug(entry: TimelineEntry): string {
     const year = entry.year;
     for (const band of dynastyBands) {
@@ -52,52 +50,67 @@ export default function Timeline({ entries, dynastyBands, currentDynastySlug, fo
     return currentDynastySlug;
   }
 
-  // 计算可见范围
-  const updateVisibleRange = useCallback(() => {
+  // 更新滚动状态
+  const updateScrollState = useCallback(() => {
     const container = scrollRef.current;
     if (!container) return;
     
-    const { scrollLeft, clientWidth } = container;
-    setScrollLeft(scrollLeft);
+    const { scrollLeft, scrollWidth, clientWidth } = container;
+    setCanScrollLeft(scrollLeft > 5);
+    setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 5);
     
-    // 计算可见范围，多渲染一些缓冲区
+    // 更新可见范围
     const buffer = 10;
     const start = Math.max(0, Math.floor((scrollLeft - PADDING) / ITEM_WIDTH) - buffer);
     const end = Math.min(entries.length, Math.ceil((scrollLeft + clientWidth - PADDING) / ITEM_WIDTH) + buffer);
-    
     setVisibleRange({ start, end });
   }, [entries.length]);
 
-  // 监听滚动事件
+  // 监听滚动
   useEffect(() => {
     const container = scrollRef.current;
     if (!container) return;
     
-    const handleScroll = () => {
-      requestAnimationFrame(updateVisibleRange);
-    };
-    
+    const handleScroll = () => requestAnimationFrame(updateScrollState);
     container.addEventListener('scroll', handleScroll, { passive: true });
-    // 初始化
-    updateVisibleRange();
+    updateScrollState();
     
     return () => container.removeEventListener('scroll', handleScroll);
-  }, [updateVisibleRange]);
+  }, [updateScrollState]);
 
-  // 当 focusedNodeId 变化时，滚动到对应位置
+  // 鼠标滚轮横向滚动
+  useEffect(() => {
+    const container = scrollRef.current;
+    if (!container) return;
+    
+    const handleWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      container.scrollLeft += e.deltaY || e.deltaX;
+    };
+    
+    container.addEventListener('wheel', handleWheel, { passive: false });
+    return () => container.removeEventListener('wheel', handleWheel);
+  }, []);
+
+  // 聚焦时滚动到对应位置
   useEffect(() => {
     if (!focusedNodeId || !scrollRef.current) return;
-    
     const index = entries.findIndex(e => e.nodeId === focusedNodeId);
     if (index < 0) return;
-    
-    const targetScroll = PADDING + index * ITEM_WIDTH - scrollRef.current.clientWidth / 2 + ITEM_WIDTH / 2;
-    scrollRef.current.scrollTo({ left: targetScroll, behavior: 'smooth' });
+    const target = PADDING + index * ITEM_WIDTH - scrollRef.current.clientWidth / 2 + ITEM_WIDTH / 2;
+    scrollRef.current.scrollTo({ left: target, behavior: 'smooth' });
   }, [focusedNodeId, entries]);
+
+  // 滚动一页
+  const scrollPage = useCallback((direction: 'left' | 'right') => {
+    const container = scrollRef.current;
+    if (!container) return;
+    const scrollAmount = container.clientWidth * 0.7;
+    container.scrollBy({ left: direction === 'left' ? -scrollAmount : scrollAmount, behavior: 'smooth' });
+  }, []);
 
   if (entries.length === 0) return null;
 
-  // 计算总宽度
   const totalWidth = PADDING * 2 + entries.length * ITEM_WIDTH;
 
   // 渲染可见条目
@@ -107,25 +120,13 @@ export default function Timeline({ entries, dynastyBands, currentDynastySlug, fo
     const color = dynastyColor(dynSlug);
     const isActive = focusedNodeId === entry.nodeId;
     const isCurrentDynasty = dynSlug === currentDynastySlug;
-    
-    // 检查是否是新朝代的开始
-    const prevEntry = index > 0 ? entries[index - 1] : null;
-    const showDynastyLabel = !prevEntry || entryDynastySlug(prevEntry) !== dynSlug;
 
     return (
       <div 
         key={entry.nodeId || index}
         className="flex items-center absolute"
-        style={{ 
-          left: PADDING + index * ITEM_WIDTH,
-          width: ITEM_WIDTH,
-        }}
+        style={{ left: PADDING + index * ITEM_WIDTH, width: ITEM_WIDTH }}
       >
-        {/* Dynasty separator label */}
-        {showDynastyLabel && index > 0 && (
-          <div className="w-px h-8 bg-slate-700 mx-1 shrink-0" />
-        )}
-
         <button
           onClick={() => entry.nodeId && entry.eventSlug && onEventClick(entry.nodeId, entry.eventSlug)}
           className={`group flex flex-col items-center px-2.5 py-1.5 rounded-lg transition-all shrink-0 relative border
@@ -147,7 +148,6 @@ export default function Timeline({ entries, dynastyBands, currentDynastySlug, fo
             style={{ color: isActive ? '#f1f5f9' : isCurrentDynasty ? '#94a3b8' : '#64748b' }}>
             {entry.label}
           </span>
-          {/* Color dot */}
           <span className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full"
             style={{ background: isActive ? color : (isCurrentDynasty ? '#475569' : '#1e293b') }} />
         </button>
@@ -156,35 +156,43 @@ export default function Timeline({ entries, dynastyBands, currentDynastySlug, fo
   });
 
   return (
-    <div className="shrink-0 bg-gradient-to-t from-slate-950 to-slate-900/90 border-t border-slate-800">
+    <div className="shrink-0 bg-gradient-to-t from-slate-950 to-slate-900/90 border-t border-slate-800 relative">
+      {/* 左切换按钮 */}
+      {canScrollLeft && (
+        <button
+          onClick={() => scrollPage('left')}
+          className="absolute left-0 top-0 bottom-0 z-20 w-10 bg-gradient-to-r from-slate-950 to-transparent flex items-center justify-center hover:from-slate-900 transition-colors group"
+        >
+          <svg className="w-4 h-4 text-slate-500 group-hover:text-slate-300 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+      )}
+
+      {/* 滚动容器 */}
       <div
         ref={scrollRef}
-        className="relative overflow-x-auto overflow-y-hidden"
-        style={{ 
-          scrollbarWidth: 'thin',
-          scrollbarColor: '#475569 transparent',
-        }}
+        className="overflow-x-hidden py-2.5"
       >
-        {/* 时间轴标签 */}
-        <div className="sticky left-0 z-10 inline-flex items-center px-5 py-2.5">
-          <span className="text-[10px] text-slate-500 shrink-0 mr-4 uppercase tracking-[0.2em] font-semibold">
-            时间轴
-          </span>
-        </div>
-        
-        {/* 虚拟列表容器 */}
-        <div 
-          className="relative h-[60px]"
-          style={{ width: totalWidth }}
-        >
-          {/* Continuous line */}
-          <div className="absolute left-[40px] right-[40px] top-1/2 -translate-y-1/2 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent pointer-events-none" />
-          
+        <div className="relative h-[52px]" style={{ width: totalWidth }}>
+          <div className="absolute left-[20px] right-[20px] top-1/2 -translate-y-1/2 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent pointer-events-none" />
           {visibleEntries}
         </div>
       </div>
 
-      {/* Dynasty legend strip */}
+      {/* 右切换按钮 */}
+      {canScrollRight && (
+        <button
+          onClick={() => scrollPage('right')}
+          className="absolute right-0 top-0 bottom-0 z-20 w-10 bg-gradient-to-l from-slate-950 to-transparent flex items-center justify-center hover:from-slate-900 transition-colors group"
+        >
+          <svg className="w-4 h-4 text-slate-500 group-hover:text-slate-300 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      )}
+
+      {/* 朝代图例 */}
       {dynastyBands.length > 1 && (
         <div className="flex items-center gap-3 px-5 pb-2">
           {dynastyBands.map(band => (
