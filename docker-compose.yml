@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: history_db
+    environment:
+      POSTGRES_DB: history
+      POSTGRES_USER: history
+      POSTGRES_PASSWORD: history
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U history -d history"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    container_name: history_app
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgresql://history:history@db:5432/history
+      NODE_ENV: production
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

@@ -1,0 +1,610 @@
+{
+  "dynasty": {
+    "slug": "chu-han",
+    "name": "楚汉争霸",
+    "startYear": -206,
+    "endYear": -202,
+    "summary": "秦朝灭亡后，西楚霸王项羽与汉王刘邦展开四年楚汉之争。刘邦以弱胜强，垓下一战定乾坤，建立大汉王朝，开启四百年汉家天下。"
+  },
+  "persons": [
+    {
+      "slug": "liu-bang",
+      "name": "刘邦",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "warlord"
+      ],
+      "importance": 100,
+      "birthYear": -256,
+      "deathYear": -195,
+      "dynastySlugs": [
+        "chu-han",
+        "han"
+      ],
+      "aliases": [
+        "汉高祖",
+        "沛公",
+        "刘季"
+      ],
+      "summary": "汉朝开国皇帝，以布衣之身提三尺剑取天下。善于用人，纳谏如流，垓下之战击败项羽，建立大汉四百年基业。",
+      "content": "刘邦（前256年—前195年），字季，沛丰邑（今江苏丰县）人。汉朝开国皇帝，庙号高祖。\n\n秦末任泗水亭长，陈胜起义后起兵响应。先入关中，约法三章收民心。鸿门宴上化险为夷，被封为汉王。此后拜韩信为大将军，用张良之谋，重用萧何，明修栈道暗度陈仓，还定三秦。\n\n与项羽鏖战四年，屡败屡战。前202年垓下之战，韩信十面埋伏，四面楚歌，项羽乌江自刎。刘邦统一天下，建立汉朝，定都长安。"
+    },
+    {
+      "slug": "han-xin",
+      "name": "韩信",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "strategist"
+      ],
+      "importance": 95,
+      "birthYear": -231,
+      "deathYear": -196,
+      "aliases": [
+        "兵仙",
+        "淮阴侯",
+        "国士无双"
+      ],
+      "summary": "汉初三杰之一，被称为「兵仙」。明修栈道暗度陈仓，背水一战破赵，垓下十面埋伏灭项羽，功高震主，最终被吕后设计诛杀。",
+      "content": "韩信（约前231年—前196年），淮阴（今江苏淮安）人。西汉开国功臣，军事家，被称为「兵仙」。\n\n早年贫寒，受胯下之辱。投刘邦后经萧何月下追回，被拜为大将军。此后战无不胜：暗度陈仓还定三秦，背水一战灭赵，不战而屈人之兵降燕，潍水之战灭齐楚联军。\n\n垓下之战统率三十万大军，十面埋伏，四面楚歌，一举灭项羽。与张良、萧何并称「汉初三杰」。功高震主，被贬为淮阴侯，后被吕后设计诛杀于长乐宫。"
+    },
+    {
+      "slug": "zhang-liang",
+      "name": "张良",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist"
+      ],
+      "importance": 92,
+      "birthYear": -250,
+      "deathYear": -186,
+      "aliases": [
+        "子房",
+        "谋圣"
+      ],
+      "summary": "汉初三杰之一，被誉为「谋圣」。鸿门宴救刘邦，运筹帷幄决胜千里，功成身退，是古代谋士的最高典范。",
+      "content": "张良（约前250年—前186年），字子房，颍川城父（今河南宝丰）人。西汉开国功臣，杰出谋士，被后世尊为「谋圣」。\n\n韩国贵族后裔，曾雇大力士在博浪沙刺杀秦始皇。后得黄石公传授《太公兵法》。追随刘邦后，鸿门宴上设计救刘邦脱险，楚汉之争中屡出奇谋。\n\n汉朝建立后封留侯，深知「飞鸟尽良弓藏」之理，急流勇退，从赤松子游，得以善终。与韩信、萧何并称「汉初三杰」。"
+    },
+    {
+      "slug": "xiao-he",
+      "name": "萧何",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 90,
+      "birthYear": -257,
+      "deathYear": -193,
+      "aliases": [
+        "酂侯"
+      ],
+      "summary": "汉初三杰之一，刘邦的后勤大总管。月下追韩信，镇守关中筹措粮草，为刘邦统一天下提供坚实后盾。汉朝首任丞相。",
+      "content": "萧何（约前257年—前193年），沛丰邑（今江苏丰县）人。西汉开国功臣，政治家，汉朝首任丞相。\n\n秦末随刘邦起兵，一路追随。入关后别人都在抢金银财宝，唯独萧何收集秦朝律令图书，为日后治理天下奠定基础。楚汉之争中镇守关中，源源不断向前线输送兵员粮草。\n\n最为人称道的是月下追韩信，力荐刘邦拜韩信为大将军。与张良、韩信并称「汉初三杰」。"
+    },
+    {
+      "slug": "fan-zeng",
+      "name": "范增",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist"
+      ],
+      "importance": 78,
+      "birthYear": -277,
+      "deathYear": -204,
+      "aliases": [
+        "亚父"
+      ],
+      "summary": "项羽首席谋士，被尊为「亚父」。鸿门宴上力劝杀刘邦未果，后被陈平离间计疏远，愤而离去，病死途中。",
+      "content": "范增（前277年—前204年），居鄛（今安徽桐城）人。项羽首席谋士，被尊为「亚父」。\n\n年七十投奔项梁，为项氏出谋划策。鸿门宴上多次举玦示意项羽杀刘邦，项羽犹豫不决。后刘邦用陈平离间计，项羽怀疑范增，范增愤而辞归，病死途中。"
+    },
+    {
+      "slug": "long-ju",
+      "name": "龙且",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 62,
+      "deathYear": -203,
+      "aliases": [
+        "龙将军"
+      ],
+      "summary": "项羽麾下猛将，与韩信对阵潍水，中水攻之计兵败身死，是楚汉之争的重要转折点。",
+      "content": "龙且（？—前203年），项羽麾下猛将。与项羽一同长大，情同兄弟。\n\n前203年率二十万大军救齐，与韩信对阵潍水。韩信以沙袋堵水，佯败诱敌，龙且追击时决水灌之，楚军大败，龙且被杀。此战后项羽势力大衰。"
+    },
+    {
+      "slug": "ying-bu",
+      "name": "英布",
+      "primaryRole": "warlord",
+      "roles": [
+        "warlord",
+        "general"
+      ],
+      "importance": 65,
+      "deathYear": -196,
+      "aliases": [
+        "黥布",
+        "九江王"
+      ],
+      "summary": "秦末名将，先随项羽后投刘邦，垓下之战参战。汉初封淮南王，后谋反被杀。",
+      "content": "英布（？—前196年），六县（今安徽六安）人。秦末起义军将领。\n\n原为骊山刑徒，后随项羽征战，封九江王。楚汉之争中被策反投刘邦，垓下之战参战。汉初封淮南王，后见韩信、彭越被杀，心生恐惧，起兵谋反，兵败被杀。"
+    },
+    {
+      "slug": "peng-yue",
+      "name": "彭越",
+      "primaryRole": "warlord",
+      "roles": [
+        "warlord",
+        "general"
+      ],
+      "importance": 63,
+      "deathYear": -196,
+      "aliases": [
+        "梁王"
+      ],
+      "summary": "汉初三大名将之一，游击战鼻祖。楚汉之争中骚扰项羽粮道，功封梁王，后被刘邦以谋反罪诛杀。",
+      "content": "彭越（？—前196年），字仲，昌邑（今山东巨野）人。汉初功臣。\n\n秦末起兵，擅长游击战，是游击战鼻祖。楚汉之争中在项羽后方骚扰粮道，使项羽首尾不能相顾。功封梁王，后被刘邦以谋反罪诛杀，醢为肉酱。"
+    },
+    {
+      "slug": "yu-ji",
+      "name": "虞姬",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 60,
+      "deathYear": -202,
+      "aliases": [
+        "虞美人"
+      ],
+      "summary": "项羽爱姬，垓下之战时项羽悲歌「虞兮虞兮奈若何」，虞姬拔剑自刎殉情，成为千古绝唱。",
+      "content": "虞姬（？—前202年），项羽爱姬，以美貌著称。\n\n垓下之战，项羽被围，夜闻四面楚歌，知大势已去，悲歌慷慨：「力拔山兮气盖世，时不利兮骓不逝。骓不逝兮可奈何，虞兮虞兮奈若何！」虞姬和歌起舞，拔剑自刎殉情。后人以「虞美人」为词牌名纪念。"
+    },
+    {
+      "slug": "chen-ping",
+      "name": "陈平",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist",
+        "minister"
+      ],
+      "importance": 72,
+      "birthYear": -250,
+      "deathYear": -178,
+      "aliases": [
+        "曲逆侯"
+      ],
+      "summary": "刘邦重要谋士，以奇计著称。离间项羽君臣，解白登之围，汉初封曲逆侯，后任丞相。",
+      "content": "陈平（约前250年—前178年），阳武（今河南原阳）人。西汉开国功臣、谋士。\n\n少时家贫，好读书。先投项羽，后归刘邦。以奇计著称：离间项羽与范增，解白登之围，诛灭诸吕。汉初封曲逆侯，后任丞相。"
+    },
+    {
+      "slug": "lu-zhong",
+      "name": "吕雉",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty"
+      ],
+      "importance": 75,
+      "birthYear": -241,
+      "deathYear": -180,
+      "aliases": [
+        "吕后",
+        "吕太后"
+      ],
+      "summary": "刘邦之妻，中国历史上第一位临朝称制的女性。性格刚毅，诛韩信、彭越，刘邦死后掌权十五年。",
+      "content": "吕雉（前241年—前180年），字娥姁，单父（今山东单县）人。汉高祖刘邦之妻，中国历史上第一位临朝称制的女性。\n\n楚汉之争中曾被项羽俘虏，受尽苦难。汉朝建立后，协助刘邦诛杀韩信、彭越等功臣。刘邦死后临朝称制，掌权十五年，大封吕氏为王。死后诸吕被诛。"
+    },
+    {
+      "slug": "xiang-zhuang",
+      "name": "项庄",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 45,
+      "aliases": [
+        "项庄"
+      ],
+      "summary": "项羽堂弟，鸿门宴上舞剑意在沛公，被项伯阻挡未果。",
+      "content": "项庄，项羽堂弟。鸿门宴上，范增命项庄舞剑助兴，实则意在趁机刺杀刘邦。项伯看出意图，亦拔剑起舞，以身护刘邦，项庄未能得手。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "hongmen-banquet",
+      "name": "鸿门宴",
+      "timeStart": -206,
+      "aliases": [
+        "鸿门宴"
+      ],
+      "summary": "秦亡后项羽在鸿门设宴招待刘邦。范增多次示意项羽杀刘邦，项庄舞剑意在沛公，刘邦借故逃脱。这是楚汉之争的关键转折。",
+      "content": "前206年，刘邦先入关中，项羽大怒欲攻之。刘邦亲赴鸿门谢罪，项羽设宴款待。\n\n席间范增多次举玦示意，项羽默然不应。范增召项庄舞剑，欲趁机杀刘邦，项伯以身相护。张良急召樊哙闯入，慷慨陈词。刘邦借如厕之机，抄小路逃回营中。\n\n鸿门宴放走刘邦，成为项羽一生最大的失误。"
+    },
+    {
+      "slug": "chencang-crossing",
+      "name": "暗度陈仓",
+      "timeStart": -206,
+      "aliases": [
+        "明修栈道暗度陈仓"
+      ],
+      "summary": "韩信献计刘邦，表面上修栈道迷惑项羽，实则暗中从陈仓道出击，一举还定三秦，拉开楚汉之争序幕。",
+      "content": "前206年，刘邦被封为汉王，入蜀就国。韩信献计：明修栈道，暗度陈仓。\n\n表面上派兵修复被烧毁的栈道，做出要原路返回的假象。实际上韩信率大军从陈仓小道奇袭，一举击败章邯，还定三秦。\n\n此计为刘邦夺取关中根据地，拉开了楚汉之争的序幕。"
+    },
+    {
+      "slug": "battle-of-gaixia",
+      "name": "垓下之战",
+      "timeStart": -202,
+      "aliases": [
+        "垓下之围",
+        "四面楚歌"
+      ],
+      "summary": "楚汉决战。韩信统三十万大军十面埋伏围困项羽，四面楚歌瓦解楚军斗志。项羽突围至乌江自刎，楚汉之争终结。",
+      "content": "前202年，韩信统三十万大军，在垓下（今安徽灵璧）设下十面埋伏，围困项羽。\n\n夜间汉军四面唱起楚歌，楚军将士思乡心切，纷纷逃散。项羽惊呼「汉皆已得楚乎」，知大势已去。夜饮帐中，悲歌慷慨，虞姬自刎。\n\n项羽率八百骑突围，至乌江边，自觉无颜见江东父老，自刎而死，年仅三十一岁。楚汉之争终结，刘邦统一天下。"
+    },
+    {
+      "slug": "backwater-battle",
+      "name": "背水一战",
+      "timeStart": -204,
+      "aliases": [
+        "井陉之战"
+      ],
+      "summary": "韩信率军攻赵，背水列阵置之死地而后生，以少胜多大破赵军二十万，是中国军事史上的经典战例。",
+      "content": "前204年，韩信率数万汉军攻赵。赵军二十万据守井陉口，兵力远超汉军。\n\n韩信令部分兵力背水列阵，赵军见状全力出击。汉军无路可退，人人死战。同时韩信派奇兵夺取赵军营寨，遍插汉旗。赵军回望营寨已失，军心大乱，被汉军前后夹击，全军覆没。\n\n「置之死地而后生」的军事思想由此战而来。"
+    },
+    {
+      "slug": "baixia-encirclement",
+      "name": "白登之围",
+      "timeStart": -200,
+      "aliases": [
+        "白登之围"
+      ],
+      "summary": "刘邦亲征匈奴，被冒顿单于三十万骑兵围困于白登山七天七夜。后用陈平计贿赂阏氏才得以脱险。",
+      "content": "前200年，刘邦亲率三十二万大军北征匈奴。轻敌冒进，被冒顿单于三十万骑兵围困于白登山（今山西大同）七天七夜。\n\n陈平献计，派人贿赂冒顿阏氏（王后），阏氏劝冒顿撤围，刘邦才得以脱险。此后汉朝对匈奴采取和亲政策，直到汉武帝时才改变。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "liu-bang",
+      "fromType": "person",
+      "to": "han-xin",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "主臣，拜大将军"
+    },
+    {
+      "from": "liu-bang",
+      "fromType": "person",
+      "to": "zhang-liang",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "主臣，首席谋士"
+    },
+    {
+      "from": "liu-bang",
+      "fromType": "person",
+      "to": "xiao-he",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "主臣，后勤总管"
+    },
+    {
+      "from": "liu-bang",
+      "fromType": "person",
+      "to": "chen-ping",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "主臣，谋士"
+    },
+    {
+      "from": "liu-bang",
+      "fromType": "person",
+      "to": "lu-zhong",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "夫妻"
+    },
+    {
+      "from": "liu-bang",
+      "fromType": "person",
+      "to": "xiang-yu",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "楚汉争霸死敌"
+    },
+    {
+      "from": "liu-bang",
+      "fromType": "person",
+      "to": "ying-bu",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "主将"
+    },
+    {
+      "from": "liu-bang",
+      "fromType": "person",
+      "to": "peng-yue",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "主将"
+    },
+    {
+      "from": "han-xin",
+      "fromType": "person",
+      "to": "xiao-he",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "萧何月下追韩信"
+    },
+    {
+      "from": "han-xin",
+      "fromType": "person",
+      "to": "xiang-yu",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "垓下灭楚"
+    },
+    {
+      "from": "han-xin",
+      "fromType": "person",
+      "to": "fan-zeng",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 7,
+      "note": "对手"
+    },
+    {
+      "from": "han-xin",
+      "fromType": "person",
+      "to": "long-ju",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "潍水之战"
+    },
+    {
+      "from": "xiang-yu",
+      "fromType": "person",
+      "to": "fan-zeng",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "主臣，亚父"
+    },
+    {
+      "from": "xiang-yu",
+      "fromType": "person",
+      "to": "yu-ji",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "爱姬"
+    },
+    {
+      "from": "xiang-yu",
+      "fromType": "person",
+      "to": "long-ju",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "猛将"
+    },
+    {
+      "from": "xiang-yu",
+      "fromType": "person",
+      "to": "xiang-zhuang",
+      "toType": "person",
+      "type": "blood",
+      "weight": 7,
+      "note": "堂兄弟"
+    },
+    {
+      "from": "xiang-yu",
+      "fromType": "person",
+      "to": "ying-bu",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "部将，后叛投刘邦"
+    },
+    {
+      "from": "zhang-liang",
+      "fromType": "person",
+      "to": "han-xin",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "同为汉初三杰"
+    },
+    {
+      "from": "zhang-liang",
+      "fromType": "person",
+      "to": "fan-zeng",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "楚汉谋士对决"
+    },
+    {
+      "from": "fan-zeng",
+      "fromType": "person",
+      "to": "xiang-zhuang",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "指使舞剑"
+    },
+    {
+      "from": "chen-ping",
+      "fromType": "person",
+      "to": "fan-zeng",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "离间计疏远范增"
+    },
+    {
+      "from": "hongmen-banquet",
+      "fromType": "event",
+      "to": "liu-bang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "险中求生"
+    },
+    {
+      "from": "hongmen-banquet",
+      "fromType": "event",
+      "to": "xiang-yu",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "设宴者"
+    },
+    {
+      "from": "hongmen-banquet",
+      "fromType": "event",
+      "to": "fan-zeng",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "力劝杀刘邦"
+    },
+    {
+      "from": "hongmen-banquet",
+      "fromType": "event",
+      "to": "zhang-liang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "策划脱险"
+    },
+    {
+      "from": "hongmen-banquet",
+      "fromType": "event",
+      "to": "xiang-zhuang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "舞剑意在沛公"
+    },
+    {
+      "from": "chencang-crossing",
+      "fromType": "event",
+      "to": "liu-bang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "决策者"
+    },
+    {
+      "from": "chencang-crossing",
+      "fromType": "event",
+      "to": "han-xin",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "献计统帅"
+    },
+    {
+      "from": "battle-of-gaixia",
+      "fromType": "event",
+      "to": "liu-bang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "最终胜利者"
+    },
+    {
+      "from": "battle-of-gaixia",
+      "fromType": "event",
+      "to": "han-xin",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅，十面埋伏"
+    },
+    {
+      "from": "battle-of-gaixia",
+      "fromType": "event",
+      "to": "xiang-yu",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "败亡者"
+    },
+    {
+      "from": "battle-of-gaixia",
+      "fromType": "event",
+      "to": "yu-ji",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "自刎殉情"
+    },
+    {
+      "from": "backwater-battle",
+      "fromType": "event",
+      "to": "han-xin",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅"
+    },
+    {
+      "from": "baixia-encirclement",
+      "fromType": "event",
+      "to": "liu-bang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "被围困"
+    },
+    {
+      "from": "baixia-encirclement",
+      "fromType": "event",
+      "to": "chen-ping",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "献计脱险"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "hongmen-banquet",
+      "year": -206,
+      "label": "鸿门宴，刘邦化险为夷"
+    },
+    {
+      "eventSlug": "chencang-crossing",
+      "year": -206,
+      "label": "韩信暗度陈仓，还定三秦"
+    },
+    {
+      "eventSlug": "backwater-battle",
+      "year": -204,
+      "label": "韩信背水一战灭赵"
+    },
+    {
+      "eventSlug": "baixia-encirclement",
+      "year": -200,
+      "label": "白登之围，刘邦被困"
+    },
+    {
+      "eventSlug": "battle-of-gaixia",
+      "year": -202,
+      "label": "垓下之战，项羽乌江自刎"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c1520"/>
+      <stop offset="100%" stop-color="#1a2535"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#57534e"/>
+      <stop offset="100%" stop-color="#3d3935"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1c2a1a"/>
+      <stop offset="100%" stop-color="#0f1a0d"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" fill="url(#sky)"/>
+  <!-- Stars -->
+  <circle cx="30" cy="20" r="1" fill="white" opacity="0.6"/>
+  <circle cx="70" cy="15" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="120" cy="25" r="1" fill="white" opacity="0.5"/>
+  <circle cx="200" cy="18" r="1" fill="white" opacity="0.6"/>
+  <circle cx="250" cy="30" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="270" cy="12" r="1" fill="white" opacity="0.7"/>
+  <!-- Moon -->
+  <circle cx="240" cy="35" r="18" fill="#e2e8f0" opacity="0.15"/>
+  <circle cx="247" cy="30" r="15" fill="#0c1520" opacity="0.8"/>
+  <!-- Mountains -->
+  <polygon points="0,130 60,70 120,130" fill="url(#mountain)"/>
+  <polygon points="70,130 140,60 210,130" fill="url(#mountain)" opacity="0.9"/>
+  <polygon points="180,130 240,80 300,130" fill="url(#mountain)" opacity="0.8"/>
+  <!-- Wall base -->
+  <rect x="0" y="115" width="300" height="55" fill="url(#wall)" opacity="0.95"/>
+  <!-- Wall battlements -->
+  <rect x="10" y="105" width="20" height="20" fill="#57534e" rx="1"/>
+  <rect x="45" y="105" width="20" height="20" fill="#57534e" rx="1"/>
+  <rect x="80" y="105" width="20" height="20" fill="#57534e" rx="1"/>
+  <rect x="115" y="105" width="20" height="20" fill="#57534e" rx="1"/>
+  <rect x="150" y="105" width="20" height="20" fill="#57534e" rx="1"/>
+  <rect x="185" y="105" width="20" height="20" fill="#57534e" rx="1"/>
+  <rect x="220" y="105" width="20" height="20" fill="#57534e" rx="1"/>
+  <rect x="255" y="105" width="20" height="20" fill="#57534e" rx="1"/>
+  <!-- Wall texture lines -->
+  <line x1="0" y1="130" x2="300" y2="130" stroke="#44403c" stroke-width="1" opacity="0.6"/>
+  <line x1="0" y1="145" x2="300" y2="145" stroke="#44403c" stroke-width="1" opacity="0.4"/>
+  <!-- Ground -->
+  <rect x="0" y="170" width="300" height="30" fill="#1c1a18"/>
+  <!-- Frame -->
+  <rect x="5" y="5" width="290" height="190" fill="none" stroke="#78716c" stroke-width="1.5" rx="2" opacity="0.7"/>
+  <path d="M5,25 L5,5 L25,5" fill="none" stroke="#d4a96a" stroke-width="2"/>
+  <path d="M275,5 L295,5 L295,25" fill="none" stroke="#d4a96a" stroke-width="2"/>
+  <path d="M5,175 L5,195 L25,195" fill="none" stroke="#d4a96a" stroke-width="2"/>
+  <path d="M275,195 L295,195 L295,175" fill="none" stroke="#d4a96a" stroke-width="2"/>
+  <!-- Title -->
+  <rect x="75" y="10" width="150" height="28" fill="#292524" opacity="0.8" rx="2"/>
+  <text x="150" y="29" text-anchor="middle" font-size="16" fill="#d4a96a" font-family="'Noto Serif SC', serif" letter-spacing="3" font-weight="bold">修筑长城</text>
+  <text x="150" y="188" text-anchor="middle" font-size="11" fill="#a8a29e" font-family="serif" letter-spacing="1" opacity="0.8">公元前214年 · 蒙恬监造</text>
+</svg>

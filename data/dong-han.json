@@ -1,0 +1,481 @@
+{
+  "dynasty": {
+    "slug": "dong-han",
+    "name": "东汉",
+    "startYear": 25,
+    "endYear": 220,
+    "summary": "东汉是光武帝刘秀建立的中兴王朝。班超通西域、蔡伦造纸、张衡发明地动仪，科技文化灿烂辉煌。后期外戚宦官交替专权，黄巾起义爆发，东汉走向灭亡。"
+  },
+  "persons": [
+    {
+      "slug": "liu-xiu",
+      "name": "刘秀",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 100,
+      "birthYear": -5,
+      "deathYear": 57,
+      "dynastySlugs": [
+        "xin",
+        "dong-han"
+      ],
+      "aliases": [
+        "光武帝",
+        "汉光武帝"
+      ],
+      "summary": "东汉开国皇帝，最完美的帝王。昆阳之战以少胜多，经略河北统一天下，轻徭薄赋开创「光武中兴」。",
+      "content": "刘秀（前5年—57年），字文叔，南阳蔡阳人。东汉开国皇帝，庙号世祖。汉高祖刘邦九世孙，新莽末年起兵加入绿林军。23年昆阳之战以两万击败四十二万新军，一战成名。后经略河北，25年称帝定都洛阳。在位三十三年，轻徭薄赋，整顿吏治，史称「光武中兴」。"
+    },
+    {
+      "slug": "ma-yuan",
+      "name": "马援",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 75,
+      "birthYear": -14,
+      "deathYear": 49,
+      "aliases": [
+        "伏波将军"
+      ],
+      "summary": "东汉开国名将，平定交趾、征讨武陵蛮，曾言「马革裹尸」，病死军中。",
+      "content": "马援（前14年—49年），字文渊，扶风茂陵人。东汉开国名将。追随刘秀征战四方，平定陇西、征讨交趾。曾言「男儿要当死于边野，以马革裹尸还葬耳」。62岁仍请缨出征，病死军中。"
+    },
+    {
+      "slug": "ban-chao",
+      "name": "班超",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 85,
+      "birthYear": 32,
+      "deathYear": 102,
+      "aliases": [
+        "定远侯"
+      ],
+      "summary": "东汉外交家军事家，投笔从戎，率三十六人出使西域，经营三十余年，平定五十余国，重开丝绸之路。",
+      "content": "班超（32年—102年），字仲升，扶风平陵人。东汉外交家军事家。原为抄书小吏，投笔从戎。73年率三十六人出使西域，以「不入虎穴焉得虎子」的胆略平定五十余国。经营西域三十一年，封定远侯。"
+    },
+    {
+      "slug": "ban-gu",
+      "name": "班固",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 72,
+      "birthYear": 32,
+      "deathYear": 92,
+      "aliases": [
+        "兰台令史"
+      ],
+      "summary": "东汉史学家文学家，班超之兄，著《汉书》，是中国第一部纪传体断代史。",
+      "content": "班固（32年—92年），字孟坚，扶风平陵人。东汉史学家文学家，班超之兄。继承父业撰写《汉书》，记载西汉一朝历史，是中国第一部纪传体断代史。与司马迁并称「班马」。"
+    },
+    {
+      "slug": "cai-lun",
+      "name": "蔡伦",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 88,
+      "birthYear": 63,
+      "deathYear": 121,
+      "aliases": [
+        "龙亭侯"
+      ],
+      "summary": "东汉宦官，改进造纸术，制成「蔡侯纸」，是中国四大发明之一，对世界文明发展产生深远影响。",
+      "content": "蔡伦（63年—121年），字敬仲，桂阳（今湖南郴州）人。东汉宦官。105年改进造纸术，用树皮、麻头、破布、旧渔网等原料造纸，制成「蔡侯纸」。造纸术是中国四大发明之一，对世界文明发展产生深远影响。"
+    },
+    {
+      "slug": "zhang-heng",
+      "name": "张衡",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 82,
+      "birthYear": 78,
+      "deathYear": 139,
+      "aliases": [
+        "张平子"
+      ],
+      "summary": "东汉科学家文学家，发明地动仪、浑天仪，著《灵宪》《算罔论》，是世界科学史上的巨匠。",
+      "content": "张衡（78年—139年），字平子，南阳西鄂（今河南南阳）人。东汉科学家文学家。发明候风地动仪、浑天仪，著《灵宪》解释天体运行，是世界科学史上的巨匠。文学上著有《二京赋》等名篇。"
+    },
+    {
+      "slug": "hua-tuo",
+      "name": "华佗",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 85,
+      "birthYear": 145,
+      "deathYear": 208,
+      "aliases": [
+        "神医"
+      ],
+      "summary": "东汉末年神医，发明麻沸散，是世界上最早使用麻醉药的医生。外科手术精湛，被曹操杀害。",
+      "content": "华佗（约145年—208年），字元化，沛国谯县（今安徽亳州）人。东汉末年医学家，被称为「神医」。发明麻沸散用于外科麻醉，是世界上最早使用麻醉药的医生。创编五禽戏健身法。后被曹操召见治病，因不愿为曹操专用而被杀。"
+    },
+    {
+      "slug": "zhang-zhongjing",
+      "name": "张仲景",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 85,
+      "birthYear": 150,
+      "deathYear": 219,
+      "aliases": [
+        "医圣"
+      ],
+      "summary": "东汉末年医学家，著《伤寒杂病论》，创立辨证论治理论体系，被尊为「医圣」。",
+      "content": "张仲景（约150年—219年），名机，南阳涅阳（今河南邓州）人。东汉末年医学家，被尊为「医圣」。著《伤寒杂病论》，创立六经辨证的理论体系，奠定中医临床基础。与华佗并称「医圣」「神医」。"
+    },
+    {
+      "slug": "ban-zhao",
+      "name": "班昭",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 65,
+      "birthYear": 49,
+      "deathYear": 120,
+      "aliases": [
+        "曹大家"
+      ],
+      "summary": "东汉女史学家，班固之妹，续写《汉书》，著《女诫》，是中国第一位女历史学家。",
+      "content": "班昭（约49年—120年），一名姬，字惠班，扶风平陵人。东汉女史学家，班固之妹。班固死后受命续写《汉书》中的八表和《天文志》。著《女诫》七篇，是中国第一位女历史学家。"
+    },
+    {
+      "slug": "dou-xian",
+      "name": "窦宪",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 65,
+      "deathYear": 92,
+      "aliases": [
+        "大将军"
+      ],
+      "summary": "东汉外戚将领，北击匈奴勒石燕然，后因专权被汉和帝赐死。",
+      "content": "窦宪（？—92年），字伯度，扶风平陵人。东汉外戚将领。89年率大军北击匈奴，在燕然山勒石记功，是继卫青霍去病后汉军最远的征伐。后因专权被汉和帝赐死。"
+    },
+    {
+      "slug": "liang-ji",
+      "name": "梁冀",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "rebel"
+      ],
+      "importance": 55,
+      "deathYear": 159,
+      "aliases": [
+        "大将军"
+      ],
+      "summary": "东汉外戚权臣，专权二十余年，先后立废多位皇帝，后被汉桓帝诛杀。",
+      "content": "梁冀（？—159年），字伯卓，安定乌氏（今甘肃平凉）人。东汉外戚权臣。专权二十余年，先后立废质帝、桓帝。质帝称其为「跋扈将军」，被其毒杀。159年被汉桓帝联合宦官诛灭。"
+    },
+    {
+      "slug": "dou-wu",
+      "name": "窦武",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 50,
+      "deathYear": 168,
+      "aliases": [
+        "大将军"
+      ],
+      "summary": "东汉外戚，与陈蕃谋诛宦官，事败被杀，是党锢之祸的重要事件。",
+      "content": "窦武（？—168年），字游平，扶风平陵人。东汉外戚。168年与太傅陈蕃密谋诛杀宦官，因事机泄露，被宦官曹节等矫诏击败，自杀身亡。"
+    },
+    {
+      "slug": "chen-fan",
+      "name": "陈蕃",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 52,
+      "deathYear": 168,
+      "aliases": [
+        "太傅"
+      ],
+      "summary": "东汉名臣，以直言敢谏著称，与窦武谋诛宦官失败被杀。",
+      "content": "陈蕃（？—168年），字仲举，汝南平舆（今河南平舆）人。东汉名臣。以直言敢谏著称，少年时曾言「一屋不扫何以扫天下」。与大将军窦武谋诛宦官，事败被杀。"
+    },
+    {
+      "slug": "liu-hong",
+      "name": "汉灵帝",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 55,
+      "birthYear": 156,
+      "deathYear": 189,
+      "aliases": [
+        "灵帝"
+      ],
+      "summary": "东汉昏君，宦官专权，卖官鬻爵，导致黄巾起义爆发，东汉走向灭亡。",
+      "content": "汉灵帝刘宏（156年—189年），东汉第十二位皇帝。在位期间宦官专权，卖官鬻爵，政治腐败。184年黄巾起义爆发，东汉统治名存实亡。死后引发董卓之乱，三国时代开启。"
+    },
+    {
+      "slug": "zhang-jue",
+      "name": "张角",
+      "primaryRole": "rebel",
+      "roles": [
+        "rebel"
+      ],
+      "importance": 70,
+      "deathYear": 184,
+      "aliases": [
+        "天公将军",
+        "大贤良师"
+      ],
+      "summary": "黄巾起义领袖，太平道创始人，以「苍天已死，黄天当立」为口号，发动大规模农民起义，动摇东汉统治根基。",
+      "content": "张角（？—184年），巨鹿（今河北平乡）人。黄巾起义领袖，太平道创始人。以符水咒语治病传道，信众数十万。184年以「苍天已死，黄天当立，岁在甲子，天下大吉」为口号起义。起义军头裹黄巾，故称黄巾军。张角病死后起义军被镇压，但东汉统治根基被动摇。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "guangwu-zhongxing",
+      "name": "光武中兴",
+      "timeStart": 25,
+      "timeEnd": 57,
+      "aliases": [
+        "建武之治"
+      ],
+      "summary": "光武帝刘秀在位期间，轻徭薄赋，整顿吏治，释放奴婢，社会经济恢复发展，史称「光武中兴」。",
+      "content": "25年至57年，光武帝刘秀在位期间推行一系列改革：轻徭薄赋、整顿吏治、释放奴婢、精简机构。社会经济恢复发展，人口增长，史称「光武中兴」。刘秀是中国历史上最完美的帝王之一。"
+    },
+    {
+      "slug": "ban-chao-xiyu",
+      "name": "班超通西域",
+      "timeStart": 73,
+      "timeEnd": 102,
+      "aliases": [
+        "经营西域"
+      ],
+      "summary": "班超率三十六人出使西域，经营三十余年，平定五十余国，重开丝绸之路，封定远侯。",
+      "content": "73年班超率三十六人出使西域，以「不入虎穴焉得虎子」的胆略，先后平定五十余国。派甘英出使大秦（罗马帝国），虽未到达但抵达波斯湾。经营西域三十一年，重开丝绸之路，封定远侯。"
+    },
+    {
+      "slug": "paper-invention",
+      "name": "蔡伦造纸",
+      "timeStart": 105,
+      "aliases": [
+        "改进造纸术"
+      ],
+      "summary": "蔡伦改进造纸术，用树皮、麻头等原料制成「蔡侯纸」，是中国四大发明之一，对世界文明产生深远影响。",
+      "content": "105年，蔡伦改进造纸术，用树皮、麻头、破布、旧渔网等廉价原料造纸，制成质地优良的「蔡侯纸」。造纸术是中国四大发明之一，后传入欧洲，对世界文明发展产生深远影响。"
+    },
+    {
+      "slug": "danggu-zhihuo",
+      "name": "党锢之祸",
+      "timeStart": 166,
+      "timeEnd": 176,
+      "aliases": [
+        "党锢"
+      ],
+      "summary": "东汉末年宦官与士大夫的政治斗争。宦官诬陷士人结党，两次大规模迫害，大批正直官员被禁锢终身，东汉政治更加腐败。",
+      "content": "166年和176年，东汉发生两次党锢之祸。宦官集团诬陷士大夫「共为部党，诽讪朝廷」，大批正直官员被逮捕、禁锢终身。\n\n党锢之祸使东汉朝廷失去大量正直之士，宦官更加专横，政治日益腐败，为黄巾起义和东汉灭亡埋下伏笔。"
+    },
+    {
+      "slug": "yellow-turban",
+      "name": "黄巾起义",
+      "timeStart": 184,
+      "aliases": [
+        "黄巾之乱"
+      ],
+      "summary": "张角领导的大规模农民起义，以「苍天已死，黄天当立」为口号。起义虽被镇压，但东汉统治根基动摇，群雄割据，三国时代由此开启。",
+      "content": "184年，张角以太平道组织发动黄巾起义，口号「苍天已死，黄天当立，岁在甲子，天下大吉」。起义军头裹黄巾，席卷八州。\n\n朝廷派皇甫嵩、朱儁等镇压，张角病死，起义军被击败。但东汉朝廷被迫下放军权给地方，导致群雄割据，三国时代由此开启。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "liu-xiu",
+      "fromType": "person",
+      "to": "ma-yuan",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "主将，伏波将军"
+    },
+    {
+      "from": "liu-xiu",
+      "fromType": "person",
+      "to": "liu-xiu-xin",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "同一人"
+    },
+    {
+      "from": "ban-chao",
+      "fromType": "person",
+      "to": "ban-gu",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "兄弟"
+    },
+    {
+      "from": "ban-chao",
+      "fromType": "person",
+      "to": "ban-zhao",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "兄妹"
+    },
+    {
+      "from": "ban-gu",
+      "fromType": "person",
+      "to": "ban-zhao",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "兄妹"
+    },
+    {
+      "from": "hua-tuo",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "被曹操杀害"
+    },
+    {
+      "from": "zhang-jue",
+      "fromType": "person",
+      "to": "liu-hong",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "起义推翻"
+    },
+    {
+      "from": "dou-xian",
+      "fromType": "person",
+      "to": "han-wudi",
+      "toType": "person",
+      "type": "political",
+      "weight": 5,
+      "note": "后世外戚"
+    },
+    {
+      "from": "liang-ji",
+      "fromType": "person",
+      "to": "liu-hong",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "权臣"
+    },
+    {
+      "from": "guangwu-zhongxing",
+      "fromType": "event",
+      "to": "liu-xiu",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "开创者"
+    },
+    {
+      "from": "ban-chao-xiyu",
+      "fromType": "event",
+      "to": "ban-chao",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅"
+    },
+    {
+      "from": "paper-invention",
+      "fromType": "event",
+      "to": "cai-lun",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "发明者"
+    },
+    {
+      "from": "danggu-zhihuo",
+      "fromType": "event",
+      "to": "chen-fan",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "受害者"
+    },
+    {
+      "from": "danggu-zhihuo",
+      "fromType": "event",
+      "to": "dou-wu",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "受害者"
+    },
+    {
+      "from": "yellow-turban",
+      "fromType": "event",
+      "to": "zhang-jue",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "领袖"
+    },
+    {
+      "from": "yellow-turban",
+      "fromType": "event",
+      "to": "liu-hong",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "在位皇帝"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "guangwu-zhongxing",
+      "year": 25,
+      "label": "刘秀称帝，光武中兴"
+    },
+    {
+      "eventSlug": "ban-chao-xiyu",
+      "year": 73,
+      "label": "班超出使西域"
+    },
+    {
+      "eventSlug": "paper-invention",
+      "year": 105,
+      "label": "蔡伦改进造纸术"
+    },
+    {
+      "eventSlug": "danggu-zhihuo",
+      "year": 166,
+      "label": "党锢之祸"
+    },
+    {
+      "eventSlug": "yellow-turban",
+      "year": 184,
+      "label": "黄巾起义爆发"
+    }
+  ]
+}

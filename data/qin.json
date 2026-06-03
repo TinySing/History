@@ -1,0 +1,851 @@
+{
+  "dynasty": {
+    "slug": "qin",
+    "name": "秦朝",
+    "startYear": -221,
+    "endYear": -206,
+    "summary": "秦朝是中国历史上第一个统一的中央集权王朝。秦始皇嬴政横扫六合，统一文字、度量衡与货币，修驰道、筑长城，奠定中华大一统格局。然而暴政导致二世而亡，成为后世帝王的深刻警示。"
+  },
+  "persons": [
+    {
+      "slug": "qin-shi-huang",
+      "name": "秦始皇",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 100,
+      "birthYear": -259,
+      "deathYear": -210,
+      "aliases": [
+        "嬴政",
+        "始皇",
+        "始皇帝",
+        "秦王政"
+      ],
+      "summary": "中国历史上第一位皇帝，灭六国统一天下，建立中央集权制度，统一文字度量衡，修长城驰道，功过千秋，影响中国两千年。",
+      "content": "秦始皇（前259年—前210年），嬴姓，赵氏，名政，秦庄襄王之子。中国历史上第一位称「皇帝」的君主。\n\n前238年亲政，前230年至前221年，先后灭韩、赵、魏、楚、燕、齐六国，完成统一大业。创立皇帝制度，推行郡县制，统一文字（小篆）、度量衡、货币（半两钱）、车轨，修驰道、筑长城，南征百越、北击匈奴。\n\n然而大兴土木（阿房宫、骊山陵）、滥用民力、焚书坑儒，激化社会矛盾，秦朝仅传二世而亡。"
+    },
+    {
+      "slug": "li-si",
+      "name": "李斯",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist"
+      ],
+      "importance": 82,
+      "birthYear": -280,
+      "deathYear": -208,
+      "aliases": [
+        "李丞相"
+      ],
+      "summary": "秦朝丞相，统一六国的重要谋臣，主导统一文字度量衡货币，焚书之议的提出者，后死于赵高之手。",
+      "content": "李斯（约前280年—前208年），楚国上蔡（今河南上蔡）人。战国末年至秦朝著名政治家、文学家、书法家，秦朝丞相。\n\n师从荀子，入秦后得秦始皇赏识，主张废封建、立郡县，推动秦国统一天下。统一后主导统一文字（以小篆为标准）、度量衡、货币等政策。亦是焚书政策的提议者。始皇驾崩后被赵高胁迫参与沙丘之变，后被赵高陷害，腰斩于咸阳。"
+    },
+    {
+      "slug": "meng-tian",
+      "name": "蒙恬",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 76,
+      "birthYear": -259,
+      "deathYear": -210,
+      "aliases": [
+        "蒙将军"
+      ],
+      "summary": "秦朝名将，率三十万军北击匈奴，主持修筑万里长城，镇守北疆十余年，被称为「中华第一勇士」。",
+      "content": "蒙恬（前259年—前210年），祖籍齐国，秦朝著名将领。\n\n前221年统一六国后，蒙恬奉命率三十万大军北击匈奴，收复河套地区，将匈奴赶至阴山以北。随后主持修筑万里长城，连接原秦、赵、燕旧长城，西起临洮、东至辽东。镇守北疆十余年，匈奴不敢南下。沙丘之变后与扶苏同被赐死。"
+    },
+    {
+      "slug": "fu-su",
+      "name": "扶苏",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty"
+      ],
+      "importance": 65,
+      "birthYear": -241,
+      "deathYear": -210,
+      "aliases": [
+        "公子扶苏"
+      ],
+      "summary": "秦始皇长子，因反对焚书坑儒被贬边疆监军，始皇属意其为继承人，却因赵高伪造遗诏被赐死，秦朝由此走向覆亡。",
+      "content": "扶苏（前241年—前210年），秦始皇长子，政治立场宽厚，曾因反对焚书坑儒谏言始皇而遭贬谪，被派往上郡（今陕西北部）协助蒙恬监军。\n\n秦始皇巡游途中在沙丘病逝，留下遗诏令扶苏继位。然而赵高与李斯合谋，篡改遗诏，另立幼子胡亥为帝，并伪造诏书赐死扶苏与蒙恬。扶苏接诏后不疑有诈，含冤自尽。"
+    },
+    {
+      "slug": "zhao-gao",
+      "name": "赵高",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "rebel"
+      ],
+      "importance": 78,
+      "birthYear": -257,
+      "deathYear": -207,
+      "aliases": [
+        "赵太傅"
+      ],
+      "summary": "秦朝宦官权臣，沙丘之变主谋，操纵胡亥登基，指鹿为马弄权朝堂，最终弑杀胡亥，自立不成被子婴所杀。",
+      "content": "赵高（约前257年—前207年），秦朝宦官、权臣。精通法律，曾为秦始皇近侍，深得信任。\n\n始皇驾崩后，赵高与李斯合谋发动沙丘之变，伪造遗诏立胡亥为帝（秦二世），赐死扶苏与蒙恬。此后独揽大权，以「指鹿为马」测试群臣忠心，先后杀死大将章邯等忠臣。前207年赵高见秦朝将亡，弑杀秦二世，欲自立为帝，遭群臣反对，只好立子婴为王，随即被子婴所杀。"
+    },
+    {
+      "slug": "hu-hai",
+      "name": "胡亥",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 58,
+      "birthYear": -230,
+      "deathYear": -207,
+      "aliases": [
+        "秦二世"
+      ],
+      "summary": "秦朝第二位皇帝，赵高扶植的傀儡皇帝，在位期间横征暴敛，陈胜吴广起义爆发，秦朝迅速崩溃。",
+      "content": "胡亥（前230年—前207年），秦始皇第十八子，即秦二世。沙丘之变中被赵高扶植登基，成为傀儡皇帝。\n\n在位期间横征暴敛、大兴土木，对异见者大肆诛杀，前209年陈胜吴广揭竿而起，各地豪杰纷纷响应，秦朝统治迅速崩溃。前207年在赵高逼迫下被迫自杀，年仅23岁，在位仅三年。"
+    },
+    {
+      "slug": "xiang-yu",
+      "name": "项羽",
+      "primaryRole": "warlord",
+      "roles": [
+        "warlord",
+        "general"
+      ],
+      "importance": 92,
+      "birthYear": -232,
+      "deathYear": -202,
+      "dynastySlugs": [
+        "qin",
+        "chu-han"
+      ],
+      "aliases": [
+        "霸王",
+        "楚霸王",
+        "西楚霸王"
+      ],
+      "summary": "西楚霸王，中国历史上最强武将之一。巨鹿之战破釜沉舟击溃秦军主力，是灭秦的关键人物，后与刘邦争夺天下，垓下之战四面楚歌，乌江自刎。",
+      "content": "项羽（前232年—前202年），名籍，字羽，楚国下相（今江苏宿迁）人。秦末著名军事家、西楚霸王。\n\n前208年巨鹿之战，项羽破釜沉舟，以六万楚军大破秦军三十余万，是灭亡秦朝的决定性战役。前206年分封诸侯，自立为西楚霸王。随后与刘邦展开楚汉之争，前202年垓下之战中被刘邦围困，四面楚歌，虞姬自刎，项羽突围至乌江，拒绝渡江，自刎而亡，年三十一岁。"
+    },
+    {
+      "slug": "wang-jian",
+      "name": "王翦",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 85,
+      "birthYear": -280,
+      "deathYear": -215,
+      "aliases": [
+        "王将军"
+      ],
+      "summary": "秦朝名将，与白起、李牧、廉颇并称战国四大名将。灭楚功臣，率六十万大军灭楚国，为秦统一六国立下赫赫战功。",
+      "content": "王翦（约前280年—前215年），频阳东乡（今陕西富平）人。秦朝著名将领，战国四大名将之一。\n\n秦始皇统一六国时，王翦率军灭赵、燕、楚三国。灭楚之战中，秦始皇问需多少兵力，李信答二十万，王翦答六十万。始皇先用李信，大败；后用王翦，终灭楚国。王翦深谙君臣之道，功成身退，得以善终。"
+    },
+    {
+      "slug": "zhang-han",
+      "name": "章邯",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 70,
+      "birthYear": -250,
+      "deathYear": -205,
+      "aliases": [
+        "章将军"
+      ],
+      "summary": "秦朝最后的名将，镇压陈胜吴广起义，后在巨鹿之战中被项羽击败，投降项羽，最终被刘邦击败自杀。",
+      "content": "章邯（约前250年—前205年），秦朝末年将领。陈胜吴广起义后，章邯率骊山刑徒为军，击败周文、田臧等起义军，杀项梁。\n\n巨鹿之战中被项羽击败，投降项羽，被封为雍王。楚汉之争中被刘邦围困，兵败自杀。"
+    },
+    {
+      "slug": "chen-sheng",
+      "name": "陈胜",
+      "primaryRole": "rebel",
+      "roles": [
+        "rebel"
+      ],
+      "importance": 75,
+      "birthYear": -250,
+      "deathYear": -208,
+      "aliases": [
+        "陈涉"
+      ],
+      "summary": "秦末农民起义领袖，与吴广在大泽乡揭竿而起，建立张楚政权，是中国历史上第一次大规模农民起义的领袖。",
+      "content": "陈胜（约前250年—前208年），字涉，阳城（今河南登封）人。秦末农民起义领袖。\n\n前209年被征发渔阳戍边，遇雨误期，按秦律当斩。陈胜与吴广在大泽乡（今安徽宿州）揭竿而起，喊出「王侯将相宁有种乎」的口号，建立张楚政权。后被秦将章邯击败，被车夫庄贾所杀。"
+    },
+    {
+      "slug": "wu-guang",
+      "name": "吴广",
+      "primaryRole": "rebel",
+      "roles": [
+        "rebel"
+      ],
+      "importance": 68,
+      "birthYear": -250,
+      "deathYear": -208,
+      "aliases": [
+        "吴叔"
+      ],
+      "summary": "秦末农民起义领袖，与陈胜共同发动大泽乡起义，建立张楚政权，后被部下所杀。",
+      "content": "吴广（约前250年—前208年），字叔，阳夏（今河南太康）人。秦末农民起义领袖。\n\n与陈胜共同发动大泽乡起义，任假王。率军攻荥阳，久攻不下，被部将田臧所杀。"
+    },
+    {
+      "slug": "zi-ying",
+      "name": "子婴",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 55,
+      "deathYear": -206,
+      "aliases": [
+        "秦王子婴"
+      ],
+      "summary": "秦朝末代君主，赵高弑杀胡亥后被立为王，在位仅四十六天，投降刘邦，后被项羽所杀。",
+      "content": "子婴（？—前206年），秦朝末代君主。赵高弑杀秦二世胡亥后，立子婴为秦王。\n\n子婴在位仅四十六天，设计杀死赵高，但秦朝大势已去。刘邦攻入关中后，子婴投降，后被项羽所杀。"
+    },
+    {
+      "slug": "lv-bu-wei",
+      "name": "吕不韦",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist"
+      ],
+      "importance": 78,
+      "birthYear": -292,
+      "deathYear": -235,
+      "aliases": [
+        "文信侯"
+      ],
+      "summary": "秦朝丞相，商人出身，辅佐秦庄襄王和秦始皇，编撰《吕氏春秋》，权倾朝野，后被秦始皇逼迫自杀。",
+      "content": "吕不韦（约前292年—前235年），卫国濮阳（今河南濮阳）人。秦朝著名政治家、商人。\n\n原为商人，在赵国结识秦公子异人（后为秦庄襄王），助其回国继位，被封为丞相。秦庄襄王死后，辅佐年幼的秦始皇，权倾朝野。编撰《吕氏春秋》，试图统一思想。后因嫪毐之乱受牵连，被秦始皇逼迫自杀。"
+    },
+    {
+      "slug": "shang-yang",
+      "name": "商鞅",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist"
+      ],
+      "importance": 88,
+      "birthYear": -395,
+      "deathYear": -338,
+      "aliases": [
+        "卫鞅",
+        "公孙鞅"
+      ],
+      "summary": "秦朝变法功臣，辅佐秦孝公推行变法，使秦国强大，奠定秦统一六国的基础。后被车裂而死。",
+      "content": "商鞅（约前395年—前338年），卫国（今河南安阳）人。战国时期著名政治家、改革家。\n\n秦孝公时任左庶长，推行变法：废井田、开阡陌，建立县制，奖励耕战，统一度量衡。变法使秦国迅速强大，为日后统一六国奠定基础。秦孝公死后，商鞅被处以车裂之刑。"
+    },
+    {
+      "slug": "bai-qi",
+      "name": "白起",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 90,
+      "birthYear": -332,
+      "deathYear": -257,
+      "aliases": [
+        "武安君",
+        "人屠"
+      ],
+      "summary": "战国四大名将之首，长平之战坑杀赵军四十万，一生征战未尝败绩，被称为「战神」。后被秦昭襄王赐死。",
+      "content": "白起（约前332年—前257年），秦国郿县（今陕西眉县）人。战国四大名将之首。\n\n秦昭襄王时屡战屡胜，长平之战坑杀赵军四十余万，是战国时期最惨烈的战役。一生征战七十余战未尝败绩，被誉为「战神」。后因与秦昭襄王意见不合，被赐死。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "unification-of-china",
+      "name": "统一六国",
+      "timeStart": -230,
+      "timeEnd": -221,
+      "aliases": [
+        "灭六国",
+        "秦灭六国"
+      ],
+      "summary": "秦王嬴政从公元前230年起，先后灭韩、赵、魏、楚、燕、齐六国，历时十年，完成统一大业，建立中国历史上第一个统一的多民族中央集权国家。",
+      "content": "前230年至前221年，秦王嬴政发动统一战争，按照远交近攻策略，先后灭亡六国：\n- 前230年灭韩\n- 前228年灭赵（俘虏赵王迁）\n- 前225年灭魏（水淹大梁）\n- 前223年灭楚（王翦六十万大军）\n- 前222年灭燕\n- 前221年灭齐\n\n嬴政称始皇帝，建立秦朝，推行郡县制、统一度量衡，开中国大一统之先河。"
+    },
+    {
+      "slug": "great-wall",
+      "name": "修筑长城",
+      "timeStart": -214,
+      "aliases": [
+        "万里长城"
+      ],
+      "summary": "秦始皇命蒙恬率三十万军民，将原秦、赵、燕三国旧长城连接加固，形成西起临洮、东至辽东的万里长城，以抵御北方匈奴入侵，成为中华民族的精神象征。",
+      "content": "前214年，秦始皇命大将蒙恬率三十万军民，在原秦、赵、燕旧长城基础上大规模修建，历时数年，建成西起甘肃临洮、东至辽东的万里长城。\n\n长城不仅是军事防线，更是中华文明的重要象征。修建过程中动用大量民力，「孟姜女哭长城」的传说即源于此时。工程之浩大，前无古人，是人类历史上最伟大的建筑工程之一。",
+      "imageUrl": "/images/qinchao/events/changchengjianzhu.svg"
+    },
+    {
+      "slug": "burning-books",
+      "name": "焚书坑儒",
+      "timeStart": -213,
+      "timeEnd": -212,
+      "aliases": [
+        "焚书",
+        "坑儒"
+      ],
+      "summary": "秦始皇采纳李斯建议，下令焚烧《诗》《书》等儒家经典，禁止私学；次年又将四百余名方士、儒生活埋。此举严重摧残先秦文化，历来受到后世批评。",
+      "content": "前213年，博士淳于越主张恢复分封制，丞相李斯力驳，并建议焚书：除秦国史书、医药农业卜筮等实用书籍外，诗书百家语一律焚毁，敢谈诗书者弃市，以古非今者族诛。始皇从之。\n\n次年（前212年），方士卢生等人诽谤始皇后出逃，始皇大怒，严查儒生，共四百六十余人被活埋，史称「坑儒」。此事件是中国文化史上的重大浩劫，大量先秦典籍从此失传。"
+    },
+    {
+      "slug": "shaqiu-coup",
+      "name": "沙丘之变",
+      "timeStart": -210,
+      "aliases": [
+        "沙丘政变"
+      ],
+      "summary": "秦始皇巡游途中病死沙丘，赵高与李斯秘不发丧，合谋伪造遗诏，赐死长子扶苏和大将蒙恬，改立幼子胡亥为帝。这一政变直接导致秦朝迅速走向覆亡。",
+      "content": "前210年，秦始皇在第五次东巡途中，于沙丘宫（今河北广宗）病逝。赵高、李斯秘不发丧，将始皇尸体置于辒辌车中，每日照常进食，对外封锁消息。\n\n二人合谋篡改遗诏：原诏令公子扶苏继位，篡改后令扶苏、蒙恬自尽，立胡亥为帝（秦二世）。扶苏收到假诏后含冤自刎，蒙恬被囚后自杀。沙丘之变是秦朝走向覆亡的转折点。"
+    },
+    {
+      "slug": "julu-battle",
+      "name": "巨鹿之战",
+      "timeStart": -207,
+      "aliases": [
+        "破釜沉舟"
+      ],
+      "summary": "秦末农民起义中的关键战役。项羽率六万楚军破釜沉舟，以背水一战的气势大破秦军主力四十万，成为灭秦的决定性战役，奠定项羽天下第一武将的地位。",
+      "content": "前207年，秦将章邯、王离率大军围攻赵国钜鹿（今河北平乡）。各路诸侯援军惧怕秦军，坐观不战。楚将宋义率楚军援赵，迟迟不肯进军，项羽斩杀宋义，夺取兵权。\n\n项羽率军渡过漳河后，命令士兵凿沉船只、打破锅灶，只携三日口粮，是为「破釜沉舟」。楚军以一当十，大败秦军，王离被俘，秦军主力覆灭。各路诸侯皆服，项羽成为诸侯盟主。"
+    },
+    {
+      "slug": "dazexiang-uprising",
+      "name": "大泽乡起义",
+      "timeStart": -209,
+      "aliases": [
+        "陈胜吴广起义"
+      ],
+      "summary": "秦末农民起义的开端。陈胜、吴广因误期当斩，在大泽乡揭竿而起，喊出「王侯将相宁有种乎」，建立张楚政权，天下响应，秦朝统治开始崩溃。",
+      "content": "前209年，陈胜、吴广等九百人被征发渔阳戍边，遇大雨误期。按秦律，误期当斩。\n\n陈胜、吴广在大泽乡（今安徽宿州）杀押送军官，揭竿而起。陈胜自立为王，建立张楚政权，各地纷纷响应。起义军攻占陈县后，陈胜称王，派兵西进。后被秦将章邯击败，陈胜被车夫庄贾所杀。\n\n大泽乡起义是中国历史上第一次大规模农民起义，虽失败，但动摇了秦朝统治基础。"
+    },
+    {
+      "slug": "destruction-of-chu",
+      "name": "秦灭楚之战",
+      "timeStart": -224,
+      "timeEnd": -222,
+      "aliases": [
+        "灭楚之战"
+      ],
+      "summary": "秦统一六国中最艰难的一战。王翦率六十万大军，历时三年，最终灭亡楚国，是秦统一战争中的关键战役。",
+      "content": "前224年，秦始皇问诸将灭楚需多少兵力。李信答二十万，王翦答六十万。始皇用李信，大败。\n\n前223年，秦始皇重新起用王翦，率六十万大军攻楚。王翦采取坚守不战策略，消耗楚军锐气，待楚军松懈时发动总攻，大败楚军，俘虏楚王负刍，楚国灭亡。\n\n此战是秦统一六国中最关键的一役，展现了王翦的军事才能和秦始皇的用人之道。"
+    },
+    {
+      "slug": "epang-palace",
+      "name": "修筑阿房宫",
+      "timeStart": -212,
+      "aliases": [
+        "阿房宫"
+      ],
+      "summary": "秦始皇修建的大型宫殿，规模宏大，动用大量民力，是秦朝暴政的象征之一。秦朝灭亡时仍未完工。",
+      "content": "前212年，秦始皇开始修建阿房宫。宫殿规模宏大，东西五百步，南北五十丈，可容纳万人。\n\n修建过程中动用大量民力，劳民伤财，加重了人民负担。秦朝灭亡时，阿房宫仍未完工。项羽入关后，纵火焚烧，大火三月不灭。\n\n阿房宫是秦朝暴政的象征，与万里长城、秦始皇陵并称秦朝三大工程。"
+    },
+    {
+      "slug": "standardization",
+      "name": "统一度量衡",
+      "timeStart": -221,
+      "aliases": [
+        "统一度量衡"
+      ],
+      "summary": "秦始皇统一六国后推行的重要政策，统一文字、度量衡、货币，促进了全国经济文化交流，对后世影响深远。",
+      "content": "前221年，秦始皇统一六国后，推行一系列统一政策：\n\n1. 统一文字：以小篆为标准文字\n2. 统一度量衡：统一度量衡标准\n3. 统一货币：以半两钱为标准货币\n4. 统一车轨：规定车轨宽度\n\n这些政策促进了全国经济文化交流，巩固了国家统一，对后世影响深远。"
+    },
+    {
+      "slug": "southern-expedition",
+      "name": "南征百越",
+      "timeStart": -214,
+      "aliases": [
+        "征百越"
+      ],
+      "summary": "秦始皇南征百越，将岭南地区纳入中国版图，设置南海、桂林、象郡三郡，促进了中原与岭南的交流。",
+      "content": "前214年，秦始皇派屠睢率五十万大军南征百越。秦军分五路进攻，遭遇越人顽强抵抗，屠睢战死。\n\n秦始皇重新派任嚣、赵佗率军南征，最终平定岭南，设置南海、桂林、象郡三郡，迁徙中原人民与越人杂居。\n\n南征百越将岭南地区纳入中国版图，促进了中原与岭南的经济文化交流。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "qin-shi-huang",
+      "fromType": "person",
+      "to": "li-si",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "主臣，统一功臣"
+    },
+    {
+      "from": "qin-shi-huang",
+      "fromType": "person",
+      "to": "meng-tian",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "主将，北疆守卫"
+    },
+    {
+      "from": "qin-shi-huang",
+      "fromType": "person",
+      "to": "fu-su",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子，属意继承人"
+    },
+    {
+      "from": "qin-shi-huang",
+      "fromType": "person",
+      "to": "zhao-gao",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "主仆，信任宦官"
+    },
+    {
+      "from": "zhao-gao",
+      "fromType": "person",
+      "to": "li-si",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "沙丘政变同谋，后反目"
+    },
+    {
+      "from": "zhao-gao",
+      "fromType": "person",
+      "to": "hu-hai",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "操纵傀儡皇帝"
+    },
+    {
+      "from": "zhao-gao",
+      "fromType": "person",
+      "to": "fu-su",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "伪造诏书赐死"
+    },
+    {
+      "from": "zhao-gao",
+      "fromType": "person",
+      "to": "meng-tian",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "陷害蒙恬"
+    },
+    {
+      "from": "qin-shi-huang",
+      "fromType": "person",
+      "to": "xiang-yu",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "项羽祖父项燕为秦所灭，仇敌"
+    },
+    {
+      "from": "hu-hai",
+      "fromType": "person",
+      "to": "xiang-yu",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "起义推翻秦朝"
+    },
+    {
+      "from": "unification-of-china",
+      "fromType": "event",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "主导者"
+    },
+    {
+      "from": "unification-of-china",
+      "fromType": "event",
+      "to": "li-si",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "策划辅佐"
+    },
+    {
+      "from": "great-wall",
+      "fromType": "event",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "下令修建"
+    },
+    {
+      "from": "great-wall",
+      "fromType": "event",
+      "to": "meng-tian",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "主持修建"
+    },
+    {
+      "from": "burning-books",
+      "fromType": "event",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "决策者"
+    },
+    {
+      "from": "burning-books",
+      "fromType": "event",
+      "to": "li-si",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "建议者"
+    },
+    {
+      "from": "shaqiu-coup",
+      "fromType": "event",
+      "to": "zhao-gao",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "主谋"
+    },
+    {
+      "from": "shaqiu-coup",
+      "fromType": "event",
+      "to": "li-si",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "同谋"
+    },
+    {
+      "from": "shaqiu-coup",
+      "fromType": "event",
+      "to": "fu-su",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "受害者"
+    },
+    {
+      "from": "shaqiu-coup",
+      "fromType": "event",
+      "to": "hu-hai",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "受益者"
+    },
+    {
+      "from": "shaqiu-coup",
+      "fromType": "event",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "驾崩于此"
+    },
+    {
+      "from": "julu-battle",
+      "fromType": "event",
+      "to": "xiang-yu",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "破釜沉舟，大胜"
+    },
+    {
+      "from": "julu-battle",
+      "fromType": "event",
+      "to": "hu-hai",
+      "toType": "person",
+      "type": "participation",
+      "weight": 5,
+      "note": "秦朝在位君主"
+    },
+    {
+      "from": "wang-jian",
+      "fromType": "person",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "主将，灭楚功臣"
+    },
+    {
+      "from": "wang-jian",
+      "fromType": "person",
+      "to": "unification-of-china",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "灭楚统帅"
+    },
+    {
+      "from": "wang-jian",
+      "fromType": "person",
+      "to": "destruction-of-chu",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "灭楚主帅"
+    },
+    {
+      "from": "zhang-han",
+      "fromType": "person",
+      "to": "hu-hai",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "主将"
+    },
+    {
+      "from": "zhang-han",
+      "fromType": "person",
+      "to": "xiang-yu",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "巨鹿之战对手"
+    },
+    {
+      "from": "zhang-han",
+      "fromType": "person",
+      "to": "julu-battle",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "秦军统帅"
+    },
+    {
+      "from": "zhang-han",
+      "fromType": "person",
+      "to": "dazexiang-uprising",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "镇压起义"
+    },
+    {
+      "from": "chen-sheng",
+      "fromType": "person",
+      "to": "wu-guang",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "起义伙伴"
+    },
+    {
+      "from": "chen-sheng",
+      "fromType": "person",
+      "to": "dazexiang-uprising",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "起义领袖"
+    },
+    {
+      "from": "chen-sheng",
+      "fromType": "person",
+      "to": "hu-hai",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "起义推翻秦朝"
+    },
+    {
+      "from": "wu-guang",
+      "fromType": "person",
+      "to": "dazexiang-uprising",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "起义领袖"
+    },
+    {
+      "from": "zi-ying",
+      "fromType": "person",
+      "to": "zhao-gao",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "杀死赵高"
+    },
+    {
+      "from": "zi-ying",
+      "fromType": "person",
+      "to": "hu-hai",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "继位"
+    },
+    {
+      "from": "lv-bu-wei",
+      "fromType": "person",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "辅政大臣"
+    },
+    {
+      "from": "shang-yang",
+      "fromType": "person",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "变法奠基人"
+    },
+    {
+      "from": "bai-qi",
+      "fromType": "person",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "名将"
+    },
+    {
+      "from": "dazexiang-uprising",
+      "fromType": "event",
+      "to": "hu-hai",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "秦朝在位君主"
+    },
+    {
+      "from": "dazexiang-uprising",
+      "fromType": "event",
+      "to": "zhao-gao",
+      "toType": "person",
+      "type": "participation",
+      "weight": 7,
+      "note": "权臣"
+    },
+    {
+      "from": "destruction-of-chu",
+      "fromType": "event",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "决策者"
+    },
+    {
+      "from": "epang-palace",
+      "fromType": "event",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "下令修建"
+    },
+    {
+      "from": "standardization",
+      "fromType": "event",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "推行者"
+    },
+    {
+      "from": "standardization",
+      "fromType": "event",
+      "to": "li-si",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "执行者"
+    },
+    {
+      "from": "southern-expedition",
+      "fromType": "event",
+      "to": "qin-shi-huang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "决策者"
+    },
+    {
+      "from": "southern-expedition",
+      "fromType": "event",
+      "to": "meng-tian",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "将领"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "destruction-of-chu",
+      "year": -222,
+      "label": "王翦灭楚，统一六国完成"
+    },
+    {
+      "eventSlug": "unification-of-china",
+      "year": -221,
+      "label": "秦王嬴政统一六国"
+    },
+    {
+      "eventSlug": "standardization",
+      "year": -221,
+      "label": "统一度量衡、文字、货币"
+    },
+    {
+      "eventSlug": "great-wall",
+      "year": -214,
+      "label": "蒙恬修筑万里长城"
+    },
+    {
+      "eventSlug": "southern-expedition",
+      "year": -214,
+      "label": "南征百越，设置岭南三郡"
+    },
+    {
+      "eventSlug": "burning-books",
+      "year": -213,
+      "label": "焚书坑儒"
+    },
+    {
+      "eventSlug": "epang-palace",
+      "year": -212,
+      "label": "开始修筑阿房宫"
+    },
+    {
+      "eventSlug": "shaqiu-coup",
+      "year": -210,
+      "label": "沙丘之变，始皇驾崩"
+    },
+    {
+      "eventSlug": "dazexiang-uprising",
+      "year": -209,
+      "label": "大泽乡起义，陈胜吴广揭竿而起"
+    },
+    {
+      "eventSlug": "julu-battle",
+      "year": -207,
+      "label": "项羽巨鹿之战灭秦军主力"
+    }
+  ]
+}

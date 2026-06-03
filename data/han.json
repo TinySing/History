@@ -1,0 +1,535 @@
+{
+  "dynasty": {
+    "slug": "han",
+    "name": "西汉",
+    "startYear": -202,
+    "endYear": 8,
+    "summary": "西汉是中国历史上强盛的大一统王朝。汉武帝北击匈奴、通西域、独尊儒术，开疆拓土威震四方。司马迁著《史记》、张骞通丝绸之路，文治武功彪炳千秋。"
+  },
+  "persons": [
+    {
+      "slug": "han-wudi",
+      "name": "汉武帝",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 100,
+      "birthYear": -156,
+      "deathYear": -87,
+      "aliases": [
+        "刘彻",
+        "汉武大帝"
+      ],
+      "summary": "西汉第七位皇帝，雄才大略。北击匈奴、通西域、独尊儒术、推恩削藩，开疆拓土，使汉朝达到鼎盛，与秦始皇并称「秦皇汉武」。",
+      "content": "汉武帝刘彻（前156年—前87年），西汉第七位皇帝，在位五十四年。\n\n政治上采纳主父偃推恩令削弱诸侯，独尊儒术统一思想；军事上派卫青、霍去病北击匈奴，派张骞出使西域开辟丝绸之路；经济上盐铁官营、均输平准。汉朝版图达到极盛。\n\n晚年穷兵黩武，巫蛊之祸逼死太子，下《轮台罪己诏》反省。与秦始皇并称「秦皇汉武」。"
+    },
+    {
+      "slug": "wei-qing",
+      "name": "卫青",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 90,
+      "birthYear": -157,
+      "deathYear": -106,
+      "aliases": [
+        "大将军"
+      ],
+      "summary": "西汉名将，从奴隶到大将军的传奇。七次出击匈奴，收复河套，漠北之战大破匈奴主力，是汉武帝时期最杰出的军事统帅。",
+      "content": "卫青（约前157年—前106年），河东平阳（今山西临汾）人。西汉名将。\n\n出身卑微，曾为骑奴。姐姐卫子夫得宠后被汉武帝赏识。此后七次出击匈奴：收复河套、奇袭龙城、漠北之战大破匈奴主力。官至大将军，封长平侯。\n\n为人谦逊低调，善待士卒，与霍去病并称「帝国双璧」。"
+    },
+    {
+      "slug": "huo-qubing",
+      "name": "霍去病",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 92,
+      "birthYear": -140,
+      "deathYear": -117,
+      "aliases": [
+        "冠军侯",
+        "骠骑将军"
+      ],
+      "summary": "西汉天才名将，十七岁从军，六次出击匈奴，封狼居胥。曾言「匈奴未灭，何以家为」，英年早逝，年仅二十三岁。",
+      "content": "霍去病（前140年—前117年），河东平阳（今山西临汾）人。西汉名将，卫青外甥。\n\n十七岁初次从军，率八百骑深入匈奴腹地，斩杀两千余人，封冠军侯。此后六次出击匈奴，收复河西走廊，封狼居胥山。曾言「匈奴未灭，何以家为」。\n\n漠北之战率五万骑深入匈奴两千余里，大破匈奴左贤王。官至骠骑将军，封冠军侯。英年早逝，年仅二十三岁。"
+    },
+    {
+      "slug": "zhang-qian",
+      "name": "张骞",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 85,
+      "birthYear": -164,
+      "deathYear": -114,
+      "aliases": [
+        "博望侯",
+        "丝绸之路开拓者"
+      ],
+      "summary": "西汉外交家、探险家，两次出使西域，历经十三年艰辛，开辟丝绸之路，被誉为「第一个睁眼看世界的中国人」。",
+      "content": "张骞（约前164年—前114年），汉中城固（今陕西城固）人。西汉外交家、探险家。\n\n前138年奉汉武帝之命出使西域联络大月氏夹击匈奴。途中被匈奴扣留十年，始终不忘使命。历经十三年终于返回长安，带回大量西域信息。\n\n前119年第二次出使西域，到达乌孙等国。张骞出使开辟了举世闻名的丝绸之路，被誉为「第一个睁眼看世界的中国人」。"
+    },
+    {
+      "slug": "sima-qian",
+      "name": "司马迁",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 95,
+      "birthYear": -145,
+      "deathYear": -86,
+      "aliases": [
+        "太史公",
+        "史圣"
+      ],
+      "summary": "西汉史学家、文学家，著《史记》，开创纪传体通史先河。因替李陵辩护受宫刑，忍辱负重完成巨著，被鲁迅誉为「史家之绝唱，无韵之离骚」。",
+      "content": "司马迁（约前145年—约前86年），字子长，夏阳（今陕西韩城）人。西汉史学家、文学家。\n\n继承父职任太史令。前99年因替李陵辩护触怒汉武帝，受宫刑。忍辱负重，发愤著书，完成中国第一部纪传体通史《史记》，记载从黄帝到汉武帝约三千年历史。\n\n鲁迅誉《史记》为「史家之绝唱，无韵之离骚」。司马迁被尊为「史圣」。"
+    },
+    {
+      "slug": "dong-zhongshu",
+      "name": "董仲舒",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist",
+        "minister"
+      ],
+      "importance": 75,
+      "birthYear": -179,
+      "deathYear": -104,
+      "aliases": [
+        "董子"
+      ],
+      "summary": "西汉思想家，提出「罢黜百家，独尊儒术」，被汉武帝采纳，奠定儒学两千年正统地位。",
+      "content": "董仲舒（前179年—前104年），广川（今河北景县）人。西汉思想家、哲学家。\n\n向汉武帝上《天人三策》，提出「罢黜百家，独尊儒术」「大一统」「天人感应」等主张，被汉武帝采纳。从此儒学成为中国正统思想，影响中国两千余年。"
+    },
+    {
+      "slug": "li-guang",
+      "name": "李广",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 72,
+      "birthYear": -186,
+      "deathYear": -119,
+      "aliases": [
+        "飞将军"
+      ],
+      "summary": "西汉名将，以勇猛善射著称，被称为「飞将军」。一生与匈奴七十余战，却终身未能封侯，留下「李广难封」的千古叹息。",
+      "content": "李广（约前186年—前119年），陇西成纪（今甘肃天水）人。西汉名将。\n\n以善射著称，被称为「飞将军」。一生与匈奴七十余战，勇猛过人。但运气不佳，多次迷路或战败，终身未能封侯。\n\n漠北之战中因迷路延误军期，不堪受辱自刎。王勃《滕王阁序》叹「冯唐易老，李广难封」。"
+    },
+    {
+      "slug": "su-wu",
+      "name": "苏武",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 70,
+      "birthYear": -140,
+      "deathYear": -60,
+      "aliases": [
+        "典属国"
+      ],
+      "summary": "西汉使节，出使匈奴被扣留十九年，牧羊北海，持节不屈，是忠贞爱国的千古楷模。",
+      "content": "苏武（前140年—前60年），字子卿，杜陵（今陕西西安）人。西汉使节。\n\n前100年出使匈奴，被扣留。匈奴多次威逼利诱，苏武宁死不降。被流放北海（今贝加尔湖）牧羊十九年，始终手持汉节。\n\n前81年汉匈和亲，苏武终于归汉。出使时壮年，归来须发皆白。「苏武牧羊」成为忠贞爱国的千古佳话。"
+    },
+    {
+      "slug": "huo-guang",
+      "name": "霍光",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 75,
+      "birthYear": -133,
+      "deathYear": -68,
+      "aliases": [
+        "大司马"
+      ],
+      "summary": "西汉权臣，霍去病同父异母弟。辅佐汉昭帝，废昌邑王立汉宣帝，掌权二十年，是汉朝的「周公」。",
+      "content": "霍光（约前133年—前68年），字子孟，河东平阳（今山西临汾）人。霍去病同父异母弟。\n\n汉武帝临终托孤大臣，辅佐汉昭帝。昭帝死后立昌邑王刘贺，二十七天后废之，另立汉宣帝。掌权二十年，政治清明，史称「昭宣中兴」。"
+    },
+    {
+      "slug": "wang-zhaojun",
+      "name": "王昭君",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 68,
+      "birthYear": -52,
+      "deathYear": -15,
+      "aliases": [
+        "明妃",
+        "明君"
+      ],
+      "summary": "西汉美女，四大美人之一。出塞和亲嫁给匈奴呼韩邪单于，促进汉匈和平，「昭君出塞」成为民族友好的象征。",
+      "content": "王昭君（前52年—前15年），名嫱，南郡秭归（今湖北兴山）人。西汉美女，四大美人之一。\n\n前33年自愿出塞和亲，嫁给匈奴呼韩邪单于。此后汉匈和平六十余年，边境安宁。王昭君为民族融合做出巨大贡献，「昭君出塞」成为千古佳话。"
+    },
+    {
+      "slug": "sang-hongyang",
+      "name": "桑弘羊",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 62,
+      "birthYear": -152,
+      "deathYear": -80,
+      "aliases": [
+        "御史大夫"
+      ],
+      "summary": "西汉理财家，推行盐铁官营、均输平准等经济政策，为汉武帝的军事扩张提供财政支持。",
+      "content": "桑弘羊（前152年—前80年），洛阳人。西汉理财家、政治家。\n\n汉武帝时期推行盐铁官营、均输平准、统一铸币等经济政策，为北击匈奴、通西域提供财政支持。后因参与谋反被杀。"
+    },
+    {
+      "slug": "li-ling",
+      "name": "李陵",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 58,
+      "birthYear": -134,
+      "deathYear": -74,
+      "aliases": [
+        "骑都尉"
+      ],
+      "summary": "西汉将领，李广之孙。率五千步兵深入匈奴，被八万骑兵围困，弹尽粮绝投降。司马迁因替他辩护受宫刑。",
+      "content": "李陵（约前134年—前74年），字少卿，陇西成纪（今甘肃天水）人。李广之孙。\n\n前99年率五千步兵深入匈奴，被匈奴八万骑兵围困。血战八天八夜，弹尽粮绝，投降。汉武帝大怒，族灭其家。司马迁因替他辩护受宫刑。"
+    },
+    {
+      "slug": "jin-midi",
+      "name": "金日磾",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 55,
+      "birthYear": -134,
+      "deathYear": -86,
+      "aliases": [
+        "秺侯"
+      ],
+      "summary": "匈奴休屠王太子，归汉后成为汉武帝托孤大臣，是民族融合的典范。",
+      "content": "金日磾（前134年—前86年），字翁叔，匈奴休屠王太子。\n\n匈奴战败后归汉，在汉宫养马。因忠诚谨慎被汉武帝赏识，升为侍中。汉武帝临终托孤大臣之一，辅佐汉昭帝。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "xiongnu-wars",
+      "name": "汉匈战争",
+      "timeStart": -133,
+      "timeEnd": -89,
+      "aliases": [
+        "北击匈奴"
+      ],
+      "summary": "汉武帝时期对匈奴的大规模战争。卫青、霍去病多次出击，收复河套、打通河西走廊、封狼居胥，匈奴远遁漠北，汉朝声威远播。",
+      "content": "前133年至前89年，汉武帝发动对匈奴的大规模战争。\n\n卫青七次出击匈奴，收复河套地区；霍去病六次出击，打通河西走廊，封狼居胥山。漠北之战中，卫青、霍去病各率五万骑兵深入漠北，大破匈奴主力。\n\n此后匈奴远遁漠北，汉朝北方边境安定，丝绸之路得以畅通。"
+    },
+    {
+      "slug": "silk-road",
+      "name": "张骞通西域",
+      "timeStart": -138,
+      "timeEnd": -119,
+      "aliases": [
+        "丝绸之路",
+        "凿空西域"
+      ],
+      "summary": "张骞两次出使西域，历经艰辛开辟丝绸之路，连接东西方文明，是中国外交史上的里程碑。",
+      "content": "前138年，汉武帝派张骞出使西域联络大月氏夹击匈奴。张骞被匈奴扣留十年，不忘使命，终于到达西域。\n\n前119年第二次出使，到达乌孙等国。张骞出使开辟了举世闻名的丝绸之路，中国丝绸、茶叶、瓷器传入西方，西方珍宝传入中国。"
+    },
+    {
+      "slug": "shiji-written",
+      "name": "《史记》成书",
+      "timeStart": -91,
+      "aliases": [
+        "太史公书"
+      ],
+      "summary": "司马迁忍辱负重完成中国第一部纪传体通史《史记》，记载从黄帝到汉武帝约三千年历史，是史学和文学的双重经典。",
+      "content": "前91年，司马迁完成《史记》（原名《太史公书》）。全书一百三十篇，五十余万字，记载从黄帝到汉武帝约三千年历史。\n\n司马迁因替李陵辩护受宫刑，忍辱负重发愤著书。《史记》开创纪传体通史先河，被鲁迅誉为「史家之绝唱，无韵之离骚」。"
+    },
+    {
+      "slug": "salt-iron-debate",
+      "name": "盐铁之议",
+      "timeStart": -81,
+      "aliases": [
+        "盐铁会议"
+      ],
+      "summary": "汉昭帝时期召开的经济政策辩论会。桑弘羊主张盐铁官营，贤良文学主张废除。会议记录被桓宽整理为《盐铁论》。",
+      "content": "前81年，汉昭帝召集各地贤良文学与御史大夫桑弘羊等辩论盐铁官营等经济政策。\n\n桑弘羊主张盐铁官营、均输平准，为国家财政提供支持；贤良文学主张废除官营，与民争利。双方辩论激烈，记录被桓宽整理为《盐铁论》。"
+    },
+    {
+      "slug": "xuanzhongxing",
+      "name": "昭宣中兴",
+      "timeStart": -87,
+      "timeEnd": -49,
+      "aliases": [
+        "昭宣之治"
+      ],
+      "summary": "汉昭帝和汉宣帝时期，霍光辅政，政治清明，经济恢复，汉朝国力达到极盛，史称「昭宣中兴」。",
+      "content": "前87年至前49年，汉昭帝和汉宣帝在位时期。\n\n霍光辅政，轻徭薄赋，与民休息。汉宣帝时期整顿吏治，平定匈奴，设立西域都护府。汉朝国力达到极盛，史称「昭宣中兴」，是西汉最后的辉煌。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "wei-qing",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "主将，大将军"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "huo-qubing",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "主将，骠骑将军"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "zhang-qian",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "派遣出使西域"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "sima-qian",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "君臣，施以宫刑"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "dong-zhongshu",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "采纳独尊儒术"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "li-guang",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "主将，李广难封"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "su-wu",
+      "toType": "person",
+      "type": "political",
+      "weight": 6,
+      "note": "派遣出使匈奴"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "huo-guang",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "临终托孤"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "sang-hongyang",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "理财大臣"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "li-ling",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 7,
+      "note": "李陵投降事件"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "jin-midi",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "托孤大臣"
+    },
+    {
+      "from": "wei-qing",
+      "fromType": "person",
+      "to": "huo-qubing",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "舅甥"
+    },
+    {
+      "from": "wei-qing",
+      "fromType": "person",
+      "to": "li-guang",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "同僚将领"
+    },
+    {
+      "from": "li-guang",
+      "fromType": "person",
+      "to": "li-ling",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "祖孙"
+    },
+    {
+      "from": "sima-qian",
+      "fromType": "person",
+      "to": "li-ling",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "替其辩护受宫刑"
+    },
+    {
+      "from": "huo-guang",
+      "fromType": "person",
+      "to": "huo-qubing",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "同父异母兄弟"
+    },
+    {
+      "from": "xiongnu-wars",
+      "fromType": "event",
+      "to": "han-wudi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "决策者"
+    },
+    {
+      "from": "xiongnu-wars",
+      "fromType": "event",
+      "to": "wei-qing",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅"
+    },
+    {
+      "from": "xiongnu-wars",
+      "fromType": "event",
+      "to": "huo-qubing",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅"
+    },
+    {
+      "from": "xiongnu-wars",
+      "fromType": "event",
+      "to": "li-guang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "参战将领"
+    },
+    {
+      "from": "silk-road",
+      "fromType": "event",
+      "to": "zhang-qian",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "开拓者"
+    },
+    {
+      "from": "silk-road",
+      "fromType": "event",
+      "to": "han-wudi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "决策者"
+    },
+    {
+      "from": "shiji-written",
+      "fromType": "event",
+      "to": "sima-qian",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "作者"
+    },
+    {
+      "from": "salt-iron-debate",
+      "fromType": "event",
+      "to": "sang-hongyang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "辩论方"
+    },
+    {
+      "from": "xuanzhongxing",
+      "fromType": "event",
+      "to": "huo-guang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "辅政大臣"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "silk-road",
+      "year": -138,
+      "label": "张骞出使西域"
+    },
+    {
+      "eventSlug": "xiongnu-wars",
+      "year": -119,
+      "label": "漠北之战，匈奴远遁"
+    },
+    {
+      "eventSlug": "shiji-written",
+      "year": -91,
+      "label": "《史记》成书"
+    },
+    {
+      "eventSlug": "salt-iron-debate",
+      "year": -81,
+      "label": "盐铁之议"
+    },
+    {
+      "eventSlug": "xuanzhongxing",
+      "year": -49,
+      "label": "昭宣中兴"
+    }
+  ]
+}

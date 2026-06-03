@@ -1,0 +1,28 @@
+<svg width="200" height="260" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c0e00"/>
+      <stop offset="100%" stop-color="#0d0800"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="260" fill="url(#bg)"/>
+  <rect width="200" height="120" fill="url(#glow)"/>
+  <rect x="6" y="6" width="188" height="248" fill="none" stroke="#b45309" stroke-width="1.5" rx="2" opacity="0.8"/>
+  <rect x="11" y="11" width="178" height="238" fill="none" stroke="#92400e" stroke-width="0.5" rx="1" opacity="0.5"/>
+  <path d="M6,30 L6,6 L30,6" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+  <path d="M170,6 L194,6 L194,30" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+  <path d="M6,230 L6,254 L30,254" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+  <path d="M170,254 L194,254 L194,230" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+  <rect x="65" y="18" width="70" height="22" fill="#92400e" opacity="0.8" rx="2"/>
+  <text x="100" y="33" text-anchor="middle" font-size="12" fill="#fef3c7" font-family="serif" letter-spacing="3">帝王</text>
+  <line x1="25" y1="50" x2="175" y2="50" stroke="#b45309" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="100" cy="50" r="4" fill="#f59e0b" opacity="0.6"/>
+  <text x="100" y="145" text-anchor="middle" font-size="80" fill="#f59e0b" font-family="'Noto Serif SC', Georgia, serif" font-weight="900" opacity="0.9" letter-spacing="-4">刘备</text>
+  <line x1="25" y1="220" x2="175" y2="220" stroke="#b45309" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="100" cy="220" r="4" fill="#f59e0b" opacity="0.6"/>
+  <text x="100" y="244" text-anchor="middle" font-size="12" fill="#fbbf24" font-family="serif" letter-spacing="2">汉昭烈帝 · 玄德</text>
+</svg>

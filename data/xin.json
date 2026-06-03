@@ -1,0 +1,341 @@
+{
+  "dynasty": {
+    "slug": "xin",
+    "name": "新朝",
+    "startYear": 8,
+    "endYear": 23,
+    "summary": "新朝是王莽篡汉建立的短暂王朝。王莽推行复古改制，试图恢复周礼井田制，引发社会动荡。绿林赤眉起义爆发，新朝仅存十五年即覆灭。"
+  },
+  "persons": [
+    {
+      "slug": "wang-mang",
+      "name": "王莽",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "rebel"
+      ],
+      "importance": 88,
+      "birthYear": -45,
+      "deathYear": 23,
+      "aliases": [
+        "新朝皇帝",
+        "巨君"
+      ],
+      "summary": "新朝开国皇帝，以外戚身份篡汉建新。推行复古改制，试图恢复周礼井田制，引发天下大乱。被绿林军攻入长安杀死，新朝覆灭。",
+      "content": "王莽（前45年—23年），字巨君，魏郡元城（今河北大名）人。新朝开国皇帝。\n\n西汉末年以外戚身份掌权，公元8年篡汉建新，推行复古改制：恢复井田制、改革币制、禁止奴婢买卖。但改革脱离实际，引发社会动荡。\n\n绿林赤眉起义爆发后，各地豪强纷纷起兵。23年绿林军攻入长安，王莽被杀，新朝覆灭。"
+    },
+    {
+      "slug": "liu-xiu-xin",
+      "name": "刘秀",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty",
+        "general"
+      ],
+      "importance": 85,
+      "birthYear": -5,
+      "deathYear": 57,
+      "dynastySlugs": [
+        "xin",
+        "dong-han"
+      ],
+      "aliases": [
+        "光武帝",
+        "铜马帝"
+      ],
+      "summary": "东汉开国皇帝。新莽末年起兵加入绿林军，昆阳之战以少胜多，后经略河北统一天下，建立东汉，开创「光武中兴」。",
+      "content": "刘秀（前5年—57年），字文叔，南阳蔡阳（今湖北枣阳）人。东汉开国皇帝，庙号世祖。\n\n汉高祖刘邦九世孙，但到他这一代已是平民。新莽末年起兵加入绿林军，23年昆阳之战以两万击败四十二万新军，一战成名。\n\n后经略河北，收编铜马等起义军，逐步统一天下。25年称帝，定都洛阳，建立东汉。在位期间轻徭薄赋，史称「光武中兴」。"
+    },
+    {
+      "slug": "lv-lin-jun",
+      "name": "王匡",
+      "primaryRole": "rebel",
+      "roles": [
+        "rebel"
+      ],
+      "importance": 60,
+      "deathYear": 25,
+      "aliases": [
+        "绿林军首领"
+      ],
+      "summary": "绿林军首领之一，与王凤共同领导绿林起义，拥立刘玄为帝，是推翻新朝的重要力量。",
+      "content": "王匡（？—25年），新市（今湖北京山）人。绿林军首领。\n\n17年与王凤在绿林山起义，后分为下江兵、新市兵。拥立刘玄为更始帝，攻入长安推翻新朝。后被刘玄猜忌，被杀。"
+    },
+    {
+      "slug": "fan-chong",
+      "name": "樊崇",
+      "primaryRole": "rebel",
+      "roles": [
+        "rebel"
+      ],
+      "importance": 58,
+      "deathYear": 27,
+      "aliases": [
+        "赤眉军首领"
+      ],
+      "summary": "赤眉军首领，领导山东农民起义，与绿林军东西呼应推翻新朝。后被刘秀击败投降。",
+      "content": "樊崇（？—27年），琅琊（今山东诸城）人。赤眉军首领。\n\n18年在莒县起义，因以赤色涂眉为号，故称赤眉军。与绿林军东西呼应，共同推翻新朝。后拥立刘盆子为帝，被刘秀击败投降。"
+    },
+    {
+      "slug": "liu-xuan",
+      "name": "刘玄",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 55,
+      "deathYear": 25,
+      "aliases": [
+        "更始帝"
+      ],
+      "summary": "绿林军拥立的皇帝，年号更始。攻入长安推翻新朝，后被赤眉军所杀。",
+      "content": "刘玄（？—25年），字圣公，南阳蔡阳（今湖北枣阳）人。汉朝宗室。\n\n23年被绿林军拥立为帝，年号更始。同年攻入长安推翻新朝，杀死王莽。后政治腐败，被赤眉军攻入长安所杀。"
+    },
+    {
+      "slug": "lian-yi",
+      "name": "廉丹",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 45,
+      "deathYear": 22,
+      "aliases": [
+        "大司马"
+      ],
+      "summary": "新朝将领，镇压赤眉军失败，战死。",
+      "content": "廉丹（？—22年），新朝将领。奉命镇压赤眉军，在成昌之战中兵败战死。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "wang-mang-usurpation",
+      "name": "王莽篡汉",
+      "timeStart": 8,
+      "aliases": [
+        "篡汉建新"
+      ],
+      "summary": "王莽以外戚身份篡夺汉朝江山，建立新朝。此后推行复古改制，试图恢复周礼，引发天下大乱。",
+      "content": "公元8年，王莽废汉孺子婴，篡汉建新，改国号为「新」。\n\n王莽即位后推行一系列复古改革：恢复井田制、改革币制、禁止奴婢买卖、改革官制。但改革严重脱离实际，加之天灾不断，民不聊生。\n\n王莽篡汉标志着西汉灭亡，中国进入新朝统治时期。"
+    },
+    {
+      "slug": "greenwood-uprising",
+      "name": "绿林赤眉起义",
+      "timeStart": 17,
+      "timeEnd": 27,
+      "aliases": [
+        "绿林起义",
+        "赤眉起义"
+      ],
+      "summary": "新莽末年大规模农民起义。绿林军在湖北、赤眉军在山东同时起义，东西呼应，最终推翻新朝。",
+      "content": "17年，王匡、王凤在绿林山（今湖北当阳）起义，称绿林军。同年樊崇在山东莒县起义，以赤色涂眉，称赤眉军。\n\n两支起义军东西呼应，声势浩大。23年绿林军攻入长安，杀死王莽，新朝覆灭。此后刘秀经略河北，逐步统一天下，建立东汉。\n\n绿林赤眉起义是继秦末陈胜吴广起义后又一次大规模农民起义。"
+    },
+    {
+      "slug": "kunyang-battle",
+      "name": "昆阳之战",
+      "timeStart": 23,
+      "aliases": [
+        "昆阳大捷"
+      ],
+      "summary": "新莽末年刘秀以两万军队击败王莽四十二万大军的经典战役。此战后新朝主力尽失，加速了新朝的覆灭。",
+      "content": "23年，王莽派大司空王邑率四十二万大军围攻昆阳（今河南叶县）。\n\n刘秀率十三骑突围求援，组织万余援军回救。刘秀亲率三千敢死队冲击敌阵，城内守军内外夹击，新军大败。\n\n昆阳之战是中国历史上以少胜多的经典战役，刘秀一战成名，新朝主力尽失，加速了覆灭。"
+    },
+    {
+      "slug": "fall-of-changan",
+      "name": "长安之战",
+      "timeStart": 23,
+      "aliases": [
+        "新朝覆灭"
+      ],
+      "summary": "绿林军攻入长安，王莽被杀，新朝覆灭。",
+      "content": "23年，绿林军攻入长安。王莽在未央宫被商人杜吴杀死，头颅被后来的历代皇室收藏。\n\n新朝覆灭后，刘玄被拥立为更始帝，但政权不稳。此后刘秀经略河北，最终统一天下，建立东汉。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "wang-mang",
+      "fromType": "person",
+      "to": "liu-xiu-xin",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "对手"
+    },
+    {
+      "from": "wang-mang",
+      "fromType": "person",
+      "to": "liu-xuan",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "更始帝"
+    },
+    {
+      "from": "wang-mang",
+      "fromType": "person",
+      "to": "lv-lin-jun",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "起义军"
+    },
+    {
+      "from": "wang-mang",
+      "fromType": "person",
+      "to": "fan-chong",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "赤眉军"
+    },
+    {
+      "from": "wang-mang",
+      "fromType": "person",
+      "to": "lian-yi",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "主将"
+    },
+    {
+      "from": "liu-xiu-xin",
+      "fromType": "person",
+      "to": "liu-xuan",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "更始帝臣属"
+    },
+    {
+      "from": "liu-xiu-xin",
+      "fromType": "person",
+      "to": "lv-lin-jun",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "加入绿林军"
+    },
+    {
+      "from": "lv-lin-jun",
+      "fromType": "person",
+      "to": "liu-xuan",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "拥立为帝"
+    },
+    {
+      "from": "lv-lin-jun",
+      "fromType": "person",
+      "to": "fan-chong",
+      "toType": "person",
+      "type": "political",
+      "weight": 6,
+      "note": "东西呼应"
+    },
+    {
+      "from": "wang-mang-usurpation",
+      "fromType": "event",
+      "to": "wang-mang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "篡位者"
+    },
+    {
+      "from": "greenwood-uprising",
+      "fromType": "event",
+      "to": "lv-lin-jun",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "绿林军首领"
+    },
+    {
+      "from": "greenwood-uprising",
+      "fromType": "event",
+      "to": "fan-chong",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "赤眉军首领"
+    },
+    {
+      "from": "greenwood-uprising",
+      "fromType": "event",
+      "to": "wang-mang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "被推翻者"
+    },
+    {
+      "from": "greenwood-uprising",
+      "fromType": "event",
+      "to": "liu-xiu-xin",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "参与者"
+    },
+    {
+      "from": "kunyang-battle",
+      "fromType": "event",
+      "to": "liu-xiu-xin",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅"
+    },
+    {
+      "from": "kunyang-battle",
+      "fromType": "event",
+      "to": "wang-mang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "败方"
+    },
+    {
+      "from": "fall-of-changan",
+      "fromType": "event",
+      "to": "wang-mang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "被杀"
+    },
+    {
+      "from": "fall-of-changan",
+      "fromType": "event",
+      "to": "lv-lin-jun",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "攻入长安"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "wang-mang-usurpation",
+      "year": 8,
+      "label": "王莽篡汉，建立新朝"
+    },
+    {
+      "eventSlug": "greenwood-uprising",
+      "year": 17,
+      "label": "绿林赤眉起义爆发"
+    },
+    {
+      "eventSlug": "kunyang-battle",
+      "year": 23,
+      "label": "昆阳之战，刘秀成名"
+    },
+    {
+      "eventSlug": "fall-of-changan",
+      "year": 23,
+      "label": "长安之战，新朝覆灭"
+    }
+  ]
+}

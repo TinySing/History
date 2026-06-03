@@ -1,0 +1,2047 @@
+{
+  "dynasty": {
+    "slug": "san-guo",
+    "name": "三国时期",
+    "startYear": 184,
+    "endYear": 280,
+    "summary": "三国时期是中国历史上一段英雄辈出的乱世，魏、蜀、吴三国鼎立，谋士如云，武将如林。赤壁之战奠定三分天下格局，诸葛亮六出祁山成为千古传奇，司马懿隐忍终成大器，留下无数动人故事。"
+  },
+  "persons": [
+    {
+      "slug": "cao-cao",
+      "name": "曹操",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general",
+        "strategist"
+      ],
+      "importance": 100,
+      "birthYear": 155,
+      "deathYear": 220,
+      "aliases": [
+        "孟德",
+        "阿瞒",
+        "魏武帝",
+        "魏王"
+      ],
+      "summary": "东汉末年权臣，三国时期曹魏奠基者。以「挟天子以令诸侯」统一北方，善用人才，军事、文学俱佳，著有《短歌行》《观沧海》等名篇。",
+      "content": "曹操（155年—220年），字孟德，小名阿瞒，沛国谯县（今安徽亳州）人。东汉末年政治家、军事家、文学家、书法家，三国时期曹魏政权的奠基人。\n\n官渡之战以少胜多击败袁绍，统一北方；赤壁之战败于孙刘联军，三国鼎立格局由此奠定。其子曹丕称帝后追尊为魏武帝。在文学上与其子曹丕、曹植并称「三曹」，是建安文学的代表人物。"
+    },
+    {
+      "slug": "cao-pi",
+      "name": "曹丕",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "birthYear": 187,
+      "deathYear": 226,
+      "aliases": [
+        "子桓",
+        "魏文帝"
+      ],
+      "summary": "曹魏第一任皇帝，曹操之子，代汉称帝建立魏国，开三国时代正式帷幕。",
+      "content": "曹丕（187年—226年），字子桓，三国时期曹魏开国皇帝。220年逼汉献帝禅让，建立魏国，改元黄初，定都洛阳。在位期间实行九品中正制，奠定魏晋南北朝官员选拔制度基础。亦是重要文学家，著有《典论》等，提出「文章乃经国之大业，不朽之盛事」。"
+    },
+    {
+      "slug": "xun-yu",
+      "name": "荀彧",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist",
+        "minister"
+      ],
+      "importance": 80,
+      "birthYear": 163,
+      "deathYear": 212,
+      "aliases": [
+        "文若",
+        "荀令君"
+      ],
+      "summary": "曹操首席谋士，被誉为「王佐之才」，为曹操统一北方出谋划策，官渡之战中坚守后方功不可没。",
+      "content": "荀彧（163年—212年），字文若，颍川颍阴（今河南许昌）人。东汉末年著名战略家、政治家，曹操的首席谋士。\n\n荀彧投曹后帮助建立兖州根据地，在官渡之战中力排众议，坚定曹操决心，并为前线筹措粮草。因反对曹操进爵魏公，忧郁而死。后世誉为「王佐之才」，与诸葛亮并称乱世双璧。"
+    },
+    {
+      "slug": "sima-yi",
+      "name": "司马懿",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist",
+        "minister"
+      ],
+      "importance": 88,
+      "birthYear": 179,
+      "deathYear": 251,
+      "dynastySlugs": [
+        "san-guo",
+        "jin"
+      ],
+      "aliases": [
+        "仲达",
+        "宣帝"
+      ],
+      "summary": "曹魏重臣，与诸葛亮对峙北伐，以坚忍著称。高平陵之变夺取曹魏政权，其孙司马炎建立晋朝，被追尊为宣帝。",
+      "content": "司马懿（179年—251年），字仲达，河内温县（今河南温县）人。三国时期曹魏政治家、军事家，西晋王朝奠基人之一。\n\n历仕曹操、曹丕、曹叡、曹芳四朝，以坚忍谋深著称。与诸葛亮数次交锋，坚守不战屡挫蜀军北伐。249年发动高平陵之变，掌握曹魏实权。其孙司马炎于265年代魏建晋，追尊其为晋宣帝。"
+    },
+    {
+      "slug": "zhang-liao",
+      "name": "张辽",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 68,
+      "birthYear": 169,
+      "deathYear": 222,
+      "aliases": [
+        "文远"
+      ],
+      "summary": "曹魏五子良将之首，逍遥津之战以八百破十万，令东吴闻风丧胆，有「张辽止啼」之称。",
+      "content": "张辽（169年—222年），字文远，雁门马邑（今山西朔州）人。三国时期曹魏著名将领，五子良将之首。\n\n本为吕布部将，吕布败亡后归降曹操。217年逍遥津之战，以八百精骑突破孙权十万大军，差点生擒孙权，此役令东吴上下震怖，「张辽止啼」典故由此而来。"
+    },
+    {
+      "slug": "liu-bei",
+      "name": "刘备",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "warlord"
+      ],
+      "importance": 95,
+      "birthYear": 161,
+      "deathYear": 223,
+      "aliases": [
+        "玄德",
+        "刘皇叔",
+        "汉昭烈帝"
+      ],
+      "summary": "蜀汉开国皇帝，汉室宗亲，以仁义著称。三顾茅庐得诸葛亮，赤壁联吴抗曹，建立蜀汉政权，是三国时期最具悲剧色彩的英雄。",
+      "content": "刘备（161年—223年），字玄德，涿郡涿县（今河北涿州）人，汉景帝之子中山靖王刘胜后裔。蜀汉开国皇帝，谥号昭烈皇帝。\n\n早年颠沛流离，先后依附公孙瓒、陶谦、曹操、袁绍、刘表等人。三顾茅庐得诸葛亮，联吴抗曹，赤壁之战后占据荆州、益州，221年于成都称帝建汉。夷陵之战大败，忧愤成疾，病逝白帝城，临终托孤诸葛亮。"
+    },
+    {
+      "slug": "zhuge-liang",
+      "name": "诸葛亮",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist",
+        "minister"
+      ],
+      "importance": 97,
+      "birthYear": 181,
+      "deathYear": 234,
+      "aliases": [
+        "孔明",
+        "卧龙",
+        "武侯",
+        "诸葛武侯"
+      ],
+      "summary": "蜀汉丞相，千古名相。隆中对策三分天下，辅佐刘备建立蜀汉，六出祁山鞠躬尽瘁，以《出师表》名垂青史。",
+      "content": "诸葛亮（181年—234年），字孔明，号卧龙，琅琊阳都（今山东沂南）人。三国时期蜀汉丞相，杰出的政治家、军事家、文学家、发明家。\n\n隐居隆中时提出「三分天下」战略（隆中对），出山后帮助刘备联吴抗曹，取荆州、占益州。刘备去世后受托孤辅佐后主刘禅，五次北伐曹魏，病逝五丈原。「鞠躬尽瘁，死而后已」成为忠臣的千古典范。"
+    },
+    {
+      "slug": "guan-yu",
+      "name": "关羽",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 90,
+      "birthYear": 160,
+      "deathYear": 220,
+      "aliases": [
+        "云长",
+        "武圣",
+        "关帝",
+        "关圣帝君"
+      ],
+      "summary": "蜀汉五虎上将之首，与刘备、张飞结义，忠义之名千古传颂。镇守荆州，水淹七军威震天下，后被孙权偷袭荆州擒杀。",
+      "content": "关羽（160年—220年），字云长，河东解县（今山西运城）人。东汉末年名将，蜀汉五虎上将之首。\n\n与刘备、张飞桃园结义，随刘备征战多年。刘备据守荆州时镇守荆州，水淹七军，生擒于禁，斩杀庞德，威震华夏。后孙权偷袭荆州，关羽败走麦城，被擒杀。死后被历代帝王追封，成为忠义的象征，被尊为「武圣」「关帝」。"
+    },
+    {
+      "slug": "zhang-fei",
+      "name": "张飞",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 82,
+      "birthYear": 167,
+      "deathYear": 221,
+      "aliases": [
+        "益德",
+        "翼德"
+      ],
+      "summary": "蜀汉五虎将，与刘备、关羽结义，长坂坡一声怒喝吓退曹军，勇猛无敌，后被部下刺杀。",
+      "content": "张飞（167年—221年），字益德（一作翼德），涿郡（今河北涿州）人。三国时期蜀汉将领，五虎将之一。\n\n与刘备、关羽桃园结义，随刘备转战南北。长坂坡之战，张飞率二十骑断后，于当阳桥上大喝一声，曹军不敢进逼，单骑护主留下千古英名。后因关羽被杀急于报仇，苛待部下，被部将范疆、张达刺杀。"
+    },
+    {
+      "slug": "zhao-yun",
+      "name": "赵云",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 83,
+      "birthYear": 168,
+      "deathYear": 229,
+      "aliases": [
+        "子龙",
+        "常胜将军"
+      ],
+      "summary": "蜀汉五虎将，长坂坡七进七出单骑救主，忠勇无双，一生保持常胜战绩，被称为「常胜将军」。",
+      "content": "赵云（168年—229年），字子龙，常山真定（今河北正定）人。三国时期蜀汉著名将领，五虎将之一。\n\n长坂坡之战中单骑杀入曹军重围，七进七出，救出幼主刘禅，威名大振。历事刘备、诸葛亮两朝，历次北伐均参与其中，229年病逝，被后主刘禅追谥为「顺平侯」。史书称其「强挚壮猛，并作爪牙」。"
+    },
+    {
+      "slug": "huang-zhong",
+      "name": "黄忠",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 62,
+      "birthYear": 148,
+      "deathYear": 220,
+      "aliases": [
+        "汉升"
+      ],
+      "summary": "蜀汉五虎将之一，老当益壮，定军山阵斩曹魏大将夏侯渊，以七旬高龄仍能拉弓射箭。",
+      "content": "黄忠（148年—220年），字汉升，南阳（今河南南阳）人。三国时期蜀汉将领，五虎将之一。\n\n原为刘表部将，刘备入荆州后归降。定军山之战阵斩夏侯渊，为刘备夺取汉中立下大功。以高龄仍能征战沙场，与廉颇并称「老将」代表。"
+    },
+    {
+      "slug": "sun-quan",
+      "name": "孙权",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 90,
+      "birthYear": 182,
+      "deathYear": 252,
+      "aliases": [
+        "仲谋",
+        "吴大帝",
+        "孙仲谋"
+      ],
+      "summary": "吴国开国皇帝，承父兄基业，守江东数十年。联刘抗曹赤壁大胜，袭杀关羽夺荆州，在位期间东吴国力达到鼎盛。",
+      "content": "孙权（182年—252年），字仲谋，吴郡富春（今浙江富阳）人。三国时期孙吴开国皇帝，谥号大皇帝。\n\n继承父兄基业后，联合刘备在赤壁大败曹操，稳固江东基业。后派吕蒙袭取荆州、擒杀关羽，夷陵之战大败刘备。222年称吴王，229年正式称帝，年号黄龙。在位期间重视农业生产，东吴国力大增，开拓台湾（夷洲）。曹操曾感叹「生子当如孙仲谋」。"
+    },
+    {
+      "slug": "zhou-yu",
+      "name": "周瑜",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "strategist"
+      ],
+      "importance": 85,
+      "birthYear": 175,
+      "deathYear": 210,
+      "aliases": [
+        "公瑾",
+        "周郎"
+      ],
+      "summary": "东吴大都督，赤壁之战主帅，采用黄盖火攻计大败曹操，英年早逝，令后人无限感叹。",
+      "content": "周瑜（175年—210年），字公瑾，庐江舒县（今安徽舒城）人。东汉末年东吴名将，官至大都督。\n\n文武兼备，精通音乐，有「曲有误，周郎顾」之说，人称「周郎」。赤壁之战中担任孙刘联军主帅，采纳黄盖苦肉计和火攻策略，大败曹军，是奠定三分天下格局的关键战役统帅。210年出征途中病逝巴丘，年仅三十六岁。"
+    },
+    {
+      "slug": "lu-su",
+      "name": "鲁肃",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist",
+        "minister"
+      ],
+      "importance": 70,
+      "birthYear": 172,
+      "deathYear": 217,
+      "aliases": [
+        "子敬"
+      ],
+      "summary": "东吴谋士，孙刘联盟主要推动者，提出「塌上策」为孙权规划江东霸业蓝图。",
+      "content": "鲁肃（172年—217年），字子敬，临淮东城（今安徽定远）人。东汉末年东吴战略家、外交家。\n\n鲁肃提出「塌上策」，为孙权规划占据长江以南、三分天下的战略。赤壁之战前力主联刘抗曹，是孙刘联盟的主要推动者。周瑜死后接任都督，维护孙刘联盟大局，217年病逝。"
+    },
+    {
+      "slug": "lu-xun",
+      "name": "陆逊",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "strategist"
+      ],
+      "importance": 75,
+      "birthYear": 183,
+      "deathYear": 245,
+      "aliases": [
+        "伯言"
+      ],
+      "summary": "东吴名将，夷陵之战主帅，以坚守待机的策略火烧蜀军连营，大败刘备，后官至丞相。",
+      "content": "陆逊（183年—245年），字伯言，吴郡吴县（今江苏苏州）人。三国时期东吴政治家、军事家。\n\n夷陵之战中以年轻将领身份担任主帅，面对刘备大军坚守不出，待蜀军深入后以火攻大破连营，刘备仅以身免。后又击退曹仁进攻。官至东吴丞相，后被孙权猜忌，忧愤而死。"
+    },
+    {
+      "slug": "sun-ce",
+      "name": "孙策",
+      "primaryRole": "warlord",
+      "roles": [
+        "warlord",
+        "general"
+      ],
+      "importance": 72,
+      "birthYear": 175,
+      "deathYear": 200,
+      "aliases": [
+        "伯符",
+        "小霸王"
+      ],
+      "summary": "孙权兄长，江东基业真正奠基人，以勇猛闻名，绰号「小霸王」，26岁英年早逝，将基业传于孙权。",
+      "content": "孙策（175年—200年），字伯符，吴郡富春（今浙江富阳）人。东汉末年群雄之一，孙权兄长，东吴基业奠基人。\n\n借袁术之兵，以孙坚旧部为基础，短短数年间横扫江东六郡，有「小霸王」之称。200年遇刺身亡，年仅二十六岁，将江东基业传给弟弟孙权。其果断勇猛的军事才能令曹操也颇为忌惮。"
+    },
+    {
+      "slug": "lv-bu",
+      "name": "吕布",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "warlord"
+      ],
+      "importance": 85,
+      "birthYear": 160,
+      "deathYear": 199,
+      "aliases": [
+        "奉先",
+        "飞将"
+      ],
+      "summary": "东汉末年名将，以勇武著称，号称「飞将」。先后认丁原、董卓为义父，后被曹操擒杀。",
+      "content": "吕布（约160年—199年），字奉先，五原郡九原（今内蒙古包头）人。东汉末年名将。\n\n以勇武著称，号称「飞将」。先认丁原为义父，后杀丁原投董卓，又杀董卓。后被曹操围困于下邳，部下侯成、宋宪叛变，吕布被擒，缢杀于白门楼。"
+    },
+    {
+      "slug": "dong-zhuo",
+      "name": "董卓",
+      "primaryRole": "warlord",
+      "roles": [
+        "warlord",
+        "rebel"
+      ],
+      "importance": 80,
+      "birthYear": 139,
+      "deathYear": 192,
+      "aliases": [
+        "仲颖"
+      ],
+      "summary": "东汉末年权臣，趁乱入京掌控朝政，废立皇帝，残暴不仁，引发天下诸侯讨伐，后被吕布所杀。",
+      "content": "董卓（约139年—192年），字仲颖，陇西临洮（今甘肃岷县）人。东汉末年权臣。\n\n何进谋诛宦官，召董卓入京。董卓趁机掌控朝政，废少帝立献帝，独断专行。袁绍、曹操等诸侯联合讨伐，董卓火烧洛阳，迁都长安。后被司徒王允设连环计，吕布将其刺杀。"
+    },
+    {
+      "slug": "yuan-shao",
+      "name": "袁绍",
+      "primaryRole": "warlord",
+      "roles": [
+        "warlord",
+        "emperor"
+      ],
+      "importance": 78,
+      "birthYear": 154,
+      "deathYear": 202,
+      "aliases": [
+        "本初"
+      ],
+      "summary": "东汉末年群雄之一，四世三公，占据冀州、青州、幽州、并州，官渡之战败于曹操，后病死。",
+      "content": "袁绍（约154年—202年），字本初，汝南汝阳（今河南商水）人。东汉末年群雄之一。\n\n四世三公，门生故吏遍天下。讨董卓时为盟主，后占据冀州、青州、幽州、并州，势力最大。官渡之战败于曹操，不久病死，袁氏势力被曹操逐一消灭。"
+    },
+    {
+      "slug": "guo-jia",
+      "name": "郭嘉",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist"
+      ],
+      "importance": 82,
+      "birthYear": 170,
+      "deathYear": 207,
+      "aliases": [
+        "奉孝"
+      ],
+      "summary": "曹操重要谋士，以神机妙算著称，为曹操统一北方出谋划策，英年早逝，曹操痛惜不已。",
+      "content": "郭嘉（170年—207年），字奉孝，颍川阳翟（今河南禹州）人。东汉末年曹操重要谋士。\n\n原为袁绍部下，后转投曹操。官渡之战前提出「十胜十败」之说，坚定了曹操决战信心。征乌桓时病逝，年仅三十八岁。曹操赤壁败后叹曰：「郭奉孝在，不使孤至此。」"
+    },
+    {
+      "slug": "pang-tong",
+      "name": "庞统",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist"
+      ],
+      "importance": 75,
+      "birthYear": 179,
+      "deathYear": 214,
+      "aliases": [
+        "凤雏",
+        "士元"
+      ],
+      "summary": "刘备谋士，与诸葛亮齐名，号「凤雏」。入川之战中在落凤坡中箭身亡，英年早逝。",
+      "content": "庞统（179年—214年），字士元，襄阳（今湖北襄阳）人。刘备重要谋士，与诸葛亮齐名，号「凤雏」。\n\n初仕东吴，后投刘备。随刘备入川，在落凤坡中箭身亡，年仅三十六岁。庞统之死使刘备失去重要谋士，是蜀汉的重大损失。"
+    },
+    {
+      "slug": "ma-chao",
+      "name": "马超",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "warlord"
+      ],
+      "importance": 72,
+      "birthYear": 176,
+      "deathYear": 222,
+      "aliases": [
+        "孟起",
+        "锦马超"
+      ],
+      "summary": "蜀汉五虎将之一，西凉军阀，以勇猛著称。投奔刘备后镇守西凉，病逝于任上。",
+      "content": "马超（176年—222年），字孟起，扶风茂陵（今陕西兴平）人。蜀汉五虎将之一。\n\n西凉军阀马腾之子，以勇猛著称，有「锦马超」之称。曹操杀马腾后，马超起兵报仇，被曹操击败。后投奔刘备，镇守西凉，病逝于任上。"
+    },
+    {
+      "slug": "jiang-wei",
+      "name": "姜维",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "strategist"
+      ],
+      "importance": 70,
+      "birthYear": 202,
+      "deathYear": 264,
+      "aliases": [
+        "伯约"
+      ],
+      "summary": "蜀汉后期名将，诸葛亮弟子，继承遗志北伐，最终蜀汉灭亡，假降钟会谋复国，事败被杀。",
+      "content": "姜维（202年—264年），字伯约，天水冀县（今甘肃甘谷）人。蜀汉后期名将。\n\n原为魏将，诸葛亮北伐时归降蜀汉，成为诸葛亮弟子。诸葛亮死后，姜维继承遗志，多次北伐。蜀汉灭亡后，假降钟会谋复国，事败被杀。"
+    },
+    {
+      "slug": "deng-ai",
+      "name": "邓艾",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 68,
+      "birthYear": 197,
+      "deathYear": 264,
+      "aliases": [
+        "士载"
+      ],
+      "summary": "曹魏名将，偷渡阴平灭蜀，功高震主，被钟会诬陷谋反，与其子一同被杀。",
+      "content": "邓艾（197年—264年），字士载，棘阳（今河南新野）人。曹魏名将。\n\n与姜维对峙多年，263年偷渡阴平，直取成都，灭亡蜀汉。功高震主，被钟会诬陷谋反，与其子一同被杀。"
+    },
+    {
+      "slug": "zhong-hui",
+      "name": "钟会",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "strategist"
+      ],
+      "importance": 65,
+      "birthYear": 225,
+      "deathYear": 264,
+      "aliases": [
+        "士季"
+      ],
+      "summary": "曹魏名将，与邓艾共同灭蜀，后谋反被杀。",
+      "content": "钟会（225年—264年），字士季，颍川长社（今河南长葛）人。曹魏名将。\n\n太傅钟繇之子，以才学著称。263年与邓艾共同灭蜀，后谋反被杀。"
+    },
+    {
+      "slug": "jia-xu",
+      "name": "贾诩",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist"
+      ],
+      "importance": 75,
+      "birthYear": 147,
+      "deathYear": 223,
+      "aliases": [
+        "文和"
+      ],
+      "summary": "曹操谋士，以毒计著称，被称为「毒士」。善谋身，历仕多主，最终得以善终。",
+      "content": "贾诩（147年—223年），字文和，武威姑臧（今甘肃武威）人。东汉末年曹操谋士。\n\n以毒计著称，被称为「毒士」。先为董卓部将，后投张绣，再投曹操。善于谋身，历仕多主，最终得以善终。"
+    },
+    {
+      "slug": "xu-chu",
+      "name": "许褚",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 62,
+      "birthYear": 170,
+      "deathYear": 230,
+      "aliases": [
+        "仲康",
+        "虎痴"
+      ],
+      "summary": "曹操贴身护卫，以勇猛著称，被称为「虎痴」。多次救曹操于危难之中。",
+      "content": "许褚（约170年—230年），字仲康，谯国谯县（今安徽亳州）人。曹操贴身护卫。\n\n以勇猛著称，被称为「虎痴」。多次救曹操于危难之中，是曹操最信任的将领之一。"
+    },
+    {
+      "slug": "dian-wei",
+      "name": "典韦",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 60,
+      "deathYear": 197,
+      "aliases": [
+        "古之恶来"
+      ],
+      "summary": "曹操贴身护卫，以勇猛著称，被称为「古之恶来」。宛城之战中为保护曹操而战死。",
+      "content": "典韦（？—197年），陈留己吾（今河南商丘）人。曹操贴身护卫。\n\n以勇猛著称，被称为「古之恶来」。宛城之战中，张绣叛变，典韦为保护曹操而战死。"
+    },
+    {
+      "slug": "xiahou-dun",
+      "name": "夏侯惇",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 65,
+      "birthYear": 157,
+      "deathYear": 220,
+      "aliases": [
+        "元让"
+      ],
+      "summary": "曹操宗族将领，以勇猛著称，曾被射中左眼，被称为「盲夏侯」。",
+      "content": "夏侯惇（约157年—220年），字元让，沛国谯县（今安徽亳州）人。曹操宗族将领。\n\n以勇猛著称，曾被射中左眼，被称为「盲夏侯」。随曹操征战多年，深得信任。"
+    },
+    {
+      "slug": "xiahou-yuan",
+      "name": "夏侯渊",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 63,
+      "birthYear": 170,
+      "deathYear": 219,
+      "aliases": [
+        "妙才"
+      ],
+      "summary": "曹操宗族将领，以勇猛著称，定军山之战中被黄忠斩杀。",
+      "content": "夏侯渊（约170年—219年），字妙才，沛国谯县（今安徽亳州）人。曹操宗族将领。\n\n以勇猛著称，擅长长途奔袭。定军山之战中被黄忠斩杀，是蜀汉夺取汉中的关键战役。"
+    },
+    {
+      "slug": "cao-ren",
+      "name": "曹仁",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 60,
+      "birthYear": 168,
+      "deathYear": 223,
+      "aliases": [
+        "子孝"
+      ],
+      "summary": "曹操宗族将领，以防守著称，多次击退敌军进攻。",
+      "content": "曹仁（168年—223年），字子孝，沛国谯县（今安徽亳州）人。曹操宗族将领。\n\n以防守著称，多次击退敌军进攻，是曹操最信任的将领之一。"
+    },
+    {
+      "slug": "gan-ning",
+      "name": "甘宁",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 60,
+      "birthYear": 170,
+      "deathYear": 215,
+      "aliases": [
+        "兴霸",
+        "锦帆贼"
+      ],
+      "summary": "东吴名将，以勇猛著称，曾率百骑劫曹营，被称为「锦帆贼」。",
+      "content": "甘宁（约170年—215年），字兴霸，巴郡临江（今重庆忠县）人。东吴名将。\n\n以勇猛著称，曾率百骑劫曹营，被称为「锦帆贼」。随孙权征战多年，是东吴重要将领。"
+    },
+    {
+      "slug": "taishi-ci",
+      "name": "太史慈",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 58,
+      "birthYear": 166,
+      "deathYear": 206,
+      "aliases": [
+        "子义"
+      ],
+      "summary": "东吴名将，以勇猛著称，曾与孙策大战，后归降孙策，病逝于任上。",
+      "content": "太史慈（166年—206年），字子义，东莱黄县（今山东龙口）人。东吴名将。\n\n以勇猛著称，曾与孙策大战，不分胜负。后归降孙策，随孙策征战江东，病逝于任上。"
+    },
+    {
+      "slug": "zhang-zhao",
+      "name": "张昭",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 60,
+      "birthYear": 156,
+      "deathYear": 236,
+      "aliases": [
+        "子布"
+      ],
+      "summary": "东吴重臣，以直言敢谏著称，辅佐孙权稳定江东。",
+      "content": "张昭（156年—236年），字子布，彭城（今江苏徐州）人。东吴重臣。\n\n以直言敢谏著称，辅佐孙权稳定江东，是东吴开国重臣。"
+    },
+    {
+      "slug": "zhuge-jin",
+      "name": "诸葛瑾",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 55,
+      "birthYear": 174,
+      "deathYear": 241,
+      "aliases": [
+        "子瑜"
+      ],
+      "summary": "东吴重臣，诸葛亮之兄，以外交才能著称，维护孙刘联盟。",
+      "content": "诸葛瑾（174年—241年），字子瑜，琅琊阳都（今山东沂南）人。东吴重臣，诸葛亮之兄。\n\n以外交才能著称，多次出使蜀汉，维护孙刘联盟。"
+    },
+    {
+      "slug": "pang-de",
+      "name": "庞德",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 58,
+      "birthYear": 170,
+      "deathYear": 219,
+      "aliases": [
+        "令明"
+      ],
+      "summary": "曹魏名将，以勇猛著称，关羽水淹七军时被擒，宁死不降，被关羽所杀。",
+      "content": "庞德（约170年—219年），字令明，南安狟道（今甘肃陇西）人。曹魏名将。\n\n以勇猛著称，关羽水淹七军时被擒，宁死不降，被关羽所杀。"
+    },
+    {
+      "slug": "yu-jin",
+      "name": "于禁",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 55,
+      "birthYear": 163,
+      "deathYear": 221,
+      "aliases": [
+        "文则"
+      ],
+      "summary": "曹魏名将，以稳重著称，关羽水淹七军时投降，后被曹丕羞辱而死。",
+      "content": "于禁（约163年—221年），字文则，泰山钜平（今山东泰安）人。曹魏名将。\n\n以稳重著称，是曹操最信任的将领之一。关羽水淹七军时投降，后被曹丕羞辱而死。"
+    },
+    {
+      "slug": "zhang-he",
+      "name": "张郃",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 60,
+      "birthYear": 167,
+      "deathYear": 231,
+      "aliases": [
+        "俊乂"
+      ],
+      "summary": "曹魏名将，以善用地形著称，诸葛亮北伐时被射杀。",
+      "content": "张郃（约167年—231年），字俊乂，河间鄚县（今河北任丘）人。曹魏名将。\n\n以善用地形著称，是诸葛亮北伐的主要对手。追击蜀军时被射杀。"
+    },
+    {
+      "slug": "xu-huang",
+      "name": "徐晃",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 58,
+      "birthYear": 170,
+      "deathYear": 227,
+      "aliases": [
+        "公明"
+      ],
+      "summary": "曹魏名将，以勇猛著称，解樊城之围，击败关羽。",
+      "content": "徐晃（约170年—227年），字公明，河东杨县（今山西洪洞）人。曹魏名将。\n\n以勇猛著称，解樊城之围，击败关羽，是曹操最信任的将领之一。"
+    },
+    {
+      "slug": "li-dian",
+      "name": "李典",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 55,
+      "birthYear": 174,
+      "deathYear": 215,
+      "aliases": [
+        "曼成"
+      ],
+      "summary": "曹魏名将，以儒雅著称，与张辽、乐进共同镇守合肥。",
+      "content": "李典（174年—215年），字曼成，山阳钜野（今山东巨野）人。曹魏名将。\n\n以儒雅著称，与张辽、乐进共同镇守合肥，多次击退孙权进攻。"
+    },
+    {
+      "slug": "yue-jin",
+      "name": "乐进",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 55,
+      "birthYear": 160,
+      "deathYear": 218,
+      "aliases": [
+        "文谦"
+      ],
+      "summary": "曹魏名将，以勇猛著称，与张辽、李典共同镇守合肥。",
+      "content": "乐进（约160年—218年），字文谦，阳平卫国（今河南清丰）人。曹魏名将。\n\n以勇猛著称，与张辽、李典共同镇守合肥，多次击退孙权进攻。"
+    },
+    {
+      "slug": "wen-pin",
+      "name": "文聘",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 50,
+      "birthYear": 170,
+      "deathYear": 226,
+      "aliases": [
+        "仲业"
+      ],
+      "summary": "曹魏名将，以防守著称，镇守江夏数十年。",
+      "content": "文聘（约170年—226年），字仲业，南阳宛城（今河南南阳）人。曹魏名将。\n\n以防守著称，镇守江夏数十年，多次击退孙权进攻。"
+    },
+    {
+      "slug": "cao-zhi",
+      "name": "曹植",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty"
+      ],
+      "importance": 70,
+      "birthYear": 192,
+      "deathYear": 232,
+      "aliases": [
+        "子建",
+        "陈思王"
+      ],
+      "summary": "曹操之子，以文学著称，七步成诗，与曹操、曹丕并称「三曹」。",
+      "content": "曹植（192年—232年），字子建，沛国谯县（今安徽亳州）人。曹操之子，著名文学家。\n\n以文学著称，七步成诗，与曹操、曹丕并称「三曹」。曾是曹操最宠爱的儿子，后因行为放纵失去继位机会。"
+    },
+    {
+      "slug": "zhen-shi",
+      "name": "甄氏",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty"
+      ],
+      "importance": 50,
+      "birthYear": 183,
+      "deathYear": 221,
+      "aliases": [
+        "甄夫人",
+        "甄宓"
+      ],
+      "summary": "曹丕之妻，以美貌著称，后被曹丕赐死。",
+      "content": "甄氏（183年—221年），中山无极（今河北无极）人。曹丕之妻。\n\n以美貌著称，原为袁绍之子袁熙之妻，曹操攻破邺城后被曹丕纳为夫人。后被曹丕赐死。"
+    },
+    {
+      "slug": "cai-wenji",
+      "name": "蔡文姬",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 65,
+      "birthYear": 177,
+      "deathYear": 249,
+      "aliases": [
+        "蔡琰"
+      ],
+      "summary": "东汉末年才女，以文学著称，被匈奴掳走，后被曹操赎回，著有《悲愤诗》等。",
+      "content": "蔡文姬（约177年—249年），名琰，字文姬，陈留圉（今河南杞县）人。东汉末年才女。\n\n以文学著称，精通音律。被匈奴掳走十二年，后被曹操赎回。著有《悲愤诗》《胡笳十八拍》等。"
+    },
+    {
+      "slug": "diao-chan",
+      "name": "貂蝉",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 60,
+      "aliases": [
+        "貂蝉"
+      ],
+      "summary": "东汉末年美女，四大美女之一，以连环计离间董卓和吕布，是《三国演义》中的虚构人物。",
+      "content": "貂蝉，东汉末年美女，四大美女之一。在《三国演义》中，司徒王允设连环计，利用貂蝉离间董卓和吕布，最终吕布杀死董卓。\n\n貂蝉是《三国演义》中的虚构人物，正史中并无记载。"
+    },
+    {
+      "slug": "da-qiao",
+      "name": "大乔",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 45,
+      "birthYear": 176,
+      "aliases": [
+        "乔公长女"
+      ],
+      "summary": "东汉末年美女，孙策之妻，以美貌著称。",
+      "content": "大乔，东汉末年美女，乔公长女。嫁与孙策为妻，以美貌著称。"
+    },
+    {
+      "slug": "xiao-qiao",
+      "name": "小乔",
+      "primaryRole": "other",
+      "roles": [
+        "other"
+      ],
+      "importance": 45,
+      "birthYear": 180,
+      "aliases": [
+        "乔公次女"
+      ],
+      "summary": "东汉末年美女，周瑜之妻，以美貌著称。",
+      "content": "小乔，东汉末年美女，乔公次女。嫁与周瑜为妻，以美貌著称。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "battle-of-red-cliffs",
+      "name": "赤壁之战",
+      "timeStart": 208,
+      "aliases": [
+        "赤壁"
+      ],
+      "summary": "赤壁之战是中国历史上著名的以少胜多战役。曹操率水陆大军南下，孙权与刘备联军，由周瑜指挥，采用黄盖的火攻之计，火烧曹军战船，大败曹操，奠定三分天下的格局。",
+      "content": "赤壁之战（208年），曹操率领约二十万大军南下，意图一统天下。孙刘联军约五万人由周瑜统率，采纳黄盖苦肉计诈降，趁东南风起，以火攻大破曹军水寨，曹军死伤无数，曹操仓皇北撤。\n\n此役是中国历史上以弱胜强的经典战役，直接奠定了三国鼎立的基本格局。",
+      "imageUrl": "/images/sanguo/events/chibizhizhan.svg"
+    },
+    {
+      "slug": "three-visits",
+      "name": "三顾茅庐",
+      "timeStart": 207,
+      "aliases": [
+        "隆中对"
+      ],
+      "summary": "刘备三次亲赴隆中，拜访隐居的诸葛亮。诸葛亮提出著名的隆中对策——三分天下之计，从此出山辅佐刘备，成就一段君臣相知的千古佳话。",
+      "content": "建安十二年（207年），刘备在徐庶推荐下，亲赴荆州隆中（今湖北襄阳）拜访诸葛亮。前两次未能相见，第三次终于见到，诸葛亮向刘备分析天下形势，提出「三分天下」的战略构想（史称隆中对）。\n\n此次会面开启了君臣二十余年的风雨共程，成为中国历史上礼贤下士的千古典范。"
+    },
+    {
+      "slug": "battle-of-guandu",
+      "name": "官渡之战",
+      "timeStart": 200,
+      "aliases": [
+        "官渡"
+      ],
+      "summary": "官渡之战是曹操统一北方的决定性战役。曹操以少胜多，采纳谋士许攸建议，奇袭袁绍粮仓乌巢，大败袁绍十万大军，此后逐步兼并袁氏势力，统一黄河流域。",
+      "content": "建安五年（200年），曹操与袁绍在官渡展开决战。袁绍兵力约十万，曹操不足三万，双方相持数月。关键时刻袁绍谋士许攸叛投曹操，献计奇袭乌巢粮仓。曹操亲率轻骑奔袭，烧毁袁军粮草，袁军大乱。\n\n此战之后曹操乘胜追击，逐一消灭袁氏兄弟，完成北方统一。",
+      "imageUrl": "/images/sanguo/events/guanduzhizhan.svg"
+    },
+    {
+      "slug": "battle-of-yiling",
+      "name": "夷陵之战",
+      "timeStart": 221,
+      "timeEnd": 222,
+      "aliases": [
+        "猇亭之战"
+      ],
+      "summary": "夷陵之战是刘备为报关羽之仇东征东吴之战。陆逊坚守不出，待蜀军深入后以火攻大破连营，刘备大败，退守白帝城，忧愤而死，蜀汉元气大伤。",
+      "content": "章武元年（221年），刘备以为关羽报仇为名，率蜀军七万东征东吴。东吴以陆逊为帅，坚守不出，双方相持半年余。222年六月，陆逊趁蜀军暑热疲惫、连营七百里之机，趁夜火攻，蜀军连营四十余处同时起火，刘备仓皇撤退，退守白帝城。"
+    },
+    {
+      "slug": "northern-expeditions",
+      "name": "北伐中原",
+      "timeStart": 228,
+      "timeEnd": 234,
+      "aliases": [
+        "六出祁山",
+        "五丈原"
+      ],
+      "summary": "诸葛亮辅政蜀汉后，六出祁山，多次率军北伐曹魏。每次都与司马懿对峙，终因粮草不继而退兵。第六次北伐时，诸葛亮病逝五丈原，留下千古遗憾。",
+      "content": "建兴六年至建兴十二年（228—234年），诸葛亮先后六次率军出祁山北伐曹魏，以完成刘备遗志、匡扶汉室。\n\n诸葛亮在战略上处于进攻态势，但受制于蜀道艰险、粮草转运困难，每次均因粮尽退兵。司马懿深知蜀军弱点，多采取坚守不战的策略。234年诸葛亮在五丈原病逝，享年五十四岁。"
+    },
+    {
+      "slug": "dong-zhuo-chaos",
+      "name": "董卓之乱",
+      "timeStart": 189,
+      "timeEnd": 192,
+      "aliases": [
+        "董卓乱政"
+      ],
+      "summary": "东汉末年董卓入京掌控朝政，废立皇帝，残暴不仁，引发天下诸侯讨伐，是三国乱世的开端。",
+      "content": "189年，汉灵帝驾崩，大将军何进谋诛宦官，召董卓入京。董卓趁机掌控朝政，废少帝立献帝，独断专行。\n\n袁绍、曹操等诸侯联合讨伐董卓，董卓火烧洛阳，迁都长安。192年，司徒王允设连环计，吕布刺杀董卓。\n\n董卓之乱是东汉末年乱世的开端，也是三国时代的序幕。"
+    },
+    {
+      "slug": "battle-of-hanzhong",
+      "name": "汉中之战",
+      "timeStart": 217,
+      "timeEnd": 219,
+      "aliases": [
+        "争夺汉中"
+      ],
+      "summary": "刘备与曹操争夺汉中的战役。刘备采纳法正计策，斩杀夏侯渊，夺取汉中，进位汉中王。",
+      "content": "217年，刘备采纳法正建议，进攻汉中。曹操派夏侯渊、张郃镇守。\n\n219年，刘备在定军山斩杀夏侯渊，夺取汉中。曹操亲率大军来争，刘备坚守不出，曹操退兵。\n\n刘备夺取汉中后，进位汉中王，蜀汉势力达到鼎盛。"
+    },
+    {
+      "slug": "battle-of-hefei",
+      "name": "合肥之战",
+      "timeStart": 215,
+      "aliases": [
+        "逍遥津之战"
+      ],
+      "summary": "孙权率十万大军进攻合肥，张辽以八百精骑突袭，大败吴军，差点生擒孙权，威震逍遥津。",
+      "content": "215年，孙权率十万大军进攻合肥。曹操远在汉中，合肥守军仅七千人。\n\n张辽率八百精骑突袭吴军，大败孙权，差点生擒孙权。吴军闻风丧胆，「张辽止啼」典故由此而来。\n\n此战是三国时期以少胜多的经典战役，张辽威震逍遥津。"
+    },
+    {
+      "slug": "seven-captures",
+      "name": "七擒孟获",
+      "timeStart": 225,
+      "aliases": [
+        "平定南中"
+      ],
+      "summary": "诸葛亮南征，七擒七纵孟获，平定南中叛乱，稳定蜀汉后方，为北伐创造条件。",
+      "content": "225年，蜀汉南中地区发生叛乱。诸葛亮率军南征，采取「攻心为上」策略。\n\n七擒七纵孟获，最终孟获心悦诚服，南中平定。诸葛亮任用当地人为官，不留外兵，稳定了蜀汉后方。\n\n七擒孟获是诸葛亮军事才能的体现，也是「攻心」策略的经典案例。"
+    },
+    {
+      "slug": "gaopingling-coup",
+      "name": "高平陵之变",
+      "timeStart": 249,
+      "aliases": [
+        "司马懿夺权"
+      ],
+      "summary": "司马懿发动政变，诛杀曹爽，掌控曹魏政权，为司马氏代魏奠定基础。",
+      "content": "249年，曹爽陪同曹芳祭扫高平陵。司马懿趁机发动政变，控制洛阳，诛杀曹爽及其党羽。\n\n司马懿掌控曹魏政权，为司马氏代魏奠定基础。其孙司马炎于265年代魏建晋，建立晋朝。\n\n高平陵之变是三国历史的重要转折点，标志着曹魏政权开始落入司马氏之手。"
+    },
+    {
+      "slug": "destruction-of-shu",
+      "name": "魏灭蜀之战",
+      "timeStart": 263,
+      "aliases": [
+        "灭蜀之战"
+      ],
+      "summary": "曹魏派钟会、邓艾率军灭蜀。邓艾偷渡阴平，直取成都，刘禅投降，蜀汉灭亡。",
+      "content": "263年，曹魏派钟会、邓艾、诸葛绪三路大军伐蜀。\n\n邓艾偷渡阴平，直取成都。刘禅投降，蜀汉灭亡。姜维假降钟会谋复国，事败被杀。\n\n蜀汉灭亡是三国统一的第一步，标志着三国鼎立格局开始瓦解。"
+    },
+    {
+      "slug": "destruction-of-wu",
+      "name": "晋灭吴之战",
+      "timeStart": 279,
+      "timeEnd": 280,
+      "aliases": [
+        "灭吴之战"
+      ],
+      "summary": "西晋派大军灭吴，孙皓投降，三国归晋，中国重新统一。",
+      "content": "279年，西晋派大军六路伐吴。\n\n280年，晋军攻入建业，孙皓投降，东吴灭亡。三国归晋，中国重新统一。\n\n晋灭吴之战标志着三国时代的结束，中国进入晋朝统治时期。"
+    },
+    {
+      "slug": "luoyang-incident",
+      "name": "洛阳之变",
+      "timeStart": 220,
+      "aliases": [
+        "曹丕篡汉"
+      ],
+      "summary": "曹丕逼迫汉献帝禅让，建立魏国，东汉灭亡，三国时代正式开始。",
+      "content": "220年，曹操病逝，曹丕继位魏王。同年，曹丕逼迫汉献帝禅让，建立魏国，改元黄初，定都洛阳。\n\n东汉灭亡，三国时代正式开始。刘备于221年称帝建汉，孙权于222年称吴王，三国鼎立格局形成。\n\n洛阳之变是中国历史的重要转折点，标志着汉朝四百年统治的终结。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "cao-cao",
+      "fromType": "person",
+      "to": "cao-pi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "父子"
+    },
+    {
+      "from": "cao-cao",
+      "fromType": "person",
+      "to": "xun-yu",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "主臣，首席谋士"
+    },
+    {
+      "from": "cao-cao",
+      "fromType": "person",
+      "to": "sima-yi",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "主臣"
+    },
+    {
+      "from": "cao-cao",
+      "fromType": "person",
+      "to": "zhang-liao",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "主将"
+    },
+    {
+      "from": "liu-bei",
+      "fromType": "person",
+      "to": "guan-yu",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "结义兄弟"
+    },
+    {
+      "from": "liu-bei",
+      "fromType": "person",
+      "to": "zhang-fei",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "结义兄弟"
+    },
+    {
+      "from": "liu-bei",
+      "fromType": "person",
+      "to": "zhao-yun",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "主将"
+    },
+    {
+      "from": "liu-bei",
+      "fromType": "person",
+      "to": "huang-zhong",
+      "toType": "person",
+      "type": "political",
+      "weight": 6,
+      "note": "主将"
+    },
+    {
+      "from": "liu-bei",
+      "fromType": "person",
+      "to": "zhuge-liang",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "主臣，托孤重臣"
+    },
+    {
+      "from": "sun-quan",
+      "fromType": "person",
+      "to": "sun-ce",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "兄弟，江东基业传承"
+    },
+    {
+      "from": "sun-quan",
+      "fromType": "person",
+      "to": "zhou-yu",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "主臣，赤壁统帅"
+    },
+    {
+      "from": "sun-quan",
+      "fromType": "person",
+      "to": "lu-su",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "主臣，联盟策划者"
+    },
+    {
+      "from": "sun-quan",
+      "fromType": "person",
+      "to": "lu-xun",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "主臣，夷陵统帅"
+    },
+    {
+      "from": "cao-cao",
+      "fromType": "person",
+      "to": "liu-bei",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "主要对手"
+    },
+    {
+      "from": "cao-cao",
+      "fromType": "person",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "赤壁对手"
+    },
+    {
+      "from": "liu-bei",
+      "fromType": "person",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "political",
+      "weight": 6,
+      "note": "赤壁盟友，后期冲突"
+    },
+    {
+      "from": "zhuge-liang",
+      "fromType": "person",
+      "to": "sima-yi",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "北伐对手，千古对决"
+    },
+    {
+      "from": "guan-yu",
+      "fromType": "person",
+      "to": "zhang-fei",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "结义兄弟"
+    },
+    {
+      "from": "guan-yu",
+      "fromType": "person",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "荆州之争，关羽败亡"
+    },
+    {
+      "from": "liu-bei",
+      "fromType": "person",
+      "to": "lu-xun",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "夷陵之战对手"
+    },
+    {
+      "from": "battle-of-red-cliffs",
+      "fromType": "event",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "进攻方"
+    },
+    {
+      "from": "battle-of-red-cliffs",
+      "fromType": "event",
+      "to": "zhou-yu",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "联军统帅"
+    },
+    {
+      "from": "battle-of-red-cliffs",
+      "fromType": "event",
+      "to": "zhuge-liang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "蜀方策士"
+    },
+    {
+      "from": "battle-of-red-cliffs",
+      "fromType": "event",
+      "to": "liu-bei",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "联盟方"
+    },
+    {
+      "from": "battle-of-red-cliffs",
+      "fromType": "event",
+      "to": "lu-su",
+      "toType": "person",
+      "type": "participation",
+      "weight": 7,
+      "note": "联盟促成者"
+    },
+    {
+      "from": "three-visits",
+      "fromType": "event",
+      "to": "liu-bei",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "求贤者"
+    },
+    {
+      "from": "three-visits",
+      "fromType": "event",
+      "to": "zhuge-liang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "被访者"
+    },
+    {
+      "from": "battle-of-guandu",
+      "fromType": "event",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "胜方"
+    },
+    {
+      "from": "battle-of-guandu",
+      "fromType": "event",
+      "to": "xun-yu",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "后方谋划"
+    },
+    {
+      "from": "battle-of-yiling",
+      "fromType": "event",
+      "to": "liu-bei",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "进攻方，大败"
+    },
+    {
+      "from": "battle-of-yiling",
+      "fromType": "event",
+      "to": "lu-xun",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "吴方统帅，大胜"
+    },
+    {
+      "from": "battle-of-yiling",
+      "fromType": "event",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "吴方主君"
+    },
+    {
+      "from": "northern-expeditions",
+      "fromType": "event",
+      "to": "zhuge-liang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅，鞠躬尽瘁"
+    },
+    {
+      "from": "northern-expeditions",
+      "fromType": "event",
+      "to": "sima-yi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "魏方统帅"
+    },
+    {
+      "from": "lv-bu",
+      "fromType": "person",
+      "to": "dong-zhuo",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "义父子，后反目"
+    },
+    {
+      "from": "lv-bu",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "下邳之战对手"
+    },
+    {
+      "from": "lv-bu",
+      "fromType": "person",
+      "to": "liu-bei",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 7,
+      "note": "争夺徐州"
+    },
+    {
+      "from": "dong-zhuo",
+      "fromType": "person",
+      "to": "lv-bu",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "义父子"
+    },
+    {
+      "from": "dong-zhuo",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "讨董联盟对手"
+    },
+    {
+      "from": "dong-zhuo",
+      "fromType": "person",
+      "to": "yuan-shao",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "讨董联盟对手"
+    },
+    {
+      "from": "dong-zhuo",
+      "fromType": "person",
+      "to": "dong-zhuo-chaos",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "主导者"
+    },
+    {
+      "from": "yuan-shao",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "官渡之战对手"
+    },
+    {
+      "from": "yuan-shao",
+      "fromType": "person",
+      "to": "dong-zhuo",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "讨董联盟"
+    },
+    {
+      "from": "yuan-shao",
+      "fromType": "person",
+      "to": "battle-of-guandu",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "败方"
+    },
+    {
+      "from": "guo-jia",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "首席谋士"
+    },
+    {
+      "from": "guo-jia",
+      "fromType": "person",
+      "to": "battle-of-guandu",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "献计"
+    },
+    {
+      "from": "pang-tong",
+      "fromType": "person",
+      "to": "liu-bei",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "谋士"
+    },
+    {
+      "from": "pang-tong",
+      "fromType": "person",
+      "to": "zhuge-liang",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "同门师兄弟"
+    },
+    {
+      "from": "ma-chao",
+      "fromType": "person",
+      "to": "liu-bei",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "主将"
+    },
+    {
+      "from": "ma-chao",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "西凉对手"
+    },
+    {
+      "from": "jiang-wei",
+      "fromType": "person",
+      "to": "zhuge-liang",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "师徒"
+    },
+    {
+      "from": "jiang-wei",
+      "fromType": "person",
+      "to": "sima-yi",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 7,
+      "note": "北伐对手"
+    },
+    {
+      "from": "jiang-wei",
+      "fromType": "person",
+      "to": "northern-expeditions",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "继承遗志"
+    },
+    {
+      "from": "deng-ai",
+      "fromType": "person",
+      "to": "jiang-wei",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "对手"
+    },
+    {
+      "from": "deng-ai",
+      "fromType": "person",
+      "to": "destruction-of-shu",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "灭蜀主帅"
+    },
+    {
+      "from": "zhong-hui",
+      "fromType": "person",
+      "to": "deng-ai",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "共同灭蜀"
+    },
+    {
+      "from": "zhong-hui",
+      "fromType": "person",
+      "to": "destruction-of-shu",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "灭蜀主帅"
+    },
+    {
+      "from": "jia-xu",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "谋士"
+    },
+    {
+      "from": "xu-chu",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "贴身护卫"
+    },
+    {
+      "from": "dian-wei",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "贴身护卫"
+    },
+    {
+      "from": "xiahou-dun",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "宗族将领"
+    },
+    {
+      "from": "xiahou-yuan",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "宗族将领"
+    },
+    {
+      "from": "xiahou-yuan",
+      "fromType": "person",
+      "to": "huang-zhong",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "定军山对手"
+    },
+    {
+      "from": "xiahou-yuan",
+      "fromType": "person",
+      "to": "battle-of-hanzhong",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "被斩杀"
+    },
+    {
+      "from": "cao-ren",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "宗族将领"
+    },
+    {
+      "from": "gan-ning",
+      "fromType": "person",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "主将"
+    },
+    {
+      "from": "taishi-ci",
+      "fromType": "person",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "主将"
+    },
+    {
+      "from": "taishi-ci",
+      "fromType": "person",
+      "to": "sun-ce",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "对手后归降"
+    },
+    {
+      "from": "zhang-zhao",
+      "fromType": "person",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "重臣"
+    },
+    {
+      "from": "zhuge-jin",
+      "fromType": "person",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "重臣"
+    },
+    {
+      "from": "zhuge-jin",
+      "fromType": "person",
+      "to": "zhuge-liang",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "兄弟"
+    },
+    {
+      "from": "pang-de",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "将领"
+    },
+    {
+      "from": "pang-de",
+      "fromType": "person",
+      "to": "guan-yu",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "对手"
+    },
+    {
+      "from": "yu-jin",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "将领"
+    },
+    {
+      "from": "yu-jin",
+      "fromType": "person",
+      "to": "guan-yu",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "被俘"
+    },
+    {
+      "from": "zhang-he",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "将领"
+    },
+    {
+      "from": "zhang-he",
+      "fromType": "person",
+      "to": "zhuge-liang",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "北伐对手"
+    },
+    {
+      "from": "xu-huang",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "将领"
+    },
+    {
+      "from": "xu-huang",
+      "fromType": "person",
+      "to": "guan-yu",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "解樊城之围"
+    },
+    {
+      "from": "li-dian",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "将领"
+    },
+    {
+      "from": "li-dian",
+      "fromType": "person",
+      "to": "zhang-liao",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "共同镇守合肥"
+    },
+    {
+      "from": "li-dian",
+      "fromType": "person",
+      "to": "battle-of-hefei",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "守将"
+    },
+    {
+      "from": "yue-jin",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "将领"
+    },
+    {
+      "from": "yue-jin",
+      "fromType": "person",
+      "to": "zhang-liao",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "共同镇守合肥"
+    },
+    {
+      "from": "yue-jin",
+      "fromType": "person",
+      "to": "battle-of-hefei",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "守将"
+    },
+    {
+      "from": "wen-pin",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "将领"
+    },
+    {
+      "from": "cao-zhi",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    },
+    {
+      "from": "cao-zhi",
+      "fromType": "person",
+      "to": "cao-pi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "兄弟"
+    },
+    {
+      "from": "zhen-shi",
+      "fromType": "person",
+      "to": "cao-pi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "夫妻"
+    },
+    {
+      "from": "cai-wenji",
+      "fromType": "person",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "political",
+      "weight": 6,
+      "note": "赎回"
+    },
+    {
+      "from": "diao-chan",
+      "fromType": "person",
+      "to": "lv-bu",
+      "toType": "person",
+      "type": "blood",
+      "weight": 8,
+      "note": "情侣"
+    },
+    {
+      "from": "diao-chan",
+      "fromType": "person",
+      "to": "dong-zhuo",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "离间"
+    },
+    {
+      "from": "da-qiao",
+      "fromType": "person",
+      "to": "sun-ce",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "夫妻"
+    },
+    {
+      "from": "xiao-qiao",
+      "fromType": "person",
+      "to": "zhou-yu",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "夫妻"
+    },
+    {
+      "from": "dong-zhuo-chaos",
+      "fromType": "event",
+      "to": "dong-zhuo",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "主导者"
+    },
+    {
+      "from": "dong-zhuo-chaos",
+      "fromType": "event",
+      "to": "lv-bu",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "刺杀者"
+    },
+    {
+      "from": "dong-zhuo-chaos",
+      "fromType": "event",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "讨董联盟"
+    },
+    {
+      "from": "dong-zhuo-chaos",
+      "fromType": "event",
+      "to": "yuan-shao",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "讨董盟主"
+    },
+    {
+      "from": "battle-of-hanzhong",
+      "fromType": "event",
+      "to": "liu-bei",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "胜方"
+    },
+    {
+      "from": "battle-of-hanzhong",
+      "fromType": "event",
+      "to": "cao-cao",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "败方"
+    },
+    {
+      "from": "battle-of-hanzhong",
+      "fromType": "event",
+      "to": "huang-zhong",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "斩杀夏侯渊"
+    },
+    {
+      "from": "battle-of-hanzhong",
+      "fromType": "event",
+      "to": "xiahou-yuan",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "被斩杀"
+    },
+    {
+      "from": "battle-of-hefei",
+      "fromType": "event",
+      "to": "zhang-liao",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "守将"
+    },
+    {
+      "from": "battle-of-hefei",
+      "fromType": "event",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "进攻方"
+    },
+    {
+      "from": "battle-of-hefei",
+      "fromType": "event",
+      "to": "li-dian",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "守将"
+    },
+    {
+      "from": "battle-of-hefei",
+      "fromType": "event",
+      "to": "yue-jin",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "守将"
+    },
+    {
+      "from": "seven-captures",
+      "fromType": "event",
+      "to": "zhuge-liang",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅"
+    },
+    {
+      "from": "gaopingling-coup",
+      "fromType": "event",
+      "to": "sima-yi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "主导者"
+    },
+    {
+      "from": "destruction-of-shu",
+      "fromType": "event",
+      "to": "deng-ai",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "灭蜀主帅"
+    },
+    {
+      "from": "destruction-of-shu",
+      "fromType": "event",
+      "to": "zhong-hui",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "灭蜀主帅"
+    },
+    {
+      "from": "destruction-of-shu",
+      "fromType": "event",
+      "to": "jiang-wei",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "假降谋复国"
+    },
+    {
+      "from": "destruction-of-wu",
+      "fromType": "event",
+      "to": "sun-quan",
+      "toType": "person",
+      "type": "participation",
+      "weight": 8,
+      "note": "吴国君主"
+    },
+    {
+      "from": "luoyang-incident",
+      "fromType": "event",
+      "to": "cao-pi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "篡汉者"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "dong-zhuo-chaos",
+      "year": 189,
+      "label": "董卓入京乱政"
+    },
+    {
+      "eventSlug": "battle-of-guandu",
+      "year": 200,
+      "label": "官渡之战，曹操统一北方"
+    },
+    {
+      "eventSlug": "three-visits",
+      "year": 207,
+      "label": "三顾茅庐，诸葛亮出山"
+    },
+    {
+      "eventSlug": "battle-of-red-cliffs",
+      "year": 208,
+      "label": "赤壁之战，奠定三分"
+    },
+    {
+      "eventSlug": "battle-of-hefei",
+      "year": 215,
+      "label": "张辽威震逍遥津"
+    },
+    {
+      "eventSlug": "battle-of-hanzhong",
+      "year": 219,
+      "label": "刘备夺取汉中，进位汉中王"
+    },
+    {
+      "eventSlug": "luoyang-incident",
+      "year": 220,
+      "label": "曹丕篡汉，建立魏国"
+    },
+    {
+      "eventSlug": "battle-of-yiling",
+      "year": 221,
+      "label": "夷陵之战，蜀汉受挫"
+    },
+    {
+      "eventSlug": "seven-captures",
+      "year": 225,
+      "label": "诸葛亮七擒孟获，平定南中"
+    },
+    {
+      "eventSlug": "northern-expeditions",
+      "year": 228,
+      "label": "诸葛亮北伐中原"
+    },
+    {
+      "eventSlug": "gaopingling-coup",
+      "year": 249,
+      "label": "高平陵之变，司马懿夺权"
+    },
+    {
+      "eventSlug": "destruction-of-shu",
+      "year": 263,
+      "label": "魏灭蜀之战，蜀汉灭亡"
+    },
+    {
+      "eventSlug": "destruction-of-wu",
+      "year": 280,
+      "label": "晋灭吴之战，三国归晋"
+    }
+  ]
+}

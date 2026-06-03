@@ -1,0 +1,36 @@
+<svg width="200" height="260" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c0e00"/>
+      <stop offset="100%" stop-color="#0d0800"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="260" fill="url(#bg)"/>
+  <rect width="200" height="140" fill="url(#glow)"/>
+  <rect x="6" y="6" width="188" height="248" fill="none" stroke="#b45309" stroke-width="2" rx="2" opacity="0.9"/>
+  <rect x="11" y="11" width="178" height="238" fill="none" stroke="#d97706" stroke-width="0.8" rx="1" opacity="0.6"/>
+  <rect x="16" y="16" width="168" height="228" fill="none" stroke="#92400e" stroke-width="0.4" rx="1" opacity="0.4"/>
+  <!-- Thicker corner ornaments for emperor -->
+  <path d="M6,35 L6,6 L35,6" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  <path d="M165,6 L194,6 L194,35" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  <path d="M6,225 L6,254 L35,254" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  <path d="M165,254 L194,254 L194,225" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  <!-- Emperor badge -->
+  <rect x="55" y="18" width="90" height="24" fill="#92400e" opacity="0.9" rx="2"/>
+  <text x="100" y="34" text-anchor="middle" font-size="13" fill="#fef3c7" font-family="serif" letter-spacing="4">始皇帝</text>
+  <line x1="25" y1="52" x2="175" y2="52" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+  <circle cx="60" cy="52" r="3" fill="#f59e0b" opacity="0.7"/>
+  <circle cx="100" cy="52" r="4" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="140" cy="52" r="3" fill="#f59e0b" opacity="0.7"/>
+  <!-- Name -->
+  <text x="100" y="135" text-anchor="middle" font-size="56" fill="#f59e0b" font-family="'Noto Serif SC', Georgia, serif" font-weight="900" opacity="0.95" letter-spacing="2">秦始皇</text>
+  <line x1="25" y1="218" x2="175" y2="218" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+  <circle cx="60" cy="218" r="3" fill="#f59e0b" opacity="0.7"/>
+  <circle cx="100" cy="218" r="4" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="140" cy="218" r="3" fill="#f59e0b" opacity="0.7"/>
+  <text x="100" y="242" text-anchor="middle" font-size="12" fill="#fbbf24" font-family="serif" letter-spacing="2">千古一帝 · 嬴政</text>
+</svg>
