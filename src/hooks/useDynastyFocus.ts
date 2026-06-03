@@ -93,7 +93,9 @@ export function useDynastyFocus(graphRef: React.RefObject<GraphCanvasHandle | nu
     const url = new URL(window.location.href);
     url.searchParams.set('focus', nodeId);
     window.history.pushState({}, '', url.toString());
-  }, [loadDetail]);
+    // 聚焦图谱到对应节点
+    graphRef.current?.focusNode(nodeId);
+  }, [loadDetail, graphRef]);
 
   const clearFocus = useCallback(() => {
     abortRef.current?.abort();

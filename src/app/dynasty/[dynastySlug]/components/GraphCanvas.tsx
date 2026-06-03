@@ -7,6 +7,7 @@ import { formatYear } from '@/utils/format';
 
 export interface GraphCanvasHandle {
   resetView: () => void;
+  focusNode: (nodeId: string) => void;
 }
 
 interface Props {
@@ -79,7 +80,18 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
 
   useImperativeHandle(ref, () => ({
     resetView: () => setTransform(focusTransform(size.w, size.h, layout)),
-  }), [focusTransform, size, layout]);
+    focusNode: (nodeId: string) => {
+      const node = posMap.get(nodeId);
+      if (!node) return;
+      // 聚焦到节点位置，缩放比例设为1.2
+      const scale = 1.2;
+      setTransform({
+        x: size.w / 2 - node.lx * scale,
+        y: size.h / 2 - node.ly * scale,
+        scale,
+      });
+    },
+  }), [focusTransform, size, layout, posMap]);
 
   const cx = size.w / 2;
   const cy = size.h / 2;
