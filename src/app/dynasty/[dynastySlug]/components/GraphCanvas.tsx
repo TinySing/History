@@ -10,16 +10,22 @@ export interface GraphCanvasHandle {
   focusNode: (nodeId: string) => void;
 }
 
+// 暴露给父组件的状态
+export interface GraphCanvasState {
+  visibleDynastySlugs: string[];  // 当前视口内可见的朝代
+}
+
 interface Props {
   bundle: DynastyGraphBundle;
   focusedNodeId: string | null;
   onNodeClick: (nodeId: string, entityType: string, entitySlug: string) => void;
+  onStateChange?: (state: GraphCanvasState) => void;  // 状态变化回调
 }
 
 type Transform = { x: number; y: number; scale: number };
 
 const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
-  { bundle, focusedNodeId, onNodeClick },
+  { bundle, focusedNodeId, onNodeClick, onStateChange },
   ref
 ) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -162,6 +168,63 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
     });
   }, [focusedNodeId, posMap, size.w, size.h]);
 
+  // 计算可见区域内的节点（虚拟列表）
+  const { visibleNodes, visibleEdges } = useMemo(() => {
+    if (!isGlobal) {
+      // 单朝代模式不过滤
+      return { visibleNodes: layout, visibleEdges: bundle.edges };
+    }
+
+    // 计算视口在世界坐标中的范围
+    const viewLeft = -transform.x / transform.scale;
+    const viewTop = -transform.y / transform.scale;
+    const viewRight = (size.w - transform.x) / transform.scale;
+    const viewBottom = (size.h - transform.y) / transform.scale;
+    
+    // 添加边距缓冲
+    const padding = 200 / transform.scale;
+    const expandedLeft = viewLeft - padding;
+    const expandedTop = viewTop - padding;
+    const expandedRight = viewRight + padding;
+    const expandedBottom = viewBottom + padding;
+
+    // 过滤可见节点
+    const visibleNodeIds = new Set<string>();
+    const filteredNodes = layout.filter(node => {
+      const inView = node.lx >= expandedLeft && node.lx <= expandedRight &&
+                     node.ly >= expandedTop && node.ly <= expandedBottom;
+      if (inView) visibleNodeIds.add(node.id);
+      return inView;
+    });
+
+    // 过滤可见边（两端都在可见区域内，或者有一端可见）
+    const filteredEdges = bundle.edges.filter(edge => 
+      visibleNodeIds.has(edge.source) || visibleNodeIds.has(edge.target)
+    );
+
+    return { visibleNodes: filteredNodes, visibleEdges: filteredEdges };
+  }, [layout, bundle.edges, transform, size, isGlobal]);
+
+  // 计算可见的朝代并通知父组件
+  useEffect(() => {
+    if (!onStateChange || !isGlobal) return;
+    
+    const viewLeft = -transform.x / transform.scale;
+    const viewRight = (size.w - transform.x) / transform.scale;
+    
+    const sorted = [...dynastyBands].sort((a, b) => a.startYear - b.startYear);
+    const n = sorted.length || 1;
+    const stripW = size.w / n;
+    
+    const visibleSlugs = sorted.filter((band, i) => {
+      const bandLeft = stripW * i;
+      const bandRight = stripW * (i + 1);
+      return bandRight >= viewLeft && bandLeft <= viewRight;
+    }).map(b => b.slug);
+    
+    onStateChange({ visibleDynastySlugs: visibleSlugs });
+  }, [transform, size.w, dynastyBands, isGlobal, onStateChange]);
+
   const lodLevel = transform.scale < 0.35 ? '概览' : transform.scale < 0.6 ? '标准' : '详细';
 
   return (
@@ -189,7 +252,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
             <stop offset="0%" stopColor="white" stopOpacity="0.4" />
             <stop offset="100%" stopColor="white" stopOpacity="0" />
           </radialGradient>
-          {layout.map(node => (
+          {visibleNodes.map(node => (
             <clipPath key={`clip-${node.id}`} id={`clip-${node.id.replace(/[^a-zA-Z0-9-]/g, '-')}`}>
               <circle r={node.displaySize} cx="0" cy="0" />
             </clipPath>
@@ -281,7 +344,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
           })}
 
           {/* Edges */}
-          {bundle.edges.map(edge => {
+          {visibleEdges.map(edge => {
             const src = posMap.get(edge.source);
             const tgt = posMap.get(edge.target);
             if (!src || !tgt) return null;
@@ -309,7 +372,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
           })}
 
           {/* Nodes */}
-          {layout.map(node => {
+          {visibleNodes.map(node => {
             const isFocused = focusedNodeId === node.id;
             const isHovered = hoveredId === node.id;
             const isNeighbor = activeNeighbors?.has(node.id) ?? false;
@@ -379,7 +442,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
       {/* LOD indicator */}
       <div className="absolute bottom-4 right-4 flex items-center gap-2 text-xs text-slate-600 pointer-events-none select-none">
         <span className="bg-slate-900/70 px-2 py-1 rounded border border-slate-800 backdrop-blur-sm">
-          {lodLevel} · {layout.length}/{bundle.nodes.length} 节点
+          {lodLevel} · {visibleNodes.length}/{layout.length} 节点
         </span>
         <span className="bg-slate-900/70 px-2 py-1 rounded border border-slate-800 backdrop-blur-sm">
           拖动 · 滚轮缩放 · 点击

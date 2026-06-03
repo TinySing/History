@@ -6,7 +6,7 @@ import Link from 'next/link';
 import SearchBox from '@/components/SearchBox';
 import DetailPanel from './DetailPanel';
 import Timeline from './Timeline';
-import GraphCanvas, { type GraphCanvasHandle } from './GraphCanvas';
+import GraphCanvas, { type GraphCanvasHandle, type GraphCanvasState } from './GraphCanvas';
 import type { DynastyGraphBundle, DynastyListItem, SearchResult } from '@/lib/types';
 import { useDynastyFocus } from '@/hooks/useDynastyFocus';
 import { formatYear } from '@/utils/format';
@@ -38,6 +38,7 @@ export default function DynastyGraphPage({ bundle, dynasties }: Props) {
   const router = useRouter();
   const [showLegend, setShowLegend] = useState(false);
   const [dynastySelectorOpen, setDynastySelectorOpen] = useState(false);
+  const [canvasState, setCanvasState] = useState<GraphCanvasState>({ visibleDynastySlugs: [] });
   const graphRef = useRef<GraphCanvasHandle>(null);
 
   const {
@@ -167,33 +168,83 @@ export default function DynastyGraphPage({ bundle, dynasties }: Props) {
             bundle={bundle}
             focusedNodeId={focusedNodeId}
             onNodeClick={handleNodeClick}
+            onStateChange={setCanvasState}
           />
 
-          {/* Global stats card (top-left, only when no focus) */}
-          {!focusedNodeId && bundle.dynastyBands && bundle.dynastyBands.length > 1 && (
-            <div className="absolute top-4 left-4 bg-slate-900/85 border border-slate-700/60 rounded-xl p-4 backdrop-blur-md shadow-xl pointer-events-none">
-              <div className="flex items-baseline gap-2 mb-2">
-                <h2 className="font-serif text-lg text-amber-400">中国历史</h2>
-                <span className="text-xs text-slate-500 font-mono">
-                  {bundle.dynastyBands.length} 个朝代
-                </span>
+          {/* Stats card (top-left) - 根据可见朝代数量决定显示内容 */}
+          {!focusedNodeId && bundle.dynastyBands && bundle.dynastyBands.length > 1 && (() => {
+            const visibleSlugs = canvasState.visibleDynastySlugs;
+            const isSingleDynasty = visibleSlugs.length === 1;
+            
+            // 如果只看到一个朝代，显示该朝代详情
+            if (isSingleDynasty) {
+              const visibleDynasty = bundle.dynastyBands.find(b => b.slug === visibleSlugs[0]);
+              if (visibleDynasty) {
+                // 从 dynasties 列表获取完整信息
+                const dynastyInfo = dynasties.find(d => d.slug === visibleSlugs[0]);
+                const dynastyNodes = bundle.nodes.filter(n => n.dynastySlug === visibleSlugs[0]);
+                const dynastyEdges = bundle.edges.filter(e => {
+                  const srcNode = bundle.nodes.find(n => n.id === e.source);
+                  const tgtNode = bundle.nodes.find(n => n.id === e.target);
+                  return srcNode?.dynastySlug === visibleSlugs[0] || tgtNode?.dynastySlug === visibleSlugs[0];
+                });
+                
+                return (
+                  <div className="absolute top-4 left-4 max-w-sm bg-slate-900/85 border border-slate-700/60 rounded-xl p-4 backdrop-blur-md shadow-xl pointer-events-none">
+                    <div className="flex items-baseline gap-2 mb-2">
+                      <h2 className="font-serif text-xl text-amber-400">{visibleDynasty.name}</h2>
+                      <span className="text-xs text-slate-500 font-mono">
+                        {formatYear(visibleDynasty.startYear)} — {formatYear(visibleDynasty.endYear)}
+                      </span>
+                    </div>
+                    {dynastyInfo && (
+                      <p className="text-slate-300 text-xs leading-relaxed line-clamp-4 mb-3">{dynastyInfo.summary}</p>
+                    )}
+                    <div className="flex items-center gap-3 text-xs text-slate-500">
+                      <span className="flex items-center gap-1">
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-400 inline-block" />
+                        {dynastyNodes.filter(n => n.entityType === 'person').length} 人物
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <span className="w-1.5 h-1.5 rounded-full bg-rose-400 inline-block" />
+                        {dynastyNodes.filter(n => n.entityType === 'event').length} 事件
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <span className="w-1.5 h-1.5 rounded-full bg-slate-400 inline-block" />
+                        {dynastyEdges.length} 关系
+                      </span>
+                    </div>
+                  </div>
+                );
+              }
+            }
+            
+            // 看到多个朝代，显示全局统计
+            return (
+              <div className="absolute top-4 left-4 bg-slate-900/85 border border-slate-700/60 rounded-xl p-4 backdrop-blur-md shadow-xl pointer-events-none">
+                <div className="flex items-baseline gap-2 mb-2">
+                  <h2 className="font-serif text-lg text-amber-400">中国历史</h2>
+                  <span className="text-xs text-slate-500 font-mono">
+                    {bundle.dynastyBands.length} 个朝代
+                  </span>
+                </div>
+                <div className="flex items-center gap-3 text-xs text-slate-400">
+                  <span className="flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400 inline-block" />
+                    {bundle.nodes.filter(n => n.entityType === 'person').length} 人物
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-rose-400 inline-block" />
+                    {bundle.nodes.filter(n => n.entityType === 'event').length} 事件
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-slate-400 inline-block" />
+                    {bundle.edges.length} 关系
+                  </span>
+                </div>
               </div>
-              <div className="flex items-center gap-3 text-xs text-slate-400">
-                <span className="flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-amber-400 inline-block" />
-                  {bundle.nodes.filter(n => n.entityType === 'person').length} 人物
-                </span>
-                <span className="flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-rose-400 inline-block" />
-                  {bundle.nodes.filter(n => n.entityType === 'event').length} 事件
-                </span>
-                <span className="flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-400 inline-block" />
-                  {bundle.edges.length} 关系
-                </span>
-              </div>
-            </div>
-          )}
+            );
+          })()}
 
           {/* Dynasty summary card (top-left, single dynasty mode) */}
           {!focusedNodeId && (!bundle.dynastyBands || bundle.dynastyBands.length <= 1) && (
