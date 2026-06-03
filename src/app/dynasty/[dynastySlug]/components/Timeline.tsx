@@ -141,9 +141,10 @@ export default function Timeline({ entries, dynastyBands, currentDynastySlug, fo
       {canScrollLeft && (
         <button
           onClick={() => scrollPage('left')}
-          className="absolute left-0 top-0 bottom-0 z-20 w-10 flex items-center justify-center group"
+          className="absolute left-0 z-20 w-10 flex items-center justify-center group"
+          style={{ top: '50%', transform: 'translateY(-50%)' }}
         >
-          <div className="w-8 h-8 rounded-full bg-slate-800/80 flex items-center justify-center group-hover:bg-slate-700 transition-colors">
+          <div className="w-8 h-8 rounded-full bg-slate-800/90 flex items-center justify-center group-hover:bg-slate-700 transition-colors shadow-lg shadow-black/50">
             <svg className="w-4 h-4 text-slate-400 group-hover:text-slate-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
@@ -163,9 +164,10 @@ export default function Timeline({ entries, dynastyBands, currentDynastySlug, fo
       {canScrollRight && (
         <button
           onClick={() => scrollPage('right')}
-          className="absolute right-0 top-0 bottom-0 z-20 w-10 flex items-center justify-center group"
+          className="absolute right-0 z-20 w-10 flex items-center justify-center group"
+          style={{ top: '50%', transform: 'translateY(-50%)' }}
         >
-          <div className="w-8 h-8 rounded-full bg-slate-800/80 flex items-center justify-center group-hover:bg-slate-700 transition-colors">
+          <div className="w-8 h-8 rounded-full bg-slate-800/90 flex items-center justify-center group-hover:bg-slate-700 transition-colors shadow-lg shadow-black/50">
             <svg className="w-4 h-4 text-slate-400 group-hover:text-slate-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

@@ -149,6 +149,19 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [bundle.dynasty.slug, size.w, size.h]);
 
+  // 当 focusedNodeId 变化时，聚焦到对应节点
+  useEffect(() => {
+    if (!focusedNodeId) return;
+    const node = posMap.get(focusedNodeId);
+    if (!node) return;
+    const scale = 1.2;
+    setTransform({
+      x: size.w / 2 - node.lx * scale,
+      y: size.h / 2 - node.ly * scale,
+      scale,
+    });
+  }, [focusedNodeId, posMap, size.w, size.h]);
+
   const lodLevel = transform.scale < 0.35 ? '概览' : transform.scale < 0.6 ? '标准' : '详细';
 
   return (
