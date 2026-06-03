@@ -268,6 +268,133 @@
       ],
       "summary": "西汉第六位皇帝，继承文帝政策，平定七国之乱，巩固中央集权，延续「文景之治」。",
       "content": "刘启（前188年—前141年），即汉景帝，汉文帝第三子。西汉第六位皇帝。继续推行轻徭薄赋政策，平定吴楚七国之乱，削弱诸侯势力，巩固中央集权。文帝与景帝时期合称「文景之治」，为汉武帝的强盛奠定基础。"
+    },
+    {
+      "slug": "shaodi-gong",
+      "name": "刘恭",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 35,
+      "deathYear": -184,
+      "aliases": [
+        "前少帝"
+      ],
+      "summary": "西汉第三位皇帝，汉惠帝之子。吕后立其为帝，后因口出怨言被吕后废杀。",
+      "content": "刘恭（？—前184年），即前少帝，汉惠帝刘盈之子。吕后为巩固权力，立其为帝。刘恭得知生母被吕后害死后口出怨言，吕后将其废黜并暗中杀害。在位约四年。"
+    },
+    {
+      "slug": "shaodi-hong",
+      "name": "刘弘",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 35,
+      "deathYear": -180,
+      "aliases": [
+        "后少帝"
+      ],
+      "summary": "西汉第四位皇帝，汉惠帝之子。吕后所立傀儡皇帝，吕后死后被大臣诛杀。",
+      "content": "刘弘（？—前180年），即后少帝，汉惠帝刘盈之子。前少帝被杀后，吕后立刘弘为帝，继续临朝称制。前180年吕后病逝，周勃、陈平等大臣诛灭诸吕，以刘弘非惠帝亲生为由将其诛杀，迎立代王刘恒为帝。"
+    },
+    {
+      "slug": "han-zhaodi",
+      "name": "刘弗陵",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 65,
+      "birthYear": -94,
+      "deathYear": -74,
+      "aliases": [
+        "汉昭帝"
+      ],
+      "summary": "西汉第八位皇帝，汉武帝幼子。霍光辅政，延续武帝后期休养生息政策，史称「昭宣中兴」。",
+      "content": "刘弗陵（前94年—前74年），即汉昭帝，汉武帝幼子。八岁即位，由霍光辅政。在位期间轻徭薄赋，与民休息，政治清明。二十一岁病逝，无子嗣。"
+    },
+    {
+      "slug": "han-xuandi",
+      "name": "刘询",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 78,
+      "birthYear": -91,
+      "deathYear": -49,
+      "aliases": [
+        "汉宣帝",
+        "刘病已"
+      ],
+      "summary": "西汉第十位皇帝，汉武帝曾孙。幼年流落民间，深知百姓疾苦。在位期间整顿吏治，平定匈奴，设西域都护府，史称「昭宣中兴」。",
+      "content": "刘询（前91年—前49年），原名刘病已，即汉宣帝，汉武帝曾孙。幼年因巫蛊之祸流落民间，深知百姓疾苦。霍光死后亲政，整顿吏治，平定匈奴，设立西域都护府。汉朝国力达到极盛，史称「昭宣中兴」。"
+    },
+    {
+      "slug": "han-yuandi",
+      "name": "刘奭",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 48,
+      "birthYear": -74,
+      "deathYear": -33,
+      "aliases": [
+        "汉元帝"
+      ],
+      "summary": "西汉第十一位皇帝，汉宣帝之子。儒生性格，重用宦官，西汉由盛转衰。王昭君出塞和亲即在其时期。",
+      "content": "刘奭（前74年—前33年），即汉元帝，汉宣帝之子。性格柔懦，喜好儒术，重用宦官弘恭、石显。西汉政治开始腐败，由盛转衰。王昭君出塞和亲即发生在其在位期间。"
+    },
+    {
+      "slug": "han-chengdi",
+      "name": "刘骜",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 42,
+      "birthYear": -51,
+      "deathYear": -7,
+      "aliases": [
+        "汉成帝"
+      ],
+      "summary": "西汉第十二位皇帝，沉迷酒色，宠幸赵飞燕姐妹，外戚王氏专权，为王莽篡汉埋下祸根。",
+      "content": "刘骜（前51年—前7年），即汉成帝，汉元帝之子。沉迷酒色，宠幸赵飞燕、赵合德姐妹。外戚王氏家族权势日盛，王莽即在此时崛起。西汉政治日益腐败。"
+    },
+    {
+      "slug": "han-aidi",
+      "name": "刘欣",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 38,
+      "birthYear": -25,
+      "deathYear": -1,
+      "aliases": [
+        "汉哀帝"
+      ],
+      "summary": "西汉第十三位皇帝，有「断袖之癖」典故。在位期间王莽势力进一步扩张。",
+      "content": "刘欣（前25年—前1年），即汉哀帝，汉元帝之孙。有男宠董贤，「断袖之癖」典故即出自二人。在位仅六年病逝，王莽势力进一步扩张。"
+    },
+    {
+      "slug": "han-pingdi",
+      "name": "刘衎",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 35,
+      "birthYear": -9,
+      "deathYear": 5,
+      "aliases": [
+        "汉平帝"
+      ],
+      "summary": "西汉第十四位皇帝，王莽所立傀儡皇帝，九岁即位，十四岁被王莽毒杀。",
+      "content": "刘衎（前9年—5年），即汉平帝，汉元帝之孙。九岁即位，王莽摄政。十四岁时被王莽毒杀，西汉实际上已经灭亡。"
     }
   ],
   "events": [
@@ -644,6 +771,114 @@
       "type": "participation",
       "weight": 10,
       "note": "平叛者"
+    },
+    {
+      "from": "han-huidi",
+      "fromType": "person",
+      "to": "shaodi-gong",
+      "toType": "person",
+      "type": "blood",
+      "weight": 8,
+      "note": "父子"
+    },
+    {
+      "from": "han-huidi",
+      "fromType": "person",
+      "to": "shaodi-hong",
+      "toType": "person",
+      "type": "blood",
+      "weight": 8,
+      "note": "父子"
+    },
+    {
+      "from": "han-wudi",
+      "fromType": "person",
+      "to": "han-zhaodi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    },
+    {
+      "from": "han-zhaodi",
+      "fromType": "person",
+      "to": "han-xuandi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 7,
+      "note": "曾祖孙（武帝曾孙）"
+    },
+    {
+      "from": "han-xuandi",
+      "fromType": "person",
+      "to": "han-yuandi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    },
+    {
+      "from": "han-yuandi",
+      "fromType": "person",
+      "to": "han-chengdi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    },
+    {
+      "from": "han-yuandi",
+      "fromType": "person",
+      "to": "han-aidi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 7,
+      "note": "祖孙"
+    },
+    {
+      "from": "han-yuandi",
+      "fromType": "person",
+      "to": "han-pingdi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 7,
+      "note": "祖孙"
+    },
+    {
+      "from": "huo-guang",
+      "fromType": "person",
+      "to": "han-zhaodi",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "辅政大臣"
+    },
+    {
+      "from": "huo-guang",
+      "fromType": "person",
+      "to": "han-xuandi",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "辅政大臣"
+    },
+    {
+      "from": "xuanzhongxing",
+      "fromType": "event",
+      "to": "han-zhaodi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 9,
+      "note": "开创者"
+    },
+    {
+      "from": "xuanzhongxing",
+      "fromType": "event",
+      "to": "han-xuandi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "开创者"
     }
   ],
   "timelines": [
