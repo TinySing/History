@@ -169,8 +169,34 @@ export default function DynastyGraphPage({ bundle, dynasties }: Props) {
             onNodeClick={handleNodeClick}
           />
 
-          {/* Dynasty summary card (top-left, only when no focus) */}
-          {!focusedNodeId && (
+          {/* Global stats card (top-left, only when no focus) */}
+          {!focusedNodeId && bundle.dynastyBands && bundle.dynastyBands.length > 1 && (
+            <div className="absolute top-4 left-4 bg-slate-900/85 border border-slate-700/60 rounded-xl p-4 backdrop-blur-md shadow-xl pointer-events-none">
+              <div className="flex items-baseline gap-2 mb-2">
+                <h2 className="font-serif text-lg text-amber-400">中国历史</h2>
+                <span className="text-xs text-slate-500 font-mono">
+                  {bundle.dynastyBands.length} 个朝代
+                </span>
+              </div>
+              <div className="flex items-center gap-3 text-xs text-slate-400">
+                <span className="flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-400 inline-block" />
+                  {bundle.nodes.filter(n => n.entityType === 'person').length} 人物
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-rose-400 inline-block" />
+                  {bundle.nodes.filter(n => n.entityType === 'event').length} 事件
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-slate-400 inline-block" />
+                  {bundle.edges.length} 关系
+                </span>
+              </div>
+            </div>
+          )}
+
+          {/* Dynasty summary card (top-left, single dynasty mode) */}
+          {!focusedNodeId && (!bundle.dynastyBands || bundle.dynastyBands.length <= 1) && (
             <div className="absolute top-4 left-4 max-w-sm bg-slate-900/85 border border-slate-700/60 rounded-xl p-4 backdrop-blur-md shadow-xl pointer-events-none">
               <div className="flex items-baseline gap-2 mb-2">
                 <h2 className="font-serif text-xl text-amber-400">{bundle.dynasty.name}</h2>

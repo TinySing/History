@@ -206,6 +206,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
             return sorted.map((band, di) => {
               const cx = stripW * di + stripW / 2;
               const focused = band.slug === bundle.dynasty.slug;
+              const color = band.color || '#64748b';
               return (
                 <g key={band.slug}>
                   {/* Vertical separator between dynasties */}
@@ -216,17 +217,29 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
                       stroke="#1e3a5f" strokeWidth={1} strokeDasharray="6 10" opacity={0.5}
                     />
                   )}
-                  {/* Dynasty name label */}
+                  {/* Dynasty name label with glow */}
                   <text
-                    x={cx} y={22}
+                    x={cx} y={32}
                     textAnchor="middle"
-                    fontSize={11}
-                    fill={focused ? '#f1f5f9' : '#475569'}
-                    opacity={focused ? 0.6 : 0.3}
+                    fontSize={14}
+                    fontWeight={focused ? '700' : '500'}
+                    fill={focused ? '#f1f5f9' : color}
+                    opacity={focused ? 1 : 0.7}
                     fontFamily='"Noto Serif SC", serif'
-                    letterSpacing="2"
+                    letterSpacing="3"
+                    filter={focused ? 'url(#glow-soft)' : undefined}
                   >
                     {band.name}
+                  </text>
+                  {/* Year range below name */}
+                  <text
+                    x={cx} y={48}
+                    textAnchor="middle"
+                    fontSize={9}
+                    fill={focused ? '#94a3b8' : '#475569'}
+                    fontFamily='monospace'
+                  >
+                    {formatYear(band.startYear)} — {formatYear(band.endYear)}
                   </text>
                 </g>
               );
