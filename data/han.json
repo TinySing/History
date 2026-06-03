@@ -220,6 +220,54 @@
       ],
       "summary": "匈奴休屠王太子，归汉后成为汉武帝托孤大臣，是民族融合的典范。",
       "content": "金日磾（前134年—前86年），字翁叔，匈奴休屠王太子。\n\n匈奴战败后归汉，在汉宫养马。因忠诚谨慎被汉武帝赏识，升为侍中。汉武帝临终托孤大臣之一，辅佐汉昭帝。"
+    },
+    {
+      "slug": "han-huidi",
+      "name": "刘盈",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 55,
+      "birthYear": -210,
+      "deathYear": -188,
+      "aliases": [
+        "汉惠帝"
+      ],
+      "summary": "西汉第二位皇帝，刘邦之子。性格仁弱，母亲吕后临朝称制，郁郁而终。",
+      "content": "刘盈（前210年—前188年），即汉惠帝，刘邦与吕雉之子。西汉第二位皇帝。性格仁弱宽厚，即位后大权旁落于母亲吕后之手。吕后残害戚夫人，刘盈受惊从此不理朝政，在位七年郁郁而终，年仅二十三岁。"
+    },
+    {
+      "slug": "han-wendi",
+      "name": "刘恒",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "birthYear": -202,
+      "deathYear": -157,
+      "aliases": [
+        "汉文帝"
+      ],
+      "summary": "西汉第五位皇帝，开创「文景之治」。以节俭仁德著称，轻徭薄赋，与民休息，是千古明君典范。",
+      "content": "刘恒（前202年—前157年），即汉文帝，刘邦第四子。西汉第五位皇帝。吕后死后，周勃、陈平诛灭诸吕，迎立刘恒为帝。在位期间轻徭薄赋，废除肉刑，节俭爱民，开创「文景之治」。与儿子汉景帝并称「文景」，是千古明君典范。"
+    },
+    {
+      "slug": "han-jingdi",
+      "name": "刘启",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 72,
+      "birthYear": -188,
+      "deathYear": -141,
+      "aliases": [
+        "汉景帝"
+      ],
+      "summary": "西汉第六位皇帝，继承文帝政策，平定七国之乱，巩固中央集权，延续「文景之治」。",
+      "content": "刘启（前188年—前141年），即汉景帝，汉文帝第三子。西汉第六位皇帝。继续推行轻徭薄赋政策，平定吴楚七国之乱，削弱诸侯势力，巩固中央集权。文帝与景帝时期合称「文景之治」，为汉武帝的强盛奠定基础。"
     }
   ],
   "events": [
@@ -276,6 +324,27 @@
       ],
       "summary": "汉昭帝和汉宣帝时期，霍光辅政，政治清明，经济恢复，汉朝国力达到极盛，史称「昭宣中兴」。",
       "content": "前87年至前49年，汉昭帝和汉宣帝在位时期。\n\n霍光辅政，轻徭薄赋，与民休息。汉宣帝时期整顿吏治，平定匈奴，设立西域都护府。汉朝国力达到极盛，史称「昭宣中兴」，是西汉最后的辉煌。"
+    },
+    {
+      "slug": "wenjing-zhizhi",
+      "name": "文景之治",
+      "timeStart": -180,
+      "timeEnd": -141,
+      "aliases": [
+        "文景盛世"
+      ],
+      "summary": "汉文帝和汉景帝时期，轻徭薄赋，与民休息，社会经济繁荣发展，为汉武帝的强盛奠定物质基础。",
+      "content": "前180年至前141年，汉文帝和汉景帝在位时期。推行轻徭薄赋、废除肉刑、节俭爱民等政策，社会经济恢复发展，国库充盈，百姓安居乐业。文景之治为汉武帝时期的大规模军事扩张奠定了雄厚的物质基础。"
+    },
+    {
+      "slug": "seven-kingdoms-rebellion",
+      "name": "七国之乱",
+      "timeStart": -154,
+      "aliases": [
+        "吴楚七国之乱"
+      ],
+      "summary": "吴王刘濞联合七国诸侯叛乱，汉景帝派周亚夫平叛，三个月平定。此后诸侯势力大减，中央集权巩固。",
+      "content": "前154年，吴王刘濞联合楚、赵等七国，以「清君侧、诛晁错」为名发动叛乱。汉景帝先杀晁错试图平息，叛军不退。后派太尉周亚夫率军平叛，三个月即平定。七国之乱后，诸侯势力大减，中央集权得到巩固。"
     }
   ],
   "relations": [
@@ -503,9 +572,91 @@
       "type": "participation",
       "weight": 10,
       "note": "辅政大臣"
+    },
+    {
+      "from": "liu-bang",
+      "fromType": "person",
+      "to": "han-huidi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    },
+    {
+      "from": "lu-zhong",
+      "fromType": "person",
+      "to": "han-huidi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "母子"
+    },
+    {
+      "from": "han-huidi",
+      "fromType": "person",
+      "to": "han-wendi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 7,
+      "note": "兄弟"
+    },
+    {
+      "from": "han-wendi",
+      "fromType": "person",
+      "to": "han-jingdi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "父子"
+    },
+    {
+      "from": "han-jingdi",
+      "fromType": "person",
+      "to": "han-wudi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "父子"
+    },
+    {
+      "from": "wenjing-zhizhi",
+      "fromType": "event",
+      "to": "han-wendi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "开创者"
+    },
+    {
+      "from": "wenjing-zhizhi",
+      "fromType": "event",
+      "to": "han-jingdi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "延续者"
+    },
+    {
+      "from": "seven-kingdoms-rebellion",
+      "fromType": "event",
+      "to": "han-jingdi",
+      "toType": "person",
+      "type": "participation",
+      "weight": 10,
+      "note": "平叛者"
     }
   ],
   "timelines": [
+    {
+      "eventSlug": "wenjing-zhizhi",
+      "year": -180,
+      "label": "文帝即位，开创文景之治"
+    },
+    {
+      "eventSlug": "seven-kingdoms-rebellion",
+      "year": -154,
+      "label": "七国之乱，周亚夫平叛"
+    },
     {
       "eventSlug": "silk-road",
       "year": -138,
