@@ -2,7 +2,7 @@
 
 import { useRef, useState, useCallback, useMemo, useImperativeHandle, forwardRef, useEffect } from 'react';
 import type { DynastyGraphBundle, DynastyBand } from '@/lib/types';
-import { computeLayout, edgePath, RELATION_COLOR, ROLE_GLOW, type LayoutNode } from '@/utils/graphLayout';
+import { computeLayout, edgePath, lodMinImportance, RELATION_COLOR, ROLE_GLOW, type LayoutNode } from '@/utils/graphLayout';
 import { formatYear } from '@/utils/format';
 
 export interface GraphCanvasHandle {
@@ -33,7 +33,9 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
   const [transform, setTransform] = useState<Transform>({ x: 0, y: 0, scale: 1 });
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const dragging = useRef(false);
-  const dragStart = useRef({ x: 0, y: 0, tx: 0, ty: 0 });
+  const dragStart = useRef({ x: 0, y: 0, tx: 0, ty: 0, scale: 1 });
+  const gRef = useRef<SVGGElement>(null);
+  const liveTransform = useRef<Transform>({ x: 0, y: 0, scale: 1 });
 
   const dynastyBands: DynastyBand[] = bundle.dynastyBands ?? [];
   const isGlobal = dynastyBands.length > 1;
@@ -41,22 +43,19 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
   // Compute the initial transform using actual layout positions
   const focusTransform = useCallback((w: number, h: number, currentLayout: typeof layout): Transform => {
     if (!isGlobal || dynastyBands.length < 2) return { x: 0, y: 0, scale: 1 };
-    const sorted = [...dynastyBands].sort((a, b) => a.startYear - b.startYear);
-    const n = sorted.length;
-    const focusIdx = sorted.findIndex(b => b.slug === bundle.dynasty.slug);
-    if (focusIdx < 0) return { x: 0, y: 0, scale: 1 };
-
-    const stripW = w / n;
-    const worldCx = stripW * focusIdx + stripW / 2;
-    const worldCy = h / 2;
 
     // Get actual extent from layout nodes belonging to focused dynasty
     const focusNodes = currentLayout.filter(nd => nd.dynastySlug === bundle.dynasty.slug);
-    const maxR = focusNodes.length
-      ? Math.max(...focusNodes.map(nd =>
-          Math.sqrt((nd.lx - worldCx) ** 2 + (nd.ly - worldCy) ** 2) + nd.displaySize
-        ))
-      : Math.min(stripW * 0.44, h * 0.38); // fallback
+    if (!focusNodes.length) return { x: 0, y: 0, scale: 1 };
+
+    const minX = Math.min(...focusNodes.map(nd => nd.lx - nd.displaySize));
+    const maxX = Math.max(...focusNodes.map(nd => nd.lx + nd.displaySize));
+    const worldCx = (minX + maxX) / 2;
+    const worldCy = h / 2;
+
+    const maxR = Math.max(...focusNodes.map(nd =>
+      Math.sqrt((nd.lx - worldCx) ** 2 + (nd.ly - worldCy) ** 2) + nd.displaySize
+    ));
 
     // Fit cluster in ~85% of the shorter viewport dimension
     const scale = Math.min(w, h) * 0.42 / (maxR || 1);
@@ -79,10 +78,29 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
   }, []);
 
   const layout = useMemo(
-    () => computeLayout(bundle.nodes, bundle.edges, size.w, size.h, transform.scale, isGlobal ? dynastyBands : undefined),
-    [bundle.nodes, bundle.edges, size, transform.scale, dynastyBands, isGlobal]
+    () => computeLayout(bundle.nodes, bundle.edges, size.w, size.h, isGlobal ? dynastyBands : undefined),
+    [bundle.nodes, bundle.edges, size, dynastyBands, isGlobal]
   );
   const posMap = useMemo(() => new Map(layout.map(n => [n.id, n])), [layout]);
+
+  // Per-dynasty cluster geometry derived from actual layout positions
+  const bandGeometry = useMemo(() => {
+    const m = new Map<string, { minX: number; maxX: number; minY: number; maxY: number; cx: number }>();
+    for (const nd of layout) {
+      const left = nd.lx - nd.displaySize;
+      const right = nd.lx + nd.displaySize;
+      const top = nd.ly - nd.displaySize;
+      const bottom = nd.ly + nd.displaySize;
+      const g = m.get(nd.dynastySlug);
+      if (!g) m.set(nd.dynastySlug, { minX: left, maxX: right, minY: top, maxY: bottom, cx: 0 });
+      else {
+        g.minX = Math.min(g.minX, left); g.maxX = Math.max(g.maxX, right);
+        g.minY = Math.min(g.minY, top); g.maxY = Math.max(g.maxY, bottom);
+      }
+    }
+    for (const g of m.values()) g.cx = (g.minX + g.maxX) / 2;
+    return m;
+  }, [layout]);
 
   useImperativeHandle(ref, () => ({
     resetView: () => setTransform(focusTransform(size.w, size.h, layout)),
@@ -118,20 +136,27 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
   const onPointerDown = useCallback((e: React.PointerEvent) => {
     if ((e.target as Element).closest('[data-node]')) return;
     dragging.current = true;
-    dragStart.current = { x: e.clientX, y: e.clientY, tx: transform.x, ty: transform.y };
+    dragStart.current = { x: e.clientX, y: e.clientY, tx: transform.x, ty: transform.y, scale: transform.scale };
+    liveTransform.current = transform;
     (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
   }, [transform]);
 
+  // While dragging, write the transform straight to the DOM instead of triggering
+  // a React re-render of every node/edge each frame; commit to state on release.
   const onPointerMove = useCallback((e: React.PointerEvent) => {
     if (!dragging.current) return;
-    setTransform(t => ({
-      ...t,
-      x: dragStart.current.tx + (e.clientX - dragStart.current.x),
-      y: dragStart.current.ty + (e.clientY - dragStart.current.y),
-    }));
+    const { tx, ty, scale } = dragStart.current;
+    const x = tx + (e.clientX - dragStart.current.x);
+    const y = ty + (e.clientY - dragStart.current.y);
+    liveTransform.current = { x, y, scale };
+    gRef.current?.setAttribute('transform', `translate(${x},${y}) scale(${scale})`);
   }, []);
 
-  const onPointerUp = useCallback(() => { dragging.current = false; }, []);
+  const onPointerUp = useCallback(() => {
+    if (!dragging.current) return;
+    dragging.current = false;
+    setTransform(liveTransform.current);
+  }, []);
 
   const onWheel = useCallback((e: React.WheelEvent) => {
     e.preventDefault();
@@ -168,38 +193,39 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
     });
   }, [focusedNodeId, posMap, size.w, size.h]);
 
-  // 计算可见区域内的节点（虚拟列表）
+  // 节点过滤：先按缩放等级做 LOD 过滤（隐藏低重要度节点），再做视口裁剪（虚拟列表）
   const { visibleNodes, visibleEdges } = useMemo(() => {
+    // LOD：缩放越小，只显示越重要的节点
+    const lodMin = lodMinImportance(transform.scale);
+    const lodNodes = lodMin > 0
+      ? layout.filter(n => (n.importanceScore ?? 50) >= lodMin)
+      : layout;
+    const lodIds = new Set(lodNodes.map(n => n.id));
+
     if (!isGlobal) {
-      // 单朝代模式不过滤
-      return { visibleNodes: layout, visibleEdges: bundle.edges };
+      const edges = bundle.edges.filter(e => lodIds.has(e.source) && lodIds.has(e.target));
+      return { visibleNodes: lodNodes, visibleEdges: edges };
     }
 
-    // 计算视口在世界坐标中的范围
-    const viewLeft = -transform.x / transform.scale;
-    const viewTop = -transform.y / transform.scale;
-    const viewRight = (size.w - transform.x) / transform.scale;
-    const viewBottom = (size.h - transform.y) / transform.scale;
-    
-    // 添加边距缓冲
+    // 计算视口在世界坐标中的范围（含缓冲边距）
     const padding = 200 / transform.scale;
-    const expandedLeft = viewLeft - padding;
-    const expandedTop = viewTop - padding;
-    const expandedRight = viewRight + padding;
-    const expandedBottom = viewBottom + padding;
+    const expandedLeft = -transform.x / transform.scale - padding;
+    const expandedTop = -transform.y / transform.scale - padding;
+    const expandedRight = (size.w - transform.x) / transform.scale + padding;
+    const expandedBottom = (size.h - transform.y) / transform.scale + padding;
 
-    // 过滤可见节点
     const visibleNodeIds = new Set<string>();
-    const filteredNodes = layout.filter(node => {
+    const filteredNodes = lodNodes.filter(node => {
       const inView = node.lx >= expandedLeft && node.lx <= expandedRight &&
                      node.ly >= expandedTop && node.ly <= expandedBottom;
       if (inView) visibleNodeIds.add(node.id);
       return inView;
     });
 
-    // 过滤可见边（两端都在可见区域内，或者有一端可见）
-    const filteredEdges = bundle.edges.filter(edge => 
-      visibleNodeIds.has(edge.source) || visibleNodeIds.has(edge.target)
+    // 只渲染两端均在 LOD 集合中、且至少一端在视口内的边
+    const filteredEdges = bundle.edges.filter(edge =>
+      lodIds.has(edge.source) && lodIds.has(edge.target) &&
+      (visibleNodeIds.has(edge.source) || visibleNodeIds.has(edge.target))
     );
 
     return { visibleNodes: filteredNodes, visibleEdges: filteredEdges };
@@ -211,19 +237,15 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
     
     const viewLeft = -transform.x / transform.scale;
     const viewRight = (size.w - transform.x) / transform.scale;
-    
-    const sorted = [...dynastyBands].sort((a, b) => a.startYear - b.startYear);
-    const n = sorted.length || 1;
-    const stripW = size.w / n;
-    
-    const visibleSlugs = sorted.filter((band, i) => {
-      const bandLeft = stripW * i;
-      const bandRight = stripW * (i + 1);
-      return bandRight >= viewLeft && bandLeft <= viewRight;
+
+    const visibleSlugs = dynastyBands.filter(band => {
+      const g = bandGeometry.get(band.slug);
+      if (!g) return false;
+      return g.maxX >= viewLeft && g.minX <= viewRight;
     }).map(b => b.slug);
-    
+
     onStateChange({ visibleDynastySlugs: visibleSlugs });
-  }, [transform, size.w, dynastyBands, isGlobal, onStateChange]);
+  }, [transform, size.w, dynastyBands, isGlobal, onStateChange, bandGeometry]);
 
   const lodLevel = transform.scale < 0.35 ? '概览' : transform.scale < 0.6 ? '标准' : '详细';
 
@@ -259,30 +281,34 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
           ))}
         </defs>
 
-        <g transform={`translate(${transform.x},${transform.y}) scale(${transform.scale})`}>
+        <g ref={gRef} transform={`translate(${transform.x},${transform.y}) scale(${transform.scale})`}>
 
           {/* Dynasty cluster separators (global mode) */}
           {isGlobal && (() => {
             const sorted = [...dynastyBands].sort((a, b) => a.startYear - b.startYear);
-            const n = sorted.length || 1;
-            const stripW = size.w / n;
-            return sorted.map((band, di) => {
-              const cx = stripW * di + stripW / 2;
+            let prevMaxX: number | null = null;
+            return sorted.map(band => {
+              const g = bandGeometry.get(band.slug);
+              if (!g) return null;
+              const cx = g.cx;
               const focused = band.slug === bundle.dynasty.slug;
               const color = band.color || '#64748b';
+              const sepX = prevMaxX != null ? (prevMaxX + g.minX) / 2 : null;
+              prevMaxX = g.maxX;
+              const labelY = g.minY - 24;
               return (
                 <g key={band.slug}>
                   {/* Vertical separator between dynasties */}
-                  {di > 0 && (
+                  {sepX != null && (
                     <line
-                      x1={stripW * di} y1={size.h * 0.1}
-                      x2={stripW * di} y2={size.h * 0.9}
+                      x1={sepX} y1={size.h * 0.1}
+                      x2={sepX} y2={size.h * 0.9}
                       stroke="#1e3a5f" strokeWidth={1} strokeDasharray="6 10" opacity={0.5}
                     />
                   )}
                   {/* Dynasty name label with glow */}
                   <text
-                    x={cx} y={32}
+                    x={cx} y={labelY}
                     textAnchor="middle"
                     fontSize={14}
                     fontWeight={focused ? '700' : '500'}
@@ -296,7 +322,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
                   </text>
                   {/* Year range below name */}
                   <text
-                    x={cx} y={48}
+                    x={cx} y={labelY + 16}
                     textAnchor="middle"
                     fontSize={9}
                     fill={focused ? '#94a3b8' : '#475569'}
@@ -309,28 +335,19 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
             });
           })()}
 
-          {/* Outer guide ring per dynasty (global mode) — radius from actual layout */}
-          {isGlobal && (() => {
-            const sorted = [...dynastyBands].sort((a, b) => a.startYear - b.startYear);
-            const n = sorted.length || 1;
-            const stripW = size.w / n;
-            return sorted.map((band, di) => {
-              const cx = stripW * di + stripW / 2;
-              const cy = size.h / 2;
-              // Find outermost node of this dynasty in the layout
-              const bandNodes = layout.filter(nd => nd.dynastySlug === band.slug);
-              if (!bandNodes.length) return null;
-              const maxR = Math.max(...bandNodes.map(nd =>
-                Math.sqrt((nd.lx - cx) ** 2 + (nd.ly - cy) ** 2) + nd.displaySize + 14
-              ));
-              return (
-                <circle key={band.slug}
-                  cx={cx} cy={cy} r={maxR}
-                  fill="none" stroke="#1e3a5f" strokeWidth={1}
-                  strokeDasharray="4 10" opacity={0.2} />
-              );
-            });
-          })()}
+          {/* Outer guide ellipse per dynasty (global mode) — extent from actual layout */}
+          {isGlobal && dynastyBands.map(band => {
+            const g = bandGeometry.get(band.slug);
+            if (!g) return null;
+            const rx = (g.maxX - g.minX) / 2 + 14;
+            const ry = (g.maxY - g.minY) / 2 + 14;
+            return (
+              <ellipse key={band.slug}
+                cx={g.cx} cy={(g.minY + g.maxY) / 2} rx={rx} ry={ry}
+                fill="none" stroke="#1e3a5f" strokeWidth={1}
+                strokeDasharray="4 10" opacity={0.2} />
+            );
+          })}
 
           {/* Concentric rings (single dynasty mode) */}
           {!isGlobal && [0.28, 0.40, 0.52].map((ratio, i) => {
@@ -343,28 +360,46 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
             );
           })}
 
-          {/* Edges */}
+          {/* Edges — base pass (dimmed when something is active) */}
           {visibleEdges.map(edge => {
+            // Highlighted edges are drawn in the top pass below so they never get
+            // covered by dimmed ones.
+            if (activeId && (edge.source === activeId || edge.target === activeId)) return null;
             const src = posMap.get(edge.source);
             const tgt = posMap.get(edge.target);
             if (!src || !tgt) return null;
 
-            const isHighlighted = activeId
-              ? edge.source === activeId || edge.target === activeId
-              : true;
-
             const color = RELATION_COLOR[edge.relationType] || '#94a3b8';
-            const opacity = activeId ? (isHighlighted ? 0.8 : 0.03) : 0.25;
-            const strokeW = activeId && isHighlighted ? 2.5 : 1;
-
             return (
               <path
-                key={edge.id}
+                key={`${edge.source}--${edge.target}--${edge.relationType}`}
                 d={edgePath(src.lx, src.ly, tgt.lx, tgt.ly, cx, cy, src.tier, tgt.tier)}
                 stroke={color}
-                strokeWidth={strokeW}
+                strokeWidth={1}
                 fill="none"
-                opacity={opacity}
+                opacity={activeId ? 0.03 : 0.25}
+                strokeLinecap="round"
+                style={{ transition: 'opacity 0.2s' }}
+              />
+            );
+          })}
+
+          {/* Edges — highlighted pass (always rendered, even if a neighbor is culled) */}
+          {activeId && bundle.edges.map(edge => {
+            if (edge.source !== activeId && edge.target !== activeId) return null;
+            const src = posMap.get(edge.source);
+            const tgt = posMap.get(edge.target);
+            if (!src || !tgt) return null;
+
+            const color = RELATION_COLOR[edge.relationType] || '#94a3b8';
+            return (
+              <path
+                key={`hl-${edge.source}--${edge.target}--${edge.relationType}`}
+                d={edgePath(src.lx, src.ly, tgt.lx, tgt.ly, cx, cy, src.tier, tgt.tier)}
+                stroke={color}
+                strokeWidth={2.5}
+                fill="none"
+                opacity={0.8}
                 strokeLinecap="round"
                 style={{ transition: 'opacity 0.2s' }}
               />

@@ -47,28 +47,31 @@ export function lodMinImportance(scale: number): number {
 
 // ── Multi-dynasty concentric layout ──────────────────────────────────────────
 
+// Positions are computed from the full node set so they stay deterministic across
+// zoom levels. LOD (hiding low-importance nodes) is applied as a render filter by
+// the caller via `lodMinImportance`, never here — otherwise cluster widths would
+// shift with zoom and break focus/centering.
 export function computeLayout(
   nodes: GraphNode[],
   _edges: DynastyGraphBundle['edges'],
   w: number,
   h: number,
-  zoomScale = 1,
   dynastyBands?: DynastyBand[]
 ): LayoutNode[] {
-  const minImportance = lodMinImportance(zoomScale);
-  const visible = minImportance > 0
-    ? nodes.filter(n => (n.importanceScore ?? 50) >= minImportance)
-    : nodes;
-
   if (dynastyBands && dynastyBands.length > 0) {
-    return computeMultiDynastyLayout(visible, w, h, dynastyBands);
+    return computeMultiDynastyLayout(nodes, w, h, dynastyBands);
   }
-  return computeConcentricLayout(visible, _edges, w, h);
+  return computeConcentricLayout(nodes, _edges, w, h);
 }
 
 const SIZE_MULTIPLIERS = [2.0, 1.8, 1.65, 1.5];
 
 const MIN_NODE_GAP = 20; // minimum pixel gap between node edges
+
+// Horizontal distance = 2x vertical distance (cluster stretched into an ellipse)
+const X_STRETCH = 2;
+// World-space gap between adjacent dynasty clusters (prevents overlap at any count)
+const CLUSTER_GAP = 180;
 
 function nodeDisplaySize(node: GraphNode, tier: number): number {
   return Math.min(node.size, 16) * SIZE_MULTIPLIERS[tier];
@@ -104,7 +107,6 @@ function computeMultiDynastyLayout(
   dynastyBands: DynastyBand[]
 ): LayoutNode[] {
   const sorted = [...dynastyBands].sort((a, b) => a.startYear - b.startYear);
-  const n = sorted.length || 1;
 
   const groups = new Map<string, GraphNode[]>();
   for (const node of nodes) {
@@ -113,32 +115,29 @@ function computeMultiDynastyLayout(
     groups.get(key)!.push(node);
   }
 
-  const stripW = w / n;
+  const cy = h / 2;
   // Offset each tier's start angle so 2-node tiers don't stack vertically
   const TIER_START_ANGLE = [-Math.PI / 2, -Math.PI / 3, -Math.PI / 2.5, -Math.PI / 2];
 
-  const result: LayoutNode[] = [];
-
-  sorted.forEach((dynasty, di) => {
-    const cx = stripW * di + stripW / 2;
-    const cy = h / 2;
+  // 1. Build each cluster in local coords (relative to its own center) and
+  //    measure its horizontal half-width so clusters can be packed without overlap.
+  type LocalNode = { node: GraphNode; localX: number; localY: number; size: number; tier: number };
+  const clusters = sorted.map(dynasty => {
     const dynNodes = groups.get(dynasty.slug) ?? [];
 
     const tiers: GraphNode[][] = [[], [], [], []];
     for (const node of dynNodes) tiers[getNodeTier(node)].push(node);
     for (const tier of tiers) tier.sort((a, b) => b.size - a.size);
 
-    // Compute safe radii for each tier
+    // Compute safe radii for each tier (vertical radius; X is stretched on placement)
     let prevR = 0;
     let prevMaxNodeR = 0;
-
     const tierRadii: number[] = [];
     for (let t = 0; t < 4; t++) {
       const tier = tiers[t];
       if (!tier.length) { tierRadii.push(prevR); continue; }
 
       if (t === 0 && tier.length === 1) {
-        // Single center node
         prevMaxNodeR = nodeDisplaySize(tier[0], 0);
         tierRadii.push(0);
       } else {
@@ -150,6 +149,8 @@ function computeMultiDynastyLayout(
       }
     }
 
+    const locals: LocalNode[] = [];
+    let halfWidth = 0;
     for (let t = 0; t < 4; t++) {
       const tier = tiers[t];
       if (!tier.length) continue;
@@ -158,15 +159,38 @@ function computeMultiDynastyLayout(
 
       tier.forEach((node, j) => {
         const angle = r === 0 ? 0 : startAngle + (2 * Math.PI * j) / tier.length;
-        result.push({
-          ...node,
-          lx: cx + (r === 0 ? 0 : r * Math.cos(angle)),
-          ly: cy + (r === 0 ? 0 : r * Math.sin(angle)),
-          displaySize: nodeDisplaySize(node, t),
-          tier: t,
-        });
+        const size = nodeDisplaySize(node, t);
+        const localX = r === 0 ? 0 : X_STRETCH * r * Math.cos(angle);
+        const localY = r === 0 ? 0 : r * Math.sin(angle);
+        locals.push({ node, localX, localY, size, tier: t });
+        halfWidth = Math.max(halfWidth, Math.abs(localX) + size);
       });
     }
+
+    return { locals, halfWidth };
+  });
+
+  // 2. Pack clusters left-to-right by their actual extents.
+  const result: LayoutNode[] = [];
+  let prevCenter = 0;
+  let prevHalf = 0;
+  clusters.forEach((cluster, i) => {
+    const centerX = i === 0
+      ? cluster.halfWidth
+      : prevCenter + prevHalf + CLUSTER_GAP + cluster.halfWidth;
+
+    for (const lc of cluster.locals) {
+      result.push({
+        ...lc.node,
+        lx: centerX + lc.localX,
+        ly: cy + lc.localY,
+        displaySize: lc.size,
+        tier: lc.tier,
+      });
+    }
+
+    prevCenter = centerX;
+    prevHalf = cluster.halfWidth;
   });
 
   return result;

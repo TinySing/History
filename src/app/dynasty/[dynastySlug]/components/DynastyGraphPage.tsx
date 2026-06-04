@@ -183,11 +183,10 @@ export default function DynastyGraphPage({ bundle, dynasties }: Props) {
                 // 从 dynasties 列表获取完整信息
                 const dynastyInfo = dynasties.find(d => d.slug === visibleSlugs[0]);
                 const dynastyNodes = bundle.nodes.filter(n => n.dynastySlug === visibleSlugs[0]);
-                const dynastyEdges = bundle.edges.filter(e => {
-                  const srcNode = bundle.nodes.find(n => n.id === e.source);
-                  const tgtNode = bundle.nodes.find(n => n.id === e.target);
-                  return srcNode?.dynastySlug === visibleSlugs[0] || tgtNode?.dynastySlug === visibleSlugs[0];
-                });
+                const nodeDynasty = new Map(bundle.nodes.map(n => [n.id, n.dynastySlug]));
+                const dynastyEdges = bundle.edges.filter(e =>
+                  nodeDynasty.get(e.source) === visibleSlugs[0] || nodeDynasty.get(e.target) === visibleSlugs[0]
+                );
                 
                 return (
                   <div className="absolute top-4 left-4 max-w-sm bg-slate-900/85 border border-slate-700/60 rounded-xl p-4 backdrop-blur-md shadow-xl pointer-events-none">
