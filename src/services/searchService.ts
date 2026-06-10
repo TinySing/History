@@ -6,5 +6,6 @@ export async function searchEntities(
 ): Promise<SearchResult[]> {
   const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`, { signal });
   if (!res.ok) throw new Error(`Search failed: ${res.statusText}`);
-  return res.json() as Promise<SearchResult[]>;
+  const data = (await res.json()) as { items?: SearchResult[] };
+  return data.items ?? [];
 }

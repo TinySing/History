@@ -1,7 +1,7 @@
 'use client';
 
 import { useRef, useState, useCallback, useMemo, useImperativeHandle, forwardRef, useEffect } from 'react';
-import type { DynastyGraphBundle, DynastyBand } from '@/lib/types';
+import type { DynastyGraphBundle, DynastyBand, GraphEdge } from '@/lib/types';
 import { computeLayout, edgePath, lodMinImportance, RELATION_COLOR, ROLE_GLOW, type LayoutNode } from '@/utils/graphLayout';
 import { formatYear } from '@/utils/format';
 
@@ -120,18 +120,26 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
   const cx = size.w / 2;
   const cy = size.h / 2;
 
-  const activeNeighbors = useMemo(() => {
-    const id = focusedNodeId || hoveredId;
-    if (!id) return null;
-    const set = new Set<string>();
+  // 邻接表：node → 关联边，建一次。hover/高亮取邻居 O(度数)，不再 O(全边)。
+  const adjacency = useMemo(() => {
+    const m = new Map<string, GraphEdge[]>();
     for (const e of bundle.edges) {
-      if (e.source === id) set.add(e.target);
-      if (e.target === id) set.add(e.source);
+      let s = m.get(e.source); if (!s) { s = []; m.set(e.source, s); } s.push(e);
+      let t = m.get(e.target); if (!t) { t = []; m.set(e.target, t); } t.push(e);
     }
-    return set;
-  }, [focusedNodeId, hoveredId, bundle.edges]);
+    return m;
+  }, [bundle.edges]);
 
   const activeId = focusedNodeId || hoveredId;
+
+  const activeNeighbors = useMemo(() => {
+    if (!activeId) return null;
+    const set = new Set<string>();
+    for (const e of adjacency.get(activeId) ?? []) {
+      set.add(e.source === activeId ? e.target : e.source);
+    }
+    return set;
+  }, [activeId, adjacency]);
 
   const onPointerDown = useCallback((e: React.PointerEvent) => {
     if ((e.target as Element).closest('[data-node]')) return;
@@ -385,8 +393,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
           })}
 
           {/* Edges — highlighted pass (always rendered, even if a neighbor is culled) */}
-          {activeId && bundle.edges.map(edge => {
-            if (edge.source !== activeId && edge.target !== activeId) return null;
+          {activeId && (adjacency.get(activeId) ?? []).map(edge => {
             const src = posMap.get(edge.source);
             const tgt = posMap.get(edge.target);
             if (!src || !tgt) return null;

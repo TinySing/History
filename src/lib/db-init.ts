@@ -765,7 +765,7 @@ export async function buildProjections(client: import('pg').PoolClient): Promise
     await client.query(
       `INSERT INTO search_documents
          (entity_type, entity_id, entity_slug, display_name, aliases, dynasty_slug, subtitle, target_route, weight)
-       VALUES ('dynasty',$1,$2,$3,'{}','$2',$4,$5,90)
+       VALUES ('dynasty',$1,$2,$3,'{}',$2,$4,$5,90)
        ON CONFLICT (entity_type, entity_id) DO UPDATE SET
          display_name=$3, subtitle=$4, target_route=$5, weight=90`,
       [
@@ -808,8 +808,9 @@ export async function buildGlobalProjection(client: import('pg').PoolClient): Pr
       if (!allNodesMap.has(node.id)) allNodesMap.set(node.id, node);
     }
     for (const edge of bundle.edges) {
-      if (!allEdgesMap.has(edge.id)) {
-        allEdgesMap.set(`${edge.source}--${edge.target}--${edge.relationType}`, edge);
+      const key = `${edge.source}--${edge.target}--${edge.relationType}`;
+      if (!allEdgesMap.has(key)) {
+        allEdgesMap.set(key, edge);
       }
     }
     for (const entry of bundle.timeline) {
@@ -889,15 +890,10 @@ export async function buildGlobalProjection(client: import('pg').PoolClient): Pr
       : '' },
   };
 
+  // Keep a single row: clear then insert.
+  await client.query(`DELETE FROM global_graph_projection`);
   await client.query(
-    `INSERT INTO global_graph_projection (bundle)
-     VALUES ($1)
-     ON CONFLICT DO NOTHING`,
-    [JSON.stringify(standaloneBundle)]
-  );
-  // Always update the latest row
-  await client.query(
-    `UPDATE global_graph_projection SET bundle=$1, built_at=NOW()`,
+    `INSERT INTO global_graph_projection (bundle) VALUES ($1)`,
     [JSON.stringify(standaloneBundle)]
   );
 }
