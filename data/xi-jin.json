@@ -1,0 +1,442 @@
+{
+  "dynasty": {
+    "slug": "xi-jin",
+    "name": "西晋",
+    "startYear": 265,
+    "endYear": 316,
+    "summary": "西晋由司马炎建立，统一三国，结束分裂局面。但司马炎后期奢靡，死后爆发八王之乱，五胡乱华，西晋灭亡，中国进入南北分裂时期。"
+  },
+  "persons": [
+    {
+      "slug": "si-ma-yi-sj",
+      "name": "司马懿",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist"
+      ],
+      "importance": 90,
+      "birthYear": 179,
+      "deathYear": 251,
+      "aliases": [
+        "司马仲达"
+      ],
+      "summary": "曹魏权臣，西晋奠基者。隐忍数十年，发动高平陵之变夺取政权，为司马氏篡魏奠定基础。",
+      "content": "司马懿（179—251年），字仲达，河内温县人，三国曹魏权臣、西晋王朝奠基者。多谋善断，曾与诸葛亮对峙于五丈原，以坚守拖垮蜀军。历仕曹操、曹丕、曹叡、曹芳四朝，隐忍数十年。249年趁曹爽随帝祭高平陵之机发动政变，诛曹爽、夺兵权，司马氏自此掌控曹魏。孙司马炎称帝后追尊为晋宣帝。"
+    },
+    {
+      "slug": "si-ma-zhao",
+      "name": "司马昭",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 80,
+      "birthYear": 211,
+      "deathYear": 265,
+      "aliases": [
+        "司马文王"
+      ],
+      "summary": "司马懿之子，曹魏权臣。灭蜀汉，司马昭之心路人皆知，为篡魏做准备。",
+      "content": "司马昭（211—265年），字子上，司马懿次子。继兄司马师执掌魏政，封晋公、晋王。260年指使成济弑杀魏帝曹髦，「司马昭之心，路人皆知」由此而来。263年遣钟会、邓艾分兵灭蜀汉，受九锡。其子司马炎代魏建晋后，追尊为晋文帝。"
+    },
+    {
+      "slug": "si-ma-yan",
+      "name": "司马炎",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 90,
+      "birthYear": 236,
+      "deathYear": 290,
+      "aliases": [
+        "晋武帝"
+      ],
+      "summary": "西晋开国皇帝，篡魏灭吴统一天下。后期奢靡，大封宗室，为八王之乱埋下祸根。",
+      "content": "司马炎（236—290年），字安世，司马昭之子，西晋开国皇帝（晋武帝）。265年代魏称帝，280年灭吴，结束汉末以来近百年分裂，一统天下。在位前期颇有作为，行占田制、与民休息，号「太康之治」。然后期奢靡腐化，大封宗室掌兵，又立痴愚太子司马衷，为八王之乱与西晋速亡埋下祸根。"
+    },
+    {
+      "slug": "jia-nan-feng",
+      "name": "贾南风",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty",
+        "regent"
+      ],
+      "importance": 75,
+      "birthYear": 257,
+      "deathYear": 300,
+      "aliases": [
+        "贾后"
+      ],
+      "summary": "晋惠帝皇后，丑陋善妒，干政弄权，引发八王之乱，是西晋灭亡的重要推手。",
+      "content": "贾南风（257—300年），西晋惠帝皇后，权臣贾充之女。相貌丑陋而善妒多谋，惠帝暗弱，她得以专擅朝政近十年。诬杀太子司马遹，并设计除掉杨骏、汝南王亮等，引发宗室诸王相攻，成为八王之乱的直接导火索，后被赵王伦所杀。"
+    },
+    {
+      "slug": "jin-hui-di",
+      "name": "晋惠帝",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 60,
+      "birthYear": 259,
+      "deathYear": 307,
+      "aliases": [
+        "司马衷"
+      ],
+      "summary": "西晋第二位皇帝，智商低下，何不食肉糜的典故出自他口。八王之乱中的傀儡。",
+      "content": "晋惠帝司马衷（259—307年），西晋第二位皇帝，晋武帝之子。生性痴愚，闻百姓饥荒竟问「何不食肉糜」。在位期间大权先后落入贾后及诸王之手，沦为八王之乱中被各方挟持的傀儡，颠沛流离，最终疑似被毒杀。"
+    },
+    {
+      "slug": "wang-jun-sj",
+      "name": "王濬",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 75,
+      "birthYear": 206,
+      "deathYear": 286,
+      "aliases": [
+        "王士治"
+      ],
+      "summary": "西晋名将，率水军顺江而下灭东吴，完成统一大业。",
+      "content": "王濬（206—286年），字士治，弘农湖县人，西晋名将。任益州刺史时大造楼船、训练水军。280年伐吴，率水军自巴蜀顺江而下，以火炬熔断吴军拦江铁锁，「千寻铁锁沉江底，一片降幡出石头」，直取建业，受降吴主孙皓，居灭吴首功。"
+    },
+    {
+      "slug": "du-yu",
+      "name": "杜预",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "scholar"
+      ],
+      "importance": 75,
+      "birthYear": 222,
+      "deathYear": 285,
+      "aliases": [
+        "杜元凯"
+      ],
+      "summary": "西晋名将学者，灭吴主将之一，著有《春秋左氏经传集解》，文武双全。",
+      "content": "杜预（222—285年），字元凯，京兆杜陵人，西晋名将兼学者，文武兼备，时称「杜武库」。任镇南大将军，为灭吴统帅之一，主张乘势直取、势如破竹。博学多通，著《春秋左氏经传集解》，是流传至今最早的《左传》注本，死后获文庙、武庙双祀之荣。"
+    },
+    {
+      "slug": "zhou-qi-sj",
+      "name": "周处",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 65,
+      "birthYear": 236,
+      "deathYear": 297,
+      "aliases": [
+        "周子隐"
+      ],
+      "summary": "西晋名将，除三害的故事流传千古。战死沙场，忠勇可嘉。",
+      "content": "周处（236—297年），字子隐，义兴阳羡人，西晋名将。少年时横行乡里，与南山虎、长桥蛟并称「三害」，后幡然悔悟，斩蛟射虎、改过自新，发奋读书终成忠臣良将。后任御史中丞，刚正不阿。氐人齐万年叛乱，他孤军深入、力战至死，忠勇为后世称道。"
+    },
+    {
+      "slug": "shi-le",
+      "name": "石勒",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "rebel"
+      ],
+      "importance": 80,
+      "birthYear": 274,
+      "deathYear": 333,
+      "aliases": [
+        "后赵明帝"
+      ],
+      "summary": "羯族首领，从奴隶到皇帝，建立后赵，灭亡西晋的重要人物。",
+      "content": "石勒（274—333年），羯族，上党武乡人，十六国后赵开国君主。早年曾被掠卖为奴，后投身乱世、起兵称雄，灭前赵、据中原，从奴隶一路成为皇帝，是中国历史上罕见的传奇。称帝后重用汉人张宾，立学兴儒、设君子营，颇有治绩，对西晋的覆灭起到重要作用。"
+    },
+    {
+      "slug": "liu-yuan-sj",
+      "name": "刘渊",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "rebel"
+      ],
+      "importance": 75,
+      "birthYear": 252,
+      "deathYear": 310,
+      "aliases": [
+        "汉光文帝"
+      ],
+      "summary": "匈奴首领，建立汉赵（前赵），五胡乱华的开端人物。",
+      "content": "刘渊（？—310年），字元海，匈奴贵族，十六国汉赵（前赵）开国君主。冒顿单于之后，自称汉室外甥，借「兄亡弟绍」之名立国号「汉」，追尊蜀汉后主。304年起兵，揭开五胡乱华序幕，其子刘聪后灭西晋，匈奴政权一度雄踞北方。"
+    },
+    {
+      "slug": "zhang-hua",
+      "name": "张华",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "writer",
+        "scholar"
+      ],
+      "importance": 75,
+      "birthYear": 232,
+      "deathYear": 300,
+      "aliases": [
+        "张茂先"
+      ],
+      "summary": "西晋名臣文学家，力主伐吴，辅政有功，著《博物志》。八王之乱中持正被害。",
+      "content": "张华（232—300年），字茂先，范阳方城人，西晋名臣、文学家。学识渊博，著《博物志》。力主伐吴，为灭吴谋划之臣。晋初辅政，海内晏然，与裴頠等共维朝局。八王之乱中不肯附逆，为赵王伦、孙秀所害，临难持正，时人惜之。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "gao-ping-ling-zhi-bian",
+      "name": "高平陵之变",
+      "timeStart": 249,
+      "aliases": [
+        "司马懿夺权"
+      ],
+      "summary": "司马懿趁曹爽随魏帝祭陵之机发动政变，夺取曹魏大权，为司马氏篡魏奠定基础。",
+      "content": "249年，司马懿趁大将军曹爽随魏帝曹芳祭扫高平陵之机，在洛阳发动政变。司马懿控制京城，以谋反罪名诛杀曹爽及其党羽，夺取曹魏军政大权。此后司马氏世代把持朝政，最终篡魏建晋。"
+    },
+    {
+      "slug": "mie-shu-han",
+      "name": "魏灭蜀之战",
+      "timeStart": 263,
+      "aliases": [
+        "灭蜀"
+      ],
+      "summary": "司马昭派钟会、邓艾率军灭蜀汉，后主刘禅投降，三国鼎立局面开始瓦解。",
+      "content": "263年，司马昭派钟会、邓艾、诸葛绪三路伐蜀。邓艾偷渡阴平，直逼成都，后主刘禅投降，蜀汉灭亡。姜维诈降复国失败被杀。"
+    },
+    {
+      "slug": "mie-dong-wu",
+      "name": "晋灭吴之战",
+      "timeStart": 280,
+      "aliases": [
+        "西晋统一"
+      ],
+      "summary": "司马炎派王濬率水军顺江而下，杜预从陆路进攻，灭亡东吴，统一天下。",
+      "content": "280年，西晋六路大军伐吴。王濬率水军从益州顺江而下，势如破竹，直取建业。吴主孙皓投降，三国归晋，天下统一。"
+    },
+    {
+      "slug": "ba-wang-zhi-luan",
+      "name": "八王之乱",
+      "timeStart": 291,
+      "timeEnd": 306,
+      "aliases": [
+        "西晋内乱"
+      ],
+      "summary": "西晋皇族内部为争夺中央政权爆发的混战，历时16年，严重削弱西晋国力，导致五胡乱华。",
+      "content": "291年至306年，西晋皇族汝南王司马亮、楚王司马玮、赵王司马伦、齐王司马冏、长沙王司马乂、成都王司马颖、河间王司马颙、东海王司马越等八王为争夺政权混战。战乱导致数十万人死亡，西晋国力严重削弱。"
+    },
+    {
+      "slug": "wu-hu-luan-hua",
+      "name": "五胡乱华",
+      "timeStart": 304,
+      "timeEnd": 316,
+      "aliases": [
+        "永嘉之乱"
+      ],
+      "summary": "匈奴、鲜卑、羯、氐、羌等少数民族趁西晋内乱纷纷起兵，建立政权，西晋灭亡。",
+      "content": "八王之乱后，西晋国力衰弱。匈奴刘渊建立汉赵，羯族石勒崛起。311年永嘉之乱，匈奴攻陷洛阳，俘虏晋怀帝。316年攻陷长安，俘虏晋愍帝，西晋灭亡。北方进入五胡十六国时期。"
+    },
+    {
+      "slug": "yong-jia-zhi-luan",
+      "name": "永嘉之乱",
+      "timeStart": 311,
+      "aliases": [
+        "洛阳陷落"
+      ],
+      "summary": "匈奴刘聪攻陷洛阳，俘虏晋怀帝，屠杀王公百姓，中原士族大规模南渡。",
+      "content": "311年，匈奴刘聪派刘曜、石勒等攻陷洛阳。晋怀帝被俘，王公士民三万余人被杀。中原士族纷纷南渡江左，史称「衣冠南渡」，为东晋建立奠定基础。"
+    },
+    {
+      "slug": "yi-guan-nan-du",
+      "name": "衣冠南渡",
+      "timeStart": 317,
+      "aliases": [
+        "永嘉南渡"
+      ],
+      "summary": "永嘉之乱后中原士族大规模南迁江左，建立东晋，中国经济文化重心开始南移。",
+      "content": "西晋灭亡后，琅琊王司马睿在王导等士族支持下南渡建康（今南京），建立东晋。大批中原士族、百姓随之南迁，史称「衣冠南渡」。此后南方经济文化逐渐超越北方。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "si-ma-yi-sj",
+      "fromType": "person",
+      "to": "si-ma-zhao",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "父子"
+    },
+    {
+      "from": "si-ma-zhao",
+      "fromType": "person",
+      "to": "si-ma-yan",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "父子"
+    },
+    {
+      "from": "si-ma-yi-sj",
+      "fromType": "person",
+      "to": "gao-ping-ling-zhi-bian",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "政变主导者"
+    },
+    {
+      "from": "si-ma-zhao",
+      "fromType": "person",
+      "to": "mie-shu-han",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "决策者"
+    },
+    {
+      "from": "si-ma-yan",
+      "fromType": "person",
+      "to": "mie-dong-wu",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "决策者"
+    },
+    {
+      "from": "si-ma-yan",
+      "fromType": "person",
+      "to": "jin-hui-di",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    },
+    {
+      "from": "jin-hui-di",
+      "fromType": "person",
+      "to": "jia-nan-feng",
+      "toType": "person",
+      "type": "love",
+      "weight": 9,
+      "note": "夫妻"
+    },
+    {
+      "from": "jia-nan-feng",
+      "fromType": "person",
+      "to": "ba-wang-zhi-luan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "引发者"
+    },
+    {
+      "from": "liu-yuan-sj",
+      "fromType": "person",
+      "to": "wu-hu-luan-hua",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "五胡乱华发起者"
+    },
+    {
+      "from": "shi-le",
+      "fromType": "person",
+      "to": "yong-jia-zhi-luan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "攻陷洛阳"
+    },
+    {
+      "from": "wang-jun-sj",
+      "fromType": "person",
+      "to": "mie-dong-wu",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "灭吴主将"
+    },
+    {
+      "from": "du-yu",
+      "fromType": "person",
+      "to": "mie-dong-wu",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "灭吴主将"
+    },
+    {
+      "from": "zhang-hua",
+      "fromType": "person",
+      "to": "mie-dong-wu",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "灭吴谋主"
+    },
+    {
+      "from": "zhang-hua",
+      "fromType": "person",
+      "to": "ba-wang-zhi-luan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 7,
+      "note": "持正被害"
+    },
+    {
+      "from": "si-ma-yan",
+      "fromType": "person",
+      "to": "zhang-hua",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "君臣"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "gao-ping-ling-zhi-bian",
+      "year": 249,
+      "label": "司马懿高平陵之变夺权"
+    },
+    {
+      "eventSlug": "mie-shu-han",
+      "year": 263,
+      "label": "魏灭蜀汉"
+    },
+    {
+      "eventSlug": "mie-dong-wu",
+      "year": 280,
+      "label": "晋灭吴，天下统一"
+    },
+    {
+      "eventSlug": "ba-wang-zhi-luan",
+      "year": 291,
+      "label": "八王之乱爆发"
+    },
+    {
+      "eventSlug": "wu-hu-luan-hua",
+      "year": 304,
+      "label": "五胡乱华开始"
+    },
+    {
+      "eventSlug": "yong-jia-zhi-luan",
+      "year": 311,
+      "label": "永嘉之乱，洛阳陷落"
+    },
+    {
+      "eventSlug": "yi-guan-nan-du",
+      "year": 317,
+      "label": "衣冠南渡，东晋建立"
+    }
+  ]
+}

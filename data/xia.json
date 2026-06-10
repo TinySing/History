@@ -1,0 +1,195 @@
+{
+  "dynasty": {
+    "slug": "xia",
+    "name": "夏朝",
+    "startYear": -2070,
+    "endYear": -1600,
+    "summary": "夏朝是中国史书中记载的第一个世袭制朝代，由大禹之子启建立，标志着禅让制向世袭制的转变。夏朝共传十四代，十七后，延续约470年，最终因末代君主夏桀的暴政而亡。"
+  },
+  "persons": [
+    {
+      "slug": "da-yu",
+      "name": "大禹",
+      "primaryRole": "emperor",
+      "roles": ["emperor", "hero"],
+      "importance": 95,
+      "birthYear": -2200,
+      "deathYear": -2100,
+      "aliases": ["禹", "夏禹", "帝禹"],
+      "summary": "夏朝奠基者，治水英雄。三过家门而不入，因治水功绩受舜禅让，建立夏朝，开创世袭制先河。",
+      "content": "大禹，姒姓，夏后氏，名文命，上古时期夏后氏首领。禹是鲧的儿子，黄帝的玄孙。\n\n舜帝时，禹奉命治理洪水。他吸取父亲鲧堵水失败的教训，改用疏导之法，历经十三年，三过家门而不入，终于治水成功。因治水之功，舜将帝位禅让给禹。\n\n禹即位后，划定天下为九州（冀、兖、青、徐、扬、荆、豫、梁、禹），铸九鼎象征九州。禹死后，其子启继位，建立夏朝，禅让制从此被世袭制取代。"
+    },
+    {
+      "slug": "qi",
+      "name": "启",
+      "primaryRole": "emperor",
+      "roles": ["emperor"],
+      "importance": 80,
+      "birthYear": -2150,
+      "deathYear": -2080,
+      "aliases": ["夏启", "帝启"],
+      "summary": "夏朝开国君主，大禹之子。继承父位，建立中国第一个世袭制王朝，标志着禅让制向世袭制的转变。",
+      "content": "启，姒姓，夏后氏，名启，大禹之子。禹死后，启通过武力击败伯益，继承帝位，建立夏朝。\n\n启即位后，在钧台大会诸侯，确立夏朝统治。他击败有扈氏的叛乱，巩固了夏朝政权。启在位期间，夏朝国力强盛，但晚年生活腐化，喜好音乐舞蹈。\n\n启的继位标志着中国历史从禅让制进入世袭制，从公天下变为家天下，是中国历史的重要转折点。"
+    },
+    {
+      "slug": "jie",
+      "name": "夏桀",
+      "primaryRole": "emperor",
+      "roles": ["emperor", "tyrant"],
+      "importance": 75,
+      "deathYear": -1600,
+      "aliases": ["桀", "帝桀", "履癸"],
+      "summary": "夏朝末代君主，中国历史上著名的暴君。荒淫无度，残暴不仁，最终被商汤所灭，夏朝灭亡。",
+      "content": "夏桀，姒姓，名履癸，夏朝最后一位君主。桀力大无穷，能徒手搏虎，但荒淫残暴。\n\n桀在位期间，穷奢极欲，建造酒池肉林，宠信妹喜，残杀忠臣。他自比太阳，百姓诅咒说：「时日曷丧，予及汝皆亡」。\n\n商汤起兵伐桀，鸣条之战中夏军大败，桀被流放至南巢（今安徽巢湖），最终饿死。夏朝灭亡，商朝建立。"
+    },
+    {
+      "slug": "mei-xi",
+      "name": "妹喜",
+      "primaryRole": "royalty",
+      "roles": ["royalty", "consort"],
+      "importance": 60,
+      "deathYear": -1600,
+      "aliases": ["妺喜", "末喜"],
+      "summary": "夏桀的宠妃，有施氏之女。传说夏桀为博她一笑而建造酒池肉林，被认为是夏朝灭亡的原因之一。",
+      "content": "妹喜，有施氏之女，夏桀的宠妃。有施氏被夏桀击败后，献妹喜求和。\n\n桀对妹喜宠爱有加，为她建造倾宫瑶台，酒池肉林。传说妹喜喜欢听撕裂绢帛的声音，桀就让人撕给她听。桀荒废朝政，沉迷享乐，最终导致夏朝灭亡。\n\n后世常将夏朝灭亡归咎于妹喜，与妲己、褒姒并称「三大妖姬」。"
+    },
+    {
+      "slug": "guan-long-feng",
+      "name": "关龙逢",
+      "primaryRole": "minister",
+      "roles": ["minister"],
+      "importance": 65,
+      "deathYear": -1620,
+      "aliases": ["关龙逄"],
+      "summary": "夏朝忠臣，因直谏夏桀而被杀，是中国历史上第一位因直言进谏而被处死的大臣。",
+      "content": "关龙逢，夏朝大夫。桀荒淫无道，关龙逢多次进谏，桀不听。\n\n关龙逢向桀进谏说：「君王用财唯恐用不尽，杀人唯恐杀不完，百姓已盼你早日灭亡。」桀大怒，将关龙逢囚禁杀死。\n\n关龙逢是中国历史上第一位因直言进谏而被杀的大臣，后世称其为「谏臣之祖」。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "da-yu-zhi-shui",
+      "name": "大禹治水",
+      "timeStart": -2100,
+      "timeEnd": -2070,
+      "aliases": ["治水", "禹治水"],
+      "summary": "大禹奉舜之命治理洪水，采用疏导之法，历经十三年，三过家门而不入，终于治水成功，因功受舜禅让。",
+      "content": "上古时期，洪水泛滥，百姓流离失所。舜命禹的父亲鲧治水，鲧采用堵截之法，九年未成。\n\n禹吸取父亲教训，改用疏导之法，开凿河渠，引水入海。禹亲自踏勘山川地势，历经十三年，三过家门而不入。\n\n治水成功后，禹划定九州，铸九鼎，威望大增。舜将帝位禅让给禹，禹建立夏朝。大禹治水是中国古代最伟大的水利工程，也是中华民族不屈不挠精神的象征。"
+    },
+    {
+      "slug": "xia-chao-jian-li",
+      "name": "夏朝建立",
+      "timeStart": -2070,
+      "aliases": ["启继位", "家天下"],
+      "summary": "大禹之子启继承帝位，建立夏朝，中国历史从禅让制进入世袭制，从公天下变为家天下。",
+      "content": "禹死后，按照禅让传统，帝位应传给伯益。但禹的儿子启通过武力击败伯益，继承帝位。\n\n启在钧台大会诸侯，建立夏朝，定都阳城（今河南登封）。启击败有扈氏的叛乱，巩固政权。\n\n夏朝的建立标志着中国历史从原始社会进入奴隶社会，从禅让制进入世袭制，是中华文明发展的重要里程碑。"
+    },
+    {
+      "slug": "ming-tiao-zhi-zhan",
+      "name": "鸣条之战",
+      "timeStart": -1600,
+      "aliases": ["商汤灭夏"],
+      "summary": "商汤起兵伐夏，在鸣条（今山西夏县）击败夏桀，夏朝灭亡，商朝建立，是中国历史上第一次朝代更替。",
+      "content": "夏桀暴虐无道，百姓怨声载道。商汤任用伊尹为相，积蓄力量，准备灭夏。\n\n商汤先灭夏的属国韦、顾、昆吾，孤立夏桀。然后率军伐夏，双方在鸣条（今山西夏县）决战。\n\n夏军大败，桀逃至南巢（今安徽巢湖），最终饿死。商汤建立商朝，定都亳（今河南商丘）。鸣条之战是中国历史上第一次以武力推翻旧王朝的战争。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "da-yu",
+      "fromType": "person",
+      "to": "qi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "父子，传位"
+    },
+    {
+      "from": "da-yu",
+      "fromType": "person",
+      "to": "da-yu-zhi-shui",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "治水主导者"
+    },
+    {
+      "from": "da-yu",
+      "fromType": "person",
+      "to": "xia-chao-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "奠基者"
+    },
+    {
+      "from": "qi",
+      "fromType": "person",
+      "to": "xia-chao-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "qi",
+      "fromType": "person",
+      "to": "jie",
+      "toType": "person",
+      "type": "blood",
+      "weight": 8,
+      "note": "后代"
+    },
+    {
+      "from": "jie",
+      "fromType": "person",
+      "to": "mei-xi",
+      "toType": "person",
+      "type": "love",
+      "weight": 9,
+      "note": "宠爱"
+    },
+    {
+      "from": "jie",
+      "fromType": "person",
+      "to": "guan-long-feng",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "杀死谏臣"
+    },
+    {
+      "from": "jie",
+      "fromType": "person",
+      "to": "ming-tiao-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "亡国之君"
+    },
+    {
+      "from": "guan-long-feng",
+      "fromType": "person",
+      "to": "jie",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "忠臣直谏"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "da-yu-zhi-shui",
+      "year": -2070,
+      "label": "大禹治水成功"
+    },
+    {
+      "eventSlug": "xia-chao-jian-li",
+      "year": -2070,
+      "label": "启建立夏朝"
+    },
+    {
+      "eventSlug": "ming-tiao-zhi-zhan",
+      "year": -1600,
+      "label": "鸣条之战，夏朝灭亡"
+    }
+  ]
+}

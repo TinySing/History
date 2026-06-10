@@ -1,0 +1,645 @@
+{
+  "dynasty": {
+    "slug": "chun-qiu",
+    "name": "春秋",
+    "startYear": -770,
+    "endYear": -476,
+    "summary": "春秋时期因鲁国史书《春秋》而得名，周天子权威衰落，诸侯争霸。先后出现齐桓公、晋文公、楚庄王、吴王阖闾、越王勾践五位霸主。"
+  },
+  "persons": [
+    {
+      "slug": "ji-yi-jiu",
+      "name": "周平王",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 65,
+      "deathYear": -720,
+      "aliases": [
+        "姬宜臼",
+        "平王"
+      ],
+      "summary": "东周第一位君主，迁都洛邑，开启春秋时代。周天子权威从此衰落。",
+      "content": "周平王姬宜臼（？—前720年），周幽王之子，东周第一位君主。幽王宠褒姒废其太子之位，他出奔申国。犬戎破镐京、幽王身死后，在申、许、鲁等诸侯拥立下即位，前770年东迁洛邑，史称「平王东迁」，东周（春秋）由此开始。东迁后周室直辖之地大减，天子权威衰落，诸侯坐大。"
+    },
+    {
+      "slug": "qi-huan-gong",
+      "name": "齐桓公",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 90,
+      "deathYear": -643,
+      "aliases": [
+        "姜小白",
+        "桓公"
+      ],
+      "summary": "春秋五霸之首，任用管仲为相，九合诸侯一匡天下，尊王攘夷，成为第一位霸主。",
+      "content": "齐桓公姜小白（？—前643年），春秋五霸之首。早年与公子纠争位，经鲍叔牙力荐，不计一箭之仇重用管仲为相。推行改革富国强兵，打出「尊王攘夷」旗号，多次会盟诸侯、抵御戎狄、存邢救卫，「九合诸侯，一匡天下」，成为第一位中原霸主。晚年昏聩，宠信佞臣，死后诸子争位，停尸不葬。"
+    },
+    {
+      "slug": "guan-zhong",
+      "name": "管仲",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist"
+      ],
+      "importance": 95,
+      "deathYear": -645,
+      "aliases": [
+        "管夷吾",
+        "管子"
+      ],
+      "summary": "齐国相国，辅佐齐桓公成为霸主。管仲改革内政外交，被尊为法家先驱、华夏文明保护者。",
+      "content": "管仲（？—前645年），名夷吾，字仲，颍上人，春秋齐国名相。经鲍叔牙举荐辅佐齐桓公，推行「相地而衰征」「官山海」「作内政而寄军令」等改革，发展工商、整军经武，使齐国称霸。提出「仓廪实而知礼节」，被尊为法家先驱。孔子称「微管仲，吾其被发左衽矣」，肯定其保全华夏文明之功。"
+    },
+    {
+      "slug": "jin-wen-gong",
+      "name": "晋文公",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 90,
+      "deathYear": -628,
+      "aliases": [
+        "姬重耳",
+        "重耳"
+      ],
+      "summary": "春秋五霸之一，流亡十九年后回国即位。城濮之战大败楚军，称霸中原。",
+      "content": "晋文公姬重耳（前697—前628年），春秋五霸之一。因骊姬之乱流亡在外十九年，历经狄、齐、楚、秦等国，备尝艰辛。年逾六十在秦穆公支持下回国即位，任用狐偃、赵衰等贤臣整顿内政。城濮之战「退避三舍」诱敌而大败楚军，践土会盟，称霸中原，开创晋国百年霸业。"
+    },
+    {
+      "slug": "chu-zhuang-wang",
+      "name": "楚庄王",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 85,
+      "deathYear": -591,
+      "aliases": [
+        "熊侣",
+        "庄王"
+      ],
+      "summary": "春秋五霸之一，一鸣惊人问鼎中原，邲之战大败晋国，楚国达到鼎盛。",
+      "content": "楚庄王熊侣（？—前591年），春秋五霸之一。即位初三年不理朝政，一鸣惊人后亲政，任用孙叔敖治国。曾陈兵周郊「问鼎中原」，显露代周之志。邲之战大败晋军，饮马黄河，使楚国国势达于鼎盛，跻身霸主之列。"
+    },
+    {
+      "slug": "kong-zi",
+      "name": "孔子",
+      "primaryRole": "philosopher",
+      "roles": [
+        "philosopher",
+        "minister"
+      ],
+      "importance": 100,
+      "birthYear": -551,
+      "deathYear": -479,
+      "aliases": [
+        "孔丘",
+        "孔仲尼",
+        "至圣先师"
+      ],
+      "summary": "儒家学派创始人，中国古代最伟大的思想家、教育家。周游列国十四年，晚年整理六经，弟子三千贤人七十二。",
+      "content": "孔子（前551—前479年），名丘，字仲尼，鲁国陬邑人，儒家学派创始人，中国古代最伟大的思想家、教育家。主张「仁」与「礼」，提倡德政、有教无类。曾任鲁国大司寇，后率弟子周游列国十四年，主张不被采纳。晚年返鲁删订《诗》《书》、修《春秋》。弟子三千、贤者七十二，言行载于《论语》，被尊为「至圣先师」，影响中华两千余年。"
+    },
+    {
+      "slug": "lao-zi",
+      "name": "老子",
+      "primaryRole": "philosopher",
+      "roles": [
+        "philosopher"
+      ],
+      "importance": 95,
+      "birthYear": -571,
+      "deathYear": -471,
+      "aliases": [
+        "李耳",
+        "老聃",
+        "太上老君"
+      ],
+      "summary": "道家学派创始人，著《道德经》，主张道法自然、无为而治。传说骑青牛出函谷关，不知所终。",
+      "content": "老子（约前571—前471年），姓李名耳，字聃，楚国苦县人，道家学派创始人。相传曾任周朝守藏室之史，孔子曾向其问礼。主张「道法自然」「无为而治」，著《道德经》五千言，阐发道、德、有无、柔弱胜刚强等思想。相传晚年骑青牛西出函谷关，留书而去，不知所终，后被道教尊为「太上老君」。"
+    },
+    {
+      "slug": "sun-zi",
+      "name": "孙武",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist",
+        "general"
+      ],
+      "importance": 90,
+      "birthYear": -545,
+      "deathYear": -470,
+      "aliases": [
+        "孙子",
+        "孙武子"
+      ],
+      "summary": "兵家至圣，著《孙子兵法》十三篇，辅佐吴王阖闾，柏举之战大败楚国。",
+      "content": "孙武（约前545—前470年），字长卿，齐国人，春秋兵家代表，被尊为「兵圣」。经伍子胥举荐见吴王阖闾，以「吴宫教战、斩姬立威」显其治军之严。著《孙子兵法》十三篇，提出「知己知彼，百战不殆」「不战而屈人之兵」，是现存最早最完整的兵书。柏举之战辅佐吴国五战破楚，攻入郢都。"
+    },
+    {
+      "slug": "wu-zi-xu",
+      "name": "伍子胥",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist"
+      ],
+      "importance": 80,
+      "deathYear": -484,
+      "aliases": [
+        "伍员"
+      ],
+      "summary": "楚国人，父兄被楚平王杀害后投奔吴国，辅佐吴王阖闾攻破楚都，鞭尸报仇。后被夫差赐死。",
+      "content": "伍子胥（？—前484年），名员，楚国人。父兄被楚平王冤杀后逃奔吴国，一夜白头过昭关。辅佐吴王阖闾改革图强、举荐孙武，柏举之战攻破楚都郢，掘楚平王墓鞭尸三百以报父兄之仇。后辅夫差败越，因力谏拒越求和、反对北上争霸而见疑，被赐属镂剑自尽，死前嘱悬目东门以观吴亡。"
+    },
+    {
+      "slug": "gou-jian",
+      "name": "越王勾践",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 85,
+      "deathYear": -465,
+      "aliases": [
+        "勾践",
+        "菼执"
+      ],
+      "summary": "春秋五霸之一，卧薪尝胆灭吴国。会稽之耻后忍辱负重，十年生聚十年教训，最终灭吴称霸。",
+      "content": "越王勾践（？—前465年），春秋末年越国君主，春秋五霸之一。前494年会稽兵败，入吴为奴三年，忍辱事夫差。获释归国后卧薪尝胆，任用范蠡、文种，「十年生聚，十年教训」，发展生产、训练军队。前473年终灭吴国，逼夫差自杀，北上会盟诸侯，成为春秋最后一位霸主。"
+    },
+    {
+      "slug": "fan-li",
+      "name": "范蠡",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist"
+      ],
+      "importance": 85,
+      "birthYear": -536,
+      "deathYear": -448,
+      "aliases": [
+        "陶朱公",
+        "鸱夷子皮"
+      ],
+      "summary": "越国大夫，辅佐勾践灭吴，功成身退后经商致富，被尊为商圣、财神。",
+      "content": "范蠡（约前536—前448年），字少伯，楚国宛人，越国大夫。与文种共佐勾践兴越灭吴，献美人计、行韬晦之策，居功至伟。深谙「飞鸟尽，良弓藏」之理，灭吴后功成身退，泛舟五湖。改名经商，三致千金又三散其财，被后世尊为「商圣」「财神」，世称陶朱公。"
+    },
+    {
+      "slug": "xi-shi",
+      "name": "西施",
+      "primaryRole": "spy",
+      "roles": [
+        "spy",
+        "beauty"
+      ],
+      "importance": 70,
+      "aliases": [
+        "西子"
+      ],
+      "summary": "中国古代四大美女之首，越国献给吴王夫差的美人，帮助越国灭吴。",
+      "content": "西施（生卒不详），名夷光，越国苎萝村人，中国古代四大美女之首，有「沉鱼」之貌。越王勾践图谋复国，范蠡将其献于吴王夫差，以惑其心、乱其政，助越灭吴。吴亡后下落众说纷纭，或随范蠡泛舟而去，或沉江而死，遂成千古之谜。"
+    },
+    {
+      "slug": "fu-chai",
+      "name": "吴王夫差",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "deathYear": -473,
+      "aliases": [
+        "夫差"
+      ],
+      "summary": "吴王阖闾之子，曾大败越国，后被勾践卧薪尝胆所灭，自刎而死。",
+      "content": "吴王夫差（？—前473年），吴王阖闾之子。即位后励精图治，前494年夫椒之战大败越国，迫勾践称臣。然不听伍子胥之谏，纵越求和，又耗国力开邗沟、北上黄池争霸。终被复兴的越国所乘，国都被破，兵败自刎，吴国灭亡，成为骄兵必败、养虎遗患的典型。"
+    },
+    {
+      "slug": "he-lv",
+      "name": "吴王阖闾",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "deathYear": -496,
+      "aliases": [
+        "阖庐"
+      ],
+      "summary": "春秋五霸之一，任用孙武伍子胥，柏举之战攻破楚都，吴国达到鼎盛。",
+      "content": "吴王阖闾（？—前496年），名光，春秋五霸之一（一说）。派专诸鱼肠剑刺杀王僚而夺位，任用伍子胥、孙武改革强兵。前506年柏举之战五战及郢，攻破强楚，使吴国一跃成为南方强国。后与越国交战，伐越时中箭伤重而死，临终嘱子夫差勿忘越仇。"
+    },
+    {
+      "slug": "qin-mu-gong",
+      "name": "秦穆公",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "deathYear": -621,
+      "aliases": [
+        "嬴任好",
+        "穆公"
+      ],
+      "summary": "春秋秦国君主，部分史家列为五霸之一。任用百里奚等贤臣，称霸西戎，奠定秦国西部基业。",
+      "content": "秦穆公嬴任好（？—前621年），春秋秦国君主，部分史家列为五霸之一。任用百里奚、蹇叔等贤臣，广纳人才。曾助晋文公复国，后与晋争霸；崤之战败于晋，转而向西发展，称霸西戎，益国十二、开地千里，奠定秦国西部基业。"
+    },
+    {
+      "slug": "song-xiang-gong",
+      "name": "宋襄公",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 60,
+      "deathYear": -637,
+      "aliases": [
+        "子兹甫",
+        "襄公"
+      ],
+      "summary": "春秋宋国君主，泓水之战坚守古礼不肯半渡而击，大败受伤而死，「宋襄之仁」由此而来。",
+      "content": "宋襄公子兹甫（？—前637年），春秋宋国君主，旧说五霸之一。齐桓公死后图谋称霸，会盟诸侯。泓水之战中坚持「不鼓不成列」「不擒二毛」的古礼，不肯半渡而击，结果大败受伤而死，「宋襄之仁」遂成迂腐守礼的代名词。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "ping-wang-dong-qian",
+      "name": "平王东迁",
+      "timeStart": -770,
+      "aliases": [
+        "东周开始"
+      ],
+      "summary": "周平王迁都洛邑，东周开始。周天子权威衰落，诸侯争霸时代开启。",
+      "content": "犬戎攻破镐京后，周平王在诸侯护送下迁都洛邑（今洛阳）。此后周天子权威衰落，诸侯势力崛起。"
+    },
+    {
+      "slug": "guan-zhong-gai-ge",
+      "name": "管仲改革",
+      "timeStart": -685,
+      "aliases": [
+        "齐国变法"
+      ],
+      "summary": "管仲在齐国推行改革，发展经济军事，辅佐齐桓公成为春秋首霸。",
+      "content": "管仲在齐国推行改革：相地衰征（按土地征税）、官山海（盐铁专营）、作内政而寄军令。齐国国力大增。"
+    },
+    {
+      "slug": "zun-wang-rang-yi",
+      "name": "尊王攘夷",
+      "timeStart": -680,
+      "timeEnd": -643,
+      "aliases": [
+        "齐桓公称霸"
+      ],
+      "summary": "齐桓公打出尊王攘夷旗号，九合诸侯一匡天下，成为春秋第一位霸主。",
+      "content": "齐桓公打出尊王攘夷旗号，多次会盟诸侯，帮助燕国击退山戎，帮助邢卫抵御狄人，成为中原霸主。"
+    },
+    {
+      "slug": "cheng-pu-zhi-zhan",
+      "name": "城濮之战",
+      "timeStart": -632,
+      "aliases": [
+        "晋楚争霸"
+      ],
+      "summary": "晋文公在城濮大败楚军，退避三舍后一战成名，成为中原霸主。",
+      "content": "前632年晋楚在城濮决战，晋文公兑现流亡时的承诺退避三舍，实则诱敌深入，大败楚军。"
+    },
+    {
+      "slug": "bi-zhi-zhan",
+      "name": "邲之战",
+      "timeStart": -597,
+      "aliases": [
+        "楚庄王争霸"
+      ],
+      "summary": "楚庄王在邲大败晋国，问鼎中原，楚国成为新的霸主。",
+      "content": "前597年晋楚在邲决战，楚军大胜。楚庄王问鼎中原，成为新一代霸主。"
+    },
+    {
+      "slug": "wu-po-chu-du",
+      "name": "吴破楚都",
+      "timeStart": -506,
+      "aliases": [
+        "柏举之战"
+      ],
+      "summary": "吴王阖闾任用孙武伍子胥，柏举之战大败楚军，攻破楚都郢。",
+      "content": "前506年吴国联合唐蔡伐楚，柏举之战大败楚军，攻破郢都。伍子胥鞭尸楚平王报仇。"
+    },
+    {
+      "slug": "wo-xin-chang-dan",
+      "name": "卧薪尝胆",
+      "timeStart": -494,
+      "timeEnd": -473,
+      "aliases": [
+        "勾践灭吴"
+      ],
+      "summary": "越王勾践会稽之败后卧薪尝胆，十年生聚十年教训，最终灭吴称霸。",
+      "content": "前494年越国被吴国大败，勾践入吴为奴三年。回国后卧薪尝胆，任用范蠡文种，十年生聚十年教训，最终灭吴。"
+    },
+    {
+      "slug": "kong-zi-zhou-lie-guo",
+      "name": "孔子周游列国",
+      "timeStart": -497,
+      "timeEnd": -484,
+      "aliases": [
+        "周游列国"
+      ],
+      "summary": "孔子带领弟子周游列国十四年，推行仁政礼治主张，虽未被采纳，但传播了儒家思想。",
+      "content": "孔子55岁时离开鲁国，带领弟子周游卫、曹、宋、郑、陈、蔡、楚等国，推行仁政主张。历时14年，虽未被采纳，但传播了儒家思想。"
+    },
+    {
+      "slug": "hong-shui-zhi-zhan",
+      "name": "泓水之战",
+      "timeStart": -638,
+      "aliases": [
+        "宋襄之仁"
+      ],
+      "summary": "宋楚泓水交战，宋襄公拘泥古礼不肯乘楚军半渡而击，大败受伤，次年而死。",
+      "content": "前638年宋楚战于泓水。楚军渡河未列阵时，部下劝宋襄公出击，襄公以「君子不重伤、不擒二毛、不鼓不成列」为由拒绝，待楚军布阵后方战，结果宋军大败，襄公中箭伤重，次年身死。此役成为不知变通、迂腐守礼的典型。"
+    },
+    {
+      "slug": "qin-ba-xi-rong",
+      "name": "秦霸西戎",
+      "timeStart": -623,
+      "aliases": [
+        "称霸西戎"
+      ],
+      "summary": "秦穆公东进受阻后转而向西，兼并西戎诸部，益国十二、开地千里，称霸西戎。",
+      "content": "崤之战败于晋后，秦穆公调整国策向西发展。用由余之谋，攻灭西戎二十国，开地千里，周天子致贺，秦国称霸西戎，奠定日后东出争霸的基础。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "qi-huan-gong",
+      "fromType": "person",
+      "to": "guan-zhong",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣知己"
+    },
+    {
+      "from": "qi-huan-gong",
+      "fromType": "person",
+      "to": "zun-wang-rang-yi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "霸主"
+    },
+    {
+      "from": "guan-zhong",
+      "fromType": "person",
+      "to": "guan-zhong-gai-ge",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "改革主导者"
+    },
+    {
+      "from": "jin-wen-gong",
+      "fromType": "person",
+      "to": "cheng-pu-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅"
+    },
+    {
+      "from": "chu-zhuang-wang",
+      "fromType": "person",
+      "to": "bi-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅"
+    },
+    {
+      "from": "sun-zi",
+      "fromType": "person",
+      "to": "he-lv",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "君臣"
+    },
+    {
+      "from": "sun-zi",
+      "fromType": "person",
+      "to": "wu-po-chu-du",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "军事统帅"
+    },
+    {
+      "from": "wu-zi-xu",
+      "fromType": "person",
+      "to": "he-lv",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "君臣"
+    },
+    {
+      "from": "wu-zi-xu",
+      "fromType": "person",
+      "to": "fu-chai",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "被赐死"
+    },
+    {
+      "from": "wu-zi-xu",
+      "fromType": "person",
+      "to": "wu-po-chu-du",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "伐楚主谋"
+    },
+    {
+      "from": "gou-jian",
+      "fromType": "person",
+      "to": "fan-li",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣"
+    },
+    {
+      "from": "gou-jian",
+      "fromType": "person",
+      "to": "fu-chai",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "宿敌"
+    },
+    {
+      "from": "gou-jian",
+      "fromType": "person",
+      "to": "wo-xin-chang-dan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "卧薪尝胆"
+    },
+    {
+      "from": "fan-li",
+      "fromType": "person",
+      "to": "wo-xin-chang-dan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "主要谋臣"
+    },
+    {
+      "from": "fan-li",
+      "fromType": "person",
+      "to": "xi-shi",
+      "toType": "person",
+      "type": "political",
+      "weight": 8,
+      "note": "献西施给夫差"
+    },
+    {
+      "from": "fu-chai",
+      "fromType": "person",
+      "to": "xi-shi",
+      "toType": "person",
+      "type": "love",
+      "weight": 9,
+      "note": "宠爱西施"
+    },
+    {
+      "from": "fu-chai",
+      "fromType": "person",
+      "to": "gou-jian",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "被灭"
+    },
+    {
+      "from": "he-lv",
+      "fromType": "person",
+      "to": "wu-po-chu-du",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "决策者"
+    },
+    {
+      "from": "kong-zi",
+      "fromType": "person",
+      "to": "kong-zi-zhou-lie-guo",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "周游主导者"
+    },
+    {
+      "from": "lao-zi",
+      "fromType": "person",
+      "to": "kong-zi",
+      "toType": "person",
+      "type": "teacher",
+      "weight": 8,
+      "note": "孔子曾问道于老子"
+    },
+    {
+      "from": "song-xiang-gong",
+      "fromType": "person",
+      "to": "hong-shui-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "宋军统帅"
+    },
+    {
+      "from": "qin-mu-gong",
+      "fromType": "person",
+      "to": "qin-ba-xi-rong",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "称霸西戎"
+    },
+    {
+      "from": "qin-mu-gong",
+      "fromType": "person",
+      "to": "jin-wen-gong",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "助其复国后又争霸"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "ping-wang-dong-qian",
+      "year": -770,
+      "label": "平王东迁，春秋时代开始"
+    },
+    {
+      "eventSlug": "guan-zhong-gai-ge",
+      "year": -685,
+      "label": "管仲改革"
+    },
+    {
+      "eventSlug": "zun-wang-rang-yi",
+      "year": -680,
+      "label": "齐桓公尊王攘夷"
+    },
+    {
+      "eventSlug": "hong-shui-zhi-zhan",
+      "year": -638,
+      "label": "泓水之战，宋襄之仁"
+    },
+    {
+      "eventSlug": "cheng-pu-zhi-zhan",
+      "year": -632,
+      "label": "城濮之战，晋文公称霸"
+    },
+    {
+      "eventSlug": "qin-ba-xi-rong",
+      "year": -623,
+      "label": "秦穆公称霸西戎"
+    },
+    {
+      "eventSlug": "bi-zhi-zhan",
+      "year": -597,
+      "label": "邲之战，楚庄王称霸"
+    },
+    {
+      "eventSlug": "wu-po-chu-du",
+      "year": -506,
+      "label": "吴破楚都"
+    },
+    {
+      "eventSlug": "kong-zi-zhou-lie-guo",
+      "year": -497,
+      "label": "孔子周游列国"
+    },
+    {
+      "eventSlug": "wo-xin-chang-dan",
+      "year": -494,
+      "label": "卧薪尝胆开始"
+    },
+    {
+      "eventSlug": "wo-xin-chang-dan",
+      "year": -473,
+      "label": "越灭吴，勾践称霸"
+    }
+  ]
+}

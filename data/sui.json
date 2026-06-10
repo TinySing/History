@@ -1,0 +1,57 @@
+{
+  "dynasty": {
+    "slug": "sui",
+    "name": "隋朝",
+    "startYear": 581,
+    "endYear": 618,
+    "summary": "隋朝由杨坚建立，统一南北，结束近四百年分裂。开凿大运河，创立科举制，兴建东都洛阳。但隋炀帝穷奢极欲，三征高句丽，民不聊生，二世而亡。"
+  },
+  "persons": [
+    {"slug": "yang-jian", "name": "杨坚", "primaryRole": "emperor", "roles": ["emperor", "reformer"], "importance": 90, "birthYear": 541, "deathYear": 604, "aliases": ["隋文帝"], "summary": "隋朝开国皇帝，统一南北，开创开皇之治。创立三省六部制、科举制，影响中国一千多年。"},
+    {"slug": "du-gu-huang-luo", "name": "独孤伽罗", "primaryRole": "royalty", "roles": ["royalty", "regent"], "importance": 75, "birthYear": 544, "deathYear": 602, "aliases": ["文献皇后"], "summary": "隋文帝皇后，与杨坚并称「二圣」，参预朝政，是隋朝建立的重要功臣。"},
+    {"slug": "yang-guang", "name": "杨广", "primaryRole": "emperor", "roles": ["emperor", "tyrant"], "importance": 85, "birthYear": 569, "deathYear": 618, "aliases": ["隋炀帝"], "summary": "隋朝第二位皇帝，开凿大运河，创立科举，三征高句丽。但穷奢极欲，民不聊生，最终亡国。"},
+    {"slug": "yang-su", "name": "杨素", "primaryRole": "general", "roles": ["general", "minister"], "importance": 80, "birthYear": 544, "deathYear": 606, "aliases": ["杨越公"], "summary": "隋朝名将权臣，灭陈主将，辅佐杨广夺嫡。"},
+    {"slug": "han-qin-hu", "name": "韩擒虎", "primaryRole": "general", "roles": ["general"], "importance": 75, "birthYear": 538, "deathYear": 592, "aliases": ["韩子通"], "summary": "隋朝名将，灭陈先锋，攻入建康俘虏陈后主。"},
+    {"slug": "he-ruo-bi", "name": "贺若弼", "primaryRole": "general", "roles": ["general"], "importance": 75, "birthYear": 544, "deathYear": 607, "aliases": ["贺若辅伯"], "summary": "隋朝名将，灭陈主将之一，与韩擒虎齐名。"},
+    {"slug": "li-chun-feng", "name": "李春", "primaryRole": "engineer", "roles": ["engineer"], "importance": 70, "aliases": ["李工匠"], "summary": "隋朝工匠，设计建造赵州桥，是世界上现存最古老的石拱桥。"},
+    {"slug": "wang-tong", "name": "王通", "primaryRole": "philosopher", "roles": ["philosopher", "scholar"], "importance": 65, "birthYear": 584, "deathYear": 617, "aliases": ["文中子"], "summary": "隋朝儒学家，著有《中说》，门下弟子众多，对唐初学术影响深远。"},
+    {"slug": "li-mi", "name": "李密", "primaryRole": "rebel", "roles": ["rebel", "leader"], "importance": 75, "birthYear": 582, "deathYear": 619, "aliases": ["蒲山公"], "summary": "隋末瓦岗军首领，反隋义军领袖之一。"},
+    {"slug": "li-yuan", "name": "李渊", "primaryRole": "emperor", "roles": ["emperor"], "importance": 85, "birthYear": 566, "deathYear": 635, "aliases": ["唐高祖"], "summary": "唐朝开国皇帝，太原起兵攻占长安，建立唐朝。"}
+  ],
+  "events": [
+    {"slug": "sui-chao-jian-li", "name": "隋朝建立", "timeStart": 581, "aliases": ["杨坚代周"], "summary": "杨坚逼北周静帝禅位，建立隋朝，定都大兴。", "content": "581年杨坚逼北周静帝禅位，建立隋朝，定都大兴（今西安）。杨坚即隋文帝，开始统一全国。"},
+    {"slug": "sui-mie-chen", "name": "隋灭陈之战", "timeStart": 589, "aliases": ["统一南北"], "summary": "隋文帝派杨广、杨素等灭陈，俘虏陈后主，统一南北。", "content": "589年隋军渡江灭陈，俘虏陈后主叔宝。自西晋灭亡以来近四百年的分裂局面结束，天下重归一统。"},
+    {"slug": "kai-huang-zhi-zhi", "name": "开皇之治", "timeStart": 581, "timeEnd": 604, "aliases": ["隋文帝治世"], "summary": "隋文帝在位期间，政治清明，经济繁荣，人口大增，史称开皇之治。", "content": "隋文帝推行均田制、租庸调制，轻徭薄赋，发展生产。创立三省六部制、科举制，加强中央集权。开皇之治是中国历史上著名的盛世。"},
+    {"slug": "da-yun-he", "name": "开凿大运河", "timeStart": 605, "timeEnd": 610, "aliases": ["隋朝大运河"], "summary": "隋炀帝征发百万民夫开凿大运河，连通南北水系，是古代最伟大的水利工程。", "content": "605年至610年，隋炀帝征发百万民夫开凿大运河。运河北起涿郡（北京），南至余杭（杭州），全长两千多公里。大运河促进了南北经济文化交流，但劳民伤财，引发民怨。"},
+    {"slug": "ying-jian-dong-du", "name": "营建东都洛阳", "timeStart": 605, "aliases": ["隋炀帝建洛阳"], "summary": "隋炀帝营建东都洛阳，规模宏大，是当时世界上最大的城市之一。", "content": "605年隋炀帝营建东都洛阳，征发民夫数十万。洛阳城规模宏大，布局严整，是当时世界上最大的城市之一。"},
+    {"slug": "ke-ju-zhi", "name": "创立科举制", "timeStart": 605, "aliases": ["隋朝科举"], "summary": "隋炀帝创立进士科，科举制正式形成。科举制延续一千三百多年，影响深远。", "content": "605年隋炀帝设进士科，科举制正式形成。科举制打破门第限制，让寒门子弟有出仕机会，延续至清末1905年废除。"},
+    {"slug": "san-zheng-gao-ju-li", "name": "三征高句丽", "timeStart": 612, "timeEnd": 614, "aliases": ["隋炀帝征辽"], "summary": "隋炀帝三次亲征高句丽，劳师动众，损失惨重，引发天下大乱。", "content": "612年至614年隋炀帝三次亲征高句丽。第一次出兵一百一十三万，大败而归。三次征伐劳民伤财，天下骚动，农民起义此起彼伏。"},
+    {"slug": "sui-mo-nong-min-qi-yi", "name": "隋末农民起义", "timeStart": 613, "timeEnd": 618, "aliases": ["天下大乱"], "summary": "隋炀帝暴政引发大规模农民起义，瓦岗军、窦建德等义军蜂起，隋朝土崩瓦解。", "content": "三征高句丽后，天下大乱。瓦岗军李密、河北窦建德、江淮杜伏威等义军蜂起。618年宇文化及在江都弑杀隋炀帝，隋朝灭亡。"},
+    {"slug": "tai-yuan-qi-bing", "name": "太原起兵", "timeStart": 617, "aliases": ["李渊起兵"], "summary": "李渊在太原起兵，攻占长安，立隋炀帝孙杨侑为帝，掌握实权。", "content": "617年太原留守李渊在李世民等人劝说下起兵。李渊进军长安，立代王杨侑为帝，自为大丞相。次年逼杨侑禅位，建立唐朝。"}
+  ],
+  "relations": [
+    {"from": "yang-jian", "fromType": "person", "to": "du-gu-huang-luo", "toType": "person", "type": "love", "weight": 10, "note": "夫妻"},
+    {"from": "yang-jian", "fromType": "person", "to": "yang-guang", "toType": "person", "type": "blood", "weight": 9, "note": "父子"},
+    {"from": "yang-jian", "fromType": "person", "to": "sui-chao-jian-li", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
+    {"from": "yang-jian", "fromType": "person", "to": "sui-mie-chen", "toType": "event", "type": "participation", "weight": 10, "note": "决策者"},
+    {"from": "yang-jian", "fromType": "person", "to": "kai-huang-zhi-zhi", "toType": "event", "type": "participation", "weight": 10, "note": "开创者"},
+    {"from": "yang-guang", "fromType": "person", "to": "da-yun-he", "toType": "event", "type": "participation", "weight": 10, "note": "决策者"},
+    {"from": "yang-guang", "fromType": "person", "to": "ke-ju-zhi", "toType": "event", "type": "participation", "weight": 10, "note": "创立者"},
+    {"from": "yang-guang", "fromType": "person", "to": "san-zheng-gao-ju-li", "toType": "event", "type": "participation", "weight": 10, "note": "主导者"},
+    {"from": "yang-su", "fromType": "person", "to": "sui-mie-chen", "toType": "event", "type": "participation", "weight": 10, "note": "灭陈主将"},
+    {"from": "han-qin-hu", "fromType": "person", "to": "sui-mie-chen", "toType": "event", "type": "participation", "weight": 10, "note": "灭陈先锋"},
+    {"from": "li-yuan", "fromType": "person", "to": "tai-yuan-qi-bing", "toType": "event", "type": "participation", "weight": 10, "note": "起兵者"},
+    {"from": "li-mi", "fromType": "person", "to": "sui-mo-nong-min-qi-yi", "toType": "event", "type": "participation", "weight": 10, "note": "瓦岗军首领"}
+  ],
+  "timelines": [
+    {"eventSlug": "sui-chao-jian-li", "year": 581, "label": "隋朝建立"},
+    {"eventSlug": "sui-mie-chen", "year": 589, "label": "隋灭陈，天下统一"},
+    {"eventSlug": "kai-huang-zhi-zhi", "year": 600, "label": "开皇之治"},
+    {"eventSlug": "da-yun-he", "year": 610, "label": "大运河开凿完成"},
+    {"eventSlug": "ke-ju-zhi", "year": 605, "label": "科举制创立"},
+    {"eventSlug": "san-zheng-gao-ju-li", "year": 612, "label": "三征高句丽"},
+    {"eventSlug": "sui-mo-nong-min-qi-yi", "year": 613, "label": "隋末农民起义"},
+    {"eventSlug": "tai-yuan-qi-bing", "year": 617, "label": "太原起兵"},
+    {"eventSlug": "sui-mo-nong-min-qi-yi", "year": 618, "label": "隋炀帝被杀，隋朝灭亡"}
+  ]
+}

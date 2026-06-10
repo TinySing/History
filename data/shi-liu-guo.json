@@ -1,0 +1,510 @@
+{
+  "dynasty": {
+    "slug": "shi-liu-guo",
+    "name": "十六国",
+    "startYear": 304,
+    "endYear": 439,
+    "summary": "十六国时期是五胡乱华后北方建立的多个少数民族政权，主要包括前赵、后赵、前燕、前凉、前秦、后秦、后燕、后凉、南燕、南凉、北燕、北凉、西秦、西凉、夏、成汉等国。"
+  },
+  "persons": [
+    {
+      "slug": "liu-yuan-slg",
+      "name": "刘渊",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "birthYear": 252,
+      "deathYear": 310,
+      "aliases": [
+        "汉光文帝"
+      ],
+      "summary": "匈奴首领，建立汉赵（前赵），五胡乱华的开端人物。",
+      "content": "刘渊（？—310年），字元海，匈奴贵族，十六国汉赵（前赵）开国君主。借汉室外甥之名立国号「汉」，304年起兵于左国城，揭开五胡乱华序幕。礼贤纳士、颇通经史，奠定匈奴汉国基业，其子刘聪后灭西晋。"
+    },
+    {
+      "slug": "liu-cong",
+      "name": "刘聪",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "deathYear": 318,
+      "aliases": [
+        "汉昭武帝"
+      ],
+      "summary": "刘渊之子，灭西晋俘虏晋怀帝晋愍帝，汉赵达到鼎盛。",
+      "content": "刘聪（？—318年），字玄明，刘渊之子，汉赵第三位君主。骁勇善战又通文墨。311年攻陷洛阳，俘晋怀帝，制造永嘉之乱；316年再破长安，俘晋愍帝，西晋灭亡。然晚年荒淫嗜杀、大兴土木，汉国国势由盛转衰。"
+    },
+    {
+      "slug": "shi-le-slg",
+      "name": "石勒",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 85,
+      "birthYear": 274,
+      "deathYear": 333,
+      "aliases": [
+        "后赵明帝"
+      ],
+      "summary": "羯族首领，从奴隶到皇帝，建立后赵，统一北方大部分地区。",
+      "content": "石勒（274—333年），羯族，上党武乡人，后赵开国君主。早年被掠卖为奴，后率「十八骑」起兵，纵横中原，灭前赵、据北方大部，从奴隶成为皇帝，传奇绝伦。重用汉臣张宾，设君子营、立学校、定九品，颇有治国之能，是十六国前期最具雄才的君主。"
+    },
+    {
+      "slug": "shi-hu",
+      "name": "石虎",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "tyrant"
+      ],
+      "importance": 70,
+      "birthYear": 295,
+      "deathYear": 349,
+      "aliases": [
+        "后赵武帝"
+      ],
+      "summary": "石勒之侄，残暴荒淫，后赵国力达到顶峰但民不聊生。",
+      "content": "石虎（295—349年），字季龙，石勒之侄，后赵君主。勇猛善战，助石勒开国，却残暴荒淫、嗜杀成性。称帝后大兴宫室、广征民力，又骨肉相残，后赵国力虽盛而民不聊生。其死后诸子争位、内乱迭起，后赵迅速崩溃。"
+    },
+    {
+      "slug": "mu-rong-huang",
+      "name": "慕容皝",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "birthYear": 297,
+      "deathYear": 348,
+      "aliases": [
+        "前燕文明帝"
+      ],
+      "summary": "鲜卑慕容部首领，建立前燕，是十六国时期的重要政权。",
+      "content": "慕容皝（297—348年），字元真，鲜卑慕容部首领，前燕奠基者。337年自称燕王，定都龙城，击破后赵、扶余、高句丽，开拓辽东。重视农桑、招纳士人，奠定前燕基业，诸子慕容儁、慕容恪、慕容垂皆为一时人杰。"
+    },
+    {
+      "slug": "mu-rong-chui",
+      "name": "慕容垂",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": 326,
+      "deathYear": 396,
+      "aliases": [
+        "后燕成武帝"
+      ],
+      "summary": "前燕名将，淝水之战后复国建立后燕，是十六国后期的重要人物。",
+      "content": "慕容垂（326—396年），字道明，鲜卑慕容部，前燕名将、后燕开国君主。少年英武，前燕时屡建战功，遭猜忌奔前秦。淝水之战后前秦瓦解，他趁势复国，384年建后燕，戎马一生、用兵如神，是十六国后期最杰出的军事统帅。"
+    },
+    {
+      "slug": "jian-wen-di",
+      "name": "张骏",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 70,
+      "birthYear": 307,
+      "deathYear": 346,
+      "aliases": [
+        "前凉文王"
+      ],
+      "summary": "前凉国主，在位期间前凉达到鼎盛，控制西域。",
+      "content": "张骏（307—346年），字公庭，十六国前凉君主。在位期间励精图治，西定龟兹、鄯善，控制西域，南拒强敌，前凉国势臻于极盛，境内安定、文教兴盛，是河西走廊上汉文化的重要守护者。"
+    },
+    {
+      "slug": "wang-meng",
+      "name": "王猛",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist"
+      ],
+      "importance": 85,
+      "birthYear": 325,
+      "deathYear": 375,
+      "aliases": [
+        "王景略"
+      ],
+      "summary": "前秦丞相，辅佐苻坚统一北方。被称为「诸葛亮再世」，是十六国最杰出的政治家。",
+      "content": "王猛（325—375年），字景略，北海剧县人，前秦丞相，十六国第一名相。早年扪虱论天下，后辅佐苻坚，整顿吏治、抑制豪强、兴学劝农、强兵富国，助前秦统一北方，时人比之诸葛亮。临终力劝苻坚勿伐东晋、慎防鲜卑羌虏，苻坚不听，终有淝水之败。"
+    },
+    {
+      "slug": "fu-jian-slg",
+      "name": "苻坚",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 85,
+      "birthYear": 338,
+      "deathYear": 385,
+      "aliases": [
+        "前秦宣昭帝"
+      ],
+      "summary": "前秦皇帝，任用王猛统一北方。淝水之战大败，前秦随即瓦解。",
+      "content": "苻坚（338—385年），字永固，氐族，前秦君主。任用王猛改革，先后灭前燕、前凉、代国，统一北方，盛极一时。383年不顾劝阻南征东晋，淝水惨败，前秦随即分崩离析，他亦为羌人姚苌所擒杀，统一北方的局面昙花一现。"
+    },
+    {
+      "slug": "yao-chang",
+      "name": "姚苌",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "rebel"
+      ],
+      "importance": 75,
+      "birthYear": 330,
+      "deathYear": 394,
+      "aliases": [
+        "后秦武昭帝"
+      ],
+      "summary": "羌族首领，建立后秦，杀死苻坚。",
+      "content": "姚苌（330—393年），字景茂，羌族，十六国后秦开国君主。原为前秦将领，淝水之败后叛秦自立，384年称万年秦王，擒杀苻坚。386年称帝，定都长安，建立后秦，与西燕、后燕等并争北方。"
+    },
+    {
+      "slug": "he-lian-bo-bo",
+      "name": "赫连勃勃",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "tyrant"
+      ],
+      "importance": 70,
+      "birthYear": 381,
+      "deathYear": 425,
+      "aliases": [
+        "夏武烈帝"
+      ],
+      "summary": "匈奴铁弗部首领，建立夏国，统万城建造者。",
+      "content": "赫连勃勃（381—425年），匈奴铁弗部首领，十六国夏国开国君主。骁悍好杀，407年自立为大夏天王。驱十万民夫筑统万城，城坚可砺刀斧，督造严酷。屡掠后秦、北魏边地，418年乘刘裕北还袭取长安，称帝，盛极一时而残暴失人心。"
+    },
+    {
+      "slug": "ju-qu-meng-xun",
+      "name": "沮渠蒙逊",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 65,
+      "birthYear": 368,
+      "deathYear": 433,
+      "aliases": [
+        "北凉武宣王"
+      ],
+      "summary": "卢水胡首领，建立北凉，是十六国最后灭亡的政权之一。",
+      "content": "沮渠蒙逊（368—433年），卢水胡人，十六国北凉君主。401年据张掖建北凉，控制河西走廊。重视农业、兴佛译经，凉州一度成为佛教与中原文化荟萃之地。北凉是十六国中较晚灭亡的政权，后为北魏所并。"
+    },
+    {
+      "slug": "ran-min",
+      "name": "冉闵",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 72,
+      "deathYear": 352,
+      "aliases": [
+        "冉永曾",
+        "石闵"
+      ],
+      "summary": "十六国冉魏开国君主，后赵大乱中起兵灭后赵，颁杀胡令，中原杀戮惨烈，后兵败被前燕俘杀。",
+      "content": "冉闵（？—352年），字永曾，汉族，十六国冉魏开国君主。原为后赵石虎养孙、悍勇善战。后赵大乱中起兵，350年灭后赵建立冉魏，颁「杀胡令」，与羯、匈奴等族激烈相攻，中原杀戮惨烈。后兵败被前燕慕容儁俘杀，冉魏旋亡，其事迹在后世评价争议极大。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "liu-yuan-jian-han-zhao",
+      "name": "刘渊建立汉赵",
+      "timeStart": 304,
+      "aliases": [
+        "前赵建立"
+      ],
+      "summary": "匈奴刘渊建立汉赵，自称汉室后裔，是十六国的开端。",
+      "content": "304年，匈奴首领刘渊建立汉赵（前赵），自称汉室外甥，以复兴汉室为名。这是五胡十六国的开端。"
+    },
+    {
+      "slug": "hou-zhao-jian-li",
+      "name": "石勒建立后赵",
+      "timeStart": 319,
+      "aliases": [
+        "后赵建立"
+      ],
+      "summary": "羯族石勒建立后赵，从奴隶到皇帝的传奇。",
+      "content": "319年，石勒建立后赵。石勒出身羯族奴隶，凭借军事才能崛起，最终建立政权，统一北方大部分地区。"
+    },
+    {
+      "slug": "qian-qin-tong-yi-bei-fang",
+      "name": "前秦统一北方",
+      "timeStart": 370,
+      "timeEnd": 376,
+      "aliases": [
+        "苻坚统一北方"
+      ],
+      "summary": "苻坚任用王猛，先后灭前燕、前凉、代国，统一北方。",
+      "content": "370年王猛率军灭前燕，376年灭前凉和代国。前秦统一北方，与东晋南北对峙。"
+    },
+    {
+      "slug": "wang-meng-zhi-si",
+      "name": "王猛病逝",
+      "timeStart": 375,
+      "aliases": [
+        "王猛遗言"
+      ],
+      "summary": "王猛病逝前劝苻坚不要伐晋，苻坚不听，最终导致淝水之战大败。",
+      "content": "375年，王猛病逝。临终前劝苻坚不要进攻东晋，要防范鲜卑慕容氏。苻坚未听，最终导致淝水之战大败。"
+    },
+    {
+      "slug": "fei-shui-zhi-zhan-slg",
+      "name": "淝水之战",
+      "timeStart": 383,
+      "aliases": [
+        "前秦大败"
+      ],
+      "summary": "苻坚率八十万大军攻晋，在淝水被谢玄八万北府兵击败，前秦随即瓦解。",
+      "content": "383年苻坚不顾劝阻伐晋，号称八十万大军。淝水之战前秦大败，苻坚中箭逃回。前秦随即瓦解，北方再次分裂。"
+    },
+    {
+      "slug": "hou-yan-jian-li",
+      "name": "后燕建立",
+      "timeStart": 384,
+      "aliases": [
+        "慕容垂复国"
+      ],
+      "summary": "慕容垂趁前秦瓦解建立后燕，恢复鲜卑慕容氏政权。",
+      "content": "384年，慕容垂趁前秦瓦解，建立后燕。慕容垂是十六国后期最杰出的军事家，后燕一度成为北方强国。"
+    },
+    {
+      "slug": "bei-wei-qi-suo",
+      "name": "北魏崛起",
+      "timeStart": 386,
+      "aliases": [
+        "拓跋珪建国"
+      ],
+      "summary": "鲜卑拓跋珪建立北魏，逐渐统一北方，结束十六国时期。",
+      "content": "386年，鲜卑拓跋珪重建代国，后改国号为魏（北魏）。北魏逐渐强大，439年太武帝拓跋焘统一北方，十六国结束。"
+    },
+    {
+      "slug": "tong-wan-cheng",
+      "name": "统万城建造",
+      "timeStart": 413,
+      "aliases": [
+        "赫连勃勃建城"
+      ],
+      "summary": "赫连勃勃建造统万城，城墙坚硬可砺刀斧，是十六国时期最坚固的城池。",
+      "content": "413年，夏国赫连勃勃建造统万城（今陕西靖边）。城墙用蒸土夯筑，坚硬如石，可砺刀斧。这是十六国时期最著名的建筑工程。"
+    },
+    {
+      "slug": "ran-wei-jian-li",
+      "name": "冉闵建立冉魏",
+      "timeStart": 350,
+      "aliases": [
+        "杀胡令"
+      ],
+      "summary": "冉闵于后赵崩溃中起兵称帝，建立冉魏，颁杀胡令，与诸胡激战，两年后被前燕所灭。",
+      "content": "石虎死后后赵内乱，养孙冉闵于350年诛石氏、灭后赵，建立冉魏，颁布「杀胡令」，与羯、匈奴等族展开惨烈厮杀，中原死伤无数。352年冉闵兵败廉台，为前燕慕容恪所擒，被慕容儁斩于龙城，冉魏旋亡。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "liu-yuan-slg",
+      "fromType": "person",
+      "to": "liu-cong",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "父子"
+    },
+    {
+      "from": "liu-yuan-slg",
+      "fromType": "person",
+      "to": "liu-yuan-jian-han-zhao",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "liu-cong",
+      "fromType": "person",
+      "to": "shi-le-slg",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "先后灭亡"
+    },
+    {
+      "from": "shi-le-slg",
+      "fromType": "person",
+      "to": "hou-zhao-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "shi-le-slg",
+      "fromType": "person",
+      "to": "shi-hu",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "叔侄"
+    },
+    {
+      "from": "mu-rong-huang",
+      "fromType": "person",
+      "to": "mu-rong-chui",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    },
+    {
+      "from": "fu-jian-slg",
+      "fromType": "person",
+      "to": "wang-meng",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣"
+    },
+    {
+      "from": "fu-jian-slg",
+      "fromType": "person",
+      "to": "qian-qin-tong-yi-bei-fang",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "统一者"
+    },
+    {
+      "from": "fu-jian-slg",
+      "fromType": "person",
+      "to": "fei-shui-zhi-zhan-slg",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "战败者"
+    },
+    {
+      "from": "wang-meng",
+      "fromType": "person",
+      "to": "qian-qin-tong-yi-bei-fang",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "辅佐者"
+    },
+    {
+      "from": "mu-rong-chui",
+      "fromType": "person",
+      "to": "hou-yan-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "yao-chang",
+      "fromType": "person",
+      "to": "fu-jian-slg",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "杀死苻坚"
+    },
+    {
+      "from": "he-lian-bo-bo",
+      "fromType": "person",
+      "to": "tong-wan-cheng",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建造者"
+    },
+    {
+      "from": "ran-min",
+      "fromType": "person",
+      "to": "ran-wei-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "称帝建国"
+    },
+    {
+      "from": "ran-min",
+      "fromType": "person",
+      "to": "shi-hu",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 7,
+      "note": "灭后赵石氏"
+    },
+    {
+      "from": "fu-jian-slg",
+      "fromType": "person",
+      "to": "yao-chang",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 8,
+      "note": "被其擒杀"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "liu-yuan-jian-han-zhao",
+      "year": 304,
+      "label": "刘渊建立汉赵，十六国开始"
+    },
+    {
+      "eventSlug": "hou-zhao-jian-li",
+      "year": 319,
+      "label": "石勒建立后赵"
+    },
+    {
+      "eventSlug": "ran-wei-jian-li",
+      "year": 350,
+      "label": "冉闵建立冉魏，颁杀胡令"
+    },
+    {
+      "eventSlug": "wang-meng-zhi-si",
+      "year": 375,
+      "label": "王猛病逝"
+    },
+    {
+      "eventSlug": "qian-qin-tong-yi-bei-fang",
+      "year": 376,
+      "label": "前秦统一北方"
+    },
+    {
+      "eventSlug": "fei-shui-zhi-zhan-slg",
+      "year": 383,
+      "label": "淝水之战，前秦瓦解"
+    },
+    {
+      "eventSlug": "hou-yan-jian-li",
+      "year": 384,
+      "label": "后燕建立"
+    },
+    {
+      "eventSlug": "bei-wei-qi-suo",
+      "year": 386,
+      "label": "北魏建立"
+    },
+    {
+      "eventSlug": "tong-wan-cheng",
+      "year": 413,
+      "label": "统万城建造"
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "dynasty": {
+    "slug": "nan-bei-chao",
+    "name": "南北朝",
+    "startYear": 420,
+    "endYear": 589,
+    "summary": "南北朝时期南朝（宋齐梁陈）与北朝（北魏、东魏、西魏、北齐、北周）对峙。北魏孝文帝改革促进民族融合，南朝文化繁荣。最终隋朝统一。"
+  },
+  "persons": [
+    {
+      "slug": "liu-yu-nbc",
+      "name": "刘裕",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 85,
+      "birthYear": 363,
+      "deathYear": 422,
+      "aliases": [
+        "宋武帝"
+      ],
+      "summary": "南朝宋开国皇帝，出身寒门，北伐建功，篡晋建宋。",
+      "content": "刘裕（363—422年），字德舆，小名寄奴，南朝宋开国皇帝（宋武帝）。出身寒门，以北府名将崛起，平孙恩、灭桓玄、定内乱，两度北伐灭南燕、后秦，收复长安洛阳，武功冠绝东晋。420年代晋建宋，开启南朝，抑制门阀、整顿吏治，为「元嘉之治」奠定基础。"
+    },
+    {
+      "slug": "liu-yi-long",
+      "name": "刘义隆",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "birthYear": 407,
+      "deathYear": 453,
+      "aliases": [
+        "宋文帝"
+      ],
+      "summary": "南朝宋第三位皇帝，元嘉之治的开创者，后被太子刘劭弑杀。",
+      "content": "刘义隆（407—453年），字车儿，宋武帝刘裕第三子，南朝宋文帝。在位三十年，承父业行宽政、劝课农桑、整顿户籍，江南安定富庶，史称「元嘉之治」，为南朝盛世。然三次北伐皆败，「元嘉草草，封狼居胥，赢得仓皇北顾」。晚年为太子刘劭所弑。"
+    },
+    {
+      "slug": "xiao-dao-cheng",
+      "name": "萧道成",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "birthYear": 427,
+      "deathYear": 482,
+      "aliases": [
+        "齐高帝"
+      ],
+      "summary": "南朝齐开国皇帝，篡宋建齐。",
+      "content": "萧道成（427—482年），字绍伯，南朝齐开国皇帝（齐高帝）。出身兰陵萧氏，以军功掌宋末朝政，479年代宋建齐。提倡节俭、留心政事，惜在位仅四年而崩。南齐是南朝中享国最短的王朝之一，宗室相残不断。"
+    },
+    {
+      "slug": "xiao-yan",
+      "name": "萧衍",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "scholar"
+      ],
+      "importance": 80,
+      "birthYear": 464,
+      "deathYear": 549,
+      "aliases": [
+        "梁武帝"
+      ],
+      "summary": "南朝梁开国皇帝，崇信佛教，多次舍身出家。侯景之乱中饿死台城。",
+      "content": "萧衍（464—549年），字叔达，南朝梁开国皇帝（梁武帝）。博学多才，工诗文、通音律、崇佛法，在位四十八年为南朝最久。前期勤政节俭、文教昌盛，后期沉溺佛事，四度舍身同泰寺，纵容宗室，吏治败坏。侯景之乱中建康被围，他困饿死于台城，梁朝由盛转衰。"
+    },
+    {
+      "slug": "chen-ba-xian",
+      "name": "陈霸先",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 75,
+      "birthYear": 503,
+      "deathYear": 559,
+      "aliases": [
+        "陈武帝"
+      ],
+      "summary": "南朝陈开国皇帝，平定侯景之乱，篡梁建陈。",
+      "content": "陈霸先（503—559年），字兴国，南朝陈开国皇帝（陈武帝）。出身寒微，在岭南起家。侯景之乱中与王僧辩合力平叛、收复建康，后翦除异己，557年代梁建陈。陈是南朝最后一个、也是疆域最小的王朝，他力图收拾残局、安定江南。"
+    },
+    {
+      "slug": "tuo-ba-gui",
+      "name": "拓跋珪",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "birthYear": 371,
+      "deathYear": 409,
+      "aliases": [
+        "北魏道武帝"
+      ],
+      "summary": "北魏开国皇帝，重建代国改国号魏，奠定北魏基业。",
+      "content": "拓跋珪（371—409年），字涉珪，鲜卑拓跋部首领，北魏开国皇帝（道武帝）。386年重建代国、旋改国号「魏」。击破后燕、匈奴诸部，定都平城，离散部落、劝课农桑、仿汉立制，奠定北魏立国与日后统一北方的根基，晚年多疑被子所弑。"
+    },
+    {
+      "slug": "tuo-ba-tao",
+      "name": "拓跋焘",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "birthYear": 408,
+      "deathYear": 452,
+      "aliases": [
+        "北魏太武帝"
+      ],
+      "summary": "北魏第三位皇帝，统一北方结束十六国时期。",
+      "content": "拓跋焘（408—452年），字佛狸，北魏太武帝。雄才大略，亲征四方，先后灭夏、北燕、北凉，破柔然、定关中，439年统一北方，结束十六国分裂，与南朝刘宋形成南北对峙之局。曾大举灭佛（太武灭佛），晚年为宦官宗爱所弑。"
+    },
+    {
+      "slug": "tuo-ba-hong",
+      "name": "拓跋宏",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "reformer"
+      ],
+      "importance": 90,
+      "birthYear": 467,
+      "deathYear": 499,
+      "aliases": [
+        "北魏孝文帝"
+      ],
+      "summary": "北魏第七位皇帝，推行汉化改革，迁都洛阳，改鲜卑姓为汉姓，促进民族融合。",
+      "content": "拓跋宏（467—499年），即元宏，北魏孝文帝。自幼由祖母冯太后抚养辅政，亲政后锐意改革：迁都洛阳，改鲜卑姓为汉姓、易服色、断北语、通婚汉族，全面推行汉化。改革大大促进民族融合，推动北方社会发展，是中国历史上著名的改革君主。"
+    },
+    {
+      "slug": "er-zhu-rong",
+      "name": "尔朱荣",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "rebel"
+      ],
+      "importance": 75,
+      "birthYear": 493,
+      "deathYear": 530,
+      "aliases": [
+        "尔朱天柱"
+      ],
+      "summary": "北魏末年权臣，河阴之变屠杀皇族，把持朝政。",
+      "content": "尔朱荣（493—530年），字天宝，契胡（羯）部首领，北魏末年权臣。乘六镇之乱崛起，握重兵入洛。528年发动河阴之变，将胡太后及幼帝沉河、屠戮王公百官两千余人，把持朝政、废立由心。后被孝庄帝设计诛杀，引发更大动乱，加速北魏分裂。"
+    },
+    {
+      "slug": "gao-huan",
+      "name": "高欢",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": 496,
+      "deathYear": 547,
+      "aliases": [
+        "北齐神武帝"
+      ],
+      "summary": "东魏权臣，北齐奠基者。与宇文泰对峙，奠定东西魏分立格局。",
+      "content": "高欢（496—547年），字贺六浑，渤海蓨人（鲜卑化汉人），东魏权臣、北齐奠基者。出身六镇、起于行伍，灭尔朱氏而掌权。534年另立孝静帝、迁都邺城，建立东魏，与宇文泰的西魏长期对峙。善御部众、调和胡汉，为子高洋代魏建齐奠基。"
+    },
+    {
+      "slug": "yu-wen-tai",
+      "name": "宇文泰",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": 507,
+      "deathYear": 556,
+      "aliases": [
+        "北周文帝"
+      ],
+      "summary": "西魏权臣，北周奠基者。建立府兵制，与高欢对峙。",
+      "content": "宇文泰（507—556年），字黑獭，鲜卑宇文部，西魏权臣、北周奠基者。出身武川镇，挟孝武帝据关中，535年立文帝建西魏，与高欢东魏抗衡。创立府兵制、推行均田与《周礼》改制，重用苏绰、行关陇集团之策，国小而政修，为北周乃至隋唐制度奠基。"
+    },
+    {
+      "slug": "hou-jing",
+      "name": "侯景",
+      "primaryRole": "rebel",
+      "roles": [
+        "rebel",
+        "general"
+      ],
+      "importance": 70,
+      "birthYear": 503,
+      "deathYear": 552,
+      "aliases": [
+        "侯景之乱"
+      ],
+      "summary": "东魏叛将，发动侯景之乱，攻破建康，饿死梁武帝。",
+      "content": "侯景（503—552年），字万景，朔方人，北朝降将、叛乱魁首。先事尔朱荣、高欢，后叛东魏降梁。548年以八百残兵反梁，攻破建康、围困台城，饿死梁武帝，纵兵屠掠江南，富庶之地化为废墟。后自立为帝，旋为陈霸先、王僧辩所破，逃亡中被杀。「侯景之乱」使南朝元气大伤。"
+    },
+    {
+      "slug": "zu-chong-zhi",
+      "name": "祖冲之",
+      "primaryRole": "scientist",
+      "roles": [
+        "scientist",
+        "mathematician"
+      ],
+      "importance": 85,
+      "birthYear": 429,
+      "deathYear": 500,
+      "aliases": [
+        "祖文远"
+      ],
+      "summary": "南朝数学家天文学家，将圆周率精确到小数点后七位，领先世界近千年。",
+      "content": "祖冲之（429—500年），字文远，范阳遒县人，南朝杰出数学家、天文学家。将圆周率精确到3.1415926与3.1415927之间，领先世界近千年；提出密率355/113。创制《大明历》，引入岁差。又精于机械，造指南车、千里船。是中国古代科学的杰出代表。"
+    },
+    {
+      "slug": "jia-si-xie",
+      "name": "贾思勰",
+      "primaryRole": "scholar",
+      "roles": [
+        "scholar"
+      ],
+      "importance": 70,
+      "birthYear": 480,
+      "deathYear": 550,
+      "aliases": [
+        "贾思勰"
+      ],
+      "summary": "北朝农学家，著有《齐民要术》，是中国现存最早的农学著作。",
+      "content": "贾思勰（生卒不详），北朝北魏、东魏间农学家，曾任高阳太守。广采前人文献、农谚与亲身经验，著《齐民要术》十卷九十二篇，系统总结黄河流域农林牧副渔与食品加工技术，是中国现存最早最完整的综合性农书，影响深远。"
+    },
+    {
+      "slug": "feng-tai-hou",
+      "name": "冯太后",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty",
+        "regent",
+        "reformer"
+      ],
+      "importance": 85,
+      "birthYear": 442,
+      "deathYear": 490,
+      "aliases": [
+        "文明太后",
+        "冯氏"
+      ],
+      "summary": "北魏文成帝皇后、孝文帝祖母，两度临朝称制，主持太和改制推行均田三长俸禄制，为汉化改革奠基。",
+      "content": "冯太后（442—490年），北魏文成帝皇后，孝文帝祖母。文成帝死后两度临朝称制，诛权臣、稳朝局。主持太和改制，推行俸禄制、均田制、三长制，整顿吏治、发展生产，为孝文帝全面汉化改革奠定制度与人才基础，是北魏由乱入治的关键人物。"
+    },
+    {
+      "slug": "xiao-tong",
+      "name": "萧统",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty",
+        "writer",
+        "scholar"
+      ],
+      "importance": 78,
+      "birthYear": 501,
+      "deathYear": 531,
+      "aliases": [
+        "昭明太子",
+        "萧德施"
+      ],
+      "summary": "南朝梁昭明太子，仁厚好学，主持编纂中国现存最早诗文总集《文选》，未及即位而早逝。",
+      "content": "萧统（501—531年），字德施，梁武帝长子，南朝梁昭明太子。仁厚好学，东宫藏书三万卷，延揽文士。主持编纂《文选》（《昭明文选》）三十卷，选录先秦至梁的诗文精华，是中国现存最早的诗文总集，对后世文学影响极大。惜英年早逝，未及即位。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "liu-song-jian-li",
+      "name": "刘宋建立",
+      "timeStart": 420,
+      "aliases": [
+        "南朝宋建立"
+      ],
+      "summary": "刘裕篡晋建立南朝宋，南朝开始。",
+      "content": "420年刘裕逼晋恭帝禅位，建立南朝宋。此后南朝历经宋、齐、梁、陈四朝。"
+    },
+    {
+      "slug": "yuan-jia-zhi-zhi",
+      "name": "元嘉之治",
+      "timeStart": 424,
+      "timeEnd": 453,
+      "aliases": [
+        "宋文帝治世"
+      ],
+      "summary": "宋文帝刘义隆在位期间，政治清明，经济繁荣，史称元嘉之治。",
+      "content": "宋文帝在位三十年，励精图治，轻徭薄赋，发展生产。元嘉之治是南朝最繁荣的时期。"
+    },
+    {
+      "slug": "bei-wei-tong-yi-bei-fang",
+      "name": "北魏统一北方",
+      "timeStart": 439,
+      "aliases": [
+        "太武帝统一"
+      ],
+      "summary": "北魏太武帝拓跋焘统一北方，结束十六国时期。",
+      "content": "439年太武帝拓跋焘灭北凉，统一北方。北方进入北朝时期，与南朝南北对峙。"
+    },
+    {
+      "slug": "bei-wei-han-hua-gai-ge",
+      "name": "孝文帝改革",
+      "timeStart": 494,
+      "timeEnd": 499,
+      "aliases": [
+        "汉化改革"
+      ],
+      "summary": "北魏孝文帝推行汉化改革，迁都洛阳，改鲜卑姓为汉姓，促进民族融合。",
+      "content": "孝文帝迁都洛阳，推行汉化：改鲜卑姓为汉姓（拓跋改元），禁止鲜卑语，穿汉服，与汉族通婚。改革促进了民族融合。"
+    },
+    {
+      "slug": "he-yin-zhi-bian",
+      "name": "河阴之变",
+      "timeStart": 528,
+      "aliases": [
+        "尔朱荣之乱"
+      ],
+      "summary": "尔朱荣发动河阴之变，屠杀北魏皇族和百官两千余人，把持朝政。",
+      "content": "528年尔朱荣以清君侧为名进军洛阳，在河阴屠杀胡太后、幼主及皇族百官两千余人。此后尔朱荣把持北魏朝政。"
+    },
+    {
+      "slug": "dong-xi-wei-fen-li",
+      "name": "东西魏分立",
+      "timeStart": 534,
+      "aliases": [
+        "北魏分裂"
+      ],
+      "summary": "北魏分裂为东魏和西魏，分别由高欢和宇文泰把持。",
+      "content": "534年北魏分裂：高欢拥立孝静帝建东魏，都邺城；宇文泰拥立文帝建西魏，都长安。"
+    },
+    {
+      "slug": "hou-jing-zhi-luan",
+      "name": "侯景之乱",
+      "timeStart": 548,
+      "timeEnd": 552,
+      "aliases": [
+        "台城之围"
+      ],
+      "summary": "侯景叛乱攻破建康，饿死梁武帝，南朝由盛转衰。",
+      "content": "548年东魏叛将侯景起兵叛乱，攻破建康台城。梁武帝萧衍被饿死。侯景之乱使南朝由盛转衰。"
+    },
+    {
+      "slug": "sui-wen-di-tong-yi",
+      "name": "隋朝统一",
+      "timeStart": 589,
+      "aliases": [
+        "灭陈统一"
+      ],
+      "summary": "隋文帝杨坚灭陈，统一南北，结束近四百年分裂。",
+      "content": "589年隋文帝杨坚派杨广灭陈，俘虏陈后主。南北统一，结束自西晋以来近四百年的分裂局面。"
+    },
+    {
+      "slug": "zhao-ming-wen-xuan",
+      "name": "昭明文选编纂",
+      "timeStart": 526,
+      "aliases": [
+        "文选成书"
+      ],
+      "summary": "梁昭明太子萧统主持编纂《文选》，选录先秦至梁诗文精华，是中国现存最早的诗文总集。",
+      "content": "南朝梁普通、大通年间，昭明太子萧统延揽刘孝绰等文士，编成《文选》三十卷，按文体分类选录自先秦至梁的诗、赋、文精华七百余篇，确立「事出于沉思，义归乎翰藻」的选文标准，成为后世文人必读，对中国文学影响深远，世称《昭明文选》。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "liu-yu-nbc",
+      "fromType": "person",
+      "to": "liu-song-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "liu-yi-long",
+      "fromType": "person",
+      "to": "yuan-jia-zhi-zhi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "开创者"
+    },
+    {
+      "from": "tuo-ba-gui",
+      "fromType": "person",
+      "to": "tuo-ba-tao",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "祖孙"
+    },
+    {
+      "from": "tuo-ba-tao",
+      "fromType": "person",
+      "to": "bei-wei-tong-yi-bei-fang",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "统一者"
+    },
+    {
+      "from": "tuo-ba-hong",
+      "fromType": "person",
+      "to": "bei-wei-han-hua-gai-ge",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "改革主导者"
+    },
+    {
+      "from": "er-zhu-rong",
+      "fromType": "person",
+      "to": "he-yin-zhi-bian",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "主导者"
+    },
+    {
+      "from": "gao-huan",
+      "fromType": "person",
+      "to": "yu-wen-tai",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "东西对峙"
+    },
+    {
+      "from": "gao-huan",
+      "fromType": "person",
+      "to": "dong-xi-wei-fen-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "东魏权臣"
+    },
+    {
+      "from": "yu-wen-tai",
+      "fromType": "person",
+      "to": "dong-xi-wei-fen-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "西魏权臣"
+    },
+    {
+      "from": "hou-jing",
+      "fromType": "person",
+      "to": "hou-jing-zhi-luan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "叛乱者"
+    },
+    {
+      "from": "xiao-yan",
+      "fromType": "person",
+      "to": "hou-jing-zhi-luan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "受害者"
+    },
+    {
+      "from": "feng-tai-hou",
+      "fromType": "person",
+      "to": "tuo-ba-hong",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "抚育孙儿并辅政"
+    },
+    {
+      "from": "feng-tai-hou",
+      "fromType": "person",
+      "to": "bei-wei-han-hua-gai-ge",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "改革奠基者"
+    },
+    {
+      "from": "xiao-tong",
+      "fromType": "person",
+      "to": "zhao-ming-wen-xuan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "主编"
+    },
+    {
+      "from": "xiao-tong",
+      "fromType": "person",
+      "to": "xiao-yan",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "liu-song-jian-li",
+      "year": 420,
+      "label": "刘宋建立，南朝开始"
+    },
+    {
+      "eventSlug": "yuan-jia-zhi-zhi",
+      "year": 424,
+      "label": "元嘉之治"
+    },
+    {
+      "eventSlug": "bei-wei-tong-yi-bei-fang",
+      "year": 439,
+      "label": "北魏统一北方"
+    },
+    {
+      "eventSlug": "bei-wei-han-hua-gai-ge",
+      "year": 494,
+      "label": "孝文帝汉化改革"
+    },
+    {
+      "eventSlug": "zhao-ming-wen-xuan",
+      "year": 526,
+      "label": "《昭明文选》编纂"
+    },
+    {
+      "eventSlug": "he-yin-zhi-bian",
+      "year": 528,
+      "label": "河阴之变"
+    },
+    {
+      "eventSlug": "dong-xi-wei-fen-li",
+      "year": 534,
+      "label": "东西魏分立"
+    },
+    {
+      "eventSlug": "hou-jing-zhi-luan",
+      "year": 548,
+      "label": "侯景之乱"
+    },
+    {
+      "eventSlug": "sui-wen-di-tong-yi",
+      "year": 589,
+      "label": "隋朝统一"
+    }
+  ]
+}

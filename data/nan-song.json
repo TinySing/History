@@ -1,0 +1,65 @@
+{
+  "dynasty": {
+    "slug": "nan-song",
+    "name": "南宋",
+    "startYear": 1127,
+    "endYear": 1279,
+    "summary": "南宋由赵构建立，定都临安。与金朝对峙，岳飞抗金是重要事件。后期蒙古崛起，崖山之战后南宋灭亡，十万军民蹈海殉国。"
+  },
+  "persons": [
+    {"slug": "zhao-gou-ns", "name": "赵构", "primaryRole": "emperor", "roles": ["emperor"], "importance": 80, "birthYear": 1107, "deathYear": 1187, "aliases": ["宋高宗"], "summary": "南宋开国皇帝，偏安江南。重用秦桧杀岳飞，与金议和。"},
+    {"slug": "qin-hui-ns", "name": "秦桧", "primaryRole": "minister", "roles": ["minister", "traitor"], "importance": 75, "birthYear": 1090, "deathYear": 1155, "aliases": ["秦会之"], "summary": "南宋奸臣，主和派领袖。以莫须有罪名害死岳飞，遗臭万年。"},
+    {"slug": "yue-fei-ns", "name": "岳飞", "primaryRole": "general", "roles": ["general", "hero"], "importance": 95, "birthYear": 1103, "deathYear": 1142, "aliases": ["岳武穆", "岳少保"], "summary": "南宋抗金名将，精忠报国。岳家军纪律严明，大败金军。被秦桧以莫须有罪名害死。"},
+    {"slug": "han-shi-zhong", "name": "韩世忠", "primaryRole": "general", "roles": ["general"], "importance": 80, "birthYear": 1090, "deathYear": 1151, "aliases": ["韩蕲王"], "summary": "南宋抗金名将，与岳飞齐名。黄天荡之战以八千兵困金兀术十万大军。"},
+    {"slug": "liang-hong-yu", "name": "梁红玉", "primaryRole": "general", "roles": ["general", "hero"], "importance": 70, "deathYear": 1135, "aliases": ["梁夫人"], "summary": "南宋女将，韩世忠之妻。黄天荡之战亲自擂鼓助战。"},
+    {"slug": "xin-qi-ji", "name": "辛弃疾", "primaryRole": "poet", "roles": ["poet", "general"], "importance": 90, "birthYear": 1140, "deathYear": 1207, "aliases": ["辛稼轩", "词中之龙"], "summary": "南宋词人将领，豪放派代表。一生主张抗金，词风豪迈，代表作《破阵子》《永遇乐》。"},
+    {"slug": "lu-you", "name": "陆游", "primaryRole": "poet", "roles": ["poet"], "importance": 85, "birthYear": 1125, "deathYear": 1210, "aliases": ["陆放翁"], "summary": "南宋爱国诗人，一生主张抗金。临终示儿：王师北定中原日，家祭无忘告乃翁。"},
+    {"slug": "zhu-xi", "name": "朱熹", "primaryRole": "philosopher", "roles": ["philosopher", "scholar"], "importance": 95, "birthYear": 1130, "deathYear": 1200, "aliases": ["朱文公", "晦庵先生"], "summary": "南宋理学家，理学集大成者。注释四书，影响中国思想界七百年。"},
+    {"slug": "lu-jiu-yuan", "name": "陆九渊", "primaryRole": "philosopher", "roles": ["philosopher"], "importance": 80, "birthYear": 1139, "deathYear": 1193, "aliases": ["象山先生"], "summary": "南宋哲学家，心学创始人。与朱熹鹅湖之会，是思想史上的重要事件。"},
+    {"slug": "wen-tian-xiang", "name": "文天祥", "primaryRole": "minister", "roles": ["minister", "hero"], "importance": 90, "birthYear": 1236, "deathYear": 1283, "aliases": ["文山先生"], "summary": "南宋末年宰相，抗元英雄。兵败被俘，宁死不屈，留下《正气歌》《过零丁洋》。"},
+    {"slug": "lu-xiu-fu", "name": "陆秀夫", "primaryRole": "minister", "roles": ["minister", "hero"], "importance": 75, "birthYear": 1236, "deathYear": 1279, "aliases": ["陆丞相"], "summary": "南宋末年宰相，崖山之战背着小皇帝跳海殉国。"},
+    {"slug": "zhang-shi-jie", "name": "张世杰", "primaryRole": "general", "roles": ["general", "hero"], "importance": 70, "deathYear": 1279, "aliases": ["张太傅"], "summary": "南宋末年将领，崖山之战统帅。兵败后遇风暴溺死。"},
+    {"slug": "cheng-ji-si-han", "name": "成吉思汗", "primaryRole": "emperor", "roles": ["emperor", "conqueror"], "importance": 100, "birthYear": 1162, "deathYear": 1227, "aliases": ["铁木真", "元太祖"], "summary": "蒙古帝国创建者，统一蒙古各部，西征中亚欧洲，建立人类历史上最大的帝国。"},
+    {"slug": "hu-bi-lie", "name": "忽必烈", "primaryRole": "emperor", "roles": ["emperor"], "importance": 90, "birthYear": 1215, "deathYear": 1294, "aliases": ["元世祖"], "summary": "元朝开国皇帝，成吉思汗之孙。灭南宋统一全国，建立行省制。"}
+  ],
+  "events": [
+    {"slug": "nan-song-jian-li-ns", "name": "南宋建立", "timeStart": 1127, "aliases": ["赵构称帝"], "summary": "赵构在南京应天府称帝，建立南宋，偏安江南。", "content": "1127年康王赵构在南京应天府（今商丘）称帝，建立南宋。后定都临安（今杭州），偏安江南。"},
+    {"slug": "yue-fei-kang-jin-ns", "name": "岳飞抗金", "timeStart": 1130, "timeEnd": 1142, "aliases": ["岳家军"], "summary": "岳飞率岳家军抗金，郾城大捷，收复襄阳六郡。即将直捣黄龙时被十二道金牌召回。", "content": "岳飞率岳家军抗金，军纪严明，大败金军。郾城大捷中击败金兀术主力。即将直捣黄龙时被十二道金牌召回，后被秦桧以莫须有罪名害死。"},
+    {"slug": "huang-tian-dang-zhi-zhan", "name": "黄天荡之战", "timeStart": 1130, "aliases": ["韩世忠抗金"], "summary": "韩世忠以八千兵在黄天荡困金兀术十万大军四十八天。", "content": "1130年韩世忠率八千兵在黄天荡（今南京附近）困住金兀术十万大军四十八天。梁红玉亲自擂鼓助战。"},
+    {"slug": "shao-xing-he-yi-ns", "name": "绍兴和议", "timeStart": 1141, "aliases": ["宋金和议"], "summary": "南宋与金签订绍兴和议，割地称臣纳贡，岳飞被杀。", "content": "1141年南宋与金签订绍兴和议：宋向金称臣，割让淮河以北，每年纳银二十五万两、绢二十五万匹。岳飞被杀。"},
+    {"slug": "long-xing-he-yi", "name": "隆兴和议", "timeStart": 1164, "aliases": ["宋金再议"], "summary": "宋孝宗北伐失败后与金签订隆兴和议，改为叔侄之国。", "content": "1164年宋孝宗北伐失败，与金签订隆兴和议。宋金改为叔侄之国，岁贡减少。"},
+    {"slug": "jia-ding-he-yi", "name": "嘉定和议", "timeStart": 1208, "aliases": ["宋金三议"], "summary": "宋宁宗北伐失败后与金签订嘉定和议，增岁币。", "content": "1208年宋宁宗开禧北伐失败，与金签订嘉定和议。增岁币，两国改为伯侄之国。"},
+    {"slug": "meng-gu-qi-suo", "name": "蒙古崛起", "timeStart": 1206, "aliases": ["成吉思汗建国"], "summary": "铁木真统一蒙古各部，建立蒙古帝国，开始大规模西征和南征。", "content": "1206年铁木真统一蒙古各部，被尊为成吉思汗，建立蒙古帝国。此后蒙古开始大规模扩张。"},
+    {"slug": "duan-ping-ru-meng", "name": "端平入洛", "timeStart": 1234, "aliases": ["宋蒙联合灭金"], "summary": "南宋与蒙古联合灭金，后宋军企图收复洛阳失败，宋蒙战争爆发。", "content": "1234年南宋与蒙古联合灭金。宋军趁机北上收复洛阳，被蒙古军击败。此后宋蒙战争全面爆发。"},
+    {"slug": "diao-yu-cheng-zhi-zhan", "name": "钓鱼城之战", "timeStart": 1258, "timeEnd": 1259, "aliases": ["上帝折鞭处"], "summary": "蒙古大汗蒙哥率军攻钓鱼城，久攻不下，蒙哥战死。钓鱼城被称为「上帝折鞭处」。", "content": "1258年蒙古大汗蒙哥率军攻钓鱼城（今重庆合川）。守将王坚率军坚守，蒙哥战死。蒙古被迫撤军，南宋延续二十年。"},
+    {"slug": "ya-shan-zhi-zhan", "name": "崖山之战", "timeStart": 1279, "aliases": ["崖山海战"], "summary": "南宋与蒙古在崖山（今广东新会）最后一战，宋军全军覆没。陆秀夫背幼帝跳海，十万军民殉国。", "content": "1279年南宋与蒙古在崖山（今广东新会）决战。宋军全军覆没，陆秀夫背着八岁的小皇帝跳海殉国。十万军民蹈海而死，南宋灭亡。"},
+    {"slug": "wen-tian-xiang-xun-guo", "name": "文天祥殉国", "timeStart": 1283, "aliases": ["文天祥就义"], "summary": "文天祥兵败被俘，宁死不屈，在大都就义。留下人生自古谁无死，留取丹心照汗青。", "content": "文天祥兵败被俘，忽必烈多次劝降，文天祥宁死不屈。1283年在大都（今北京）就义，留下《正气歌》传世。"}
+  ],
+  "relations": [
+    {"from": "zhao-gou-ns", "fromType": "person", "to": "qin-hui-ns", "toType": "person", "type": "political", "weight": 10, "note": "重用"},
+    {"from": "zhao-gou-ns", "fromType": "person", "to": "nan-song-jian-li-ns", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
+    {"from": "yue-fei-ns", "fromType": "person", "to": "qin-hui-ns", "toType": "person", "type": "conflict", "weight": 10, "note": "被害"},
+    {"from": "yue-fei-ns", "fromType": "person", "to": "yue-fei-kang-jin-ns", "toType": "event", "type": "participation", "weight": 10, "note": "抗金主将"},
+    {"from": "han-shi-zhong", "fromType": "person", "to": "liang-hong-yu", "toType": "person", "type": "love", "weight": 10, "note": "夫妻"},
+    {"from": "han-shi-zhong", "fromType": "person", "to": "huang-tian-dang-zhi-zhan", "toType": "event", "type": "participation", "weight": 10, "note": "统帅"},
+    {"from": "xin-qi-ji", "fromType": "person", "to": "lu-you", "toType": "person", "type": "friend", "weight": 8, "note": "志同道合"},
+    {"from": "zhu-xi", "fromType": "person", "to": "lu-jiu-yuan", "toType": "person", "type": "conflict", "weight": 9, "note": "鹅湖之会"},
+    {"from": "cheng-ji-si-han", "fromType": "person", "to": "hu-bi-lie", "toType": "person", "type": "blood", "weight": 10, "note": "祖孙"},
+    {"from": "cheng-ji-si-han", "fromType": "person", "to": "meng-gu-qi-suo", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
+    {"from": "hu-bi-lie", "fromType": "person", "to": "ya-shan-zhi-zhan", "toType": "event", "type": "participation", "weight": 10, "note": "灭宋"},
+    {"from": "wen-tian-xiang", "fromType": "person", "to": "wen-tian-xiang-xun-guo", "toType": "event", "type": "participation", "weight": 10, "note": "殉国者"},
+    {"from": "lu-xiu-fu", "fromType": "person", "to": "ya-shan-zhi-zhan", "toType": "event", "type": "participation", "weight": 10, "note": "背帝跳海"}
+  ],
+  "timelines": [
+    {"eventSlug": "nan-song-jian-li-ns", "year": 1127, "label": "南宋建立"},
+    {"eventSlug": "huang-tian-dang-zhi-zhan", "year": 1130, "label": "黄天荡之战"},
+    {"eventSlug": "shao-xing-he-yi-ns", "year": 1141, "label": "绍兴和议"},
+    {"eventSlug": "long-xing-he-yi", "year": 1164, "label": "隆兴和议"},
+    {"eventSlug": "meng-gu-qi-suo", "year": 1206, "label": "蒙古崛起"},
+    {"eventSlug": "jia-ding-he-yi", "year": 1208, "label": "嘉定和议"},
+    {"eventSlug": "duan-ping-ru-meng", "year": 1234, "label": "端平入洛"},
+    {"eventSlug": "diao-yu-cheng-zhi-zhan", "year": 1259, "label": "钓鱼城之战"},
+    {"eventSlug": "ya-shan-zhi-zhan", "year": 1279, "label": "崖山之战，南宋灭亡"},
+    {"eventSlug": "wen-tian-xiang-xun-guo", "year": 1283, "label": "文天祥殉国"}
+  ]
+}

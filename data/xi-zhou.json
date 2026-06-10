@@ -1,0 +1,422 @@
+{
+  "dynasty": {
+    "slug": "xi-zhou",
+    "name": "西周",
+    "startYear": -1046,
+    "endYear": -771,
+    "summary": "西周由周武王建立，实行分封制和宗法制，礼乐制度完备，是中华文明的重要奠基时期。共传十一王，约275年，因犬戎入侵而亡。"
+  },
+  "persons": [
+    {
+      "slug": "ji-fa",
+      "name": "周武王",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "hero"
+      ],
+      "importance": 90,
+      "deathYear": -1043,
+      "aliases": [
+        "姬发",
+        "武王"
+      ],
+      "summary": "周朝开国君主，牧野之战灭商，分封诸侯，奠定周朝800年基业。",
+      "content": "周武王姬发（？—前1043年），周文王之子，西周开国君主。继承父志，于前1046年率诸侯联军在牧野大败商军，商纣王自焚而死，商朝灭亡。武王建立周朝，定都镐京（今西安附近），分封功臣与宗室为诸侯，奠定周朝近八百年基业。灭商后两年病逝，由弟周公辅佐其子成王。"
+    },
+    {
+      "slug": "jiang-shang",
+      "name": "姜子牙",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist",
+        "general"
+      ],
+      "importance": 90,
+      "birthYear": -1150,
+      "deathYear": -1015,
+      "aliases": [
+        "姜尚",
+        "吕尚",
+        "太公望",
+        "姜太公"
+      ],
+      "summary": "周朝开国功臣，兵家鼻祖，封于齐国，是齐国始祖。",
+      "content": "姜子牙（约前1150—前1015年），名尚，字子牙，又称吕尚、太公望。年逾七十在渭水之滨垂钓遇周文王，被尊为军师。辅佐文王、武王翦商，牧野之战为军事统帅。灭商后受封于齐（今山东），为齐国始祖。相传著《六韬》，被后世尊为兵家鼻祖、武圣，历代武庙主祀。"
+    },
+    {
+      "slug": "ji-dan",
+      "name": "周公",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "regent"
+      ],
+      "importance": 95,
+      "deathYear": -1030,
+      "aliases": [
+        "周公旦",
+        "叔旦"
+      ],
+      "summary": "武王之弟，辅佐成王，制礼作乐，平定三监之乱，奠定礼乐制度。",
+      "content": "周公姬旦（？—前1030年），周武王之弟，西周著名政治家。武王死后成王年幼，周公摄政，平定管叔、蔡叔与武庚联合发动的三监之乱，东征三年稳定政局。营建洛邑、分封诸侯、制礼作乐，确立宗法分封与礼乐制度，奠定中华礼仪文明根基。还政成王后北面称臣，被孔子尊为圣人，儒家追崇的「元圣」。"
+    },
+    {
+      "slug": "ji-song",
+      "name": "周成王",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "deathYear": -1000,
+      "aliases": [
+        "姬诵",
+        "成王"
+      ],
+      "summary": "西周第二位君主，年幼即位由周公辅政，天下太平，史称成康之治。",
+      "content": "周成王姬诵（？—前1000年），周武王之子，西周第二位君主。即位时年幼，由叔父周公摄政。亲政后任用周公、召公，国力强盛，社会安定。与其子康王统治时期号称「成康之治」，是西周的鼎盛阶段，史载「刑措四十余年不用」。"
+    },
+    {
+      "slug": "ji-xia",
+      "name": "周康王",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 70,
+      "deathYear": -970,
+      "aliases": [
+        "姬钊",
+        "康王"
+      ],
+      "summary": "西周第三位君主，继承成王基业，天下安宁，成康之治延续。",
+      "content": "周康王姬钊（？—前970年），周成王之子，西周第三位君主。继承成王基业，任用贤臣，对外征伐鬼方等，开拓疆土。其统治与成王时期合称「成康之治」，天下安宁，是周朝最为强盛的时期。"
+    },
+    {
+      "slug": "ji-man",
+      "name": "周穆王",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "deathYear": -920,
+      "aliases": [
+        "姬满",
+        "穆王"
+      ],
+      "summary": "在位55年，西征犬戎，巡游天下。传说曾西游昆仑山与西王母相会。",
+      "content": "周穆王姬满（？—前920年），西周第五位君主，传在位约五十五年，是西周在位最久的君主。曾西征犬戎、东讨徐国，巡游天下，命吕侯制定《吕刑》。民间流传其西游昆仑、与西王母相会的传说，《穆天子传》即记其事，反映西周中期国势与对外交往。"
+    },
+    {
+      "slug": "ji-hu",
+      "name": "周厉王",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "tyrant"
+      ],
+      "importance": 70,
+      "deathYear": -828,
+      "aliases": [
+        "姬胡",
+        "厉王"
+      ],
+      "summary": "暴虐无道，禁止百姓议政，导致国人暴动，被流放于彘。",
+      "content": "周厉王姬胡（？—前828年），西周第十位君主。任用荣夷公施行「专利」，垄断山林川泽之利，又派卫巫监谤、禁止国人议政，致「国人莫敢言，道路以目」。前841年爆发国人暴动，厉王出逃至彘（今山西霍州），周召二公共同执政，史称「共和行政」，中国历史由此有确切纪年。"
+    },
+    {
+      "slug": "ji-jing",
+      "name": "周宣王",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "deathYear": -782,
+      "aliases": [
+        "姬静",
+        "宣王"
+      ],
+      "summary": "厉王之子，任用贤臣，北伐南征，史称宣王中兴。",
+      "content": "周宣王姬静（？—前782年），周厉王之子，西周第十一位君主。即位后任用方叔、召虎、尹吉甫等贤臣，北伐猃狁、南征荆楚淮夷，整顿朝政，国势一度复振，史称「宣王中兴」。然晚年征伐失利、料民于太原，中兴气象渐衰，为西周覆亡埋下伏笔。"
+    },
+    {
+      "slug": "ji-gong-sheng",
+      "name": "周幽王",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "tyrant"
+      ],
+      "importance": 80,
+      "deathYear": -771,
+      "aliases": [
+        "姬宫涅",
+        "幽王"
+      ],
+      "summary": "西周末代君主，宠信褒姒，烽火戏诸侯，犬戎破镐京，西周灭亡。",
+      "content": "周幽王姬宫湦（前795—前771年），西周末代君主。宠爱褒姒，废申后及太子宜臼，改立褒姒之子伯服，又「烽火戏诸侯」失信于天下。申侯联合犬戎攻破镐京，幽王被杀于骊山下，西周灭亡。其子宜臼东迁洛邑即位，是为周平王，东周（春秋）开始。"
+    },
+    {
+      "slug": "bao-si",
+      "name": "褒姒",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty",
+        "consort"
+      ],
+      "importance": 70,
+      "deathYear": -771,
+      "aliases": [
+        "褒姒"
+      ],
+      "summary": "周幽王宠妃，褒国之女。幽王为博她一笑烽火戏诸侯，导致西周灭亡。",
+      "content": "褒姒（生卒不详），周幽王宠妃，褒国（今陕西汉中一带）进献的美人。相传不喜言笑，幽王为博其一笑而烽火戏诸侯。幽王为之废嫡立庶，激化与申侯的矛盾，最终招致犬戎之祸。其形象在后世被附会为「红颜祸水」的典型，反映西周末年的政治崩坏。"
+    },
+    {
+      "slug": "shao-gong-shi",
+      "name": "召公奭",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "regent"
+      ],
+      "importance": 75,
+      "deathYear": -1000,
+      "aliases": [
+        "召公",
+        "召伯",
+        "姬奭"
+      ],
+      "summary": "西周开国重臣，封于燕为燕国始祖。与周公分陕而治，甘棠听讼，深得民心。",
+      "content": "召公奭（生卒不详），姬姓，与周王室同宗，西周开国重臣。辅佐文王、武王、成王、康王四代，封于燕（今北京一带），为燕国始祖。曾与周公分陕而治，周公主东、召公主西。相传他在甘棠树下听讼决狱、体恤百姓，后人作《甘棠》以怀念，「甘棠遗爱」典出于此。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "wu-wang-fa-zhou",
+      "name": "武王伐纣",
+      "timeStart": -1046,
+      "aliases": [
+        "牧野之战"
+      ],
+      "summary": "周武王率诸侯联军牧野击败商军，商纣自焚，周朝建立。",
+      "content": "前1046年，周武王率诸侯联军伐纣，牧野之战商军倒戈，商纣自焚。武王建立周朝，定都镐京。"
+    },
+    {
+      "slug": "san-jian-zhi-luan",
+      "name": "三监之乱",
+      "timeStart": -1042,
+      "timeEnd": -1039,
+      "aliases": [
+        "武庚之乱"
+      ],
+      "summary": "武王死后管叔蔡叔联合武庚叛乱，周公东征平叛。",
+      "content": "武王死后成王年幼，周公摄政。管叔蔡叔不满联合武庚叛乱，周公率军东征三年平叛。"
+    },
+    {
+      "slug": "zuo-le-zhi-du",
+      "name": "制礼作乐",
+      "timeStart": -1035,
+      "aliases": [
+        "周公制礼"
+      ],
+      "summary": "周公制定礼乐制度，奠定中华礼仪文明基础。",
+      "content": "周公制定吉、凶、军、宾、嘉五礼及相应音乐，规范社会各阶层行为准则。"
+    },
+    {
+      "slug": "guo-ren-bao-dong",
+      "name": "国人暴动",
+      "timeStart": -841,
+      "aliases": [
+        "厉王奔彘"
+      ],
+      "summary": "周厉王暴虐，国人暴动，厉王被流放。共和行政开始。",
+      "content": "前841年国人暴动袭击王宫，厉王逃至彘。周公召公共同执政，史称共和行政，中国历史有确切纪年开始。"
+    },
+    {
+      "slug": "xuan-wang-zhong-xing",
+      "name": "宣王中兴",
+      "timeStart": -827,
+      "timeEnd": -782,
+      "aliases": [
+        "周宣王中兴"
+      ],
+      "summary": "宣王任用贤臣，北伐南征，周朝短暂复兴。",
+      "content": "宣王即位后任用召公周公，北伐猃狁南征淮夷，国力有所恢复。"
+    },
+    {
+      "slug": "feng-huo-xi-zhu-hou",
+      "name": "烽火戏诸侯",
+      "timeStart": -779,
+      "aliases": [
+        "幽王烽火"
+      ],
+      "summary": "幽王为博褒姒笑烽火戏诸侯，后犬戎入侵无人来救，西周灭亡。",
+      "content": "幽王点烽火戏弄诸侯取悦褒姒，后犬戎入侵再点烽火无人来救，犬戎破镐京杀死幽王，西周灭亡。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "ji-fa",
+      "fromType": "person",
+      "to": "jiang-shang",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣"
+    },
+    {
+      "from": "ji-fa",
+      "fromType": "person",
+      "to": "ji-dan",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "兄弟"
+    },
+    {
+      "from": "ji-fa",
+      "fromType": "person",
+      "to": "wu-wang-fa-zhou",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "伐纣主导者"
+    },
+    {
+      "from": "ji-dan",
+      "fromType": "person",
+      "to": "ji-song",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "叔侄辅政"
+    },
+    {
+      "from": "ji-dan",
+      "fromType": "person",
+      "to": "san-jian-zhi-luan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "平叛主导者"
+    },
+    {
+      "from": "ji-dan",
+      "fromType": "person",
+      "to": "zuo-le-zhi-du",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "制定者"
+    },
+    {
+      "from": "ji-song",
+      "fromType": "person",
+      "to": "ji-xia",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    },
+    {
+      "from": "ji-hu",
+      "fromType": "person",
+      "to": "guo-ren-bao-dong",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "被流放"
+    },
+    {
+      "from": "ji-jing",
+      "fromType": "person",
+      "to": "xuan-wang-zhong-xing",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "中兴之主"
+    },
+    {
+      "from": "ji-gong-sheng",
+      "fromType": "person",
+      "to": "bao-si",
+      "toType": "person",
+      "type": "love",
+      "weight": 10,
+      "note": "宠爱"
+    },
+    {
+      "from": "ji-gong-sheng",
+      "fromType": "person",
+      "to": "feng-huo-xi-zhu-hou",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "戏弄诸侯"
+    },
+    {
+      "from": "shao-gong-shi",
+      "fromType": "person",
+      "to": "ji-song",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "辅政大臣"
+    },
+    {
+      "from": "shao-gong-shi",
+      "fromType": "person",
+      "to": "ji-dan",
+      "toType": "person",
+      "type": "friend",
+      "weight": 8,
+      "note": "分陕而治"
+    },
+    {
+      "from": "shao-gong-shi",
+      "fromType": "person",
+      "to": "guo-ren-bao-dong",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "共和行政执政者"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "wu-wang-fa-zhou",
+      "year": -1046,
+      "label": "武王伐纣，西周建立"
+    },
+    {
+      "eventSlug": "san-jian-zhi-luan",
+      "year": -1042,
+      "label": "三监之乱，周公东征"
+    },
+    {
+      "eventSlug": "zuo-le-zhi-du",
+      "year": -1035,
+      "label": "周公制礼作乐"
+    },
+    {
+      "eventSlug": "guo-ren-bao-dong",
+      "year": -841,
+      "label": "国人暴动，共和行政"
+    },
+    {
+      "eventSlug": "xuan-wang-zhong-xing",
+      "year": -827,
+      "label": "宣王中兴"
+    },
+    {
+      "eventSlug": "feng-huo-xi-zhu-hou",
+      "year": -771,
+      "label": "烽火戏诸侯，西周灭亡"
+    }
+  ]
+}

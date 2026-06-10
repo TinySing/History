@@ -1,0 +1,369 @@
+{
+  "dynasty": {
+    "slug": "shang",
+    "name": "商朝",
+    "startYear": -1600,
+    "endYear": -1046,
+    "summary": "商朝是中国历史上第二个世袭制朝代，由商汤建立。商朝青铜器发达，甲骨文是最早的成熟文字。商朝共传十七代，三十一王，延续约554年，因末代君主商纣的暴政而亡于周武王。"
+  },
+  "persons": [
+    {
+      "slug": "shang-tang",
+      "name": "商汤",
+      "primaryRole": "emperor",
+      "roles": ["emperor", "hero"],
+      "importance": 90,
+      "deathYear": -1580,
+      "aliases": ["汤", "成汤", "天乙", "武汤"],
+      "summary": "商朝开国君主，任用伊尹为相，鸣条之战灭夏桀，建立商朝。商汤是商朝最伟大的君主，开创了商朝500多年的基业。",
+      "content": "商汤，子姓，名履，商部族首领。汤任用伊尹为相，励精图治，国力日盛。\n\n汤先灭夏的属国韦、顾、昆吾，孤立夏桀。然后率军伐桀，鸣条之战大败夏军，桀逃至南巢而死。汤建立商朝，定都亳（今河南商丘）。\n\n商汤在位期间，减轻赋税，鼓励生产，商朝国力强盛。汤曾因大旱七年而剪发断爪，祈祷于桑林，甘霖遂降，是为「汤祷桑林」的典故。"
+    },
+    {
+      "slug": "yi-yin",
+      "name": "伊尹",
+      "primaryRole": "minister",
+      "roles": ["minister", "strategist", "hero"],
+      "importance": 95,
+      "birthYear": -1650,
+      "deathYear": -1550,
+      "aliases": ["伊挚", "阿衡"],
+      "summary": "商朝开国功臣，辅佐商汤灭夏，历经五代商王，被称为「元圣」。伊尹是中国历史上第一位贤相，也是厨圣、药圣。",
+      "content": "伊尹，名挚，夏末商初人。伊尹原为有莘氏的奴隶，因擅长烹饪被商汤赏识，后成为商汤的老师和谋臣。\n\n伊尹辅佐商汤灭夏，建立商朝。汤死后，伊尹先后辅佐外丙、仲壬、太甲、沃丁四代商王。太甲无道，伊尹将其放逐于桐宫，三年后太甲悔过，伊尹迎回复位。\n\n伊尹被后世尊为「元圣」，与周公并称。他不仅是政治家，还是中国烹饪和中药的鼻祖，被称为「厨圣」「药圣」。"
+    },
+    {
+      "slug": "pan-geng",
+      "name": "盘庚",
+      "primaryRole": "emperor",
+      "roles": ["emperor"],
+      "importance": 75,
+      "deathYear": -1300,
+      "aliases": ["帝盘庚"],
+      "summary": "商朝中兴之主，迁都于殷（今河南安阳），使商朝复兴。盘庚迁殷后，商朝又称殷朝或殷商。",
+      "content": "盘庚，子姓，名旬，商朝第十九位君主。商朝中期，王室内乱频繁，国势衰落。\n\n盘庚即位后，为摆脱困境，决定迁都。他率领臣民从奄（今山东曲阜）迁至殷（今河南安阳），遭到贵族反对。盘庚发表演说，劝说臣民支持迁都。\n\n迁殷后，商朝政治稳定，经济繁荣，文化昌盛，史称「盘庚中兴」。此后商朝273年不再迁都，殷成为商朝后期的政治中心。因迁都于殷，商朝又称殷朝或殷商。"
+    },
+    {
+      "slug": "wu-ding",
+      "name": "武丁",
+      "primaryRole": "emperor",
+      "roles": ["emperor"],
+      "importance": 85,
+      "deathYear": -1192,
+      "aliases": ["帝武丁", "高宗"],
+      "summary": "商朝中兴之主，在位59年，任用傅说为相，征伐四方，商朝国力达到鼎盛。武丁时期是商朝最强大的时期。",
+      "content": "武丁，子姓，名昭，商朝第二十三位君主。武丁少年时曾在民间生活，深知百姓疾苦。\n\n武丁即位后，任用奴隶出身的傅说为相，励精图治。他征伐四方，击败鬼方、土方、羌方等外敌，商朝疆域扩大，国力达到鼎盛。\n\n武丁在位59年，是商朝在位时间最长的君主。他开创了「武丁中兴」，使商朝成为当时世界上最强大的国家之一。武丁的妻子妇好是中国历史上第一位女将军。"
+    },
+    {
+      "slug": "fu-hao",
+      "name": "妇好",
+      "primaryRole": "general",
+      "roles": ["general", "royalty", "priest"],
+      "importance": 80,
+      "deathYear": -1200,
+      "aliases": ["后妇好", "母辛"],
+      "summary": "商王武丁的妻子，中国历史上第一位女将军，也是杰出的政治家和祭祀官。妇好多次率军征伐，战功赫赫。",
+      "content": "妇好，商王武丁的妻子，中国历史上第一位有据可查的女将军。\n\n妇好不仅是武丁的王后，还是一位杰出的军事统帅和祭祀官。她多次率军征伐羌方、土方、巴方等外敌，最多时统率一万三千人，是商朝规模最大的军事行动之一。\n\n妇好还主持祭祀活动，地位崇高。武丁对她极为宠爱，她死后被追谥为「辛」，庙号「母辛」。1976年妇好墓在安阳殷墟出土，出土文物1928件，是殷墟保存最完整的商代王室墓葬。"
+    },
+    {
+      "slug": "zhou-wang",
+      "name": "商纣",
+      "primaryRole": "emperor",
+      "roles": ["emperor", "tyrant"],
+      "importance": 80,
+      "deathYear": -1046,
+      "aliases": ["纣", "帝辛", "殷纣王"],
+      "summary": "商朝末代君主，中国历史上著名的暴君。资辩捷敏，材力过人，但荒淫残暴，宠信妲己，酒池肉林，最终被周武王所灭。",
+      "content": "商纣，子姓，名受，商朝最后一位君主。纣天资聪颖，力大无穷，能徒手格兽，但刚愎自用，荒淫残暴。\n\n纣在位期间，穷奢极欲，建造酒池肉林，设炮烙之刑，残杀忠臣比干、梅伯。他宠信妲己，不理朝政，大肆征伐东夷，消耗国力。\n\n周武王率诸侯伐纣，牧野之战中商军倒戈，纣逃至鹿台，自焚而死。商朝灭亡，周朝建立。"
+    },
+    {
+      "slug": "da-ji",
+      "name": "妲己",
+      "primaryRole": "royalty",
+      "roles": ["royalty", "consort"],
+      "importance": 70,
+      "deathYear": -1046,
+      "aliases": ["妲己"],
+      "summary": "商纣的宠妃，有苏氏之女。传说纣王为博她一笑而建造酒池肉林，设炮烙之刑。妲己被认为是商朝灭亡的原因之一。",
+      "content": "妲己，有苏氏之女，商纣的宠妃。有苏氏被商纣击败后，献妲己求和。\n\n纣对妲己宠爱有为，为她建造酒池肉林，设炮烙之刑。传说妲己喜欢看人受刑，纣就设各种酷刑取悦她。纣荒废朝政，沉迷享乐，最终导致商朝灭亡。\n\n后世常将商朝灭亡归咎于妲己，与妹喜、褒姒并称「三大妖姬」。但现代史学家认为，妲己只是商朝灭亡的替罪羊，真正的原因是商纣的暴政。"
+    },
+    {
+      "slug": "bi-gan",
+      "name": "比干",
+      "primaryRole": "minister",
+      "roles": ["minister"],
+      "importance": 75,
+      "deathYear": -1047,
+      "aliases": ["王子比干", "比干王叔"],
+      "summary": "商朝忠臣，纣王的叔父。因直谏纣王而被挖心，是中国历史上最著名的忠臣之一。",
+      "content": "比干，子姓，名干，商纣的叔父。比干辅佐两代商王，忠心耿耿。\n\n纣王荒淫无道，比干多次进谏。传说比干对纣说：「君有过而不以死争，则百姓何辜！」纣大怒，说：「吾闻圣人之心有七窍。」遂剖比干之心。\n\n比干是中国历史上最著名的忠臣之一，与微子、箕子并称「殷末三仁」。后世尊比干为「文财神」「文曲星」。"
+    },
+    {
+      "slug": "ji-chang",
+      "name": "周文王",
+      "primaryRole": "emperor",
+      "roles": ["emperor", "philosopher"],
+      "importance": 85,
+      "deathYear": -1050,
+      "aliases": ["姬昌", "西伯昌", "文王"],
+      "summary": "周朝奠基者，被商纣囚禁于羑里，在狱中推演周易。文王礼贤下士，积善修德，为武王伐纣奠定基础。",
+      "content": "周文王，姬姓，名昌，周部族首领。文王广施仁政，礼贤下士，天下诸侯多归附。\n\n商纣忌惮文王，将其囚禁于羑里（今河南汤阴）。文王在狱中推演周易，将八卦演为六十四卦。后周臣献美女珍宝，纣释文王。\n\n文王回到周原后，任用姜尚为相，积极筹备灭商。文王在位五十年，周国势力大增，为武王伐纣奠定基础。文王死后，武王继位，最终灭商建周。"
+    },
+    {
+      "slug": "jiang-shang",
+      "name": "姜子牙",
+      "primaryRole": "minister",
+      "roles": ["minister", "strategist", "general"],
+      "importance": 90,
+      "birthYear": -1150,
+      "deathYear": -1015,
+      "aliases": ["姜尚", "吕尚", "太公望", "姜太公"],
+      "summary": "周朝开国功臣，辅佐文王、武王灭商建周。姜子牙是兵家鼻祖，被封于齐国，是齐国的始祖。",
+      "content": "姜子牙，姜姓，吕氏，名尚，字子牙。姜子牙曾在渭水边垂钓，周文王出猎时与他相遇，说：「吾太公望子久矣。」故号「太公望」。\n\n姜子牙辅佐文王、武王，是灭商的主要策划者。牧野之战中，姜子牙率军大败商军。周朝建立后，姜子牙被封于齐国，建立齐国。\n\n姜子牙是中国兵家鼻祖，著有《六韬》《三略》等兵书。后世尊他为「武圣」「百家宗师」，民间传说中更是神通广大的人物。"
+    },
+    {
+      "slug": "ji-fa",
+      "name": "周武王",
+      "primaryRole": "emperor",
+      "roles": ["emperor", "hero"],
+      "importance": 90,
+      "deathYear": -1043,
+      "aliases": ["姬发", "武王"],
+      "summary": "周朝开国君主，文王之子。继位后联合诸侯伐纣，牧野之战灭商，建立周朝。武王分封诸侯，奠定了周朝800年基业。",
+      "content": "周武王，姬姓，名发，周文王之子。武王继位后，任用姜子牙为相，周公、召公为辅，积极筹备灭商。\n\n前1046年，武王率诸侯联军伐纣，牧野之战中商军倒戈，纣自焚而死。武王建立周朝，定都镐京（今陕西西安）。\n\n武王实行分封制，将土地和人民分封给功臣和宗室，建立诸侯国。武王在位仅四年即去世，但奠定了周朝800年基业。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "shang-tang-mie-xia",
+      "name": "商汤灭夏",
+      "timeStart": -1600,
+      "aliases": ["鸣条之战", "汤武革命"],
+      "summary": "商汤起兵伐夏，鸣条之战击败夏桀，建立商朝。这是中国历史上第一次以武力推翻旧王朝的革命，史称「汤武革命」。",
+      "content": "夏桀暴虐无道，商汤任用伊尹为相，积蓄力量。\n\n商汤先灭夏的属国韦、顾、昆吾，孤立夏桀。然后率军伐桀，鸣条之战大败夏军。夏桀逃至南巢（今安徽巢湖），最终饿死。\n\n商汤建立商朝，定都亳（今河南商丘）。商汤是商朝最伟大的君主，开创了商朝500多年的基业。"
+    },
+    {
+      "slug": "pan-geng-qian-yin",
+      "name": "盘庚迁殷",
+      "timeStart": -1300,
+      "aliases": ["迁都于殷"],
+      "summary": "盘庚率领商朝臣民从奄迁至殷（今河南安阳），使商朝复兴。此后商朝273年不再迁都，殷成为商朝后期的政治中心。",
+      "content": "商朝中期，王室内乱频繁，国势衰落。盘庚即位后，决定迁都。\n\n盘庚率领臣民从奄（今山东曲阜）迁至殷（今河南安阳），遭到贵族反对。盘庚发表演说，劝说臣民支持迁都。\n\n迁殷后，商朝政治稳定，经济繁荣，文化昌盛，史称「盘庚中兴」。此后商朝273年不再迁都，殷成为商朝后期的政治中心。"
+    },
+    {
+      "slug": "wu-ding-zhong-xing",
+      "name": "武丁中兴",
+      "timeStart": -1250,
+      "timeEnd": -1192,
+      "aliases": ["武丁盛世"],
+      "summary": "商王武丁在位59年，任用傅说为相，征伐四方，商朝国力达到鼎盛。武丁时期是商朝最强大的时期。",
+      "content": "武丁即位后，任用奴隶出身的傅说为相，励精图治。\n\n武丁征伐四方，击败鬼方、土方、羌方等外敌，商朝疆域扩大，国力达到鼎盛。武丁的妻子妇好是中国历史上第一位女将军。\n\n武丁在位59年，开创了「武丁中兴」，使商朝成为当时世界上最强大的国家之一。"
+    },
+    {
+      "slug": "mu-ye-zhi-zhan",
+      "name": "牧野之战",
+      "timeStart": -1046,
+      "aliases": ["武王伐纣"],
+      "summary": "周武王率诸侯联军在牧野（今河南淇县）击败商军，商纣自焚而死，商朝灭亡，周朝建立。这是中国历史上著名的以少胜多的战役。",
+      "content": "前1046年，周武王率诸侯联军伐纣。商纣发兵七十万迎战，双方在牧野（今河南淇县）决战。\n\n商军多为临时征发的奴隶和战俘，阵前倒戈，引导周军攻入朝歌。商纣逃至鹿台，自焚而死。\n\n武王建立周朝，定都镐京（今陕西西安）。牧野之战是中国历史上著名的以少胜多的战役，也是商朝灭亡、周朝建立的转折点。"
+    },
+    {
+      "slug": "zhou-yi-tui-yan",
+      "name": "周易推演",
+      "timeStart": -1080,
+      "timeEnd": -1060,
+      "aliases": ["文王演周易"],
+      "summary": "周文王被商纣囚禁于羑里，在狱中推演周易，将八卦演为六十四卦。周易是中国最古老的经典之一，对中华文化影响深远。",
+      "content": "商纣忌惮周文王，将其囚禁于羑里（今河南汤阴）。\n\n文王在狱中潜心研究，将伏羲八卦演为六十四卦，并为每卦撰写卦辞。周易是中国最古老的经典之一，被称为「群经之首」。\n\n周易不仅是一部占卜之书，更蕴含着深刻的哲学思想，对中华文化产生了深远影响。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "shang-tang",
+      "fromType": "person",
+      "to": "yi-yin",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣，灭夏功臣"
+    },
+    {
+      "from": "shang-tang",
+      "fromType": "person",
+      "to": "shang-tang-mie-xia",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "灭夏主导者"
+    },
+    {
+      "from": "yi-yin",
+      "fromType": "person",
+      "to": "shang-tang-mie-xia",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "主要谋臣"
+    },
+    {
+      "from": "yi-yin",
+      "fromType": "person",
+      "to": "pan-geng",
+      "toType": "person",
+      "type": "political",
+      "weight": 7,
+      "note": "辅政大臣"
+    },
+    {
+      "from": "pan-geng",
+      "fromType": "person",
+      "to": "pan-geng-qian-yin",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "迁都主导者"
+    },
+    {
+      "from": "wu-ding",
+      "fromType": "person",
+      "to": "fu-hao",
+      "toType": "person",
+      "type": "love",
+      "weight": 10,
+      "note": "夫妻"
+    },
+    {
+      "from": "wu-ding",
+      "fromType": "person",
+      "to": "wu-ding-zhong-xing",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "中兴之主"
+    },
+    {
+      "from": "fu-hao",
+      "fromType": "person",
+      "to": "wu-ding-zhong-xing",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "女将军"
+    },
+    {
+      "from": "zhou-wang",
+      "fromType": "person",
+      "to": "da-ji",
+      "toType": "person",
+      "type": "love",
+      "weight": 9,
+      "note": "宠爱"
+    },
+    {
+      "from": "zhou-wang",
+      "fromType": "person",
+      "to": "bi-gan",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "杀死忠臣"
+    },
+    {
+      "from": "zhou-wang",
+      "fromType": "person",
+      "to": "mu-ye-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "亡国之君"
+    },
+    {
+      "from": "ji-chang",
+      "fromType": "person",
+      "to": "ji-fa",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "父子"
+    },
+    {
+      "from": "ji-chang",
+      "fromType": "person",
+      "to": "jiang-shang",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣"
+    },
+    {
+      "from": "ji-chang",
+      "fromType": "person",
+      "to": "zhou-yi-tui-yan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "推演者"
+    },
+    {
+      "from": "jiang-shang",
+      "fromType": "person",
+      "to": "mu-ye-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "统帅"
+    },
+    {
+      "from": "ji-fa",
+      "fromType": "person",
+      "to": "jiang-shang",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣"
+    },
+    {
+      "from": "ji-fa",
+      "fromType": "person",
+      "to": "mu-ye-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "伐纣主导者"
+    },
+    {
+      "from": "bi-gan",
+      "fromType": "person",
+      "to": "zhou-wang",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "忠臣直谏"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "shang-tang-mie-xia",
+      "year": -1600,
+      "label": "商汤灭夏，商朝建立"
+    },
+    {
+      "eventSlug": "pan-geng-qian-yin",
+      "year": -1300,
+      "label": "盘庚迁殷"
+    },
+    {
+      "eventSlug": "wu-ding-zhong-xing",
+      "year": -1250,
+      "label": "武丁中兴"
+    },
+    {
+      "eventSlug": "zhou-yi-tui-yan",
+      "year": -1070,
+      "label": "文王演周易"
+    },
+    {
+      "eventSlug": "mu-ye-zhi-zhan",
+      "year": -1046,
+      "label": "牧野之战，商朝灭亡"
+    }
+  ]
+}

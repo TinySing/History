@@ -1,0 +1,485 @@
+{
+  "dynasty": {
+    "slug": "dong-jin",
+    "name": "东晋",
+    "startYear": 317,
+    "endYear": 420,
+    "summary": "东晋由司马睿建立，定都建康。门阀政治盛行，王谢桓庾四大家族轮流执政。桓温北伐、淝水之战是重要事件。最终刘裕篡晋建宋，东晋灭亡。"
+  },
+  "persons": [
+    {
+      "slug": "si-ma-rui",
+      "name": "司马睿",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "birthYear": 276,
+      "deathYear": 323,
+      "aliases": [
+        "晋元帝"
+      ],
+      "summary": "东晋开国皇帝，琅琊王。在王导等士族支持下南渡建康，建立东晋。",
+      "content": "司马睿（276—323年），字景文，琅琊王，东晋开国皇帝（晋元帝）。永嘉之乱后在王导、王敦兄弟为首的南北士族拥戴下南渡，317年于建康（今南京）即晋王位，次年称帝，重建晋室，史称东晋。因仰赖王氏甚深，时谚「王与马，共天下」，门阀政治自此而盛。"
+    },
+    {
+      "slug": "wang-dao",
+      "name": "王导",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "regent"
+      ],
+      "importance": 90,
+      "birthYear": 276,
+      "deathYear": 339,
+      "aliases": [
+        "王丞相"
+      ],
+      "summary": "东晋开国功臣，琅琊王氏代表。辅佐司马睿建立东晋，稳定江南局势，与谢安并称「王谢」。",
+      "content": "王导（276—339年），字茂弘，琅琊临沂人，东晋开国元勋。辅佐司马睿南渡立国，调和南北士族、安定江左，历元、明、成三帝，为东晋政权奠基者，与从兄王敦一文一武撑持朝局。世称「王与马，共天下」，与谢安并称「王谢」，是门阀政治的代表人物。"
+    },
+    {
+      "slug": "wang-xi-zhi",
+      "name": "王羲之",
+      "primaryRole": "artist",
+      "roles": [
+        "artist",
+        "minister"
+      ],
+      "importance": 95,
+      "birthYear": 303,
+      "deathYear": 361,
+      "aliases": [
+        "书圣",
+        "王右军"
+      ],
+      "summary": "东晋书法家，被尊为「书圣」。《兰亭集序》被誉为天下第一行书。",
+      "content": "王羲之（303—361年），字逸少，琅琊临沂人，东晋大书法家，被尊为「书圣」。出身名门，官至右军将军，世称「王右军」。博采众长，变汉魏质朴为妍美流便，奠定行书、楷书规范。永和九年兰亭雅集所书《兰亭集序》，遒媚劲健、气韵生动，被誉为「天下第一行书」。"
+    },
+    {
+      "slug": "huan-wen",
+      "name": "桓温",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "regent"
+      ],
+      "importance": 85,
+      "birthYear": 312,
+      "deathYear": 373,
+      "aliases": [
+        "桓大司马"
+      ],
+      "summary": "东晋权臣名将，三次北伐收复洛阳，权倾朝野，曾想篡位未果。",
+      "content": "桓温（312—373年），字元子，谯国龙亢人，东晋权臣、名将。曾溯江西伐、灭成汉，威名大振，三次北伐一度收复洛阳。手握重兵、权倾朝野，行废立之事，叹「既不能流芳百世，亦不足复遗臭万年乎」，有篡晋之志，求加九锡未遂而病死。"
+    },
+    {
+      "slug": "xie-an",
+      "name": "谢安",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "strategist"
+      ],
+      "importance": 95,
+      "birthYear": 320,
+      "deathYear": 385,
+      "aliases": [
+        "谢太傅",
+        "谢安石"
+      ],
+      "summary": "东晋名相，指挥淝水之战以少胜多击败前秦。与王导并称「王谢」，是东晋最杰出的政治家。",
+      "content": "谢安（320—385年），字安石，陈郡阳夏人，东晋名相。早年隐居东山，屡辞征辟，年逾四十方出仕，「东山再起」典出于此。淝水之战时任宰相，从容部署、镇定指挥，以八万破前秦号称百万之众，捷报至而弈棋如故，风度超然。与王导并称「王谢」，为东晋最杰出的政治家。"
+    },
+    {
+      "slug": "xie-xuan",
+      "name": "谢玄",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 85,
+      "birthYear": 343,
+      "deathYear": 388,
+      "aliases": [
+        "谢幼度"
+      ],
+      "summary": "东晋名将，谢安之侄。淝水之战中率北府兵大败前秦军，功勋卓著。",
+      "content": "谢玄（343—388年），字幼度，陈郡阳夏人，谢安之侄，东晋名将。组建并统率精锐「北府兵」。淝水之战中为前锋都督，乘前秦军阵脚移动之机渡水猛攻，大破苻坚百万之师，一战定东晋安危，乘胜北伐收复大片失地，功勋卓著。"
+    },
+    {
+      "slug": "liu-yu",
+      "name": "刘裕",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 90,
+      "birthYear": 363,
+      "deathYear": 422,
+      "aliases": [
+        "宋武帝",
+        "寄奴"
+      ],
+      "summary": "南朝宋开国皇帝，出身寒门。北伐灭南燕后秦，战功赫赫，最终篡晋建宋。",
+      "content": "刘裕（363—422年），字德舆，小名寄奴，彭城人，南朝宋开国皇帝（宋武帝）。出身寒微，以北府兵将领崛起，平孙恩、灭桓玄、清内乱。两次北伐灭南燕、后秦，收复长安、洛阳，武功为东晋之最。420年代晋称帝，建立刘宋，开启南朝，结束门阀独大的局面。"
+    },
+    {
+      "slug": "gu-kai-zhi",
+      "name": "顾恺之",
+      "primaryRole": "artist",
+      "roles": [
+        "artist"
+      ],
+      "importance": 80,
+      "birthYear": 348,
+      "deathYear": 409,
+      "aliases": [
+        "顾虎头"
+      ],
+      "summary": "东晋画家，被称为「画圣」。代表作《女史箴图》《洛神赋图》。",
+      "content": "顾恺之（约348—409年），字长康，晋陵无锡人，东晋大画家，时称「才绝、画绝、痴绝」。绘画注重「以形写神」「传神写照，正在阿堵中」，奠定中国人物画理论。传世摹本《女史箴图》《洛神赋图》线条如「春蚕吐丝」，被后世尊为「画祖」。"
+    },
+    {
+      "slug": "tao-yuan-ming",
+      "name": "陶渊明",
+      "primaryRole": "poet",
+      "roles": [
+        "poet"
+      ],
+      "importance": 90,
+      "birthYear": 365,
+      "deathYear": 427,
+      "aliases": [
+        "陶潜",
+        "靖节先生"
+      ],
+      "summary": "东晋诗人，田园诗派创始人。不为五斗米折腰，著有《桃花源记》《归去来兮辞》。",
+      "content": "陶渊明（约365—427年），名潜，字元亮，浔阳柴桑人，东晋大诗人，田园诗派开创者。曾任彭泽县令，因「不为五斗米折腰」挂印归隐，躬耕田园。诗风冲淡自然、真率高远，《饮酒》《归园田居》传诵千古；《归去来兮辞》《桃花源记》寄寓理想，影响后世士人精神世界至深。"
+    },
+    {
+      "slug": "fu-jian",
+      "name": "苻坚",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "birthYear": 338,
+      "deathYear": 385,
+      "aliases": [
+        "前秦宣昭帝"
+      ],
+      "summary": "前秦皇帝，统一北方。淝水之战大败，前秦瓦解。投鞭断流的典故出自他口。",
+      "content": "苻坚（338—385年），字永固，氐族，十六国前秦君主。任用汉人王猛改革图治，先后灭前燕、前凉、代国，统一北方，国势极盛。383年不顾众谏南征东晋，自夸「投鞭于江，足断其流」，淝水一战惨败，前秦随即土崩瓦解，他亦为部将姚苌所杀。"
+    },
+    {
+      "slug": "zu-ti",
+      "name": "祖逖",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": 266,
+      "deathYear": 321,
+      "aliases": [
+        "祖士稚"
+      ],
+      "summary": "东晋名将，闻鸡起舞、中流击楫，率部北伐收复黄河以南，壮志未酬而卒。",
+      "content": "祖逖（266—321年），字士稚，范阳遒县人，东晋名将。少有大志，与刘琨「闻鸡起舞」勤练武艺。永嘉乱后率部南渡，中流击楫立誓「不能清中原而复济者，有如大江」。后率军北伐，收复黄河以南大片土地，威震石勒。因朝廷掣肘、忧愤成疾而卒，壮志未酬。"
+    },
+    {
+      "slug": "wang-dun",
+      "name": "王敦",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "rebel"
+      ],
+      "importance": 72,
+      "birthYear": 266,
+      "deathYear": 324,
+      "aliases": [
+        "王处仲"
+      ],
+      "summary": "东晋权臣武将，与王导共扶晋室，后恃功专横两度举兵犯阙，病死军中。",
+      "content": "王敦（266—324年），字处仲，琅琊临沂人，王导从兄，东晋权臣、武将。与王导共扶司马睿立国，掌长江上游兵权。后恃功专横，两度举兵犯阙，攻入建康，把持朝政，谋图篡夺。第二次叛乱中病死军中，乱遂平，是东晋门阀政治内部矛盾的典型。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "dong-jin-jian-li",
+      "name": "东晋建立",
+      "timeStart": 317,
+      "aliases": [
+        "司马睿称帝"
+      ],
+      "summary": "司马睿在建康称帝，建立东晋。王导等士族辅佐，偏安江左。",
+      "content": "317年，琅琊王司马睿在建康（今南京）称帝，建立东晋。王导、王敦等琅琊王氏辅佐，时称「王与马，共天下」。"
+    },
+    {
+      "slug": "su-jun-zhi-luan",
+      "name": "苏峻之乱",
+      "timeStart": 327,
+      "timeEnd": 329,
+      "aliases": [
+        "苏峻叛乱"
+      ],
+      "summary": "东晋将领苏峻起兵叛乱，攻陷建康。陶侃、温峤等联合平叛。",
+      "content": "327年，历阳内史苏峻因不满庾亮削藩，联合祖约起兵叛乱。叛军攻陷建康，纵兵劫掠。陶侃、温峤等联合勤王，329年平定叛乱。"
+    },
+    {
+      "slug": "huan-wen-bei-fa",
+      "name": "桓温北伐",
+      "timeStart": 354,
+      "timeEnd": 369,
+      "aliases": [
+        "三次北伐"
+      ],
+      "summary": "桓温三次北伐，一度收复洛阳，但最终未能恢复中原。",
+      "content": "桓温于354年、356年、369年三次北伐。第一次攻至灞上，第二次收复洛阳，第三次枋头之败。北伐虽有战果，但未能恢复中原。"
+    },
+    {
+      "slug": "fei-shui-zhi-zhan",
+      "name": "淝水之战",
+      "timeStart": 383,
+      "aliases": [
+        "以少胜多"
+      ],
+      "summary": "东晋谢安指挥，谢玄率北府兵以八万大败前秦苻坚八十万大军，是中国历史上著名的以少胜多战役。",
+      "content": "383年，前秦苻坚率八十万大军南侵。谢安坐镇建康，谢玄率八万北府兵迎战。淝水之战晋军以少胜多，前秦大败。苻坚中箭逃回，前秦随即瓦解。风声鹤唳、草木皆兵的典故出自此战。"
+    },
+    {
+      "slug": "sun-en-qi-yi",
+      "name": "孙恩起义",
+      "timeStart": 399,
+      "timeEnd": 402,
+      "aliases": [
+        "孙恩卢循起义"
+      ],
+      "summary": "东晋末年孙恩、卢循领导的农民起义，动摇了东晋统治基础。",
+      "content": "399年，五斗米道首领孙恩率众起义，攻占会稽等地。孙恩死后，卢循继续领导起义。起义军转战东南沿海，最终被刘裕镇压。"
+    },
+    {
+      "slug": "liu-yu-bei-fa",
+      "name": "刘裕北伐",
+      "timeStart": 409,
+      "timeEnd": 417,
+      "aliases": [
+        "灭南燕后秦"
+      ],
+      "summary": "刘裕两次北伐，灭南燕、后秦，收复长安洛阳，是东晋北伐最大战果。",
+      "content": "409年刘裕北伐灭南燕，417年再次北伐灭后秦，收复长安、洛阳。这是东晋北伐的最大战果。但因刘穆之病逝，刘裕匆忙南归，关中得而复失。"
+    },
+    {
+      "slug": "liu-yu-cuan-jin",
+      "name": "刘裕篡晋",
+      "timeStart": 420,
+      "aliases": [
+        "东晋灭亡"
+      ],
+      "summary": "刘裕逼晋恭帝禅位，建立南朝宋，东晋灭亡。南朝开始。",
+      "content": "420年，刘裕逼晋恭帝司马德文禅位，建立南朝宋。东晋灭亡，中国历史进入南北朝时期。"
+    },
+    {
+      "slug": "zu-ti-bei-fa",
+      "name": "祖逖北伐",
+      "timeStart": 313,
+      "aliases": [
+        "中流击楫"
+      ],
+      "summary": "祖逖率部渡江北伐，收复黄河以南大片失地，因朝廷掣肘忧愤而卒。",
+      "content": "313年祖逖请缨北伐，率部曲百余家渡江，中流击楫立誓。数年间联结坞堡、屡破石勒之军，收复黄河以南大片土地。后东晋朝廷忌惮其功、派戴渊节制，祖逖忧愤成疾，321年病卒，所复之地旋又丧失。"
+    },
+    {
+      "slug": "wang-dun-zhi-luan",
+      "name": "王敦之乱",
+      "timeStart": 322,
+      "timeEnd": 324,
+      "aliases": [
+        "王敦叛乱"
+      ],
+      "summary": "王敦凭长江上游兵权两度举兵攻入建康，威逼朝廷，第二次叛乱中病死，乱平。",
+      "content": "王敦以诛刘隗、刁协为名，于322年自武昌举兵东下，攻入建康，杀戮大臣、专擅朝政。晋元帝忧愤而死。324年再度举兵，途中病重，明帝乘机讨平，王敦病死军中，被剖棺戮尸。此乱暴露东晋门阀与皇权的深刻矛盾。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "si-ma-rui",
+      "fromType": "person",
+      "to": "wang-dao",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣，王与马共天下"
+    },
+    {
+      "from": "wang-dao",
+      "fromType": "person",
+      "to": "dong-jin-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "辅佐建国"
+    },
+    {
+      "from": "wang-dao",
+      "fromType": "person",
+      "to": "wang-xi-zhi",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "叔侄"
+    },
+    {
+      "from": "huan-wen",
+      "fromType": "person",
+      "to": "huan-wen-bei-fa",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "北伐主导者"
+    },
+    {
+      "from": "xie-an",
+      "fromType": "person",
+      "to": "xie-xuan",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "叔侄"
+    },
+    {
+      "from": "xie-an",
+      "fromType": "person",
+      "to": "fei-shui-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "总指挥"
+    },
+    {
+      "from": "xie-xuan",
+      "fromType": "person",
+      "to": "fei-shui-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "前线统帅"
+    },
+    {
+      "from": "fu-jian",
+      "fromType": "person",
+      "to": "fei-shui-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "前秦统帅"
+    },
+    {
+      "from": "liu-yu",
+      "fromType": "person",
+      "to": "liu-yu-bei-fa",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "北伐主导者"
+    },
+    {
+      "from": "liu-yu",
+      "fromType": "person",
+      "to": "liu-yu-cuan-jin",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "篡位者"
+    },
+    {
+      "from": "zu-ti",
+      "fromType": "person",
+      "to": "zu-ti-bei-fa",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "北伐统帅"
+    },
+    {
+      "from": "wang-dun",
+      "fromType": "person",
+      "to": "wang-dun-zhi-luan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "叛乱发动者"
+    },
+    {
+      "from": "wang-dun",
+      "fromType": "person",
+      "to": "wang-dao",
+      "toType": "person",
+      "type": "blood",
+      "weight": 8,
+      "note": "从兄弟"
+    },
+    {
+      "from": "wang-dun",
+      "fromType": "person",
+      "to": "si-ma-rui",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "举兵犯阙"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "zu-ti-bei-fa",
+      "year": 313,
+      "label": "祖逖中流击楫北伐"
+    },
+    {
+      "eventSlug": "dong-jin-jian-li",
+      "year": 317,
+      "label": "东晋建立"
+    },
+    {
+      "eventSlug": "wang-dun-zhi-luan",
+      "year": 322,
+      "label": "王敦之乱"
+    },
+    {
+      "eventSlug": "su-jun-zhi-luan",
+      "year": 327,
+      "label": "苏峻之乱"
+    },
+    {
+      "eventSlug": "huan-wen-bei-fa",
+      "year": 354,
+      "label": "桓温北伐"
+    },
+    {
+      "eventSlug": "fei-shui-zhi-zhan",
+      "year": 383,
+      "label": "淝水之战"
+    },
+    {
+      "eventSlug": "sun-en-qi-yi",
+      "year": 399,
+      "label": "孙恩起义"
+    },
+    {
+      "eventSlug": "liu-yu-bei-fa",
+      "year": 417,
+      "label": "刘裕北伐灭后秦"
+    },
+    {
+      "eventSlug": "liu-yu-cuan-jin",
+      "year": 420,
+      "label": "刘裕篡晋，东晋灭亡"
+    }
+  ]
+}

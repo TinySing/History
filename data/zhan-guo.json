@@ -1,0 +1,595 @@
+{
+  "dynasty": {
+    "slug": "zhan-guo",
+    "name": "战国",
+    "startYear": -475,
+    "endYear": -221,
+    "summary": "战国时期因西汉刘向编《战国策》而得名，七雄并立，兼并战争不断。百家争鸣是中国思想史上最灿烂的时期。最终秦国统一六国，建立秦朝。"
+  },
+  "persons": [
+    {
+      "slug": "qin-xiao-gong",
+      "name": "秦孝公",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "deathYear": -338,
+      "aliases": [
+        "嬴渠梁",
+        "孝公"
+      ],
+      "summary": "秦国国君，任用商鞅变法，秦国从此崛起，奠定统一六国基础。",
+      "content": "秦孝公嬴渠梁（前381—前338年），战国秦国君主。即位时秦国地处西陲、为诸侯所轻，遂发布「求贤令」广招人才。重用商鞅推行变法，废井田、奖耕战、建县制，秦国迅速强大，收复河西失地。其奠定的制度根基，使秦国具备了日后一统天下的实力。"
+    },
+    {
+      "slug": "su-qin",
+      "name": "苏秦",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist",
+        "diplomat"
+      ],
+      "importance": 80,
+      "deathYear": -284,
+      "aliases": [
+        "苏季子"
+      ],
+      "summary": "纵横家代表人物，主张合纵，曾佩六国相印，联合六国抗秦。",
+      "content": "苏秦（？—前284年），字季子，东周洛阳人，纵横家代表。师从鬼谷子，早年游说不遇、锥刺股苦读。后以「合纵」之策游说六国联合抗秦，身佩六国相印，使秦十五年不敢出函谷关。后入燕、齐从事反间，事败被齐车裂而死。"
+    },
+    {
+      "slug": "zhang-yi",
+      "name": "张仪",
+      "primaryRole": "strategist",
+      "roles": [
+        "strategist",
+        "diplomat"
+      ],
+      "importance": 85,
+      "deathYear": -309,
+      "aliases": [
+        "张子"
+      ],
+      "summary": "纵横家代表人物，主张连横，为秦国游说六国，瓦解合纵联盟。",
+      "content": "张仪（？—前309年），魏国人，纵横家代表，与苏秦同师鬼谷子。以「连横」之策事秦，相秦惠王。屡次欺楚、离间六国合纵，「以横破纵」，为秦蚕食诸侯立下大功。曾以商於六百里地诳楚怀王绝齐，致楚孤立受挫，是战国外交斗争的代表人物。"
+    },
+    {
+      "slug": "lian-po",
+      "name": "廉颇",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": -327,
+      "deathYear": -243,
+      "aliases": [
+        "廉将军"
+      ],
+      "summary": "赵国名将，战国四大名将之一。负荆请罪与蔺相如成为千古佳话。",
+      "content": "廉颇（约前327—前243年），赵国名将，战国四大名将之一。屡破齐、魏，威震诸侯。长平之战初期坚壁固守、以逸待劳，被赵王中反间计撤换。与蔺相如「将相和」、负荆请罪传为美谈。晚年遭谗奔魏、入楚，「廉颇老矣，尚能饭否」道尽英雄迟暮，终客死异乡。"
+    },
+    {
+      "slug": "lin-xiang-ru",
+      "name": "蔺相如",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 80,
+      "birthYear": -329,
+      "deathYear": -259,
+      "aliases": [
+        "蔺大夫"
+      ],
+      "summary": "赵国上卿，完璧归赵、渑池之会维护赵国尊严，与廉颇将相和传为美谈。",
+      "content": "蔺相如（约前329—前259年），赵国上卿。本为宦者令舍人，奉璧使秦，「完璧归赵」全身而还；渑池之会迫秦王击缶，维护赵国尊严。位居廉颇之上，廉颇不服，他以「先国家之急而后私仇」相忍为国，终使廉颇负荆请罪，结为刎颈之交，「将相和」成为千古佳话。"
+    },
+    {
+      "slug": "li-mu",
+      "name": "李牧",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 82,
+      "deathYear": -229,
+      "aliases": [
+        "武安君"
+      ],
+      "summary": "赵国名将，战国四大名将之一。北击匈奴、两败秦军，最终被赵王冤杀。",
+      "content": "李牧（？—前229年），赵国名将，战国四大名将之一。长期镇守北疆，养精蓄锐，一战大破匈奴十余万骑，使其十余年不敢南下。后两度大败秦军，封武安君，为赵国最后的长城。秦行反间计，赵王迁中计冤杀李牧，三月后赵国为秦所灭，「李牧死，赵国亡」。"
+    },
+    {
+      "slug": "qu-yuan",
+      "name": "屈原",
+      "primaryRole": "poet",
+      "roles": [
+        "poet",
+        "minister"
+      ],
+      "importance": 90,
+      "birthYear": -340,
+      "deathYear": -278,
+      "aliases": [
+        "屈平",
+        "屈子"
+      ],
+      "summary": "楚国诗人政治家，创立楚辞体，著《离骚》。忠君爱国不被采纳，投汨罗江而死，端午节由此而来。",
+      "content": "屈原（约前340—前278年），名平，字原，楚国贵族，伟大的爱国诗人、政治家。主张联齐抗秦、修明法度，遭谗见疏、两度流放。创「楚辞」体，作《离骚》《天问》《九歌》，开浪漫主义诗风。前278年秦将白起破楚都郢，屈原悲愤投汨罗江自尽。后人于五月初五端午竞渡、食粽以纪念。"
+    },
+    {
+      "slug": "meng-zi",
+      "name": "孟子",
+      "primaryRole": "philosopher",
+      "roles": [
+        "philosopher"
+      ],
+      "importance": 92,
+      "birthYear": -372,
+      "deathYear": -289,
+      "aliases": [
+        "孟轲",
+        "亚圣"
+      ],
+      "summary": "儒家亚圣，主张性善论、仁政、民贵君轻。与弟子著《孟子》七篇。",
+      "content": "孟子（约前372—前289年），名轲，邹国人，儒家「亚圣」。受业于子思门人，发展孔子学说，主张「性善论」「仁政」「民为贵，社稷次之，君为轻」。游说齐宣王、梁惠王行王道而不被用，退而著书，言论载于《孟子》七篇，其浩然之气与雄辩之辞影响深远。"
+    },
+    {
+      "slug": "zhuang-zi",
+      "name": "庄子",
+      "primaryRole": "philosopher",
+      "roles": [
+        "philosopher"
+      ],
+      "importance": 90,
+      "birthYear": -369,
+      "deathYear": -286,
+      "aliases": [
+        "庄周"
+      ],
+      "summary": "道家代表人物，主张逍遥无为。著《庄子》，文风汪洋恣肆，想象奇特。",
+      "content": "庄子（约前369—前286年），名周，宋国蒙人，道家代表人物。曾为漆园吏，淡泊名利，楚王聘相而不就。主张「逍遥」「齐物」「无为」，追求精神绝对自由。著《庄子》（《南华经》），文风汪洋恣肆、想象奇诡，「庄周梦蝶」「庖丁解牛」「鼓盆而歌」等寓言流传千古。"
+    },
+    {
+      "slug": "xun-zi",
+      "name": "荀子",
+      "primaryRole": "philosopher",
+      "roles": [
+        "philosopher"
+      ],
+      "importance": 85,
+      "birthYear": -313,
+      "deathYear": -238,
+      "aliases": [
+        "荀况",
+        "荀卿"
+      ],
+      "summary": "儒家大师，主张性恶论、礼法并施。韩非子李斯皆出其门下。",
+      "content": "荀子（约前313—前238年），名况，赵国人，战国末儒家大师。三为齐国稷下学宫祭酒，后为楚国兰陵令。主张「性恶论」「化性起伪」「制天命而用之」，礼法并重，兼采百家。门下出韩非、李斯，对法家影响深远，是先秦思想的集大成者，著有《荀子》。"
+    },
+    {
+      "slug": "han-fei",
+      "name": "韩非子",
+      "primaryRole": "philosopher",
+      "roles": [
+        "philosopher"
+      ],
+      "importance": 88,
+      "birthYear": -280,
+      "deathYear": -233,
+      "aliases": [
+        "韩非"
+      ],
+      "summary": "法家集大成者，著《韩非子》，主张法术势结合。被李斯陷害死于秦国。",
+      "content": "韩非（约前280—前233年），韩国公子，法家集大成者。师从荀子，口吃而善著书。融合商鞅之「法」、申不害之「术」、慎到之「势」，主张君主集权、以法治国，著《孤愤》《五蠹》《说难》等。其学说为秦王嬴政所赏识，入秦后遭同窗李斯与姚贾忌害，下狱被迫服毒而死。"
+    },
+    {
+      "slug": "jing-ke",
+      "name": "荆轲",
+      "primaryRole": "assassin",
+      "roles": [
+        "assassin",
+        "hero"
+      ],
+      "importance": 80,
+      "deathYear": -227,
+      "aliases": [
+        "荆卿"
+      ],
+      "summary": "战国著名刺客，受燕太子丹之托刺杀秦王嬴政，图穷匕见失败被杀。",
+      "content": "荆轲（？—前227年），卫国人，战国著名刺客。受燕太子丹之托，与秦舞阳携樊於期首级及督亢地图入秦行刺。易水送别，高渐离击筑，「风萧萧兮易水寒，壮士一去兮不复还」。献图时「图穷匕见」，刺秦王不中，绕柱追逐终告失败，被杀，慷慨悲歌之气流传后世。"
+    },
+    {
+      "slug": "tian-dan",
+      "name": "田单",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 75,
+      "aliases": [
+        "田将军"
+      ],
+      "summary": "齐国名将，以火牛阵大败燕军，收复齐国七十余城，复兴齐国。",
+      "content": "田单（生卒不详），齐国宗室远房，战国名将。燕将乐毅破齐七十余城，仅莒、即墨未下。田单守即墨，行反间使燕易将，又以「火牛阵」夜袭燕军：千余牛角缚利刃、尾束苇草点火冲阵，齐军随后掩杀，大破燕师，连复七十余城，迎齐襄王还都，复兴齐国。"
+    },
+    {
+      "slug": "shang-yang",
+      "name": "商鞅",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "reformer",
+        "philosopher"
+      ],
+      "importance": 95,
+      "birthYear": -390,
+      "deathYear": -338,
+      "aliases": [
+        "卫鞅",
+        "公孙鞅",
+        "商君"
+      ],
+      "summary": "法家代表，主持秦国两次变法，奖军功建县制，徙木立信，使秦国强大，奠定统一基础。后被车裂。",
+      "content": "商鞅（约前390—前338年），卫国公孙氏，名鞅，法家代表，又称卫鞅、公孙鞅。入秦说孝公以强国之术，主持两次变法：废井田、开阡陌、奖军功、建县制、统一度量衡，「徙木立信」取信于民。秦国大治，封于商，号商君。孝公死后被旧贵族诬以谋反，车裂而死，然其新法不废，为秦统一奠基。"
+    },
+    {
+      "slug": "bai-qi",
+      "name": "白起",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 90,
+      "deathYear": -257,
+      "aliases": [
+        "公孙起",
+        "武安君",
+        "人屠"
+      ],
+      "summary": "秦国名将，战国四大名将之首。长平之战坑杀赵军四十余万，一生未尝败绩，后被赐死杜邮。",
+      "content": "白起（？—前257年），郿人，秦国名将，战国四大名将之首，号「人屠」。用兵如神，伊阙之战破韩魏联军、鄢郢之战攻破楚都，长平之战大破赵军、坑杀降卒四十余万，一生攻城七十余、未尝败绩，封武安君。后因拒绝出征、与秦昭王及范雎不和，被赐死于杜邮。"
+    },
+    {
+      "slug": "zhao-kuo",
+      "name": "赵括",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 70,
+      "deathYear": -260,
+      "aliases": [
+        "马服子"
+      ],
+      "summary": "赵国名将赵奢之子，「纸上谈兵」典故主角。长平之战代廉颇出击中伏，赵军四十余万尽没。",
+      "content": "赵括（？—前260年），赵国名将赵奢之子，「纸上谈兵」典故主角。自幼熟读兵书、谈兵无人能及，然无实战经验。长平之战赵王中秦反间计，以赵括代廉颇为帅。赵括改守为攻、轻率出击，被白起诱入重围，断粮四十六日，突围中箭身死，赵军四十余万降而被坑，赵国元气大伤。"
+    },
+    {
+      "slug": "mo-zi",
+      "name": "墨子",
+      "primaryRole": "philosopher",
+      "roles": [
+        "philosopher",
+        "engineer"
+      ],
+      "importance": 85,
+      "birthYear": -468,
+      "deathYear": -376,
+      "aliases": [
+        "墨翟"
+      ],
+      "summary": "墨家创始人，主张兼爱非攻尚贤节用。止楚攻宋，重逻辑与技艺，墨儒并称显学。",
+      "content": "墨子（约前468—前376年），名翟，宋国（一说鲁国）人，墨家学派创始人。主张「兼爱」「非攻」「尚贤」「节用」，反对兼并战争。曾止楚攻宋，与公输盘九攻九拒。重视逻辑与实用技艺，门徒众多、组织严密，墨家与儒家并称「显学」，著有《墨子》。"
+    }
+  ],
+  "events": [
+    {
+      "slug": "san-jia-fen-jin",
+      "name": "三家分晋",
+      "timeStart": -403,
+      "aliases": [
+        "三家灭智"
+      ],
+      "summary": "韩赵魏三家瓜分晋国，得到周天子承认。标志着春秋结束、战国开始。",
+      "content": "晋国后期六卿专权，相互兼并。前453年韩、赵、魏三家合力击灭最强的智伯，瓜分其地，晋国名存实亡。前403年周威烈王正式册封韩、赵、魏三家为诸侯。司马光《资治通鉴》以此事为开篇，标志春秋结束、战国开始，「礼崩乐坏」至此而极。"
+    },
+    {
+      "slug": "shang-yang-bian-fa",
+      "name": "商鞅变法",
+      "timeStart": -356,
+      "timeEnd": -338,
+      "aliases": [
+        "秦国变法"
+      ],
+      "summary": "商鞅在秦国推行两次变法，废井田建县制奖励耕战，使秦国迅速强大。",
+      "content": "商鞅变法主要内容：废井田开阡陌、建立县制、奖励耕战、统一度量衡。变法使秦国成为战国最强。"
+    },
+    {
+      "slug": "he-zong-lian-heng",
+      "name": "合纵连横",
+      "timeStart": -334,
+      "timeEnd": -288,
+      "aliases": [
+        "纵横之争"
+      ],
+      "summary": "苏秦主张合纵联合六国抗秦，张仪主张连横为秦瓦解联盟。纵横家活跃于战国舞台。",
+      "content": "合纵连横是战国时期重要的外交斗争。苏秦佩六国相印合纵抗秦，张仪为秦连横瓦解联盟。"
+    },
+    {
+      "slug": "chang-ping-zhi-zhan",
+      "name": "长平之战",
+      "timeStart": -262,
+      "timeEnd": -260,
+      "aliases": [
+        "白起坑赵"
+      ],
+      "summary": "秦赵长平之战，白起坑杀赵军四十余万。这是战国最惨烈的战役，赵国从此衰落。",
+      "content": "前262年秦赵在长平对峙三年。赵国换将赵括为帅，白起诱敌包围，赵军投降后被坑杀四十余万。"
+    },
+    {
+      "slug": "chu-han-tian-xia",
+      "name": "秦灭六国",
+      "timeStart": -230,
+      "timeEnd": -221,
+      "aliases": [
+        "统一六国"
+      ],
+      "summary": "秦王嬴政从公元前230年起十年间灭韩赵魏楚燕齐六国，建立中国第一个统一王朝。",
+      "content": "前230年灭韩，前228年灭赵，前225年灭魏，前223年灭楚，前222年灭燕，前221年灭齐。"
+    },
+    {
+      "slug": "jing-ke-ci-qin",
+      "name": "荆轲刺秦",
+      "timeStart": -227,
+      "aliases": [
+        "图穷匕见"
+      ],
+      "summary": "燕太子丹派荆轲刺杀秦王，图穷匕见失败。秦王大怒加速灭燕。",
+      "content": "前227年荆轲以献地图为名觐见秦王，图穷匕见，秦王绕柱躲避，荆轲失败被杀。"
+    },
+    {
+      "slug": "huo-niu-zhen",
+      "name": "田单火牛阵",
+      "timeStart": -279,
+      "aliases": [
+        "火牛阵"
+      ],
+      "summary": "齐国田单以火牛阵大败燕军，收复七十余城，复兴齐国。",
+      "content": "燕军攻齐，田单收集千余头牛，角绑利刃尾绑芦苇点火，牛群冲入燕军大营，齐军随后掩杀，收复失地。"
+    },
+    {
+      "slug": "bai-jia-zheng-ming",
+      "name": "百家争鸣",
+      "timeStart": -475,
+      "timeEnd": -221,
+      "aliases": [
+        "诸子百家"
+      ],
+      "summary": "战国时期儒、道、墨、法、名、兵、阴阳等学派自由争辩，是中国思想史上最灿烂的时期。",
+      "content": "战国社会剧变，士人著书立说、聚徒讲学，形成百家争鸣的思想盛况。主要学派有：儒家（孟子、荀子）主仁义礼法，道家（庄子）主逍遥无为，墨家（墨子）主兼爱非攻，法家（商鞅、韩非）主以法治国，名家（公孙龙、惠施）辨名实，兵家（孙膑）论战争，以及阴阳、纵横、农、杂等家。这是中国思想史上最为灿烂自由的黄金时代，奠定此后两千年学术根基。"
+    }
+  ],
+  "relations": [
+    {
+      "from": "su-qin",
+      "fromType": "person",
+      "to": "he-zong-lian-heng",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "合纵主导者"
+    },
+    {
+      "from": "zhang-yi",
+      "fromType": "person",
+      "to": "he-zong-lian-heng",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "连横主导者"
+    },
+    {
+      "from": "su-qin",
+      "fromType": "person",
+      "to": "zhang-yi",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 9,
+      "note": "纵横对立"
+    },
+    {
+      "from": "lian-po",
+      "fromType": "person",
+      "to": "lin-xiang-ru",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "将相和"
+    },
+    {
+      "from": "lian-po",
+      "fromType": "person",
+      "to": "chang-ping-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "赵国老将"
+    },
+    {
+      "from": "jing-ke",
+      "fromType": "person",
+      "to": "jing-ke-ci-qin",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "刺客"
+    },
+    {
+      "from": "tian-dan",
+      "fromType": "person",
+      "to": "huo-niu-zhen",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "火牛阵统帅"
+    },
+    {
+      "from": "meng-zi",
+      "fromType": "person",
+      "to": "bai-jia-zheng-ming",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "儒家代表"
+    },
+    {
+      "from": "zhuang-zi",
+      "fromType": "person",
+      "to": "bai-jia-zheng-ming",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "道家代表"
+    },
+    {
+      "from": "xun-zi",
+      "fromType": "person",
+      "to": "han-fei",
+      "toType": "person",
+      "type": "teacher",
+      "weight": 9,
+      "note": "师生"
+    },
+    {
+      "from": "han-fei",
+      "fromType": "person",
+      "to": "bai-jia-zheng-ming",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "法家集大成者"
+    },
+    {
+      "from": "qu-yuan",
+      "fromType": "person",
+      "to": "bai-jia-zheng-ming",
+      "toType": "event",
+      "type": "participation",
+      "weight": 7,
+      "note": "楚辞诗人"
+    },
+    {
+      "from": "qin-xiao-gong",
+      "fromType": "person",
+      "to": "shang-yang",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣，支持变法"
+    },
+    {
+      "from": "shang-yang",
+      "fromType": "person",
+      "to": "shang-yang-bian-fa",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "变法主持者"
+    },
+    {
+      "from": "bai-qi",
+      "fromType": "person",
+      "to": "chang-ping-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "秦军统帅"
+    },
+    {
+      "from": "zhao-kuo",
+      "fromType": "person",
+      "to": "chang-ping-zhi-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "赵军主帅，兵败身死"
+    },
+    {
+      "from": "bai-qi",
+      "fromType": "person",
+      "to": "zhao-kuo",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 10,
+      "note": "长平对阵"
+    },
+    {
+      "from": "lian-po",
+      "fromType": "person",
+      "to": "zhao-kuo",
+      "toType": "person",
+      "type": "conflict",
+      "weight": 7,
+      "note": "被取代为帅"
+    },
+    {
+      "from": "mo-zi",
+      "fromType": "person",
+      "to": "bai-jia-zheng-ming",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "墨家创始人"
+    },
+    {
+      "from": "xun-zi",
+      "fromType": "person",
+      "to": "bai-jia-zheng-ming",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "儒家大师"
+    }
+  ],
+  "timelines": [
+    {
+      "eventSlug": "san-jia-fen-jin",
+      "year": -403,
+      "label": "三家分晋，战国开始"
+    },
+    {
+      "eventSlug": "shang-yang-bian-fa",
+      "year": -356,
+      "label": "商鞅变法"
+    },
+    {
+      "eventSlug": "he-zong-lian-heng",
+      "year": -334,
+      "label": "合纵连横"
+    },
+    {
+      "eventSlug": "huo-niu-zhen",
+      "year": -279,
+      "label": "田单火牛阵复齐"
+    },
+    {
+      "eventSlug": "chang-ping-zhi-zhan",
+      "year": -260,
+      "label": "长平之战，白起坑赵"
+    },
+    {
+      "eventSlug": "jing-ke-ci-qin",
+      "year": -227,
+      "label": "荆轲刺秦"
+    },
+    {
+      "eventSlug": "chu-han-tian-xia",
+      "year": -221,
+      "label": "秦灭六国统一"
+    }
+  ]
+}

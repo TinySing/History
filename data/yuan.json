@@ -1,0 +1,68 @@
+{
+  "dynasty": {
+    "slug": "yuan",
+    "name": "元朝",
+    "startYear": 1271,
+    "endYear": 1368,
+    "summary": "元朝由忽必烈建立，是中国历史上疆域最大的朝代。实行行省制，促进民族融合。但民族压迫政策和后期腐败导致红巾军起义，元朝被朱元璋推翻。"
+  },
+  "persons": [
+    {"slug": "hu-bi-lie-yuan", "name": "忽必烈", "primaryRole": "emperor", "roles": ["emperor"], "importance": 95, "birthYear": 1215, "deathYear": 1294, "aliases": ["元世祖"], "summary": "元朝开国皇帝，成吉思汗之孙。灭南宋统一全国，建立行省制，推行汉法。"},
+    {"slug": "cheng-ji-si-han-yuan", "name": "成吉思汗", "primaryRole": "emperor", "roles": ["emperor", "conqueror"], "importance": 100, "birthYear": 1162, "deathYear": 1227, "aliases": ["铁木真", "元太祖"], "summary": "蒙古帝国创建者，统一蒙古各部，西征中亚欧洲，建立人类历史上最大的帝国。"},
+    {"slug": "wo-kuo-tai", "name": "窝阔台", "primaryRole": "emperor", "roles": ["emperor"], "importance": 80, "birthYear": 1186, "deathYear": 1241, "aliases": ["元太宗"], "summary": "蒙古帝国第二位大汗，灭金国，继续西征。"},
+    {"slug": "meng-ge", "name": "蒙哥", "primaryRole": "emperor", "roles": ["emperor"], "importance": 75, "birthYear": 1209, "deathYear": 1259, "aliases": ["元宪宗"], "summary": "蒙古帝国第四位大汗，攻宋时战死于钓鱼城。"},
+    {"slug": "bo-yan", "name": "伯颜", "primaryRole": "general", "roles": ["general"], "importance": 80, "birthYear": 1236, "deathYear": 1295, "aliases": ["巴延"], "summary": "元朝名将，灭南宋统帅，攻占临安，俘虏宋恭帝。"},
+    {"slug": "a-he-ma", "name": "阿合马", "primaryRole": "minister", "roles": ["minister"], "importance": 65, "deathYear": 1282, "aliases": ["阿合马"], "summary": "元朝权臣，色目人，主管财政，横征暴敛，后被刺杀。"},
+    {"slug": "sang-ge", "name": "桑哥", "primaryRole": "minister", "roles": ["minister"], "importance": 60, "deathYear": 1291, "aliases": ["桑哥"], "summary": "元朝权臣，畏兀儿人，主管财政，后被处死。"},
+    {"slug": "ma-ke-bo-luo", "name": "马可·波罗", "primaryRole": "traveler", "roles": ["traveler", "merchant"], "importance": 75, "birthYear": 1254, "deathYear": 1324, "aliases": ["马可波罗"], "summary": "意大利旅行家，在元朝生活十七年，著有《马可·波罗游记》。"},
+    {"slug": "guan-han-qing", "name": "关汉卿", "primaryRole": "playwright", "roles": ["playwright"], "importance": 85, "birthYear": 1220, "deathYear": 1300, "aliases": ["已斋叟"], "summary": "元代杂剧作家，元曲四大家之首。代表作《窦娥冤》《救风尘》。"},
+    {"slug": "zheng-si-xiao", "name": "赵孟頫", "primaryRole": "artist", "roles": ["artist", "calligrapher"], "importance": 80, "birthYear": 1254, "deathYear": 1322, "aliases": ["赵文敏"], "summary": "元代书画家，楷书四大家之一。宋朝宗室出仕元朝，书画成就极高。"},
+    {"slug": "guo-shou-jing", "name": "郭守敬", "primaryRole": "scientist", "roles": ["scientist", "astronomer"], "importance": 80, "birthYear": 1231, "deathYear": 1316, "aliases": ["郭若思"], "summary": "元代天文学家数学家，编制《授时历》，精度领先世界三百年。"},
+    {"slug": "wang-zheng", "name": "王祯", "primaryRole": "scholar", "roles": ["scholar"], "importance": 65, "aliases": ["王伯善"], "summary": "元代农学家，著有《王祯农书》，是中国古代农学巨著。"},
+    {"slug": "tuo-tuo", "name": "脱脱", "primaryRole": "minister", "roles": ["minister", "historian"], "importance": 75, "birthYear": 1314, "deathYear": 1355, "aliases": ["脱脱丞相"], "summary": "元末丞相，主持编撰《宋史》《辽史》《金史》。后被冤杀。"},
+    {"slug": "han-shan-tong", "name": "韩山童", "primaryRole": "rebel", "roles": ["rebel", "leader"], "importance": 70, "deathYear": 1351, "aliases": ["明王"], "summary": "红巾军起义领袖，白莲教首领。"},
+    {"slug": "liu-fu-tong", "name": "刘福通", "primaryRole": "rebel", "roles": ["rebel", "leader"], "importance": 70, "deathYear": 1363, "aliases": ["刘太保"], "summary": "红巾军起义领袖，拥立韩林儿为帝。"},
+    {"slug": "zhu-yuan-zhang", "name": "朱元璋", "primaryRole": "emperor", "roles": ["emperor", "rebel"], "importance": 95, "birthYear": 1328, "deathYear": 1398, "aliases": ["明太祖", "朱重八"], "summary": "明朝开国皇帝，从乞丐到皇帝的传奇。推翻元朝，建立明朝。"}
+  ],
+  "events": [
+    {"slug": "meng-gu-qi-suo-yuan", "name": "蒙古崛起", "timeStart": 1206, "aliases": ["成吉思汗建国"], "summary": "铁木真统一蒙古各部，建立蒙古帝国。", "content": "1206年铁木真统一蒙古各部，被尊为成吉思汗，建立蒙古帝国。此后蒙古开始大规模扩张。"},
+    {"slug": "xi-zheng", "name": "蒙古西征", "timeStart": 1219, "timeEnd": 1260, "aliases": ["三次西征"], "summary": "蒙古帝国三次西征，征服中亚、西亚、东欧，建立横跨欧亚的大帝国。", "content": "蒙古帝国先后三次西征：成吉思汗西征花剌子模，拔都西征欧洲，旭烈兀西征西亚。蒙古铁骑横扫欧亚大陆。"},
+    {"slug": "mie-jin-guo", "name": "蒙古灭金", "timeStart": 1234, "aliases": ["金朝灭亡"], "summary": "蒙古与南宋联合灭金，金朝灭亡。", "content": "1234年蒙古与南宋联合攻金，金哀宗自杀，金朝灭亡。此后蒙古开始进攻南宋。"},
+    {"slug": "yuan-chao-jian-li", "name": "元朝建立", "timeStart": 1271, "aliases": ["忽必烈称帝"], "summary": "忽必烈改国号为大元，建立元朝。", "content": "1271年忽必烈取《易经》「大哉乾元」之义，改国号为大元，建立元朝，定都大都（今北京）。"},
+    {"slug": "mie-nan-song", "name": "元灭南宋", "timeStart": 1276, "timeEnd": 1279, "aliases": ["统一全国"], "summary": "元朝伯颜率军灭南宋，统一全国。崖山之战后南宋灭亡。", "content": "1276年伯颜攻占临安，俘虏宋恭帝。1279年崖山之战，南宋彻底灭亡。元朝统一全国。"},
+    {"slug": "xing-sheng-zhi", "name": "行省制", "timeStart": 1271, "aliases": ["元朝行省"], "summary": "元朝创立行省制，是中国省制的开端，影响至今。", "content": "元朝在全国设立行中书省（行省），是中国省制的开端。行省制加强了中央对地方的管理，影响深远。"},
+    {"slug": "si-ye-zhi-fa", "name": "四等人制", "timeStart": 1271, "aliases": ["民族压迫"], "summary": "元朝实行四等人制：蒙古人、色目人、汉人、南人，实行民族压迫政策。", "content": "元朝将全国人分为四等：蒙古人最尊贵，色目人次之，汉人（北方汉人）再次，南人（南方汉人）最低。民族压迫政策激化了社会矛盾。"},
+    {"slug": "ma-ke-bo-luo-lai-hua", "name": "马可·波罗来华", "timeStart": 1275, "timeEnd": 1292, "aliases": ["马可波罗游记"], "summary": "意大利旅行家马可·波罗在元朝生活十七年，著有《马可·波罗游记》。", "content": "1275年马可·波罗到达元朝，在忽必烈朝廷任职。1292年离开中国，返回意大利后口述《马可·波罗游记》。"},
+    {"slug": "shou-shi-li", "name": "编制授时历", "timeStart": 1281, "aliases": ["郭守敬编历"], "summary": "郭守敬编制《授时历》，精度领先世界三百年。", "content": "1281年郭守敬编制《授时历》，一年为365.2425日，与现代公历精度相同，但早了三百年。"},
+    {"slug": "hong-jin-jun-qi-yi", "name": "红巾军起义", "timeStart": 1351, "timeEnd": 1368, "aliases": ["元末农民起义"], "summary": "韩山童、刘福通领导的红巾军起义，动摇了元朝统治。朱元璋加入红巾军，最终推翻元朝。", "content": "1351年韩山童、刘福通领导红巾军起义，以白莲教为号召。起义军转战各地，元朝统治土崩瓦解。朱元璋加入红巾军，最终推翻元朝。"},
+    {"slug": "ming-chao-jian-li", "name": "明朝建立", "timeStart": 1368, "aliases": ["朱元璋称帝"], "summary": "朱元璋在南京称帝，建立明朝。北伐攻占大都，元朝灭亡。", "content": "1368年朱元璋在南京称帝，建立明朝。徐达北伐攻占大都，元顺帝北逃，元朝灭亡。"}
+  ],
+  "relations": [
+    {"from": "cheng-ji-si-han-yuan", "fromType": "person", "to": "wo-kuo-tai", "toType": "person", "type": "blood", "weight": 10, "note": "父子"},
+    {"from": "cheng-ji-si-han-yuan", "fromType": "person", "to": "meng-ge", "toType": "person", "type": "blood", "weight": 9, "note": "祖孙"},
+    {"from": "cheng-ji-si-han-yuan", "fromType": "person", "to": "hu-bi-lie-yuan", "toType": "person", "type": "blood", "weight": 10, "note": "祖孙"},
+    {"from": "cheng-ji-si-han-yuan", "fromType": "person", "to": "meng-gu-qi-suo-yuan", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
+    {"from": "cheng-ji-si-han-yuan", "fromType": "person", "to": "xi-zheng", "toType": "event", "type": "participation", "weight": 10, "note": "第一次西征"},
+    {"from": "hu-bi-lie-yuan", "fromType": "person", "to": "yuan-chao-jian-li", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
+    {"from": "hu-bi-lie-yuan", "fromType": "person", "to": "mie-nan-song", "toType": "event", "type": "participation", "weight": 10, "note": "决策者"},
+    {"from": "hu-bi-lie-yuan", "fromType": "person", "to": "bo-yan", "toType": "person", "type": "political", "weight": 10, "note": "君臣"},
+    {"from": "bo-yan", "fromType": "person", "to": "mie-nan-song", "toType": "event", "type": "participation", "weight": 10, "note": "灭宋统帅"},
+    {"from": "ma-ke-bo-luo", "fromType": "person", "to": "ma-ke-bo-luo-lai-hua", "toType": "event", "type": "participation", "weight": 10, "note": "旅行者"},
+    {"from": "guo-shou-jing", "fromType": "person", "to": "shou-shi-li", "toType": "event", "type": "participation", "weight": 10, "note": "编制者"},
+    {"from": "han-shan-tong", "fromType": "person", "to": "liu-fu-tong", "toType": "person", "type": "political", "weight": 10, "note": "起义伙伴"},
+    {"from": "han-shan-tong", "fromType": "person", "to": "hong-jin-jun-qi-yi", "toType": "event", "type": "participation", "weight": 10, "note": "起义领袖"},
+    {"from": "zhu-yuan-zhang", "fromType": "person", "to": "hong-jin-jun-qi-yi", "toType": "event", "type": "participation", "weight": 9, "note": "加入红巾军"},
+    {"from": "zhu-yuan-zhang", "fromType": "person", "to": "ming-chao-jian-li", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"}
+  ],
+  "timelines": [
+    {"eventSlug": "meng-gu-qi-suo-yuan", "year": 1206, "label": "蒙古帝国建立"},
+    {"eventSlug": "xi-zheng", "year": 1219, "label": "蒙古西征"},
+    {"eventSlug": "mie-jin-guo", "year": 1234, "label": "蒙古灭金"},
+    {"eventSlug": "yuan-chao-jian-li", "year": 1271, "label": "元朝建立"},
+    {"eventSlug": "ma-ke-bo-luo-lai-hua", "year": 1275, "label": "马可·波罗来华"},
+    {"eventSlug": "mie-nan-song", "year": 1279, "label": "元灭南宋"},
+    {"eventSlug": "shou-shi-li", "year": 1281, "label": "编制授时历"},
+    {"eventSlug": "hong-jin-jun-qi-yi", "year": 1351, "label": "红巾军起义"},
+    {"eventSlug": "ming-chao-jian-li", "year": 1368, "label": "明朝建立，元朝灭亡"}
+  ]
+}

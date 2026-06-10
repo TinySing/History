@@ -1,0 +1,73 @@
+{
+  "dynasty": {
+    "slug": "bei-song",
+    "name": "北宋",
+    "startYear": 960,
+    "endYear": 1127,
+    "summary": "北宋由赵匡胤建立，定都开封。重文轻武，文化经济繁荣，但军事积弱。与辽、西夏对峙。王安石变法、靖康之变是重要事件。最终被金朝灭亡。"
+  },
+  "persons": [
+    {"slug": "zhao-kuang-yin-bs", "name": "赵匡胤", "primaryRole": "emperor", "roles": ["emperor"], "importance": 95, "birthYear": 927, "deathYear": 976, "aliases": ["宋太祖"], "summary": "北宋开国皇帝，陈桥兵变黄袍加身。统一全国，杯酒释兵权，重文轻武。"},
+    {"slug": "zhao-guang-yi", "name": "赵光义", "primaryRole": "emperor", "roles": ["emperor"], "importance": 80, "birthYear": 939, "deathYear": 997, "aliases": ["宋太宗"], "summary": "北宋第二位皇帝，灭北汉统一全国。高梁河之战大败，从此北宋对辽转为守势。"},
+    {"slug": "zhao-heng", "name": "赵恒", "primaryRole": "emperor", "roles": ["emperor"], "importance": 70, "birthYear": 968, "deathYear": 1022, "aliases": ["宋真宗"], "summary": "北宋第三位皇帝，澶渊之盟与辽国议和。"},
+    {"slug": "zhao-zhen", "name": "赵祯", "primaryRole": "emperor", "roles": ["emperor"], "importance": 75, "birthYear": 1010, "deathYear": 1063, "aliases": ["宋仁宗"], "summary": "北宋第四位皇帝，在位四十二年，仁宗盛治，名臣辈出。"},
+    {"slug": "zhao-xu", "name": "赵顼", "primaryRole": "emperor", "roles": ["emperor"], "importance": 75, "birthYear": 1048, "deathYear": 1085, "aliases": ["宋神宗"], "summary": "北宋第六位皇帝，支持王安石变法，元丰改制。"},
+    {"slug": "kou-zhun", "name": "寇准", "primaryRole": "minister", "roles": ["minister"], "importance": 80, "birthYear": 961, "deathYear": 1023, "aliases": ["寇莱公"], "summary": "北宋名相，澶渊之盟的促成者。力主真宗亲征，稳定北宋局势。"},
+    {"slug": "fan-zhong-yan", "name": "范仲淹", "primaryRole": "minister", "roles": ["minister", "writer"], "importance": 85, "birthYear": 989, "deathYear": 1052, "aliases": ["范文正公"], "summary": "北宋名臣文学家，庆历新政主持者。先天下之忧而忧，后天下之乐而乐。"},
+    {"slug": "ou-yang-xiu", "name": "欧阳修", "primaryRole": "writer", "roles": ["writer", "minister"], "importance": 85, "birthYear": 1007, "deathYear": 1072, "aliases": ["欧阳文忠公"], "summary": "北宋文学家政治家，唐宋八大家之一，古文运动领袖。"},
+    {"slug": "wang-an-shi", "name": "王安石", "primaryRole": "minister", "roles": ["minister", "reformer"], "importance": 90, "birthYear": 1021, "deathYear": 1086, "aliases": ["王荆公", "临川先生"], "summary": "北宋改革家，推行王安石变法。与司马光政见对立，是北宋最重要的政治家之一。"},
+    {"slug": "si-ma-guang", "name": "司马光", "primaryRole": "minister", "roles": ["minister", "historian"], "importance": 85, "birthYear": 1019, "deathYear": 1086, "aliases": ["司马温公"], "summary": "北宋政治家史学家，编撰《资治通鉴》。反对王安石变法，是保守派领袖。"},
+    {"slug": "su-shi", "name": "苏轼", "primaryRole": "writer", "roles": ["writer", "poet", "minister"], "importance": 95, "birthYear": 1037, "deathYear": 1101, "aliases": ["苏东坡", "东坡居士"], "summary": "北宋文学家，唐宋八大家之一。诗词书画俱佳，代表作《念奴娇·赤壁怀古》《水调歌头》。"},
+    {"slug": "su-zhe", "name": "苏辙", "primaryRole": "writer", "roles": ["writer", "minister"], "importance": 75, "birthYear": 1039, "deathYear": 1112, "aliases": ["苏文定公"], "summary": "北宋文学家，唐宋八大家之一，苏轼之弟。"},
+    {"slug": "di-qing", "name": "狄青", "primaryRole": "general", "roles": ["general"], "importance": 75, "birthYear": 1008, "deathYear": 1057, "aliases": ["狄武襄"], "summary": "北宋名将，面有刺字，勇猛善战。平定侬智高叛乱。"},
+    {"slug": "yue-fei-bs", "name": "岳飞", "primaryRole": "general", "roles": ["general", "hero"], "importance": 95, "birthYear": 1103, "deathYear": 1142, "aliases": ["岳武穆", "岳少保"], "summary": "南宋抗金名将，精忠报国。岳家军纪律严明，大败金军。被秦桧以莫须有罪名害死。"},
+    {"slug": "qin-hui", "name": "秦桧", "primaryRole": "minister", "roles": ["minister", "traitor"], "importance": 75, "birthYear": 1090, "deathYear": 1155, "aliases": ["秦会之"], "summary": "南宋奸臣，主和派领袖。以莫须有罪名害死岳飞，遗臭万年。"},
+    {"slug": "li-king-zhao", "name": "李清照", "primaryRole": "poet", "roles": ["poet"], "importance": 85, "birthYear": 1084, "deathYear": 1155, "aliases": ["易安居士"], "summary": "宋代女词人，婉约派代表。词风清新婉丽，代表作《如梦令》《声声慢》。"},
+    {"slug": "zhao-gou", "name": "赵构", "primaryRole": "emperor", "roles": ["emperor"], "importance": 75, "birthYear": 1107, "deathYear": 1187, "aliases": ["宋高宗"], "summary": "南宋开国皇帝，偏安江南。重用秦桧，杀岳飞，与金议和。"}
+  ],
+  "events": [
+    {"slug": "bei-song-jian-li", "name": "北宋建立", "timeStart": 960, "aliases": ["赵匡胤称帝"], "summary": "赵匡胤陈桥兵变，黄袍加身，建立北宋，定都开封。", "content": "960年赵匡胤在陈桥驿发动兵变，黄袍加身，回师开封逼后周恭帝禅位，建立北宋。"},
+    {"slug": "bei-jiu-shi-bing-quan", "name": "杯酒释兵权", "timeStart": 961, "aliases": ["解除兵权"], "summary": "赵匡胤通过酒宴威逼利诱，让石守信等大将交出兵权，加强中央集权。", "content": "961年赵匡胤宴请石守信等大将，暗示他们交出兵权。众将次日纷纷辞职，赵匡胤顺利收回兵权。"},
+    {"slug": "gao-liang-he-zhi-zhan", "name": "高梁河之战", "timeStart": 979, "aliases": ["宋辽大战"], "summary": "赵光义亲征辽国，在高梁河大败，北宋对辽转为守势。", "content": "979年赵光义亲征辽国，在高梁河（今北京西）被辽军击败，赵光义中箭逃回。从此北宋对辽转为守势。"},
+    {"slug": "chan-yuan-zhi-meng", "name": "澶渊之盟", "timeStart": 1005, "aliases": ["宋辽和议"], "summary": "宋真宗亲征澶州，与辽国签订澶渊之盟，以岁币换和平。", "content": "1005年辽军南侵，寇准力主真宗亲征澶州。双方议和，宋每年向辽输银十万两、绢二十万匹，约为兄弟之国。"},
+    {"slug": "qing-li-xin-zheng", "name": "庆历新政", "timeStart": 1043, "timeEnd": 1045, "aliases": ["范仲淹改革"], "summary": "范仲淹主持的改革，整顿吏治，发展教育，因保守派反对失败。", "content": "1043年范仲淹任参知政事，推行庆历新政。改革包括整顿吏治、发展教育、加强边防等。因保守派反对，改革仅一年多即失败。"},
+    {"slug": "wang-an-shi-bian-fa", "name": "王安石变法", "timeStart": 1069, "timeEnd": 1085, "aliases": ["熙宁变法"], "summary": "王安石主持的全面改革，富国强兵，但触动保守派利益，引发新旧党争。", "content": "1069年王安石任参知政事，推行变法。主要措施包括青苗法、免役法、均输法、市易法等。变法增加了财政收入，但触动保守派利益，引发激烈党争。"},
+    {"slug": "yuan-feng-gai-zhi", "name": "元丰改制", "timeStart": 1080, "timeEnd": 1082, "aliases": ["宋神宗改革"], "summary": "宋神宗推行的官制改革，整顿冗官问题。", "content": "宋神宗推行元丰改制，整顿三省六部制，裁减冗官。改革有一定成效，但未能根本解决问题。"},
+    {"slug": "jing-kang-zhi-bian", "name": "靖康之变", "timeStart": 1127, "aliases": ["靖康之耻"], "summary": "金军攻破开封，俘虏宋徽宗、宋钦宗，北宋灭亡。", "content": "1127年金军攻破开封，俘虏宋徽宗、宋钦宗及后妃、宗室、大臣三千余人北归。北宋灭亡，史称「靖康之耻」。"},
+    {"slug": "nan-song-jian-li", "name": "南宋建立", "timeStart": 1127, "aliases": ["赵构称帝"], "summary": "赵构在南京应天府称帝，建立南宋，偏安江南。", "content": "1127年康王赵构在南京应天府（今商丘）称帝，建立南宋。后定都临安（今杭州），偏安江南。"},
+    {"slug": "yue-fei-kang-jin", "name": "岳飞抗金", "timeStart": 1130, "timeEnd": 1142, "aliases": ["岳家军"], "summary": "岳飞率岳家军抗金，郾城大捷，收复襄阳六郡。即将直捣黄龙时被十二道金牌召回。", "content": "岳飞率岳家军抗金，军纪严明，大败金军。郾城大捷中击败金兀术主力。即将直捣黄龙时被十二道金牌召回，后被秦桧以莫须有罪名害死。"},
+    {"slug": "shao-xing-he-yi", "name": "绍兴和议", "timeStart": 1141, "aliases": ["宋金和议"], "summary": "南宋与金签订绍兴和议，割地称臣纳贡，岳飞被杀。", "content": "1141年南宋与金签订绍兴和议：宋向金称臣，割让淮河以北，每年纳银二十五万两、绢二十五万匹。岳飞被杀。"}
+  ],
+  "relations": [
+    {"from": "zhao-kuang-yin-bs", "fromType": "person", "to": "zhao-guang-yi", "toType": "person", "type": "blood", "weight": 9, "note": "兄弟"},
+    {"from": "zhao-kuang-yin-bs", "fromType": "person", "to": "bei-song-jian-li", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
+    {"from": "zhao-kuang-yin-bs", "fromType": "person", "to": "bei-jiu-shi-bing-quan", "toType": "event", "type": "participation", "weight": 10, "note": "主导者"},
+    {"from": "zhao-guang-yi", "fromType": "person", "to": "gao-liang-he-zhi-zhan", "toType": "event", "type": "participation", "weight": 10, "note": "亲征者"},
+    {"from": "zhao-heng", "fromType": "person", "to": "kou-zhun", "toType": "person", "type": "political", "weight": 9, "note": "君臣"},
+    {"from": "zhao-heng", "fromType": "person", "to": "chan-yuan-zhi-meng", "toType": "event", "type": "participation", "weight": 10, "note": "亲征者"},
+    {"from": "zhao-zhen", "fromType": "person", "to": "fan-zhong-yan", "toType": "person", "type": "political", "weight": 9, "note": "君臣"},
+    {"from": "fan-zhong-yan", "fromType": "person", "to": "qing-li-xin-zheng", "toType": "event", "type": "participation", "weight": 10, "note": "主持者"},
+    {"from": "zhao-xu", "fromType": "person", "to": "wang-an-shi", "toType": "person", "type": "political", "weight": 10, "note": "君臣"},
+    {"from": "wang-an-shi", "fromType": "person", "to": "wang-an-shi-bian-fa", "toType": "event", "type": "participation", "weight": 10, "note": "变法主持者"},
+    {"from": "si-ma-guang", "fromType": "person", "to": "wang-an-shi", "toType": "person", "type": "conflict", "weight": 9, "note": "政敌"},
+    {"from": "su-shi", "fromType": "person", "to": "ou-yang-xiu", "toType": "person", "type": "teacher", "weight": 9, "note": "师生"},
+    {"from": "su-shi", "fromType": "person", "to": "su-zhe", "toType": "person", "type": "blood", "weight": 10, "note": "兄弟"},
+    {"from": "yue-fei-bs", "fromType": "person", "to": "qin-hui", "toType": "person", "type": "conflict", "weight": 10, "note": "被害"},
+    {"from": "yue-fei-bs", "fromType": "person", "to": "yue-fei-kang-jin", "toType": "event", "type": "participation", "weight": 10, "note": "抗金主将"},
+    {"from": "zhao-gou", "fromType": "person", "to": "qin-hui", "toType": "person", "type": "political", "weight": 10, "note": "重用秦桧"},
+    {"from": "zhao-gou", "fromType": "person", "to": "nan-song-jian-li", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
+    {"from": "li-king-zhao", "fromType": "person", "to": "jing-kang-zhi-bian", "toType": "event", "type": "participation", "weight": 7, "note": "亲历者"}
+  ],
+  "timelines": [
+    {"eventSlug": "bei-song-jian-li", "year": 960, "label": "北宋建立"},
+    {"eventSlug": "bei-jiu-shi-bing-quan", "year": 961, "label": "杯酒释兵权"},
+    {"eventSlug": "gao-liang-he-zhi-zhan", "year": 979, "label": "高梁河之战"},
+    {"eventSlug": "chan-yuan-zhi-meng", "year": 1005, "label": "澶渊之盟"},
+    {"eventSlug": "qing-li-xin-zheng", "year": 1043, "label": "庆历新政"},
+    {"eventSlug": "wang-an-shi-bian-fa", "year": 1069, "label": "王安石变法"},
+    {"eventSlug": "jing-kang-zhi-bian", "year": 1127, "label": "靖康之变，北宋灭亡"},
+    {"eventSlug": "nan-song-jian-li", "year": 1127, "label": "南宋建立"},
+    {"eventSlug": "yue-fei-kang-jin", "year": 1140, "label": "岳飞抗金"},
+    {"eventSlug": "shao-xing-he-yi", "year": 1141, "label": "绍兴和议"}
+  ]
+}
