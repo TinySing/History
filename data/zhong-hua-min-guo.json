@@ -7,84 +7,998 @@
     "summary": "中华民国由孙中山建立，推翻清朝帝制。经历北洋军阀混战、抗日战争、国共内战，最终中华人民共和国成立。"
   },
   "persons": [
-    {"slug": "sun-zhong-shan-mg", "name": "孙中山", "primaryRole": "president", "roles": ["president", "revolutionary"], "importance": 100, "birthYear": 1866, "deathYear": 1925, "aliases": ["孙文", "国父", "中山先生"], "summary": "中华民国国父，创建同盟会，领导辛亥革命，推翻清朝。三民主义创始人，临时大总统。"},
-    {"slug": "yuan-shi-kai-mg", "name": "袁世凯", "primaryRole": "president", "roles": ["president", "general"], "importance": 80, "birthYear": 1859, "deathYear": 1916, "aliases": ["袁项城"], "summary": "北洋军阀领袖，逼清帝退位，任中华民国大总统。后复辟帝制失败。"},
-    {"slug": "huang-xing", "name": "黄兴", "primaryRole": "revolutionary", "roles": ["revolutionary", "general"], "importance": 80, "birthYear": 1874, "deathYear": 1916, "aliases": ["黄克强"], "summary": "辛亥革命元勋，与孙中山并称「孙黄」。多次武装起义领导者。"},
-    {"slug": "song-jiao-ren", "name": "宋教仁", "primaryRole": "politician", "roles": ["politician", "reformer"], "importance": 75, "birthYear": 1882, "deathYear": 1913, "aliases": ["宋钝初"], "summary": "国民党代理理事长，主张议会政治，被袁世凯暗杀。"},
-    {"slug": "cai-e", "name": "蔡锷", "primaryRole": "general", "roles": ["general", "revolutionary"], "importance": 75, "birthYear": 1882, "deathYear": 1916, "aliases": ["蔡松坡"], "summary": "护国运动领袖，反对袁世凯称帝。"},
-    {"slug": "duan-qi-rui", "name": "段祺瑞", "primaryRole": "general", "roles": ["general", "politician"], "importance": 70, "birthYear": 1865, "deathYear": 1936, "aliases": ["段芝泉"], "summary": "北洋军阀皖系首领，三造共和。"},
-    {"slug": "zhang-zuo-lin", "name": "张作霖", "primaryRole": "warlord", "roles": ["warlord", "general"], "importance": 70, "birthYear": 1875, "deathYear": 1928, "aliases": ["张大帅", "东北王"], "summary": "奉系军阀首领，东北王。被日本关东军炸死。"},
-    {"slug": "jiang-jie-shi", "name": "蒋介石", "primaryRole": "president", "roles": ["president", "general"], "importance": 90, "birthYear": 1887, "deathYear": 1975, "aliases": ["蒋中正", "蒋委员长"], "summary": "中华民国总统，领导北伐统一中国，领导抗日战争。国共内战失败后退守台湾。"},
-    {"slug": "song-qing-ling", "name": "宋庆龄", "primaryRole": "politician", "roles": ["politician", "revolutionary"], "importance": 75, "birthYear": 1893, "deathYear": 1981, "aliases": ["国母"], "summary": "孙中山夫人，中华人民共和国名誉主席。"},
-    {"slug": "zhou-en-lai", "name": "周恩来", "primaryRole": "minister", "roles": ["minister", "diplomat"], "importance": 90, "birthYear": 1898, "deathYear": 1976, "aliases": ["周总理"], "summary": "中华人民共和国开国总理，杰出的外交家，人民的好总理。"},
-    {"slug": "mao-ze-dong", "name": "毛泽东", "primaryRole": "president", "roles": ["president", "revolutionary"], "importance": 100, "birthYear": 1893, "deathYear": 1976, "aliases": ["毛主席", "毛润之"], "summary": "中国共产党领袖，中华人民共和国缔造者。领导中国人民站起来。"},
-    {"slug": "zhu-de", "name": "朱德", "primaryRole": "general", "roles": ["general"], "importance": 80, "birthYear": 1886, "deathYear": 1976, "aliases": ["朱总司令"], "summary": "中国人民解放军总司令，开国元帅之首。"},
-    {"slug": "liu-shao-qi", "name": "刘少奇", "primaryRole": "president", "roles": ["president"], "importance": 75, "birthYear": 1898, "deathYear": 1969, "aliases": ["刘主席"], "summary": "中华人民共和国第二任国家主席。"},
-    {"slug": "deng-xiao-ping", "name": "邓小平", "primaryRole": "reformer", "roles": ["reformer", "leader"], "importance": 95, "birthYear": 1904, "deathYear": 1997, "aliases": ["邓公", "小平同志"], "summary": "中国改革开放总设计师，提出一国两制，带领中国人民富起来。"},
-    {"slug": "lu-xun", "name": "鲁迅", "primaryRole": "writer", "roles": ["writer", "thinker"], "importance": 90, "birthYear": 1881, "deathYear": 1936, "aliases": ["周树人"], "summary": "中国现代文学奠基人，代表作《狂人日记》《阿Q正传》。横眉冷对千夫指，俯首甘为孺子牛。"},
-    {"slug": "hu-shi", "name": "胡适", "primaryRole": "scholar", "roles": ["scholar", "diplomat"], "importance": 80, "birthYear": 1891, "deathYear": 1962, "aliases": ["胡适之"], "summary": "新文化运动领袖，白话文运动倡导者，著名学者外交家。"},
-    {"slug": "cai-yuan-pei", "name": "蔡元培", "primaryRole": "educator", "roles": ["educator", "scholar"], "importance": 80, "birthYear": 1868, "deathYear": 1940, "aliases": ["蔡孑民"], "summary": "北京大学校长，兼容并包办学方针，新文化运动支持者。"},
-    {"slug": "zhang-xue-liang", "name": "张学良", "primaryRole": "general", "roles": ["general"], "importance": 75, "birthYear": 1901, "deathYear": 2001, "aliases": ["少帅"], "summary": "东北军少帅，西安事变发动者，促成国共合作抗日。"},
-    {"slug": "yang-hu-cheng", "name": "杨虎城", "primaryRole": "general", "roles": ["general"], "importance": 70, "birthYear": 1893, "deathYear": 1949, "aliases": ["杨将军"], "summary": "西安事变发动者之一，被蒋介石囚禁杀害。"}
+    {
+      "slug": "sun-zhong-shan-mg",
+      "name": "孙中山",
+      "primaryRole": "president",
+      "roles": [
+        "president",
+        "revolutionary"
+      ],
+      "importance": 100,
+      "birthYear": 1866,
+      "deathYear": 1925,
+      "aliases": [
+        "孙文",
+        "国父",
+        "中山先生"
+      ],
+      "summary": "中华民国国父，创建同盟会，领导辛亥革命，推翻清朝。三民主义创始人，临时大总统。",
+      "content": "孙中山（1866—1925年），名文，字逸仙，号中山，广东香山人，中国近代民主革命先驱，中华民国国父。创立兴中会、同盟会，提出「驱除鞑虏、恢复中华、创立合众政府」。领导多次武装起义，1911年辛亥革命推翻清朝，建立中华民国。提出「三民主义」（民族、民权、民生），1924年改组国民党、实行联俄联共。1925年病逝于北京，遗言「革命尚未成功，同志仍须努力」。"
+    },
+    {
+      "slug": "yuan-shi-kai-mg",
+      "name": "袁世凯",
+      "primaryRole": "president",
+      "roles": [
+        "president",
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": 1859,
+      "deathYear": 1916,
+      "aliases": [
+        "袁项城"
+      ],
+      "summary": "北洋军阀领袖，逼清帝退位，任中华民国大总统。后复辟帝制失败。",
+      "content": "袁世凯（1859—1916年），字慰亭，号容庵，河南项城人，北洋军阀领袖。小站练兵起家，戊戌变法中出卖维新派。辛亥革命后逼清帝退位，任中华民国临时大总统，后改为终身大总统。1915年悍然称帝，改国号「中华帝国」，遭全国声讨，被迫取消帝制，83天后忧愤而死。其复辟倒行逆施，使中国陷入军阀混战。"
+    },
+    {
+      "slug": "huang-xing",
+      "name": "黄兴",
+      "primaryRole": "revolutionary",
+      "roles": [
+        "revolutionary",
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": 1874,
+      "deathYear": 1916,
+      "aliases": [
+        "黄克强"
+      ],
+      "summary": "辛亥革命元勋，与孙中山并称「孙黄」。多次武装起义领导者。",
+      "content": "黄兴（1874—1916年），字克强，湖南善化人，辛亥革命元勋，与孙中山并称「孙黄」。创建华兴会，参与领导黄花岗起义、武昌起义等多次武装斗争。南京临时政府成立后任陆军总长。一生戎马，屡败屡战，为推翻清朝立下赫赫战功。1916年病逝于上海，年仅四十二。"
+    },
+    {
+      "slug": "song-jiao-ren",
+      "name": "宋教仁",
+      "primaryRole": "politician",
+      "roles": [
+        "politician",
+        "reformer"
+      ],
+      "importance": 75,
+      "birthYear": 1882,
+      "deathYear": 1913,
+      "aliases": [
+        "宋钝初"
+      ],
+      "summary": "国民党代理理事长，主张议会政治，被袁世凯暗杀。",
+      "content": "宋教仁（1882—1913年），字钝初，号渔父，湖南桃源人，国民党代理理事长。主张议会政治、责任内阁制，领导国民党在1913年国会选举中大获全胜。1913年3月在上海火车站遇刺身亡（幕后主使疑为袁世凯），年仅三十一。其死引发「二次革命」，民国议会政治夭折。"
+    },
+    {
+      "slug": "cai-e",
+      "name": "蔡锷",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "revolutionary"
+      ],
+      "importance": 75,
+      "birthYear": 1882,
+      "deathYear": 1916,
+      "aliases": [
+        "蔡松坡"
+      ],
+      "summary": "护国运动领袖，反对袁世凯称帝。",
+      "content": "蔡锷（1882—1916年），字松坡，湖南邵阳人，近代著名军事家。辛亥革命时领导昆明起义，任云南都督。1915年袁世凯称帝，蔡锷潜回云南，发起「护国运动」，率军讨袁，迫使袁世凯取消帝制。1916年病逝于日本，年仅三十四，追赠上将军。其与小凤仙的故事广为流传。"
+    },
+    {
+      "slug": "duan-qi-rui",
+      "name": "段祺瑞",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "politician"
+      ],
+      "importance": 70,
+      "birthYear": 1865,
+      "deathYear": 1936,
+      "aliases": [
+        "段芝泉"
+      ],
+      "summary": "北洋军阀皖系首领，三造共和。",
+      "content": "段祺瑞（1865—1936年），字芝泉，安徽合肥人，北洋军阀皖系首领。袁世凯死后掌控北京政府，三造共和（逼清帝退位、反对袁世凯称帝、讨伐张勋复辟）。1924年任临时执政，后失势下野。九一八事变后拒绝日本拉拢，保持民族气节。1936年病逝于上海。"
+    },
+    {
+      "slug": "zhang-zuo-lin",
+      "name": "张作霖",
+      "primaryRole": "warlord",
+      "roles": [
+        "warlord",
+        "general"
+      ],
+      "importance": 70,
+      "birthYear": 1875,
+      "deathYear": 1928,
+      "aliases": [
+        "张大帅",
+        "东北王"
+      ],
+      "summary": "奉系军阀首领，东北王。被日本关东军炸死。",
+      "content": "张作霖（1875—1928年），字雨亭，辽宁海城人，奉系军阀首领，人称「东北王」。绿林出身，逐步控制东北三省，成为北洋时期最大的地方势力。两次直奉战争中崛起，一度控制北京政府。1928年北伐军逼近，退回东北途中，被日本关东军炸死于皇姑屯，史称「皇姑屯事件」。"
+    },
+    {
+      "slug": "jiang-jie-shi",
+      "name": "蒋介石",
+      "primaryRole": "president",
+      "roles": [
+        "president",
+        "general"
+      ],
+      "importance": 90,
+      "birthYear": 1887,
+      "deathYear": 1975,
+      "aliases": [
+        "蒋中正",
+        "蒋委员长"
+      ],
+      "summary": "中华民国总统，领导北伐统一中国，领导抗日战争。国共内战失败后退守台湾。",
+      "content": "蒋介石（1887—1975年），名中正，字介石，浙江奉化人。早年追随孙中山，黄埔军校校长。1926年领导北伐，1928年统一全国。抗日战争期间任盟军中国战区最高统帅，领导全国抗战。1949年国共内战失败后退守台湾，任中华民国总统至1975年病逝。其一生贯穿民国史，功过争议极大。"
+    },
+    {
+      "slug": "song-qing-ling",
+      "name": "宋庆龄",
+      "primaryRole": "politician",
+      "roles": [
+        "politician",
+        "revolutionary"
+      ],
+      "importance": 75,
+      "birthYear": 1893,
+      "deathYear": 1981,
+      "aliases": [
+        "国母"
+      ],
+      "summary": "孙中山夫人，中华人民共和国名誉主席。",
+      "content": "宋庆龄（1893—1981年），广东文昌人，孙中山夫人。追随孙中山投身革命，孙中山去世后坚持其三大政策。抗日战争期间积极抗日，支持中国共产党。新中国成立后任中央人民政府副主席、中华人民共和国名誉主席。一生致力于妇女儿童事业和国际和平，被誉为「国之瑰宝」。"
+    },
+    {
+      "slug": "zhou-en-lai",
+      "name": "周恩来",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "diplomat"
+      ],
+      "importance": 90,
+      "birthYear": 1898,
+      "deathYear": 1976,
+      "aliases": [
+        "周总理"
+      ],
+      "summary": "中华人民共和国开国总理，杰出的外交家，人民的好总理。",
+      "content": "周恩来（1898—1976年），字翔宇，浙江绍兴人，中华人民共和国开国总理。早年留法勤工俭学，加入中国共产党。南昌起义领导人之一，长征中支持毛泽东。抗日战争期间主持国共谈判，新中国成立后任总理兼外交部长二十六年。万隆会议提出「和平共处五项原则」，乒乓外交打开中美关系。一生鞠躬尽瘁，被誉为「人民的好总理」。"
+    },
+    {
+      "slug": "mao-ze-dong",
+      "name": "毛泽东",
+      "primaryRole": "president",
+      "roles": [
+        "president",
+        "revolutionary"
+      ],
+      "importance": 100,
+      "birthYear": 1893,
+      "deathYear": 1976,
+      "aliases": [
+        "毛主席",
+        "毛润之"
+      ],
+      "summary": "中国共产党领袖，中华人民共和国缔造者。领导中国人民站起来。",
+      "content": "毛泽东（1893—1976年），字润之，湖南湘潭人，中国共产党、中国人民解放军、中华人民共和国的主要缔造者。领导秋收起义、建立井冈山根据地、长征、抗日战争、解放战争，1949年建立中华人民共和国。提出「农村包围城市」革命道路，领导中国人民「站起来」。晚年发动文化大革命，造成严重浩劫。1976年病逝于北京。"
+    },
+    {
+      "slug": "zhu-de",
+      "name": "朱德",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": 1886,
+      "deathYear": 1976,
+      "aliases": [
+        "朱总司令"
+      ],
+      "summary": "中国人民解放军总司令，开国元帅之首。",
+      "content": "朱德（1886—1976年），字玉阶，四川仪陇人，中国人民解放军总司令，开国元帅之首。早年参加辛亥革命、护国战争，后加入中国共产党。与毛泽东会师井冈山，领导红军长征。抗日战争任八路军总指挥，解放战争任解放军总司令。新中国成立后任全国人大常委会委员长，功勋卓著。"
+    },
+    {
+      "slug": "liu-shao-qi",
+      "name": "刘少奇",
+      "primaryRole": "president",
+      "roles": [
+        "president"
+      ],
+      "importance": 75,
+      "birthYear": 1898,
+      "deathYear": 1969,
+      "aliases": [
+        "刘主席"
+      ],
+      "summary": "中华人民共和国第二任国家主席。",
+      "content": "刘少奇（1898—1969年），湖南宁乡人，中华人民共和国第二任国家主席。早年领导工人运动，抗日战争期间主持华中根据地。新中国成立后主持经济建设，提出「新民主主义阶段论」。文化大革命中被打成「叛徒、内奸、工贼」，遭受残酷迫害，1969年含冤病逝。1980年平反昭雪。"
+    },
+    {
+      "slug": "deng-xiao-ping",
+      "name": "邓小平",
+      "primaryRole": "reformer",
+      "roles": [
+        "reformer",
+        "leader"
+      ],
+      "importance": 95,
+      "birthYear": 1904,
+      "deathYear": 1997,
+      "aliases": [
+        "邓公",
+        "小平同志"
+      ],
+      "summary": "中国改革开放总设计师，提出一国两制，带领中国人民富起来。",
+      "content": "邓小平（1904—1997年），四川广安人，中国改革开放总设计师。早年参加革命，三落三起。1978年推动改革开放，提出「一国两制」构想，设立经济特区，带领中国人民「富起来」。1992年南巡讲话，推动市场经济改革。1997年病逝于北京，未能亲眼见证香港回归。"
+    },
+    {
+      "slug": "lu-xun",
+      "name": "鲁迅",
+      "primaryRole": "writer",
+      "roles": [
+        "writer",
+        "thinker"
+      ],
+      "importance": 90,
+      "birthYear": 1881,
+      "deathYear": 1936,
+      "aliases": [
+        "周树人"
+      ],
+      "summary": "中国现代文学奠基人，代表作《狂人日记》《阿Q正传》。横眉冷对千夫指，俯首甘为孺子牛。",
+      "content": "鲁迅（1881—1936年），原名周树人，字豫才，浙江绍兴人，中国现代文学奠基人。弃医从文，以笔为枪，批判国民劣根性。代表作《狂人日记》《阿Q正传》《孔乙己》《祝福》等。杂文辛辣犀利，被誉为「民族魂」。毛泽东称其「中国文化革命的主将」。1936年病逝于上海，万人送葬。"
+    },
+    {
+      "slug": "hu-shi",
+      "name": "胡适",
+      "primaryRole": "scholar",
+      "roles": [
+        "scholar",
+        "diplomat"
+      ],
+      "importance": 80,
+      "birthYear": 1891,
+      "deathYear": 1962,
+      "aliases": [
+        "胡适之"
+      ],
+      "summary": "新文化运动领袖，白话文运动倡导者，著名学者外交家。",
+      "content": "胡适（1891—1962年），字适之，安徽绩溪人，新文化运动领袖，著名学者。留美归国后倡导白话文运动，发表《文学改良刍议》，开白话文学之先河。历任北大教授、驻美大使、中央研究院院长。主张「大胆假设，小心求证」，学术成就涵盖哲学、文学、史学、教育学。1962年病逝于台北。"
+    },
+    {
+      "slug": "cai-yuan-pei",
+      "name": "蔡元培",
+      "primaryRole": "educator",
+      "roles": [
+        "educator",
+        "scholar"
+      ],
+      "importance": 80,
+      "birthYear": 1868,
+      "deathYear": 1940,
+      "aliases": [
+        "蔡孑民"
+      ],
+      "summary": "北京大学校长，兼容并包办学方针，新文化运动支持者。",
+      "content": "蔡元培（1868—1940年），字鹤卿，号孑民，浙江绍兴人，近代著名教育家。1917年任北京大学校长，推行「兼容并包、思想自由」的办学方针，聘请陈独秀、胡适、李大钊等新派学者，使北大成为新文化运动的中心。又创设中央研究院，奠定中国现代学术体制。1940年病逝于香港。"
+    },
+    {
+      "slug": "zhang-xue-liang",
+      "name": "张学良",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 75,
+      "birthYear": 1901,
+      "deathYear": 2001,
+      "aliases": [
+        "少帅"
+      ],
+      "summary": "东北军少帅，西安事变发动者，促成国共合作抗日。",
+      "content": "张学良（1901—2001年），字汉卿，辽宁海城人，张作霖之子，人称「少帅」。1928年东北易帜，归顺南京国民政府。1936年12月12日发动「西安事变」（双十二事变），扣押蒋介石，逼蒋抗日，促成国共第二次合作。此后被蒋介石软禁长达半世纪，直至1990年恢复自由。2001年病逝于美国夏威夷，享年一百零一岁。"
+    },
+    {
+      "slug": "yang-hu-cheng",
+      "name": "杨虎城",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 70,
+      "birthYear": 1893,
+      "deathYear": 1949,
+      "aliases": [
+        "杨将军"
+      ],
+      "summary": "西安事变发动者之一，被蒋介石囚禁杀害。",
+      "content": "杨虎城（1893—1949年），陕西蒲城人，西北军将领。1936年与张学良联合发动「西安事变」，扣押蒋介石，逼蒋抗日。事变和平解决后，杨虎城被蒋介石逼令出国「考察」。抗战爆发后回国即遭逮捕，囚禁十二年。1949年国民党败退前夕，被秘密杀害于重庆，年仅五十六。"
+    },
+    {
+      "slug": "li-da-zhao",
+      "name": "李大钊",
+      "primaryRole": "revolutionary",
+      "roles": [
+        "revolutionary",
+        "scholar"
+      ],
+      "importance": 90,
+      "birthYear": 1889,
+      "deathYear": 1927,
+      "aliases": [
+        "李守常"
+      ],
+      "summary": "中国共产党创始人之一，新文化运动领袖，传播马克思主义先驱。",
+      "content": "李大钊（1889—1927年），字守常，河北乐亭人，中国共产党创始人之一。新文化运动领袖，率先在中国传播马克思主义。1920年在北京建立共产主义小组，参与创建中国共产党。1924年促成国共合作。1927年被张作霖逮捕绞杀，年仅三十八岁。李大钊是中国共产主义运动的先驱。"
+    },
+    {
+      "slug": "chen-du-xiu",
+      "name": "陈独秀",
+      "primaryRole": "revolutionary",
+      "roles": [
+        "revolutionary",
+        "scholar"
+      ],
+      "importance": 90,
+      "birthYear": 1879,
+      "deathYear": 1942,
+      "aliases": [
+        "陈仲甫"
+      ],
+      "summary": "新文化运动领袖，创办《新青年》，中国共产党创始人之一。",
+      "content": "陈独秀（1879—1942年），字仲甫，安徽怀宁人，新文化运动领袖，中国共产党创始人之一。1915年创办《新青年》杂志，高举民主与科学旗帜，掀起新文化运动。1921年中国共产党成立，陈独秀被选为中央局书记。后因右倾机会主义被撤职，晚年贫病交加，客死江津。"
+    },
+    {
+      "slug": "feng-yu-xiang",
+      "name": "冯玉祥",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "warlord"
+      ],
+      "importance": 75,
+      "birthYear": 1882,
+      "deathYear": 1948,
+      "aliases": [
+        "倒戈将军"
+      ],
+      "summary": "西北军领袖，多次倒戈，发动北京政变，驱逐溥仪出宫。",
+      "content": "冯玉祥（1882—1948年），字焕章，安徽巢县人，西北军领袖，「倒戈将军」。多次发动政变，倒戈反复。1924年发动北京政变，驱逐溥仪出宫。抗日战争期间积极抗日。1948年赴美考察，回国途中在黑海轮船上遇难。冯玉祥是中国近代最复杂的军阀之一。"
+    },
+    {
+      "slug": "yan-xi-shan",
+      "name": "阎锡山",
+      "primaryRole": "warlord",
+      "roles": [
+        "warlord"
+      ],
+      "importance": 75,
+      "birthYear": 1883,
+      "deathYear": 1960,
+      "aliases": [
+        "山西王"
+      ],
+      "summary": "晋系军阀首领，统治山西三十八年，山西王。",
+      "content": "阎锡山（1883—1960年），字百川，山西五台人，晋系军阀首领，「山西王」。统治山西三十八年，推行「六政三事」，发展山西经济。抗日战争期间抗日，解放战争中被解放军击败，退守台湾。阎锡山是中国近代统治地方最久的军阀。"
+    },
+    {
+      "slug": "li-zong-ren",
+      "name": "李宗仁",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "warlord"
+      ],
+      "importance": 80,
+      "birthYear": 1891,
+      "deathYear": 1969,
+      "aliases": [
+        "李德邻"
+      ],
+      "summary": "桂系军阀首领，指挥台儿庄战役，抗日名将。",
+      "content": "李宗仁（1891—1969年），字德邻，广西临桂人，桂系军阀首领。1938年指挥台儿庄战役，取得抗日战争中正面战场的第一次重大胜利。1949年任代总统，后流亡美国。1965年回到大陆，受到毛泽东接见。李宗仁是中国近代著名的爱国将领。"
+    },
+    {
+      "slug": "bai-chong-xi",
+      "name": "白崇禧",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "warlord"
+      ],
+      "importance": 75,
+      "birthYear": 1893,
+      "deathYear": 1966,
+      "aliases": [
+        "小诸葛"
+      ],
+      "summary": "桂系军阀首领，小诸葛，与李宗仁并称李白。",
+      "content": "白崇禧（1893—1966年），字健生，广西临桂人，桂系军阀首领，「小诸葛」。以智谋著称，与李宗仁并称「李白」。抗日战争中参加多次重要战役。解放战争中被解放军击败，退守台湾。白崇禧是中国近代最善战的军阀之一。"
+    },
+    {
+      "slug": "zhang-zi-zhong",
+      "name": "张自忠",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "hero"
+      ],
+      "importance": 90,
+      "birthYear": 1891,
+      "deathYear": 1940,
+      "aliases": [
+        "张荩忱"
+      ],
+      "summary": "抗日名将，枣宜会战壮烈殉国，抗日战争牺牲的最高将领。",
+      "content": "张自忠（1891—1940年），字荩忱，山东临清人，抗日名将。1940年枣宜会战中，张自忠率部与日军激战，壮烈殉国，是抗日战争中牺牲的最高将领。张自忠殉国后，全国下半旗志哀，蒋介石亲迎灵柩。毛泽东挽联：「尽忠报国」。"
+    },
+    {
+      "slug": "dai-li",
+      "name": "戴笠",
+      "primaryRole": "spy",
+      "roles": [
+        "spy",
+        "official"
+      ],
+      "importance": 70,
+      "birthYear": 1897,
+      "deathYear": 1946,
+      "aliases": [
+        "戴雨农",
+        "中国的希姆莱"
+      ],
+      "summary": "军统局局长，训练特工刺杀汉奸，中国的希姆莱。",
+      "content": "戴笠（1897—1946年），字雨农，浙江江山人，军统局局长。掌管军统期间，训练特工、刺杀汉奸、搜集情报，为抗日战争做出贡献。但军统也大肆迫害共产党人和民主人士。1946年飞机失事身亡。戴笠是中国近代最神秘的人物之一，被称为「中国的希姆莱」。"
+    },
+    {
+      "slug": "song-mei-ling",
+      "name": "宋美龄",
+      "primaryRole": "politician",
+      "roles": [
+        "politician",
+        "diplomat"
+      ],
+      "importance": 80,
+      "birthYear": 1897,
+      "deathYear": 2003,
+      "aliases": [
+        "蒋夫人"
+      ],
+      "summary": "蒋介石夫人，赴美国国会演讲争取援助，中国最著名的第一夫人。",
+      "content": "宋美龄（1897—2003年），蒋介石夫人，中国近代最杰出的女性政治家之一。留学美国，精通英语，擅长外交。抗日战争期间赴美国国会演讲，争取美国援助，轰动世界。宋美龄是中国近代最著名的「第一夫人」，2003年病逝于纽约，享年一百零六岁。"
+    }
   ],
   "events": [
-    {"slug": "xin-hai-ge-ming-mg", "name": "辛亥革命", "timeStart": 1911, "aliases": ["武昌起义"], "summary": "1911年10月10日武昌起义爆发，各省纷纷响应，清朝统治瓦解。", "content": "1911年10月10日武昌起义爆发，革命党人占领武汉三镇。各省纷纷响应，清朝统治迅速瓦解。"},
-    {"slug": "min-guo-jian-li", "name": "中华民国建立", "timeStart": 1912, "aliases": ["民国成立"], "summary": "1912年1月1日孙中山在南京就任临时大总统，中华民国成立。", "content": "1912年1月1日孙中山在南京就任临时大总统，中华民国成立。2月12日清帝退位，清朝灭亡。"},
-    {"slug": "yuan-shi-kai-cheng-di", "name": "袁世凯称帝", "timeStart": 1915, "aliases": ["洪宪帝制"], "summary": "袁世凯复辟帝制，改国号中华帝国。蔡锷等发动护国运动，袁世凯被迫取消帝制。", "content": "1915年袁世凯宣布恢复帝制，改国号中华帝国。蔡锷等发动护国运动，各省纷纷独立。1916年袁世凯被迫取消帝制，不久病死。"},
-    {"slug": "hu-guo-yun-dong", "name": "护国运动", "timeStart": 1915, "timeEnd": 1916, "aliases": ["反袁称帝"], "summary": "蔡锷等发动护国运动，反对袁世凯称帝，维护共和制度。", "content": "1915年蔡锷在云南宣布独立，发动护国运动。各省纷纷响应，袁世凯被迫取消帝制。"},
-    {"slug": "wu-si-yun-dong", "name": "五四运动", "timeStart": 1919, "aliases": ["五四爱国运动"], "summary": "1919年5月4日北京学生游行示威，抗议巴黎和会将山东权益转让给日本。", "content": "1919年巴黎和会将德国在山东的权益转让给日本。5月4日北京学生游行示威，抗议卖国行为。五四运动是中国新民主主义革命的开端。"},
-    {"slug": "zhong-guo-gong-chan-dang-cheng-li", "name": "中国共产党成立", "timeStart": 1921, "aliases": ["中共一大"], "summary": "1921年7月中国共产党第一次全国代表大会在上海召开，中国共产党成立。", "content": "1921年7月23日中共一大在上海法租界召开，后转移至嘉兴南湖。毛泽东、董必武等十三人出席，中国共产党正式成立。"},
-    {"slug": "bei-fa-zhan-zheng", "name": "北伐战争", "timeStart": 1926, "timeEnd": 1928, "aliases": ["国民革命军北伐"], "summary": "国民革命军北伐，推翻北洋军阀统治，统一中国。", "content": "1926年国民革命军从广东出师北伐，推翻吴佩孚、孙传芳等军阀。1928年张学良东北易帜，全国统一。"},
-    {"slug": "nan-chang-qi-yi", "name": "南昌起义", "timeStart": 1927, "aliases": ["八一起义"], "summary": "1927年8月1日周恩来等领导南昌起义，打响武装反抗国民党反动派的第一枪。", "content": "1927年8月1日周恩来、贺龙、叶挺、朱德等领导南昌起义。起义军占领南昌，后南下广东。南昌起义是中国共产党独立领导武装斗争的开始。"},
-    {"slug": "chang-zheng", "name": "红军长征", "timeStart": 1934, "timeEnd": 1936, "aliases": ["二万五千里长征"], "summary": "红军从江西瑞金出发，历经艰难险阻，到达陕北延安。长征是人类历史上的伟大壮举。", "content": "1934年中央红军从江西瑞金出发长征，历经湘江之战、遵义会议、四渡赤水、飞夺泸定桥、爬雪山过草地，1936年到达陕北。"},
-    {"slug": "zun-yi-hui-yi", "name": "遵义会议", "timeStart": 1935, "aliases": ["中共遵义会议"], "summary": "遵义会议确立了毛泽东在党和红军中的领导地位，是中国共产党生死攸关的转折点。", "content": "1935年1月中共中央在遵义召开政治局扩大会议。会议纠正了左倾错误路线，确立了毛泽东的领导地位。"},
-    {"slug": "xi-an-shi-bian", "name": "西安事变", "timeStart": 1936, "aliases": ["双十二事变"], "summary": "张学良、杨虎城在西安扣押蒋介石，逼蒋抗日。西安事变促成国共合作抗日。", "content": "1936年12月12日张学良、杨虎城在西安扣押蒋介石，要求停止内战一致抗日。经周恩来等调解，蒋介石答应抗日条件，事变和平解决。"},
-    {"slug": "kang-ri-zhan-zheng", "name": "抗日战争", "timeStart": 1937, "timeEnd": 1945, "aliases": ["八年抗战"], "summary": "日本发动全面侵华战争，中国人民经过八年艰苦抗战，最终取得胜利。", "content": "1937年7月7日卢沟桥事变，日本全面侵华。中国人民经过八年艰苦抗战，1945年日本投降，抗战胜利。"},
-    {"slug": "lu-gou-qiao-shi-bian", "name": "卢沟桥事变", "timeStart": 1937, "aliases": ["七七事变"], "summary": "1937年7月7日日军在卢沟桥挑衅，中国军队奋起抵抗，全面抗战爆发。", "content": "1937年7月7日日军在卢沟桥附近演习，借口士兵失踪要求进入宛平城搜查。中国军队拒绝，日军进攻，全面抗战爆发。"},
-    {"slug": "nan-jing-da-tu-sha", "name": "南京大屠杀", "timeStart": 1937, "aliases": ["南京沦陷"], "summary": "1937年12月日军攻占南京，屠杀中国军民三十万人以上，是人类历史上的惨剧。", "content": "1937年12月13日日军攻占南京，进行长达六周的大屠杀。遇难人数达三十万人以上，是二战中最惨烈的暴行之一。"},
-    {"slug": "ping-xing-da-jie-zhan", "name": "平型关大捷", "timeStart": 1937, "aliases": ["平型关战役"], "summary": "八路军115师在平型关伏击日军，取得全面抗战以来第一个大胜仗。", "content": "1937年9月八路军115师在平型关伏击日军板垣师团，歼敌一千余人。平型关大捷打破了日军不可战胜的神话。"},
-    {"slug": "tai-er-zhuang-zhan-yi", "name": "台儿庄战役", "timeStart": 1938, "aliases": ["台儿庄大捷"], "summary": "李宗仁指挥中国军队在台儿庄击败日军，取得抗战以来正面战场最大胜利。", "content": "1938年李宗仁指挥中国军队在台儿庄与日军激战，歼敌一万余人。台儿庄大捷是抗战以来正面战场最大的胜利。"},
-    {"slug": "bai-tuan-da-zhan", "name": "百团大战", "timeStart": 1940, "aliases": ["百团大战"], "summary": "彭德怀指挥八路军发动百团大战，破坏日军交通线，鼓舞全国抗战信心。", "content": "1940年8月彭德怀指挥八路军一百零五个团发动百团大战。战役破坏日军交通线，歼敌两万余人。"},
-    {"slug": "ri-ben-tou-xiang", "name": "日本投降", "timeStart": 1945, "aliases": ["抗战胜利"], "summary": "1945年8月15日日本宣布无条件投降，中国人民抗日战争取得伟大胜利。", "content": "1945年8月6日美国在广岛投下原子弹，8月8日苏联对日宣战。8月15日日本宣布无条件投降，9月2日正式签署投降书。"},
-    {"slug": "nei-zhan", "name": "国共内战", "timeStart": 1946, "timeEnd": 1949, "aliases": ["解放战争"], "summary": "国共内战爆发，经过辽沈、淮海、平津三大战役，国民党败退台湾。", "content": "1946年国共内战全面爆发。经过辽沈、淮海、平津三大战役，国民党军队主力被歼灭。1949年4月解放军渡江占领南京。"},
-    {"slug": "kai-guo-da-dian", "name": "开国大典", "timeStart": 1949, "aliases": ["新中国成立"], "summary": "1949年10月1日毛泽东在天安门城楼宣布中华人民共和国成立。", "content": "1949年10月1日毛泽东在天安门城楼庄严宣告：中华人民共和国中央人民政府今天成立了！中国人民从此站起来了。"}
+    {
+      "slug": "xin-hai-ge-ming-mg",
+      "name": "辛亥革命",
+      "timeStart": 1911,
+      "aliases": [
+        "武昌起义"
+      ],
+      "summary": "1911年10月10日武昌起义爆发，各省纷纷响应，清朝统治瓦解。",
+      "content": "1911年10月10日武昌起义爆发，革命党人占领武汉三镇。各省纷纷响应，清朝统治迅速瓦解。"
+    },
+    {
+      "slug": "min-guo-jian-li",
+      "name": "中华民国建立",
+      "timeStart": 1912,
+      "aliases": [
+        "民国成立"
+      ],
+      "summary": "1912年1月1日孙中山在南京就任临时大总统，中华民国成立。",
+      "content": "1912年1月1日孙中山在南京就任临时大总统，中华民国成立。2月12日清帝退位，清朝灭亡。"
+    },
+    {
+      "slug": "yuan-shi-kai-cheng-di",
+      "name": "袁世凯称帝",
+      "timeStart": 1915,
+      "aliases": [
+        "洪宪帝制"
+      ],
+      "summary": "袁世凯复辟帝制，改国号中华帝国。蔡锷等发动护国运动，袁世凯被迫取消帝制。",
+      "content": "1915年袁世凯宣布恢复帝制，改国号中华帝国。蔡锷等发动护国运动，各省纷纷独立。1916年袁世凯被迫取消帝制，不久病死。"
+    },
+    {
+      "slug": "hu-guo-yun-dong",
+      "name": "护国运动",
+      "timeStart": 1915,
+      "timeEnd": 1916,
+      "aliases": [
+        "反袁称帝"
+      ],
+      "summary": "蔡锷等发动护国运动，反对袁世凯称帝，维护共和制度。",
+      "content": "1915年蔡锷在云南宣布独立，发动护国运动。各省纷纷响应，袁世凯被迫取消帝制。"
+    },
+    {
+      "slug": "wu-si-yun-dong",
+      "name": "五四运动",
+      "timeStart": 1919,
+      "aliases": [
+        "五四爱国运动"
+      ],
+      "summary": "1919年5月4日北京学生游行示威，抗议巴黎和会将山东权益转让给日本。",
+      "content": "1919年巴黎和会将德国在山东的权益转让给日本。5月4日北京学生游行示威，抗议卖国行为。五四运动是中国新民主主义革命的开端。"
+    },
+    {
+      "slug": "zhong-guo-gong-chan-dang-cheng-li",
+      "name": "中国共产党成立",
+      "timeStart": 1921,
+      "aliases": [
+        "中共一大"
+      ],
+      "summary": "1921年7月中国共产党第一次全国代表大会在上海召开，中国共产党成立。",
+      "content": "1921年7月23日中共一大在上海法租界召开，后转移至嘉兴南湖。毛泽东、董必武等十三人出席，中国共产党正式成立。"
+    },
+    {
+      "slug": "bei-fa-zhan-zheng",
+      "name": "北伐战争",
+      "timeStart": 1926,
+      "timeEnd": 1928,
+      "aliases": [
+        "国民革命军北伐"
+      ],
+      "summary": "国民革命军北伐，推翻北洋军阀统治，统一中国。",
+      "content": "1926年国民革命军从广东出师北伐，推翻吴佩孚、孙传芳等军阀。1928年张学良东北易帜，全国统一。"
+    },
+    {
+      "slug": "nan-chang-qi-yi",
+      "name": "南昌起义",
+      "timeStart": 1927,
+      "aliases": [
+        "八一起义"
+      ],
+      "summary": "1927年8月1日周恩来等领导南昌起义，打响武装反抗国民党反动派的第一枪。",
+      "content": "1927年8月1日周恩来、贺龙、叶挺、朱德等领导南昌起义。起义军占领南昌，后南下广东。南昌起义是中国共产党独立领导武装斗争的开始。"
+    },
+    {
+      "slug": "chang-zheng",
+      "name": "红军长征",
+      "timeStart": 1934,
+      "timeEnd": 1936,
+      "aliases": [
+        "二万五千里长征"
+      ],
+      "summary": "红军从江西瑞金出发，历经艰难险阻，到达陕北延安。长征是人类历史上的伟大壮举。",
+      "content": "1934年中央红军从江西瑞金出发长征，历经湘江之战、遵义会议、四渡赤水、飞夺泸定桥、爬雪山过草地，1936年到达陕北。"
+    },
+    {
+      "slug": "zun-yi-hui-yi",
+      "name": "遵义会议",
+      "timeStart": 1935,
+      "aliases": [
+        "中共遵义会议"
+      ],
+      "summary": "遵义会议确立了毛泽东在党和红军中的领导地位，是中国共产党生死攸关的转折点。",
+      "content": "1935年1月中共中央在遵义召开政治局扩大会议。会议纠正了左倾错误路线，确立了毛泽东的领导地位。"
+    },
+    {
+      "slug": "xi-an-shi-bian",
+      "name": "西安事变",
+      "timeStart": 1936,
+      "aliases": [
+        "双十二事变"
+      ],
+      "summary": "张学良、杨虎城在西安扣押蒋介石，逼蒋抗日。西安事变促成国共合作抗日。",
+      "content": "1936年12月12日张学良、杨虎城在西安扣押蒋介石，要求停止内战一致抗日。经周恩来等调解，蒋介石答应抗日条件，事变和平解决。"
+    },
+    {
+      "slug": "kang-ri-zhan-zheng",
+      "name": "抗日战争",
+      "timeStart": 1937,
+      "timeEnd": 1945,
+      "aliases": [
+        "八年抗战"
+      ],
+      "summary": "日本发动全面侵华战争，中国人民经过八年艰苦抗战，最终取得胜利。",
+      "content": "1937年7月7日卢沟桥事变，日本全面侵华。中国人民经过八年艰苦抗战，1945年日本投降，抗战胜利。"
+    },
+    {
+      "slug": "lu-gou-qiao-shi-bian",
+      "name": "卢沟桥事变",
+      "timeStart": 1937,
+      "aliases": [
+        "七七事变"
+      ],
+      "summary": "1937年7月7日日军在卢沟桥挑衅，中国军队奋起抵抗，全面抗战爆发。",
+      "content": "1937年7月7日日军在卢沟桥附近演习，借口士兵失踪要求进入宛平城搜查。中国军队拒绝，日军进攻，全面抗战爆发。"
+    },
+    {
+      "slug": "nan-jing-da-tu-sha",
+      "name": "南京大屠杀",
+      "timeStart": 1937,
+      "aliases": [
+        "南京沦陷"
+      ],
+      "summary": "1937年12月日军攻占南京，屠杀中国军民三十万人以上，是人类历史上的惨剧。",
+      "content": "1937年12月13日日军攻占南京，进行长达六周的大屠杀。遇难人数达三十万人以上，是二战中最惨烈的暴行之一。"
+    },
+    {
+      "slug": "ping-xing-da-jie-zhan",
+      "name": "平型关大捷",
+      "timeStart": 1937,
+      "aliases": [
+        "平型关战役"
+      ],
+      "summary": "八路军115师在平型关伏击日军，取得全面抗战以来第一个大胜仗。",
+      "content": "1937年9月八路军115师在平型关伏击日军板垣师团，歼敌一千余人。平型关大捷打破了日军不可战胜的神话。"
+    },
+    {
+      "slug": "tai-er-zhuang-zhan-yi",
+      "name": "台儿庄战役",
+      "timeStart": 1938,
+      "aliases": [
+        "台儿庄大捷"
+      ],
+      "summary": "李宗仁指挥中国军队在台儿庄击败日军，取得抗战以来正面战场最大胜利。",
+      "content": "1938年李宗仁指挥中国军队在台儿庄与日军激战，歼敌一万余人。台儿庄大捷是抗战以来正面战场最大的胜利。"
+    },
+    {
+      "slug": "bai-tuan-da-zhan",
+      "name": "百团大战",
+      "timeStart": 1940,
+      "aliases": [
+        "百团大战"
+      ],
+      "summary": "彭德怀指挥八路军发动百团大战，破坏日军交通线，鼓舞全国抗战信心。",
+      "content": "1940年8月彭德怀指挥八路军一百零五个团发动百团大战。战役破坏日军交通线，歼敌两万余人。"
+    },
+    {
+      "slug": "ri-ben-tou-xiang",
+      "name": "日本投降",
+      "timeStart": 1945,
+      "aliases": [
+        "抗战胜利"
+      ],
+      "summary": "1945年8月15日日本宣布无条件投降，中国人民抗日战争取得伟大胜利。",
+      "content": "1945年8月6日美国在广岛投下原子弹，8月8日苏联对日宣战。8月15日日本宣布无条件投降，9月2日正式签署投降书。"
+    },
+    {
+      "slug": "nei-zhan",
+      "name": "国共内战",
+      "timeStart": 1946,
+      "timeEnd": 1949,
+      "aliases": [
+        "解放战争"
+      ],
+      "summary": "国共内战爆发，经过辽沈、淮海、平津三大战役，国民党败退台湾。",
+      "content": "1946年国共内战全面爆发。经过辽沈、淮海、平津三大战役，国民党军队主力被歼灭。1949年4月解放军渡江占领南京。"
+    },
+    {
+      "slug": "kai-guo-da-dian",
+      "name": "开国大典",
+      "timeStart": 1949,
+      "aliases": [
+        "新中国成立"
+      ],
+      "summary": "1949年10月1日毛泽东在天安门城楼宣布中华人民共和国成立。",
+      "content": "1949年10月1日毛泽东在天安门城楼庄严宣告：中华人民共和国中央人民政府今天成立了！中国人民从此站起来了。"
+    },
+    {
+      "slug": "xin-wen-hua-yun-dong",
+      "name": "新文化运动",
+      "timeStart": 1915,
+      "timeEnd": 1923,
+      "aliases": [
+        "新文化运动"
+      ],
+      "summary": "陈独秀创办《新青年》，高举民主与科学旗帜，掀起思想解放运动。",
+      "content": "1915年，陈独秀在上海创办《青年杂志》（后改名《新青年》），高举民主（德先生）与科学（赛先生）旗帜，反对封建礼教、提倡白话文，掀起新文化运动。李大钊、胡适、鲁迅等积极参与。新文化运动是中国近代最重要的思想解放运动，为五四运动和中国共产党的成立奠定了思想基础。"
+    },
+    {
+      "slug": "yi-er-jiu-yun-dong",
+      "name": "一二九运动",
+      "timeStart": 1935,
+      "timeEnd": 1935,
+      "aliases": [
+        "一二·九运动"
+      ],
+      "summary": "北平学生举行抗日救国示威游行，掀起全国抗日救亡运动新高潮。",
+      "content": "1935年12月9日，北平数千学生举行抗日救国示威游行，反对华北自治，要求停止内战、一致抗日。游行遭到军警镇压，但运动迅速扩展到全国，掀起抗日救亡运动新高潮。一二九运动是中国近代最重要的学生运动之一，促进了中华民族的觉醒，推动了抗日民族统一战线的形成。"
+    },
+    {
+      "slug": "song-hu-hui-zhan",
+      "name": "淞沪会战",
+      "timeStart": 1937,
+      "timeEnd": 1937,
+      "aliases": [
+        "八一三事变"
+      ],
+      "summary": "中日双方在上海激战三个月，粉碎了日军三个月灭亡中国的企图。",
+      "content": "1937年8月13日，日军进攻上海，中国军队奋起抵抗，淞沪会战爆发。蒋介石调集七十万军队，与日军激战三个月。中国军队虽然装备落后，但英勇顽强，给日军重大杀伤。11月上海沦陷。淞沪会战粉碎了日军三个月灭亡中国的企图，为沿海工业内迁争取了时间，展现了中国军民的抗战决心。"
+    },
+    {
+      "slug": "wu-han-hui-zhan",
+      "name": "武汉会战",
+      "timeStart": 1938,
+      "timeEnd": 1938,
+      "aliases": [
+        "武汉保卫战"
+      ],
+      "summary": "中日双方在武汉激战四个半月，武汉失守后抗日战争进入相持阶段。",
+      "content": "1938年6月至10月，中日双方在武汉及周边地区激战四个半月。中国军队投入一百万余人，日军投入三十五万人。中国军队英勇抵抗，给日军重大杀伤，但最终武汉失守。武汉会战后，抗日战争进入战略相持阶段，日军再也无力发动大规模进攻。"
+    },
+    {
+      "slug": "chang-sha-hui-zhan",
+      "name": "长沙会战",
+      "timeStart": 1939,
+      "timeEnd": 1944,
+      "aliases": [
+        "四次长沙会战"
+      ],
+      "summary": "中日双方在长沙进行四次大规模会战，中国军队三次击退日军进攻。",
+      "content": "1939年至1944年，中日双方在长沙进行四次大规模会战。前三次会战（1939年、1941年、1941—1942年）中国军队均击退日军进攻，取得重大胜利。第四次会战（1944年）日军发动豫湘桂战役，长沙沦陷。长沙会战是抗日战争中规模最大、持续时间最长的战役之一，展现了中国军队的顽强抗战精神。"
+    },
+    {
+      "slug": "yu-xiang-gui-zhan-yi",
+      "name": "豫湘桂战役",
+      "timeStart": 1944,
+      "timeEnd": 1944,
+      "aliases": [
+        "一号作战"
+      ],
+      "summary": "日军发动大规模进攻，国民党军队大溃败，丧失大片国土。",
+      "content": "1944年，日军发动「一号作战」（豫湘桂战役），企图打通大陆交通线。日军投入五十余万兵力，国民党军队节节败退，丧失河南、湖南、广西、贵州等大片国土。豫湘桂战役是抗日战争中中国军队最大的一次溃败，暴露了国民党政府的腐败无能，加速了国民党政权的崩溃。"
+    }
   ],
   "relations": [
-    {"from": "sun-zhong-shan-mg", "fromType": "person", "to": "min-guo-jian-li", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
-    {"from": "sun-zhong-shan-mg", "fromType": "person", "to": "huang-xing", "toType": "person", "type": "political", "weight": 10, "note": "革命伙伴"},
-    {"from": "yuan-shi-kai-mg", "fromType": "person", "to": "yuan-shi-kai-cheng-di", "toType": "event", "type": "participation", "weight": 10, "note": "称帝者"},
-    {"from": "cai-e", "fromType": "person", "to": "hu-guo-yun-dong", "toType": "event", "type": "participation", "weight": 10, "note": "发动者"},
-    {"from": "jiang-jie-shi", "fromType": "person", "to": "bei-fa-zhan-zheng", "toType": "event", "type": "participation", "weight": 10, "note": "总司令"},
-    {"from": "jiang-jie-shi", "fromType": "person", "to": "kang-ri-zhan-zheng", "toType": "event", "type": "participation", "weight": 10, "note": "抗战领袖"},
-    {"from": "zhou-en-lai", "fromType": "person", "to": "nan-chang-qi-yi", "toType": "event", "type": "participation", "weight": 10, "note": "领导者"},
-    {"from": "zhou-en-lai", "fromType": "person", "to": "xi-an-shi-bian", "toType": "event", "type": "participation", "weight": 10, "note": "调解者"},
-    {"from": "mao-ze-dong", "fromType": "person", "to": "zun-yi-hui-yi", "toType": "event", "type": "participation", "weight": 10, "note": "确立领导地位"},
-    {"from": "mao-ze-dong", "fromType": "person", "to": "kai-guo-da-dian", "toType": "event", "type": "participation", "weight": 10, "note": "宣布成立"},
-    {"from": "zhu-de", "fromType": "person", "to": "nan-chang-qi-yi", "toType": "event", "type": "participation", "weight": 9, "note": "参与者"},
-    {"from": "zhang-xue-liang", "fromType": "person", "to": "yang-hu-cheng", "toType": "person", "type": "political", "weight": 10, "note": "西安事变伙伴"},
-    {"from": "zhang-xue-liang", "fromType": "person", "to": "xi-an-shi-bian", "toType": "event", "type": "participation", "weight": 10, "note": "发动者"},
-    {"from": "deng-xiao-ping", "fromType": "person", "to": "chang-zheng", "toType": "event", "type": "participation", "weight": 8, "note": "参与者"},
-    {"from": "lu-xun", "fromType": "person", "to": "wu-si-yun-dong", "toType": "event", "type": "participation", "weight": 8, "note": "新文化运动"},
-    {"from": "hu-shi", "fromType": "person", "to": "wu-si-yun-dong", "toType": "event", "type": "participation", "weight": 8, "note": "新文化运动"},
-    {"from": "cai-yuan-pei", "fromType": "person", "to": "wu-si-yun-dong", "toType": "event", "type": "participation", "weight": 8, "note": "支持者"}
+    {
+      "from": "sun-zhong-shan-mg",
+      "fromType": "person",
+      "to": "min-guo-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "sun-zhong-shan-mg",
+      "fromType": "person",
+      "to": "huang-xing",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "革命伙伴"
+    },
+    {
+      "from": "yuan-shi-kai-mg",
+      "fromType": "person",
+      "to": "yuan-shi-kai-cheng-di",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "称帝者"
+    },
+    {
+      "from": "cai-e",
+      "fromType": "person",
+      "to": "hu-guo-yun-dong",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "发动者"
+    },
+    {
+      "from": "jiang-jie-shi",
+      "fromType": "person",
+      "to": "bei-fa-zhan-zheng",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "总司令"
+    },
+    {
+      "from": "jiang-jie-shi",
+      "fromType": "person",
+      "to": "kang-ri-zhan-zheng",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "抗战领袖"
+    },
+    {
+      "from": "zhou-en-lai",
+      "fromType": "person",
+      "to": "nan-chang-qi-yi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "领导者"
+    },
+    {
+      "from": "zhou-en-lai",
+      "fromType": "person",
+      "to": "xi-an-shi-bian",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "调解者"
+    },
+    {
+      "from": "mao-ze-dong",
+      "fromType": "person",
+      "to": "zun-yi-hui-yi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "确立领导地位"
+    },
+    {
+      "from": "mao-ze-dong",
+      "fromType": "person",
+      "to": "kai-guo-da-dian",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "宣布成立"
+    },
+    {
+      "from": "zhu-de",
+      "fromType": "person",
+      "to": "nan-chang-qi-yi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 9,
+      "note": "参与者"
+    },
+    {
+      "from": "zhang-xue-liang",
+      "fromType": "person",
+      "to": "yang-hu-cheng",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "西安事变伙伴"
+    },
+    {
+      "from": "zhang-xue-liang",
+      "fromType": "person",
+      "to": "xi-an-shi-bian",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "发动者"
+    },
+    {
+      "from": "deng-xiao-ping",
+      "fromType": "person",
+      "to": "chang-zheng",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "参与者"
+    },
+    {
+      "from": "lu-xun",
+      "fromType": "person",
+      "to": "wu-si-yun-dong",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "新文化运动"
+    },
+    {
+      "from": "hu-shi",
+      "fromType": "person",
+      "to": "wu-si-yun-dong",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "新文化运动"
+    },
+    {
+      "from": "cai-yuan-pei",
+      "fromType": "person",
+      "to": "wu-si-yun-dong",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "支持者"
+    }
   ],
   "timelines": [
-    {"eventSlug": "xin-hai-ge-ming-mg", "year": 1911, "label": "辛亥革命"},
-    {"eventSlug": "min-guo-jian-li", "year": 1912, "label": "中华民国建立"},
-    {"eventSlug": "yuan-shi-kai-cheng-di", "year": 1915, "label": "袁世凯称帝"},
-    {"eventSlug": "hu-guo-yun-dong", "year": 1916, "label": "护国运动"},
-    {"eventSlug": "wu-si-yun-dong", "year": 1919, "label": "五四运动"},
-    {"eventSlug": "zhong-guo-gong-chan-dang-cheng-li", "year": 1921, "label": "中国共产党成立"},
-    {"eventSlug": "bei-fa-zhan-zheng", "year": 1926, "label": "北伐战争"},
-    {"eventSlug": "nan-chang-qi-yi", "year": 1927, "label": "南昌起义"},
-    {"eventSlug": "chang-zheng", "year": 1934, "label": "红军长征"},
-    {"eventSlug": "zun-yi-hui-yi", "year": 1935, "label": "遵义会议"},
-    {"eventSlug": "xi-an-shi-bian", "year": 1936, "label": "西安事变"},
-    {"eventSlug": "lu-gou-qiao-shi-bian", "year": 1937, "label": "卢沟桥事变"},
-    {"eventSlug": "kang-ri-zhan-zheng", "year": 1937, "label": "全面抗战爆发"},
-    {"eventSlug": "nan-jing-da-tu-sha", "year": 1937, "label": "南京大屠杀"},
-    {"eventSlug": "ri-ben-tou-xiang", "year": 1945, "label": "日本投降"},
-    {"eventSlug": "nei-zhan", "year": 1946, "label": "国共内战"},
-    {"eventSlug": "kai-guo-da-dian", "year": 1949, "label": "中华人民共和国成立"}
+    {
+      "eventSlug": "xin-hai-ge-ming-mg",
+      "year": 1911,
+      "label": "辛亥革命"
+    },
+    {
+      "eventSlug": "min-guo-jian-li",
+      "year": 1912,
+      "label": "中华民国建立"
+    },
+    {
+      "eventSlug": "yuan-shi-kai-cheng-di",
+      "year": 1915,
+      "label": "袁世凯称帝"
+    },
+    {
+      "eventSlug": "hu-guo-yun-dong",
+      "year": 1916,
+      "label": "护国运动"
+    },
+    {
+      "eventSlug": "wu-si-yun-dong",
+      "year": 1919,
+      "label": "五四运动"
+    },
+    {
+      "eventSlug": "zhong-guo-gong-chan-dang-cheng-li",
+      "year": 1921,
+      "label": "中国共产党成立"
+    },
+    {
+      "eventSlug": "bei-fa-zhan-zheng",
+      "year": 1926,
+      "label": "北伐战争"
+    },
+    {
+      "eventSlug": "nan-chang-qi-yi",
+      "year": 1927,
+      "label": "南昌起义"
+    },
+    {
+      "eventSlug": "chang-zheng",
+      "year": 1934,
+      "label": "红军长征"
+    },
+    {
+      "eventSlug": "zun-yi-hui-yi",
+      "year": 1935,
+      "label": "遵义会议"
+    },
+    {
+      "eventSlug": "xi-an-shi-bian",
+      "year": 1936,
+      "label": "西安事变"
+    },
+    {
+      "eventSlug": "lu-gou-qiao-shi-bian",
+      "year": 1937,
+      "label": "卢沟桥事变"
+    },
+    {
+      "eventSlug": "kang-ri-zhan-zheng",
+      "year": 1937,
+      "label": "全面抗战爆发"
+    },
+    {
+      "eventSlug": "nan-jing-da-tu-sha",
+      "year": 1937,
+      "label": "南京大屠杀"
+    },
+    {
+      "eventSlug": "ri-ben-tou-xiang",
+      "year": 1945,
+      "label": "日本投降"
+    },
+    {
+      "eventSlug": "nei-zhan",
+      "year": 1946,
+      "label": "国共内战"
+    },
+    {
+      "eventSlug": "kai-guo-da-dian",
+      "year": 1949,
+      "label": "中华人民共和国成立"
+    }
   ]
 }

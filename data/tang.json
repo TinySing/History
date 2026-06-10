@@ -7,68 +7,848 @@
     "summary": "唐朝是中国历史上最辉煌的朝代之一，由李渊建立。贞观之治、开元盛世使唐朝成为当时世界上最强大的国家。安史之乱后由盛转衰，最终亡于藩镇割据。"
   },
   "persons": [
-    {"slug": "li-yuan-tang", "name": "李渊", "primaryRole": "emperor", "roles": ["emperor"], "importance": 85, "birthYear": 566, "deathYear": 635, "aliases": ["唐高祖"], "summary": "唐朝开国皇帝，太原起兵攻占长安，建立唐朝。"},
-    {"slug": "li-shi-min", "name": "李世民", "primaryRole": "emperor", "roles": ["emperor", "general"], "importance": 100, "birthYear": 598, "deathYear": 649, "aliases": ["唐太宗", "天可汗"], "summary": "唐朝第二位皇帝，贞观之治的开创者。玄武门之变夺位，文治武功卓著，被尊为天可汗。"},
-    {"slug": "xuan-zang", "name": "玄奘", "primaryRole": "monk", "roles": ["monk", "scholar"], "importance": 95, "birthYear": 602, "deathYear": 664, "aliases": ["唐三藏", "三藏法师"], "summary": "唐代高僧，西行取经十七年，翻译佛经一千三百多卷，著有《大唐西域记》。"},
-    {"slug": "wei-zheng", "name": "魏征", "primaryRole": "minister", "roles": ["minister"], "importance": 85, "birthYear": 580, "deathYear": 643, "aliases": ["魏郑公"], "summary": "唐太宗名臣，以直谏著称。太宗称其为「人镜」，是贞观之治的重要功臣。"},
-    {"slug": "fang-xuan-ling", "name": "房玄龄", "primaryRole": "minister", "roles": ["minister"], "importance": 80, "birthYear": 579, "deathYear": 648, "aliases": ["房梁公"], "summary": "唐太宗宰相，贞观之治的主要策划者，与杜如晦并称「房谋杜断」。"},
-    {"slug": "li-jing-tang", "name": "李靖", "primaryRole": "general", "roles": ["general", "strategist"], "importance": 90, "birthYear": 571, "deathYear": 649, "aliases": ["卫国公", "李药师"], "summary": "唐朝开国名将，灭东突厥、吐谷浑，著有《李卫公兵法》，是军事家典范。"},
-    {"slug": "wu-ze-tian", "name": "武则天", "primaryRole": "emperor", "roles": ["emperor"], "importance": 95, "birthYear": 624, "deathYear": 705, "aliases": ["武曌", "则天大圣皇帝"], "summary": "中国历史上唯一的女皇帝，改国号周。在位期间发展科举，打击门阀，承前启后。"},
-    {"slug": "li-long-ji", "name": "李隆基", "primaryRole": "emperor", "roles": ["emperor"], "importance": 85, "birthYear": 685, "deathYear": 762, "aliases": ["唐玄宗", "唐明皇"], "summary": "唐朝第七位皇帝，开创开元盛世，后因宠信杨贵妃、重用安禄山导致安史之乱。"},
-    {"slug": "yang-yu-huan", "name": "杨玉环", "primaryRole": "royalty", "roles": ["royalty", "consort"], "importance": 80, "birthYear": 719, "deathYear": 756, "aliases": ["杨贵妃"], "summary": "唐玄宗贵妃，中国古代四大美女之一。安史之乱中在马嵬坡被赐死。"},
-    {"slug": "li-bai", "name": "李白", "primaryRole": "poet", "roles": ["poet"], "importance": 100, "birthYear": 701, "deathYear": 762, "aliases": ["诗仙", "李太白", "青莲居士"], "summary": "唐代最伟大的浪漫主义诗人，被尊为「诗仙」。诗风豪放飘逸，代表作《将进酒》《蜀道难》。"},
-    {"slug": "du-fu", "name": "杜甫", "primaryRole": "poet", "roles": ["poet"], "importance": 100, "birthYear": 712, "deathYear": 770, "aliases": ["诗圣", "杜工部"], "summary": "唐代最伟大的现实主义诗人，被尊为「诗圣」。诗风沉郁顿挫，代表作《三吏》《三别》。"},
-    {"slug": "an-lu-shan", "name": "安禄山", "primaryRole": "rebel", "roles": ["rebel", "general"], "importance": 80, "birthYear": 703, "deathYear": 757, "aliases": ["安禄山"], "summary": "安史之乱的发动者，胡人出身，深得唐玄宗信任。起兵叛乱，攻占洛阳长安。"},
-    {"slug": "guo-zi-yi", "name": "郭子仪", "primaryRole": "general", "roles": ["general"], "importance": 90, "birthYear": 697, "deathYear": 781, "aliases": ["汾阳王"], "summary": "唐朝中兴名将，平定安史之乱的主要功臣。单骑退回纥，功高盖主而善终。"},
-    {"slug": "yan-zhen-qing", "name": "颜真卿", "primaryRole": "artist", "roles": ["artist", "minister"], "importance": 80, "birthYear": 709, "deathYear": 785, "aliases": ["颜鲁公"], "summary": "唐代书法家，楷书四大家之一。忠义之臣，被叛军杀害。"},
-    {"slug": "han-yu", "name": "韩愈", "primaryRole": "writer", "roles": ["writer", "minister"], "importance": 85, "birthYear": 768, "deathYear": 824, "aliases": ["韩昌黎", "文公"], "summary": "唐代文学家，古文运动领袖，唐宋八大家之首。倡导文以载道。"},
-    {"slug": "bai-ju-yi", "name": "白居易", "primaryRole": "poet", "roles": ["poet"], "importance": 85, "birthYear": 772, "deathYear": 846, "aliases": ["白乐天", "诗魔"], "summary": "唐代诗人，新乐府运动领袖。代表作《长恨歌》《琵琶行》，诗风通俗易懂。"},
-    {"slug": "huang-chao", "name": "黄巢", "primaryRole": "rebel", "roles": ["rebel", "leader"], "importance": 75, "birthYear": 820, "deathYear": 884, "aliases": ["黄王"], "summary": "唐末农民起义领袖，攻占长安称帝。起义动摇了唐朝统治基础。"},
-    {"slug": "zhu-wen", "name": "朱温", "primaryRole": "emperor", "roles": ["emperor", "rebel"], "importance": 80, "birthYear": 852, "deathYear": 912, "aliases": ["后梁太祖"], "summary": "唐末军阀，篡唐建后梁，五代十国的开端人物。"}
+    {
+      "slug": "li-yuan-tang",
+      "name": "李渊",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 85,
+      "birthYear": 566,
+      "deathYear": 635,
+      "aliases": [
+        "唐高祖"
+      ],
+      "summary": "唐朝开国皇帝，太原起兵攻占长安，建立唐朝。",
+      "content": "李渊（566—635年），字叔德，陇西成纪人，唐朝开国皇帝（唐高祖）。隋朝唐国公、太原留守。617年乘隋末大乱起兵太原，南下取长安，次年代隋建唐。在位削平群雄、统一天下，确立租庸调与府兵之制。玄武门之变后传位李世民，退为太上皇。"
+    },
+    {
+      "slug": "li-shi-min",
+      "name": "李世民",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 100,
+      "birthYear": 598,
+      "deathYear": 649,
+      "aliases": [
+        "唐太宗",
+        "天可汗"
+      ],
+      "summary": "唐朝第二位皇帝，贞观之治的开创者。玄武门之变夺位，文治武功卓著，被尊为天可汗。",
+      "content": "李世民（598—649年），唐朝第二位皇帝（唐太宗）。少年从父起兵，平刘武周、败窦建德、降王世充，开国首功。626年发动玄武门之变即位。在位以隋亡为鉴，虚怀纳谏、知人善任，房谋杜断、魏征直谏，轻徭薄赋、修明政治，又灭东突厥、定西域，被各族尊为「天可汗」，开创「贞观之治」，是中国历史上最杰出的帝王之一。"
+    },
+    {
+      "slug": "xuan-zang",
+      "name": "玄奘",
+      "primaryRole": "monk",
+      "roles": [
+        "monk",
+        "scholar"
+      ],
+      "importance": 95,
+      "birthYear": 602,
+      "deathYear": 664,
+      "aliases": [
+        "唐三藏",
+        "三藏法师"
+      ],
+      "summary": "唐代高僧，西行取经十七年，翻译佛经一千三百多卷，著有《大唐西域记》。",
+      "content": "玄奘（602—664年），俗姓陈名祎，洛州缑氏人，唐代高僧、翻译家、旅行家。为求佛法真义，627年只身西行，历经五万里、十七年，遍学天竺诸寺，于那烂陀寺声名远播。携经像归国后主持译场，译出佛经七十五部一千三百余卷，开创法相唯识宗。口述《大唐西域记》，为研究中亚、南亚史地之瑰宝，亦是《西游记》原型。"
+    },
+    {
+      "slug": "wei-zheng",
+      "name": "魏征",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 85,
+      "birthYear": 580,
+      "deathYear": 643,
+      "aliases": [
+        "魏郑公"
+      ],
+      "summary": "唐太宗名臣，以直谏著称。太宗称其为「人镜」，是贞观之治的重要功臣。",
+      "content": "魏征（580—643年），字玄成，巨鹿人，唐太宗名臣。早年事李密、太子建成，玄武门之变后为太宗所重。以直言敢谏著称，前后陈谏二百余事，常犯颜逆鳞而太宗多能纳之。著名进谏有《谏太宗十思疏》。其死，太宗叹「以人为镜，可以明得失……今魏征殂逝，遂亡一镜矣」，为贞观之治的象征人物。"
+    },
+    {
+      "slug": "fang-xuan-ling",
+      "name": "房玄龄",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 80,
+      "birthYear": 579,
+      "deathYear": 648,
+      "aliases": [
+        "房梁公"
+      ],
+      "summary": "唐太宗宰相，贞观之治的主要策划者，与杜如晦并称「房谋杜断」。",
+      "content": "房玄龄（579—648年），字乔，齐州临淄人，唐太宗首席宰相。早年即随秦王，玄武门之变的主要谋划者。任相二十余年，明达政事、孜孜奉国，善谋断、能容人，与杜如晦配合无间，时称「房谋杜断」，又主持修定律令、监修国史，是贞观盛世的主要缔造者之一。"
+    },
+    {
+      "slug": "li-jing-tang",
+      "name": "李靖",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "strategist"
+      ],
+      "importance": 90,
+      "birthYear": 571,
+      "deathYear": 649,
+      "aliases": [
+        "卫国公",
+        "李药师"
+      ],
+      "summary": "唐朝开国名将，灭东突厥、吐谷浑，著有《李卫公兵法》，是军事家典范。",
+      "content": "李靖（571—649年），字药师，京兆三原人，唐朝开国名将、军事家。用兵如神、谋略深远。南平萧铣、辅公祏，定江南；北破东突厥、生擒颉利可汗，西灭吐谷浑，战功赫赫，封卫国公。著兵书传世（后人辑《李卫公问对》），与药师之名并传，是后世推崇的军事家典范。"
+    },
+    {
+      "slug": "wu-ze-tian",
+      "name": "武则天",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 95,
+      "birthYear": 624,
+      "deathYear": 705,
+      "aliases": [
+        "武曌",
+        "则天大圣皇帝"
+      ],
+      "summary": "中国历史上唯一的女皇帝，改国号周。在位期间发展科举，打击门阀，承前启后。",
+      "content": "武则天（624—705年），名曌，并州文水人，中国历史上唯一的女皇帝。初为太宗才人，后立为高宗皇后，参决朝政，与高宗并称「二圣」。690年改唐为周，自称圣神皇帝，定都洛阳。在位发展科举、开殿试武举、打击门阀、奖拔寒俊，知人善任如狄仁杰，上承贞观、下启开元。晚年「神龙政变」被迫退位，留无字碑任后人评说。"
+    },
+    {
+      "slug": "li-long-ji",
+      "name": "李隆基",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 85,
+      "birthYear": 685,
+      "deathYear": 762,
+      "aliases": [
+        "唐玄宗",
+        "唐明皇"
+      ],
+      "summary": "唐朝第七位皇帝，开创开元盛世，后因宠信杨贵妃、重用安禄山导致安史之乱。",
+      "content": "李隆基（685—762年），唐朝第七位皇帝（唐玄宗）。诛韦后、平太平公主而登基。前期任用姚崇、宋璟、张说等贤相，励精图治、整顿吏治、兴修水利，开创「开元盛世」，唐朝臻于极盛。后期怠政享乐，宠杨贵妃、信李林甫杨国忠、纵安禄山掌兵，755年爆发安史之乱，仓皇幸蜀，马嵬兵变后退为太上皇，盛唐由此转衰。"
+    },
+    {
+      "slug": "yang-yu-huan",
+      "name": "杨玉环",
+      "primaryRole": "royalty",
+      "roles": [
+        "royalty",
+        "consort"
+      ],
+      "importance": 80,
+      "birthYear": 719,
+      "deathYear": 756,
+      "aliases": [
+        "杨贵妃"
+      ],
+      "summary": "唐玄宗贵妃，中国古代四大美女之一。安史之乱中在马嵬坡被赐死。",
+      "content": "杨玉环（719—756年），蒲州永乐人，唐玄宗贵妃，中国古代四大美女之一，有「羞花」之貌。通晓音律、善歌舞，与玄宗情深，「三千宠爱在一身」，杨氏一门因之显贵。安史之乱起，玄宗奔蜀，途经马嵬坡禁军哗变，迫赐其自缢，年三十八。白居易《长恨歌》使其爱情悲剧传诵千古。"
+    },
+    {
+      "slug": "li-bai",
+      "name": "李白",
+      "primaryRole": "poet",
+      "roles": [
+        "poet"
+      ],
+      "importance": 100,
+      "birthYear": 701,
+      "deathYear": 762,
+      "aliases": [
+        "诗仙",
+        "李太白",
+        "青莲居士"
+      ],
+      "summary": "唐代最伟大的浪漫主义诗人，被尊为「诗仙」。诗风豪放飘逸，代表作《将进酒》《蜀道难》。",
+      "content": "李白（701—762年），字太白，号青莲居士，唐代最伟大的浪漫主义诗人，被尊为「诗仙」。少有逸才、仗剑远游，曾供奉翰林、力士脱靴，旋赐金放还。诗风豪放飘逸、想象奇绝、清新自然，《将进酒》《蜀道难》《望庐山瀑布》等千古传诵。一生纵酒任侠、傲岸不羁，与杜甫并称「李杜」，是盛唐气象的化身。"
+    },
+    {
+      "slug": "du-fu",
+      "name": "杜甫",
+      "primaryRole": "poet",
+      "roles": [
+        "poet"
+      ],
+      "importance": 100,
+      "birthYear": 712,
+      "deathYear": 770,
+      "aliases": [
+        "诗圣",
+        "杜工部"
+      ],
+      "summary": "唐代最伟大的现实主义诗人，被尊为「诗圣」。诗风沉郁顿挫，代表作《三吏》《三别》。",
+      "content": "杜甫（712—770年），字子美，自号少陵野老，唐代最伟大的现实主义诗人，被尊为「诗圣」，其诗被称「诗史」。一生坎坷，历经安史之乱，目睹民生疾苦。诗风沉郁顿挫、忧国忧民，《三吏》《三别》《春望》《茅屋为秋风所破歌》深刻反映时代苦难。集前代之大成，律诗尤工，与李白并称「李杜」。"
+    },
+    {
+      "slug": "an-lu-shan",
+      "name": "安禄山",
+      "primaryRole": "rebel",
+      "roles": [
+        "rebel",
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": 703,
+      "deathYear": 757,
+      "aliases": [
+        "安禄山"
+      ],
+      "summary": "安史之乱的发动者，胡人出身，深得唐玄宗信任。起兵叛乱，攻占洛阳长安。",
+      "content": "安禄山（703—757年），营州柳城人，粟特、突厥混血，安史之乱祸首。善逢迎、贿赂权贵，深得玄宗与杨贵妃宠信，身兼平卢、范阳、河东三镇节度使，握重兵于北边。755年以诛杨国忠为名起兵反唐，攻陷洛阳、长安，称大燕皇帝。后目盲多疑、性情暴虐，为其子安庆绪所弑。"
+    },
+    {
+      "slug": "guo-zi-yi",
+      "name": "郭子仪",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 90,
+      "birthYear": 697,
+      "deathYear": 781,
+      "aliases": [
+        "汾阳王"
+      ],
+      "summary": "唐朝中兴名将，平定安史之乱的主要功臣。单骑退回纥，功高盖主而善终。",
+      "content": "郭子仪（697—781年），华州郑县人，唐朝中兴名将。安史之乱起，率朔方军勤王，收复河北、两京，为平叛首功。一生事四朝、平叛御边，曾单骑赴回纥大营退兵，威望素著。功盖天下而主不疑、位极人臣而众不忌，富贵寿考、子孙满堂，被誉为「五福俱全」「权倾天下而朝不忌」的典范。"
+    },
+    {
+      "slug": "yan-zhen-qing",
+      "name": "颜真卿",
+      "primaryRole": "artist",
+      "roles": [
+        "artist",
+        "minister"
+      ],
+      "importance": 80,
+      "birthYear": 709,
+      "deathYear": 785,
+      "aliases": [
+        "颜鲁公"
+      ],
+      "summary": "唐代书法家，楷书四大家之一。忠义之臣，被叛军杀害。",
+      "content": "颜真卿（709—785年），字清臣，京兆万年人，唐代大书法家、忠臣，楷书四大家之一。所创「颜体」雄浑端庄、气势磅礴，《多宝塔碑》《颜勤礼碑》及行书《祭侄文稿》（天下第二行书）皆为传世名作。为官刚正，安史之乱中起兵抗叛。后奉命招谕叛将李希烈，凛然不屈、骂贼而死，忠义与书艺并垂青史。"
+    },
+    {
+      "slug": "han-yu",
+      "name": "韩愈",
+      "primaryRole": "writer",
+      "roles": [
+        "writer",
+        "minister"
+      ],
+      "importance": 85,
+      "birthYear": 768,
+      "deathYear": 824,
+      "aliases": [
+        "韩昌黎",
+        "文公"
+      ],
+      "summary": "唐代文学家，古文运动领袖，唐宋八大家之首。倡导文以载道。",
+      "content": "韩愈（768—824年），字退之，河南河阳人，自称郡望昌黎，唐代文学家、思想家，「唐宋八大家」之首。倡导古文运动，反对浮华骈文，主张「文以载道」「惟陈言之务去」，文风雄健。力辟佛老、尊崇儒学，曾谏迎佛骨而贬潮州。诗文俱佳，《师说》《进学解》《祭十二郎文》传世，苏轼誉其「文起八代之衰」。"
+    },
+    {
+      "slug": "bai-ju-yi",
+      "name": "白居易",
+      "primaryRole": "poet",
+      "roles": [
+        "poet"
+      ],
+      "importance": 85,
+      "birthYear": 772,
+      "deathYear": 846,
+      "aliases": [
+        "白乐天",
+        "诗魔"
+      ],
+      "summary": "唐代诗人，新乐府运动领袖。代表作《长恨歌》《琵琶行》，诗风通俗易懂。",
+      "content": "白居易（772—846年），字乐天，号香山居士，唐代大诗人。与元稹倡新乐府运动，主张「文章合为时而著，歌诗合为事而作」，作《新乐府》《秦中吟》讽喻时弊。诗语通俗平易，「老妪能解」，《长恨歌》《琵琶行》缠绵悲婉、传诵千古。历仕多朝，晚年闲居洛阳，存诗近三千首，为唐代存诗最多的诗人。"
+    },
+    {
+      "slug": "huang-chao",
+      "name": "黄巢",
+      "primaryRole": "rebel",
+      "roles": [
+        "rebel",
+        "leader"
+      ],
+      "importance": 75,
+      "birthYear": 820,
+      "deathYear": 884,
+      "aliases": [
+        "黄王"
+      ],
+      "summary": "唐末农民起义领袖，攻占长安称帝。起义动摇了唐朝统治基础。",
+      "content": "黄巢（820—884年），曹州冤句人，唐末农民起义领袖。私盐贩出身，屡试不第。875年响应王仙芝起兵，后独领义军，转战大江南北，流动作战数千里。880年攻入长安，称帝建「大齐」，沉重打击唐朝统治与门阀士族。后为唐军与降将所败，退出长安，兵败自杀。其乱使唐朝名存实亡。"
+    },
+    {
+      "slug": "zhu-wen",
+      "name": "朱温",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "rebel"
+      ],
+      "importance": 80,
+      "birthYear": 852,
+      "deathYear": 912,
+      "aliases": [
+        "后梁太祖"
+      ],
+      "summary": "唐末军阀，篡唐建后梁，五代十国的开端人物。",
+      "content": "朱温（852—912年），宋州砀山人，五代后梁开国皇帝（梁太祖）。原为黄巢部将，降唐赐名全忠，任宣武节度使，渐成最强藩镇。挟持唐帝、尽诛朝臣（白马驿之祸）。907年代唐称帝，建后梁，唐朝灭亡，五代十国开始。在位虽有整顿之举，然性残暴猜忌，后为子朱友珪所弑。"
+    },
+    {
+      "slug": "du-ru-hui",
+      "name": "杜如晦",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 85,
+      "birthYear": 585,
+      "deathYear": 630,
+      "aliases": [
+        "杜克明"
+      ],
+      "summary": "唐朝开国功臣，房谋杜断，贞观之治缔造者之一。",
+      "content": "杜如晦（585—630年），字克明，唐朝开国功臣，凌烟阁二十四功臣之一。与房玄龄同为秦王府重要谋士，参与玄武门之变。房玄龄善谋、杜如晦善断，二人配合默契，时称「房谋杜断」。杜如晦是贞观之治的重要缔造者之一，可惜英年早逝，年仅四十六岁。"
+    },
+    {
+      "slug": "yao-chong",
+      "name": "姚崇",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "reformer"
+      ],
+      "importance": 90,
+      "birthYear": 651,
+      "deathYear": 721,
+      "aliases": [
+        "姚元之"
+      ],
+      "summary": "唐朝名相，提出十事要说，开创开元盛世。",
+      "content": "姚崇（651—721年），唐朝名相，开元盛世的主要缔造者。历仕武则天、唐睿宗、唐玄宗三朝，三次拜相。向唐玄宗提出「十事要说」，包括不贪边功、宦官不参政等，被采纳后推行改革，整顿吏治、发展经济，开创开元盛世。姚崇与宋璟并称「姚宋」，是唐代最杰出的宰相之一。"
+    },
+    {
+      "slug": "song-jing",
+      "name": "宋璟",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 85,
+      "birthYear": 663,
+      "deathYear": 737,
+      "aliases": [
+        "宋广平"
+      ],
+      "summary": "唐朝名相，刚正清廉，与姚崇并称姚宋，开创开元盛世。",
+      "content": "宋璟（663—737年），唐朝名相，开元盛世的主要缔造者。为人刚正不阿、清廉自守，接替姚崇为相，继续推行改革。宋璟选拔人才不畏权贵，执法公正，朝野肃然。姚崇善应变、宋璟善守法，二人并称「姚宋」，共同开创了开元盛世。"
+    },
+    {
+      "slug": "li-lin-fu",
+      "name": "李林甫",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "traitor"
+      ],
+      "importance": 75,
+      "birthYear": 683,
+      "deathYear": 753,
+      "aliases": [
+        "口蜜腹剑"
+      ],
+      "summary": "唐朝权相，口蜜腹剑，任相十九年，为安史之乱埋下祸根。",
+      "content": "李林甫（683—753年），唐朝权相，口蜜腹剑的典型。任相十九年，独揽朝政，排斥异己，堵塞言路。表面和善、内心阴险，「口有蜜、腹有剑」的成语由此而来。李林甫专权使唐朝政治日益腐败，为安史之乱埋下祸根。"
+    },
+    {
+      "slug": "yang-guo-zhong",
+      "name": "杨国忠",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "traitor"
+      ],
+      "importance": 70,
+      "deathYear": 756,
+      "aliases": [
+        "杨国忠"
+      ],
+      "summary": "杨贵妃堂兄，唐朝权相，激化矛盾导致安史之乱。",
+      "content": "杨国忠（？—756年），杨贵妃堂兄，唐朝权相。李林甫死后继任宰相，专权跋扈、结党营私。与安禄山争权，激化矛盾，导致安史之乱爆发。安史之乱后随唐玄宗逃往四川，途经马嵬坡被禁军杀死。"
+    },
+    {
+      "slug": "gao-li-shi",
+      "name": "高力士",
+      "primaryRole": "eunuch",
+      "roles": [
+        "eunuch",
+        "minister"
+      ],
+      "importance": 70,
+      "birthYear": 684,
+      "deathYear": 762,
+      "aliases": [
+        "高将军"
+      ],
+      "summary": "唐朝宦官，唐玄宗最宠信的宦官，官至骠骑大将军。",
+      "content": "高力士（684—762年），唐朝宦官，唐玄宗最宠信的宦官。历经武则天、唐玄宗两朝，官至骠骑大将军。高力士虽为宦官，但颇有政治才能，多次参与重大决策。安史之乱后随唐玄宗流落，后被李辅国流放，忧愤而死。"
+    },
+    {
+      "slug": "lai-jun-chen",
+      "name": "来俊臣",
+      "primaryRole": "official",
+      "roles": [
+        "official",
+        "cruel"
+      ],
+      "importance": 60,
+      "birthYear": 651,
+      "deathYear": 697,
+      "aliases": [
+        "来俊臣"
+      ],
+      "summary": "唐朝酷吏，大兴告密之风，罗织罪名，制造大量冤案。",
+      "content": "来俊臣（651—697年），唐朝酷吏，武则天时期最著名的酷吏。与周兴等人大兴告密之风，罗织罪名、严刑逼供，制造大量冤案。后因得罪武氏诸王和太平公主，被武则天处死。来俊臣与周兴是武则天时期恐怖政治的代表人物。"
+    },
+    {
+      "slug": "zhang-xu",
+      "name": "张旭",
+      "primaryRole": "artist",
+      "roles": [
+        "artist",
+        "calligrapher"
+      ],
+      "importance": 80,
+      "birthYear": 675,
+      "deathYear": 750,
+      "aliases": [
+        "草圣",
+        "张颠"
+      ],
+      "summary": "唐代草圣，精通草书，与怀素并称颠张醉素。",
+      "content": "张旭（约675—750年），字伯高，唐代著名书法家，「草圣」。精通草书，与怀素并称「颠张醉素」。张旭嗜酒，每醉后呼叫狂走，然后落笔，故称「张颠」。其草书气势磅礴、变幻莫测，对后世草书影响深远。与李白诗歌、裴旻剑舞并称「唐代三绝」。"
+    },
+    {
+      "slug": "huai-su",
+      "name": "怀素",
+      "primaryRole": "artist",
+      "roles": [
+        "artist",
+        "calligrapher",
+        "monk"
+      ],
+      "importance": 80,
+      "birthYear": 737,
+      "deathYear": 799,
+      "aliases": [
+        "藏真"
+      ],
+      "summary": "唐代书法家，以狂草闻名，与张旭并称颠张醉素。",
+      "content": "怀素（737—799年），唐代著名书法家，与张旭并称「颠张醉素」。俗姓钱，自幼出家为僧。好饮酒，醉后挥毫，如骤雨旋风，飞动圆转。怀素以狂草闻名，代表作《自叙帖》《苦笋帖》等，对后世草书影响深远。"
+    },
+    {
+      "slug": "wu-dao-zi",
+      "name": "吴道子",
+      "primaryRole": "artist",
+      "roles": [
+        "artist"
+      ],
+      "importance": 90,
+      "birthYear": 680,
+      "deathYear": 759,
+      "aliases": [
+        "画圣"
+      ],
+      "summary": "唐代画圣，擅长佛道人物画，吴带当风，唐代三绝之一。",
+      "content": "吴道子（约680—759年），唐代最杰出的画家，被尊为「画圣」。擅长佛道人物画，笔法超妙，气势磅礴。吴道子作画速度极快，有「吴带当风」之称，其画风对后世影响深远。与张旭草书、裴旻剑舞并称「唐代三绝」。"
+    }
   ],
   "events": [
-    {"slug": "tang-chao-jian-li", "name": "唐朝建立", "timeStart": 618, "aliases": ["李渊称帝"], "summary": "李渊逼隋恭帝禅位，建立唐朝，定都长安。", "content": "618年李渊逼隋恭帝杨侑禅位，建立唐朝，定都长安（今西安）。此后李世民南征北战，统一天下。"},
-    {"slug": "xuan-wu-men-zhi-bian", "name": "玄武门之变", "timeStart": 626, "aliases": ["李世民夺位"], "summary": "秦王李世民在玄武门伏杀太子李建成、齐王李元吉，逼李渊退位。", "content": "626年秦王李世民在玄武门设伏，杀死太子李建成、齐王李元吉。李渊被迫立李世民为太子，不久禅位。"},
-    {"slug": "zhen-guan-zhi-zhi", "name": "贞观之治", "timeStart": 627, "timeEnd": 649, "aliases": ["唐太宗治世"], "summary": "唐太宗在位期间，政治清明，经济繁荣，社会安定，史称贞观之治。", "content": "唐太宗以隋亡为鉴，虚心纳谏，任用魏征、房玄龄、杜如晦等贤臣。贞观之治是中国历史上最著名的盛世之一。"},
-    {"slug": "xuan-zang-xi-xing", "name": "玄奘西行", "timeStart": 629, "timeEnd": 645, "aliases": ["西天取经"], "summary": "玄奘法师西行取经十七年，历经艰险，到达天竺，取回佛经。", "content": "629年玄奘从长安出发，经河西走廊、西域、中亚到达天竺（印度）。在那烂陀寺学习，645年携带大量佛经返回长安。"},
-    {"slug": "wu-ze-tian-cheng-di", "name": "武则天称帝", "timeStart": 690, "aliases": ["武周革命"], "summary": "武则天废唐睿宗，改国号周，称则天大圣皇帝，成为中国唯一的女皇帝。", "content": "690年武则天废唐睿宗，改国号为周，称则天大圣皇帝。在位期间发展科举，打击门阀，重用狄仁杰等贤臣。"},
-    {"slug": "kai-yuan-sheng-shi", "name": "开元盛世", "timeStart": 713, "timeEnd": 741, "aliases": ["唐玄宗盛世"], "summary": "唐玄宗前期励精图治，任用姚崇、宋璟等贤相，开创开元盛世。", "content": "唐玄宗前期整顿吏治，发展经济，开元盛世是唐朝最繁荣的时期。长安成为当时世界上最大的城市。"},
-    {"slug": "an-shi-zhi-luan", "name": "安史之乱", "timeStart": 755, "timeEnd": 763, "aliases": ["安禄山叛乱"], "summary": "安禄山、史思明发动叛乱，攻占洛阳长安，唐朝由盛转衰。", "content": "755年安禄山以讨伐杨国忠为名起兵叛乱，攻占洛阳、长安。唐玄宗逃往四川，杨贵妃在马嵬坡被赐死。763年叛乱平定，但唐朝由盛转衰。"},
-    {"slug": "ma-wei-po-bing-bian", "name": "马嵬坡兵变", "timeStart": 756, "aliases": ["杨贵妃之死"], "summary": "安史之乱中唐玄宗逃往四川，途经马嵬坡，禁军哗变，要求处死杨国忠、杨贵妃。", "content": "756年唐玄宗逃离长安，途经马嵬坡。禁军将士饥饿疲惫，哗变杀死杨国忠，要求处死杨贵妃。玄宗被迫赐死杨贵妃。"},
-    {"slug": "yong-zhen-ge-xin", "name": "永贞革新", "timeStart": 805, "aliases": ["二王八司马"], "summary": "唐顺宗时期王叔文、王伾领导的改革运动，打击宦官藩镇，失败后参与者被贬。", "content": "805年唐顺宗即位，王叔文、王伾等推行改革，打击宦官势力，削弱藩镇。改革仅持续一百多天即失败，参与者被贬为司马，史称「二王八司马」。"},
-    {"slug": "niu-li-dang-zheng", "name": "牛李党争", "timeStart": 808, "timeEnd": 846, "aliases": ["朋党之争"], "summary": "唐朝后期以牛僧孺和李德裕为首的两派官僚争斗四十年，削弱了唐朝统治。", "content": "唐朝后期朝臣分为以牛僧孺为首的牛党和以李德裕为首的李党，两党争斗四十年，互相倾轧。党争削弱了唐朝中央政权。"},
-    {"slug": "huang-chao-qi-yi", "name": "黄巢起义", "timeStart": 875, "timeEnd": 884, "aliases": ["黄巢之乱"], "summary": "黄巢领导的农民起义，攻占长安称帝，沉重打击了唐朝统治。", "content": "875年黄巢起兵反唐，880年攻占长安称帝，国号大齐。884年黄巢兵败身死，起义失败。黄巢起义动摇了唐朝统治基础。"},
-    {"slug": "zhu-wen-cuan-tang", "name": "朱温篡唐", "timeStart": 907, "aliases": ["唐朝灭亡"], "summary": "朱温逼唐哀帝禅位，建立后梁，唐朝灭亡，五代十国开始。", "content": "907年朱温逼唐哀帝禅位，建立后梁。唐朝灭亡，中国历史进入五代十国时期。"}
+    {
+      "slug": "tang-chao-jian-li",
+      "name": "唐朝建立",
+      "timeStart": 618,
+      "aliases": [
+        "李渊称帝"
+      ],
+      "summary": "李渊逼隋恭帝禅位，建立唐朝，定都长安。",
+      "content": "618年李渊逼隋恭帝杨侑禅位，建立唐朝，定都长安（今西安）。此后李世民南征北战，统一天下。"
+    },
+    {
+      "slug": "xuan-wu-men-zhi-bian",
+      "name": "玄武门之变",
+      "timeStart": 626,
+      "aliases": [
+        "李世民夺位"
+      ],
+      "summary": "秦王李世民在玄武门伏杀太子李建成、齐王李元吉，逼李渊退位。",
+      "content": "626年秦王李世民在玄武门设伏，杀死太子李建成、齐王李元吉。李渊被迫立李世民为太子，不久禅位。"
+    },
+    {
+      "slug": "zhen-guan-zhi-zhi",
+      "name": "贞观之治",
+      "timeStart": 627,
+      "timeEnd": 649,
+      "aliases": [
+        "唐太宗治世"
+      ],
+      "summary": "唐太宗在位期间，政治清明，经济繁荣，社会安定，史称贞观之治。",
+      "content": "唐太宗以隋亡为鉴，虚心纳谏，任用魏征、房玄龄、杜如晦等贤臣。贞观之治是中国历史上最著名的盛世之一。"
+    },
+    {
+      "slug": "xuan-zang-xi-xing",
+      "name": "玄奘西行",
+      "timeStart": 629,
+      "timeEnd": 645,
+      "aliases": [
+        "西天取经"
+      ],
+      "summary": "玄奘法师西行取经十七年，历经艰险，到达天竺，取回佛经。",
+      "content": "629年玄奘从长安出发，经河西走廊、西域、中亚到达天竺（印度）。在那烂陀寺学习，645年携带大量佛经返回长安。"
+    },
+    {
+      "slug": "wu-ze-tian-cheng-di",
+      "name": "武则天称帝",
+      "timeStart": 690,
+      "aliases": [
+        "武周革命"
+      ],
+      "summary": "武则天废唐睿宗，改国号周，称则天大圣皇帝，成为中国唯一的女皇帝。",
+      "content": "690年武则天废唐睿宗，改国号为周，称则天大圣皇帝。在位期间发展科举，打击门阀，重用狄仁杰等贤臣。"
+    },
+    {
+      "slug": "kai-yuan-sheng-shi",
+      "name": "开元盛世",
+      "timeStart": 713,
+      "timeEnd": 741,
+      "aliases": [
+        "唐玄宗盛世"
+      ],
+      "summary": "唐玄宗前期励精图治，任用姚崇、宋璟等贤相，开创开元盛世。",
+      "content": "唐玄宗前期整顿吏治，发展经济，开元盛世是唐朝最繁荣的时期。长安成为当时世界上最大的城市。"
+    },
+    {
+      "slug": "an-shi-zhi-luan",
+      "name": "安史之乱",
+      "timeStart": 755,
+      "timeEnd": 763,
+      "aliases": [
+        "安禄山叛乱"
+      ],
+      "summary": "安禄山、史思明发动叛乱，攻占洛阳长安，唐朝由盛转衰。",
+      "content": "755年安禄山以讨伐杨国忠为名起兵叛乱，攻占洛阳、长安。唐玄宗逃往四川，杨贵妃在马嵬坡被赐死。763年叛乱平定，但唐朝由盛转衰。"
+    },
+    {
+      "slug": "ma-wei-po-bing-bian",
+      "name": "马嵬坡兵变",
+      "timeStart": 756,
+      "aliases": [
+        "杨贵妃之死"
+      ],
+      "summary": "安史之乱中唐玄宗逃往四川，途经马嵬坡，禁军哗变，要求处死杨国忠、杨贵妃。",
+      "content": "756年唐玄宗逃离长安，途经马嵬坡。禁军将士饥饿疲惫，哗变杀死杨国忠，要求处死杨贵妃。玄宗被迫赐死杨贵妃。"
+    },
+    {
+      "slug": "yong-zhen-ge-xin",
+      "name": "永贞革新",
+      "timeStart": 805,
+      "aliases": [
+        "二王八司马"
+      ],
+      "summary": "唐顺宗时期王叔文、王伾领导的改革运动，打击宦官藩镇，失败后参与者被贬。",
+      "content": "805年唐顺宗即位，王叔文、王伾等推行改革，打击宦官势力，削弱藩镇。改革仅持续一百多天即失败，参与者被贬为司马，史称「二王八司马」。"
+    },
+    {
+      "slug": "niu-li-dang-zheng",
+      "name": "牛李党争",
+      "timeStart": 808,
+      "timeEnd": 846,
+      "aliases": [
+        "朋党之争"
+      ],
+      "summary": "唐朝后期以牛僧孺和李德裕为首的两派官僚争斗四十年，削弱了唐朝统治。",
+      "content": "唐朝后期朝臣分为以牛僧孺为首的牛党和以李德裕为首的李党，两党争斗四十年，互相倾轧。党争削弱了唐朝中央政权。"
+    },
+    {
+      "slug": "huang-chao-qi-yi",
+      "name": "黄巢起义",
+      "timeStart": 875,
+      "timeEnd": 884,
+      "aliases": [
+        "黄巢之乱"
+      ],
+      "summary": "黄巢领导的农民起义，攻占长安称帝，沉重打击了唐朝统治。",
+      "content": "875年黄巢起兵反唐，880年攻占长安称帝，国号大齐。884年黄巢兵败身死，起义失败。黄巢起义动摇了唐朝统治基础。"
+    },
+    {
+      "slug": "zhu-wen-cuan-tang",
+      "name": "朱温篡唐",
+      "timeStart": 907,
+      "aliases": [
+        "唐朝灭亡"
+      ],
+      "summary": "朱温逼唐哀帝禅位，建立后梁，唐朝灭亡，五代十国开始。",
+      "content": "907年朱温逼唐哀帝禅位，建立后梁。唐朝灭亡，中国历史进入五代十国时期。"
+    },
+    {
+      "slug": "gan-lu-zhi-bian",
+      "name": "甘露之变",
+      "timeStart": 835,
+      "timeEnd": 835,
+      "aliases": [
+        "甘露之变"
+      ],
+      "summary": "唐文宗欲诛宦官，事泄失败，宦官大肆屠杀朝臣。",
+      "content": "835年，唐文宗不甘心受宦官控制，与宰相李训、郑注等密谋诛杀宦官。李训谎称金吾卫后院石榴树上夜降甘露，请宦官仇士良等前往观看，企图趁机诛杀。但事机不密，被仇士良发觉，宦官劫持唐文宗，大肆屠杀朝臣，李训、郑注等千余人被杀。甘露之变后，宦官完全控制朝政，唐朝皇帝成为傀儡。"
+    },
+    {
+      "slug": "hui-chang-mie-fo",
+      "name": "会昌灭佛",
+      "timeStart": 845,
+      "timeEnd": 846,
+      "aliases": [
+        "会昌法难"
+      ],
+      "summary": "唐武宗推行灭佛政策，拆毁寺院、勒令僧尼还俗，打击佛教势力。",
+      "content": "845年，唐武宗推行灭佛政策，下令拆毁寺院四千六百余所，勒令僧尼二十六万余人还俗，没收寺院田地数千万顷。会昌灭佛是「三武一宗灭佛」中规模最大的一次，沉重打击了佛教势力。灭佛的原因包括：寺院经济膨胀影响国家财政、佛教与道教之争、唐武宗崇信道教等。会昌灭佛对佛教在中国的发展产生了深远影响。"
+    },
+    {
+      "slug": "da-zhong-zhi-zhi",
+      "name": "大中之治",
+      "timeStart": 847,
+      "timeEnd": 860,
+      "aliases": [
+        "小太宗"
+      ],
+      "summary": "唐宣宗在位期间，勤政爱民、整顿吏治，史称「大中之治」。",
+      "content": "唐宣宗李忱在位期间（847—860年），勤于政事、明察秋毫，整顿吏治、打击藩镇，收复河湟失地，社会相对安定。唐宣宗被誉为「小太宗」，其统治时期史称「大中之治」。但唐宣宗刚愎自用、猜忌大臣，且迷信道教，服食丹药而死。大中之治是唐朝最后的回光返照，此后唐朝走向衰亡。"
+    }
   ],
   "relations": [
-    {"from": "li-yuan-tang", "fromType": "person", "to": "li-shi-min", "toType": "person", "type": "blood", "weight": 10, "note": "父子"},
-    {"from": "li-yuan-tang", "fromType": "person", "to": "tang-chao-jian-li", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
-    {"from": "li-shi-min", "fromType": "person", "to": "xuan-wu-men-zhi-bian", "toType": "event", "type": "participation", "weight": 10, "note": "主导者"},
-    {"from": "li-shi-min", "fromType": "person", "to": "wei-zheng", "toType": "person", "type": "political", "weight": 10, "note": "君臣"},
-    {"from": "li-shi-min", "fromType": "person", "to": "zhen-guan-zhi-zhi", "toType": "event", "type": "participation", "weight": 10, "note": "开创者"},
-    {"from": "li-shi-min", "fromType": "person", "to": "li-jing-tang", "toType": "person", "type": "political", "weight": 9, "note": "君臣"},
-    {"from": "xuan-zang", "fromType": "person", "to": "xuan-zang-xi-xing", "toType": "event", "type": "participation", "weight": 10, "note": "西行者"},
-    {"from": "wu-ze-tian", "fromType": "person", "to": "wu-ze-tian-cheng-di", "toType": "event", "type": "participation", "weight": 10, "note": "称帝者"},
-    {"from": "li-long-ji", "fromType": "person", "to": "yang-yu-huan", "toType": "person", "type": "love", "weight": 10, "note": "帝妃"},
-    {"from": "li-long-ji", "fromType": "person", "to": "kai-yuan-sheng-shi", "toType": "event", "type": "participation", "weight": 10, "note": "开创者"},
-    {"from": "li-long-ji", "fromType": "person", "to": "an-lu-shan", "toType": "person", "type": "political", "weight": 9, "note": "宠信安禄山"},
-    {"from": "an-lu-shan", "fromType": "person", "to": "an-shi-zhi-luan", "toType": "event", "type": "participation", "weight": 10, "note": "叛乱发动者"},
-    {"from": "guo-zi-yi", "fromType": "person", "to": "an-shi-zhi-luan", "toType": "event", "type": "participation", "weight": 10, "note": "平叛主将"},
-    {"from": "li-bai", "fromType": "person", "to": "du-fu", "toType": "person", "type": "friend", "weight": 9, "note": "李杜"},
-    {"from": "yang-yu-huan", "fromType": "person", "to": "ma-wei-po-bing-bian", "toType": "event", "type": "participation", "weight": 10, "note": "被赐死"},
-    {"from": "huang-chao", "fromType": "person", "to": "huang-chao-qi-yi", "toType": "event", "type": "participation", "weight": 10, "note": "起义领袖"},
-    {"from": "zhu-wen", "fromType": "person", "to": "zhu-wen-cuan-tang", "toType": "event", "type": "participation", "weight": 10, "note": "篡位者"}
+    {
+      "from": "li-yuan-tang",
+      "fromType": "person",
+      "to": "li-shi-min",
+      "toType": "person",
+      "type": "blood",
+      "weight": 10,
+      "note": "父子"
+    },
+    {
+      "from": "li-yuan-tang",
+      "fromType": "person",
+      "to": "tang-chao-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "li-shi-min",
+      "fromType": "person",
+      "to": "xuan-wu-men-zhi-bian",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "主导者"
+    },
+    {
+      "from": "li-shi-min",
+      "fromType": "person",
+      "to": "wei-zheng",
+      "toType": "person",
+      "type": "political",
+      "weight": 10,
+      "note": "君臣"
+    },
+    {
+      "from": "li-shi-min",
+      "fromType": "person",
+      "to": "zhen-guan-zhi-zhi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "开创者"
+    },
+    {
+      "from": "li-shi-min",
+      "fromType": "person",
+      "to": "li-jing-tang",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "君臣"
+    },
+    {
+      "from": "xuan-zang",
+      "fromType": "person",
+      "to": "xuan-zang-xi-xing",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "西行者"
+    },
+    {
+      "from": "wu-ze-tian",
+      "fromType": "person",
+      "to": "wu-ze-tian-cheng-di",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "称帝者"
+    },
+    {
+      "from": "li-long-ji",
+      "fromType": "person",
+      "to": "yang-yu-huan",
+      "toType": "person",
+      "type": "love",
+      "weight": 10,
+      "note": "帝妃"
+    },
+    {
+      "from": "li-long-ji",
+      "fromType": "person",
+      "to": "kai-yuan-sheng-shi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "开创者"
+    },
+    {
+      "from": "li-long-ji",
+      "fromType": "person",
+      "to": "an-lu-shan",
+      "toType": "person",
+      "type": "political",
+      "weight": 9,
+      "note": "宠信安禄山"
+    },
+    {
+      "from": "an-lu-shan",
+      "fromType": "person",
+      "to": "an-shi-zhi-luan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "叛乱发动者"
+    },
+    {
+      "from": "guo-zi-yi",
+      "fromType": "person",
+      "to": "an-shi-zhi-luan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "平叛主将"
+    },
+    {
+      "from": "li-bai",
+      "fromType": "person",
+      "to": "du-fu",
+      "toType": "person",
+      "type": "friend",
+      "weight": 9,
+      "note": "李杜"
+    },
+    {
+      "from": "yang-yu-huan",
+      "fromType": "person",
+      "to": "ma-wei-po-bing-bian",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "被赐死"
+    },
+    {
+      "from": "huang-chao",
+      "fromType": "person",
+      "to": "huang-chao-qi-yi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "起义领袖"
+    },
+    {
+      "from": "zhu-wen",
+      "fromType": "person",
+      "to": "zhu-wen-cuan-tang",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "篡位者"
+    }
   ],
   "timelines": [
-    {"eventSlug": "tang-chao-jian-li", "year": 618, "label": "唐朝建立"},
-    {"eventSlug": "xuan-wu-men-zhi-bian", "year": 626, "label": "玄武门之变"},
-    {"eventSlug": "zhen-guan-zhi-zhi", "year": 627, "label": "贞观之治"},
-    {"eventSlug": "xuan-zang-xi-xing", "year": 629, "label": "玄奘西行取经"},
-    {"eventSlug": "wu-ze-tian-cheng-di", "year": 690, "label": "武则天称帝"},
-    {"eventSlug": "kai-yuan-sheng-shi", "year": 713, "label": "开元盛世"},
-    {"eventSlug": "an-shi-zhi-luan", "year": 755, "label": "安史之乱爆发"},
-    {"eventSlug": "ma-wei-po-bing-bian", "year": 756, "label": "马嵬坡兵变"},
-    {"eventSlug": "huang-chao-qi-yi", "year": 880, "label": "黄巢攻占长安"},
-    {"eventSlug": "zhu-wen-cuan-tang", "year": 907, "label": "朱温篡唐，唐朝灭亡"}
+    {
+      "eventSlug": "tang-chao-jian-li",
+      "year": 618,
+      "label": "唐朝建立"
+    },
+    {
+      "eventSlug": "xuan-wu-men-zhi-bian",
+      "year": 626,
+      "label": "玄武门之变"
+    },
+    {
+      "eventSlug": "zhen-guan-zhi-zhi",
+      "year": 627,
+      "label": "贞观之治"
+    },
+    {
+      "eventSlug": "xuan-zang-xi-xing",
+      "year": 629,
+      "label": "玄奘西行取经"
+    },
+    {
+      "eventSlug": "wu-ze-tian-cheng-di",
+      "year": 690,
+      "label": "武则天称帝"
+    },
+    {
+      "eventSlug": "kai-yuan-sheng-shi",
+      "year": 713,
+      "label": "开元盛世"
+    },
+    {
+      "eventSlug": "an-shi-zhi-luan",
+      "year": 755,
+      "label": "安史之乱爆发"
+    },
+    {
+      "eventSlug": "ma-wei-po-bing-bian",
+      "year": 756,
+      "label": "马嵬坡兵变"
+    },
+    {
+      "eventSlug": "huang-chao-qi-yi",
+      "year": 880,
+      "label": "黄巢攻占长安"
+    },
+    {
+      "eventSlug": "zhu-wen-cuan-tang",
+      "year": 907,
+      "label": "朱温篡唐，唐朝灭亡"
+    }
   ]
 }

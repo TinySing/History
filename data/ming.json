@@ -7,68 +7,923 @@
     "summary": "明朝由朱元璋建立，定都南京后迁都北京。郑和下西洋、永乐大典、戚继光抗倭是重要事件。后期宦官专权、党争激烈，最终被李自成推翻。"
   },
   "persons": [
-    {"slug": "zhu-yuan-zhang-ming", "name": "朱元璋", "primaryRole": "emperor", "roles": ["emperor"], "importance": 95, "birthYear": 1328, "deathYear": 1398, "aliases": ["明太祖", "朱重八"], "summary": "明朝开国皇帝，从乞丐到皇帝的传奇。推翻元朝，建立明朝，严刑峻法。"},
-    {"slug": "zhu-di", "name": "朱棣", "primaryRole": "emperor", "roles": ["emperor"], "importance": 90, "birthYear": 1360, "deathYear": 1424, "aliases": ["明成祖", "永乐帝"], "summary": "明朝第三位皇帝，靖难之役夺位。迁都北京，派郑和下西洋，编修永乐大典。"},
-    {"slug": "zhu-gao-chi", "name": "朱高炽", "primaryRole": "emperor", "roles": ["emperor"], "importance": 65, "birthYear": 1378, "deathYear": 1425, "aliases": ["明仁宗"], "summary": "明朝第四位皇帝，在位仅十个月，仁宣之治的开创者。"},
-    {"slug": "zhu-zhan-ji", "name": "朱瞻基", "primaryRole": "emperor", "roles": ["emperor"], "importance": 70, "birthYear": 1398, "deathYear": 1435, "aliases": ["明宣宗"], "summary": "明朝第五位皇帝，仁宣之治的延续者，擅长书画。"},
-    {"slug": "zhu-qi-zhen", "name": "朱祁镇", "primaryRole": "emperor", "roles": ["emperor"], "importance": 70, "birthYear": 1427, "deathYear": 1464, "aliases": ["明英宗"], "summary": "明朝第六位和第八位皇帝，土木堡之变被俘，后复辟。"},
-    {"slug": "zhu-qi-yu", "name": "朱祁钰", "primaryRole": "emperor", "roles": ["emperor"], "importance": 70, "birthYear": 1428, "deathYear": 1457, "aliases": ["明代宗", "景泰帝"], "summary": "明朝第七位皇帝，土木堡之变后即位，北京保卫战功臣。"},
-    {"slug": "liu-jin", "name": "刘瑾", "primaryRole": "minister", "roles": ["minister", "eunuch"], "importance": 65, "birthYear": 1451, "deathYear": 1510, "aliases": ["刘太监"], "summary": "明朝宦官，正德年间专权，被称为「立皇帝」。"},
-    {"slug": "yan-song", "name": "严嵩", "primaryRole": "minister", "roles": ["minister", "traitor"], "importance": 70, "birthYear": 1480, "deathYear": 1567, "aliases": ["严介溪"], "summary": "明朝奸臣，嘉靖年间内阁首辅，专权二十年。"},
-    {"slug": "hai-rui", "name": "海瑞", "primaryRole": "minister", "roles": ["minister"], "importance": 75, "birthYear": 1514, "deathYear": 1587, "aliases": ["海青天"], "summary": "明朝清官，刚正不阿，被誉为「海青天」。"},
-    {"slug": "qi-ji-guang", "name": "戚继光", "primaryRole": "general", "roles": ["general"], "importance": 90, "birthYear": 1528, "deathYear": 1588, "aliases": ["戚少保"], "summary": "明朝抗倭名将，组建戚家军，平定东南倭患。著有《纪效新书》《练兵实纪》。"},
-    {"slug": "yu-da-you", "name": "俞大猷", "primaryRole": "general", "roles": ["general"], "importance": 75, "birthYear": 1503, "deathYear": 1579, "aliases": ["俞武襄"], "summary": "明朝抗倭名将，与戚继光并称「俞龙戚虎」。"},
-    {"slug": "zheng-he", "name": "郑和", "primaryRole": "explorer", "roles": ["explorer", "eunuch"], "importance": 90, "birthYear": 1371, "deathYear": 1433, "aliases": ["三保太监"], "summary": "明朝航海家，七下西洋，到达非洲东海岸，是世界航海史上的壮举。"},
-    {"slug": "li-shi-zhen", "name": "李时珍", "primaryRole": "scientist", "roles": ["scientist", "doctor"], "importance": 85, "birthYear": 1518, "deathYear": 1593, "aliases": ["李东璧"], "summary": "明代医学家，历时二十七年编撰《本草纲目》，是中国古代药学巨著。"},
-    {"slug": "song-ying-xing", "name": "宋应星", "primaryRole": "scientist", "roles": ["scientist"], "importance": 75, "birthYear": 1587, "deathYear": 1666, "aliases": ["宋长庚"], "summary": "明代科学家，著有《天工开物》，是中国古代科技百科全书。"},
-    {"slug": "xu-xia-ke", "name": "徐霞客", "primaryRole": "explorer", "roles": ["explorer", "geographer"], "importance": 80, "birthYear": 1587, "deathYear": 1641, "aliases": ["徐弘祖"], "summary": "明代地理学家旅行家，著有《徐霞客游记》，是中国地理学巨著。"},
-    {"slug": "wang-yang-ming", "name": "王阳明", "primaryRole": "philosopher", "roles": ["philosopher", "minister"], "importance": 95, "birthYear": 1472, "deathYear": 1529, "aliases": ["王守仁", "阳明先生"], "summary": "明代哲学家，心学集大成者。知行合一、致良知思想影响深远。"},
-    {"slug": "zhang-ju-zheng", "name": "张居正", "primaryRole": "minister", "roles": ["minister", "reformer"], "importance": 85, "birthYear": 1525, "deathYear": 1582, "aliases": ["张太岳"], "summary": "明朝内阁首辅，推行万历新政，一条鞭法改革，是明朝最杰出的政治家。"},
-    {"slug": "li-zi-cheng", "name": "李自成", "primaryRole": "rebel", "roles": ["rebel", "leader"], "importance": 80, "birthYear": 1606, "deathYear": 1645, "aliases": ["李闯王", "闯王"], "summary": "明末农民起义领袖，攻占北京推翻明朝。建立大顺政权，后被清军击败。"},
-    {"slug": "zhu-you-jian", "name": "朱由检", "primaryRole": "emperor", "roles": ["emperor"], "importance": 70, "birthYear": 1611, "deathYear": 1644, "aliases": ["明思宗", "崇祯帝"], "summary": "明朝最后一位皇帝，勤政但多疑。李自成攻入北京后自缢煤山。"}
+    {
+      "slug": "zhu-yuan-zhang-ming",
+      "name": "朱元璋",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 95,
+      "birthYear": 1328,
+      "deathYear": 1398,
+      "aliases": [
+        "明太祖",
+        "朱重八"
+      ],
+      "summary": "明朝开国皇帝，从乞丐到皇帝的传奇。推翻元朝，建立明朝，严刑峻法。",
+      "content": "朱元璋（1298—1398年），字国瑞，濠州钟离人，明朝开国皇帝（明太祖）。出身赤贫，幼丧父母，曾为皇觉寺僧。元末投红巾军，逐步崛起，击败陈友谅、张士诚等割据势力，1368年于应天（南京）称帝，北伐推翻元朝，统一天下。在位严刑峻法、废除丞相、大兴文字狱、实行卫所制与海禁。虽恢复经济、澄清吏治，但杀戮功臣之酷烈为历代罕见，胡惟庸案、蓝玉案牵连数万人。"
+    },
+    {
+      "slug": "zhu-di",
+      "name": "朱棣",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 90,
+      "birthYear": 1360,
+      "deathYear": 1424,
+      "aliases": [
+        "明成祖",
+        "永乐帝"
+      ],
+      "summary": "明朝第三位皇帝，靖难之役夺位。迁都北京，派郑和下西洋，编修永乐大典。",
+      "content": "朱棣（1360—1424年），明成祖，朱元璋第四子。封燕王于北平，1399年发动「靖难之役」，历时四年夺取侄儿建文帝之位。在位迁都北京、营建紫禁城，派郑和七下西洋，编纂《永乐大典》，五征漠北，文治武功极盛。然夺位后大肆诛戮建文旧臣，方孝孺被灭十族，手段残酷。1424年第五次北征途中病逝于榆木川。"
+    },
+    {
+      "slug": "zhu-gao-chi",
+      "name": "朱高炽",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 65,
+      "birthYear": 1378,
+      "deathYear": 1425,
+      "aliases": [
+        "明仁宗"
+      ],
+      "summary": "明朝第四位皇帝，在位仅十个月，仁宣之治的开创者。",
+      "content": "朱高炽（1378—1425年），明仁宗，成祖长子。在位仅十个月即病逝，然即位后立即纠正永乐朝弊政，平反冤案、减免赋税、与民休息，开「仁宣之治」之端。体态肥胖、足有疾，不为成祖所喜，赖群臣力保得立。虽在位极短，其宽仁之政为后世称道。"
+    },
+    {
+      "slug": "zhu-zhan-ji",
+      "name": "朱瞻基",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 70,
+      "birthYear": 1398,
+      "deathYear": 1435,
+      "aliases": [
+        "明宣宗"
+      ],
+      "summary": "明朝第五位皇帝，仁宣之治的延续者，擅长书画。",
+      "content": "朱瞻基（1399—1435年），明宣宗，仁宗长子。在位十年，延续仁宗宽仁之政，政治清明、经济繁荣，史称「仁宣之治」，为明代黄金时期。善书画，尤工花鸟虫草，有「宣德炉」之雅好。又好促织（斗蟋蟀），民间戏称「促织天子」。"
+    },
+    {
+      "slug": "zhu-qi-zhen",
+      "name": "朱祁镇",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 70,
+      "birthYear": 1427,
+      "deathYear": 1464,
+      "aliases": [
+        "明英宗"
+      ],
+      "summary": "明朝第六位和第八位皇帝，土木堡之变被俘，后复辟。",
+      "content": "朱祁镇（1427—1464年），明英宗，宣宗长子。1449年御驾亲征瓦剌，于土木堡全军覆没，被俘北去，史称「土木堡之变」。其弟朱祁钰即位（景泰帝），英宗被释回后幽禁于南宫七年。1457年发动「夺门之变」复辟，杀于谦。前后在位共二十二年，经历极为传奇。"
+    },
+    {
+      "slug": "zhu-qi-yu",
+      "name": "朱祁钰",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 70,
+      "birthYear": 1428,
+      "deathYear": 1457,
+      "aliases": [
+        "明代宗",
+        "景泰帝"
+      ],
+      "summary": "明朝第七位皇帝，土木堡之变后即位，北京保卫战功臣。",
+      "content": "朱祁钰（1428—1457年），明代宗（景泰帝），英宗弟。土木堡之变后即位，用于谦为兵部尚书，取得北京保卫战胜利，挽救明朝于危亡。英宗回京后将其幽禁。1457年英宗复辟后被废为郕王，旋即暴死（疑被害），死后连帝号都被剥夺，直到南明才恢复。"
+    },
+    {
+      "slug": "liu-jin",
+      "name": "刘瑾",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "eunuch"
+      ],
+      "importance": 65,
+      "birthYear": 1451,
+      "deathYear": 1510,
+      "aliases": [
+        "刘太监"
+      ],
+      "summary": "明朝宦官，正德年间专权，被称为「立皇帝」。",
+      "content": "刘瑾（1451—1510年），陕西兴平人，明武宗朝权宦。本姓谈，幼年入宫，深得武宗宠信，掌司礼监，权倾朝野，时称「立皇帝」（武宗为「坐皇帝」）。擅权期间大肆敛财、排斥异己、残害忠良。1510年被揭发谋反，凌迟处死，抄出黄金白银无数。"
+    },
+    {
+      "slug": "yan-song",
+      "name": "严嵩",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "traitor"
+      ],
+      "importance": 70,
+      "birthYear": 1480,
+      "deathYear": 1567,
+      "aliases": [
+        "严介溪"
+      ],
+      "summary": "明朝奸臣，嘉靖年间内阁首辅，专权二十年。",
+      "content": "严嵩（1480—1567年），字惟中，号介溪，江西分宜人，明嘉靖朝内阁首辅，著名奸臣。善写青词（道教祭文），以此获嘉靖帝宠信，把持朝政二十年。与其子严世蕃贪赃枉法、卖官鬻爵、陷害忠良（如沈炼、杨继盛）。后失宠被抄家，晚年寄食墓舍而死。"
+    },
+    {
+      "slug": "hai-rui",
+      "name": "海瑞",
+      "primaryRole": "minister",
+      "roles": [
+        "minister"
+      ],
+      "importance": 75,
+      "birthYear": 1514,
+      "deathYear": 1587,
+      "aliases": [
+        "海青天"
+      ],
+      "summary": "明朝清官，刚正不阿，被誉为「海青天」。",
+      "content": "海瑞（1514—1587年），字汝贤，号刚峰，海南琼山人，明朝著名清官。为官刚正不阿、清廉自守，人称「海青天」。任淳安知县时严拒权贵需索，抬棺上疏痛斥嘉靖帝（《治安疏》），直声震天下。万历朝复出，官至南京右都御史。一生清贫，死时仅留葛帏敝籯，丧资赖同僚凑集。"
+    },
+    {
+      "slug": "qi-ji-guang",
+      "name": "戚继光",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 90,
+      "birthYear": 1528,
+      "deathYear": 1588,
+      "aliases": [
+        "戚少保"
+      ],
+      "summary": "明朝抗倭名将，组建戚家军，平定东南倭患。著有《纪效新书》《练兵实纪》。",
+      "content": "戚继光（1528—1588年），字元敬，号南塘，山东蓬莱人，明朝抗倭名将、民族英雄。招募义乌矿工组建「戚家军」，创「鸳鸯阵」法，转战浙闽，荡平倭患，与俞大猷并称「俞龙戚虎」。后调镇蓟门，修长城、练边军，北疆安宁。著有《纪效新书》《练兵实纪》，为后世兵家经典。一代名将，晚年凄凉，贫病而终。"
+    },
+    {
+      "slug": "yu-da-you",
+      "name": "俞大猷",
+      "primaryRole": "general",
+      "roles": [
+        "general"
+      ],
+      "importance": 75,
+      "birthYear": 1503,
+      "deathYear": 1579,
+      "aliases": [
+        "俞武襄"
+      ],
+      "summary": "明朝抗倭名将，与戚继光并称「俞龙戚虎」。",
+      "content": "俞大猷（1503—1579年），字志辅，号虚江，福建晋江人，明朝抗倭名将。精通剑术与棍法，尤善用大车阵。与戚继光并肩抗倭，转战东南沿海，平定倭患。又北御俺答、南征安南，一生战功卓著。为人正直耿介，不善逢迎，仕途坎坷，与戚继光并称「俞龙戚虎」。"
+    },
+    {
+      "slug": "zheng-he",
+      "name": "郑和",
+      "primaryRole": "explorer",
+      "roles": [
+        "explorer",
+        "eunuch"
+      ],
+      "importance": 90,
+      "birthYear": 1371,
+      "deathYear": 1433,
+      "aliases": [
+        "三保太监"
+      ],
+      "summary": "明朝航海家，七下西洋，到达非洲东海岸，是世界航海史上的壮举。",
+      "content": "郑和（1371—1433年），本姓马，小字三保，云南昆阳人，回族，明代伟大航海家。靖难之役中有功，赐姓郑。1405年至1433年间七次奉命下西洋，率领当时世界最庞大的舰队，远达东南亚、印度洋、波斯湾、红海及非洲东海岸，比哥伦布早八十余年。其航海壮举促进了中外交流，是世界航海史上的里程碑。"
+    },
+    {
+      "slug": "li-shi-zhen",
+      "name": "李时珍",
+      "primaryRole": "scientist",
+      "roles": [
+        "scientist",
+        "doctor"
+      ],
+      "importance": 85,
+      "birthYear": 1518,
+      "deathYear": 1593,
+      "aliases": [
+        "李东璧"
+      ],
+      "summary": "明代医学家，历时二十七年编撰《本草纲目》，是中国古代药学巨著。",
+      "content": "李时珍（1518—1593年），字东璧，号濒湖，湖北蕲春人，明代伟大医学家、药学家。历时二十七年，三易其稿，著成《本草纲目》，收药一千八百九十二种、附方一万一千余则，图文并茂，是中国古代药学集大成之作，达尔文称之为「中国古代百科全书」。"
+    },
+    {
+      "slug": "song-ying-xing",
+      "name": "宋应星",
+      "primaryRole": "scientist",
+      "roles": [
+        "scientist"
+      ],
+      "importance": 75,
+      "birthYear": 1587,
+      "deathYear": 1666,
+      "aliases": [
+        "宋长庚"
+      ],
+      "summary": "明代科学家，著有《天工开物》，是中国古代科技百科全书。",
+      "content": "宋应星（1587—约1666年），字长庚，江西奉新人，明末杰出科学家。1637年著成《天工开物》，分十八卷，系统记录农业、手工业生产技术，涵盖纺织、染色、制盐、制糖、陶瓷、冶炼、兵器等，附精美插图，是中国古代科技百科全书，被誉为「中国17世纪的工艺百科全书」。"
+    },
+    {
+      "slug": "xu-xia-ke",
+      "name": "徐霞客",
+      "primaryRole": "explorer",
+      "roles": [
+        "explorer",
+        "geographer"
+      ],
+      "importance": 80,
+      "birthYear": 1587,
+      "deathYear": 1641,
+      "aliases": [
+        "徐弘祖"
+      ],
+      "summary": "明代地理学家旅行家，著有《徐霞客游记》，是中国地理学巨著。",
+      "content": "徐霞客（1587—1641年），名弘祖，字振之，号霞客，江苏江阴人，明代杰出地理学家、旅行家。二十二岁起游历天下，足迹遍及今二十一个省市，历时三十余年。所著《徐霞客游记》六十余万字，详细记述山川地貌、水文地质、风土人情，是世界上最早记述岩溶地貌的地理学巨著。"
+    },
+    {
+      "slug": "wang-yang-ming",
+      "name": "王阳明",
+      "primaryRole": "philosopher",
+      "roles": [
+        "philosopher",
+        "minister"
+      ],
+      "importance": 95,
+      "birthYear": 1472,
+      "deathYear": 1529,
+      "aliases": [
+        "王守仁",
+        "阳明先生"
+      ],
+      "summary": "明代哲学家，心学集大成者。知行合一、致良知思想影响深远。",
+      "content": "王阳明（1472—1529年），名守仁，字伯安，号阳明，浙江余姚人，明代最伟大的哲学家、军事家，心学集大成者。龙场悟道，提出「知行合一」「致良知」学说，与朱熹理学分庭抗礼，影响中国、日本、韩国思想界五百年。军事上平定宁王朱宸濠叛乱、征讨南方匪患，文武双全。其思想至今仍具深远影响力。"
+    },
+    {
+      "slug": "zhang-ju-zheng",
+      "name": "张居正",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "reformer"
+      ],
+      "importance": 85,
+      "birthYear": 1525,
+      "deathYear": 1582,
+      "aliases": [
+        "张太岳"
+      ],
+      "summary": "明朝内阁首辅，推行万历新政，一条鞭法改革，是明朝最杰出的政治家。",
+      "content": "张居正（1525—1582年），字叔大，号太岳，湖北江陵人，明朝最杰出的政治家、改革家。万历初年内阁首辅，推行「万历新政」：考成法整顿吏治、清丈田亩、推行「一条鞭法」简化税制，国库充盈、边疆安宁。然改革触动权贵利益，死后被清算抄家，改革成果付诸东流。"
+    },
+    {
+      "slug": "li-zi-cheng",
+      "name": "李自成",
+      "primaryRole": "rebel",
+      "roles": [
+        "rebel",
+        "leader"
+      ],
+      "importance": 80,
+      "birthYear": 1606,
+      "deathYear": 1645,
+      "aliases": [
+        "李闯王",
+        "闯王"
+      ],
+      "summary": "明末农民起义领袖，攻占北京推翻明朝。建立大顺政权，后被清军击败。",
+      "content": "李自成（1606—1645年），陕西米脂人，明末农民起义领袖。原为驿卒，崇祯初年参加高迎祥起义军，后继为闯王。1644年攻占西安，建大顺政权，同年攻入北京，崇祯帝自缢煤山，明朝灭亡。然进京后骄奢腐败、追赃助饷，激怒吴三桂，引清兵入关，兵败一片石，退出北京，后于湖北九宫山遇害。"
+    },
+    {
+      "slug": "zhu-you-jian",
+      "name": "朱由检",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 70,
+      "birthYear": 1611,
+      "deathYear": 1644,
+      "aliases": [
+        "明思宗",
+        "崇祯帝"
+      ],
+      "summary": "明朝最后一位皇帝，勤政但多疑。李自成攻入北京后自缢煤山。",
+      "content": "朱由检（1611—1644年），明思宗（崇祯帝），光宗第五子。即位后铲除魏忠贤阉党，勤于政事、励精图治，然性格多疑、刚愎自用，频繁更换大臣，朝政混乱。内有李自成、张献忠起义，外有后金（清）步步紧逼，国势日蹙。1644年李自成攻入北京，崇祯帝于煤山（景山）自缢殉国，明朝灭亡。遗诏「任贼分裂朕尸，勿伤百姓一人」。"
+    },
+    {
+      "slug": "zhu-hou-zhao",
+      "name": "朱厚照",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 70,
+      "birthYear": 1491,
+      "deathYear": 1521,
+      "aliases": [
+        "明武宗"
+      ],
+      "summary": "明朝皇帝，荒淫嬉游，自封威武大将军，应州大捷击退蒙古。",
+      "content": "朱厚照（1491—1521年），明武宗，明朝第十位皇帝。荒淫无度、嬉游无度，宠信宦官刘瑾，自封「威武大将军朱寿」。但武宗并非昏君，应州大捷亲自率军击退蒙古小王子。朱厚照是中国历史上最荒唐的皇帝之一，但也并非一无是处。"
+    },
+    {
+      "slug": "zhu-hou-cong",
+      "name": "朱厚熜",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "birthYear": 1507,
+      "deathYear": 1567,
+      "aliases": [
+        "嘉靖帝"
+      ],
+      "summary": "明朝皇帝，初期推行改革，后期沉迷道教，严嵩专权。",
+      "content": "朱厚熜（1507—1567年），明世宗嘉靖帝，明朝第十一位皇帝。即位初期推行改革，整顿吏治，史称「嘉靖新政」。后期沉迷道教、不理朝政，严嵩专权二十年。嘉靖帝在位四十五年，是明朝在位时间第二长的皇帝。"
+    },
+    {
+      "slug": "zhu-zai-hou",
+      "name": "朱载坖",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "birthYear": 1537,
+      "deathYear": 1572,
+      "aliases": [
+        "隆庆帝"
+      ],
+      "summary": "明朝皇帝，开放海禁，与蒙古和议，社会经济发展。",
+      "content": "朱载坖（1537—1572年），明穆宗隆庆帝，明朝第十二位皇帝。在位仅六年，但推行改革，开放海禁（隆庆开关），与蒙古俺答汗和议（隆庆和议），社会经济得到发展。隆庆帝是明朝较有作为的皇帝之一。"
+    },
+    {
+      "slug": "zhu-yi-jun",
+      "name": "朱翊钧",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "birthYear": 1563,
+      "deathYear": 1620,
+      "aliases": [
+        "万历帝"
+      ],
+      "summary": "明朝皇帝，在位四十八年，前期张居正辅政，后期怠政三十年。",
+      "content": "朱翊钧（1563—1620年），明神宗万历帝，明朝第十三位皇帝。在位四十八年，是明朝在位最久的皇帝。前期由张居正辅政，推行万历新政，国力强盛。后期怠政三十年，不上朝、不批奏章，朝政日益腐败。万历帝的怠政是明朝灭亡的重要原因。"
+    },
+    {
+      "slug": "wei-zhong-xian",
+      "name": "魏忠贤",
+      "primaryRole": "eunuch",
+      "roles": [
+        "eunuch",
+        "traitor"
+      ],
+      "importance": 80,
+      "birthYear": 1568,
+      "deathYear": 1627,
+      "aliases": [
+        "九千岁"
+      ],
+      "summary": "明朝宦官，九千岁，掌管东厂，排斥异己，后被崇祯帝贬斥自缢。",
+      "content": "魏忠贤（1568—1627年），明朝宦官，「九千岁」。原名李进忠，河间肃宁人。天启年间掌管东厂，排斥异己、大兴冤狱，自称「九千岁」，天下官员争相谄附。崇祯帝即位后，魏忠贤被贬斥，自缢而死。魏忠贤是明朝最专权的宦官之一。"
+    },
+    {
+      "slug": "yuan-chong-huan",
+      "name": "袁崇焕",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "hero"
+      ],
+      "importance": 90,
+      "birthYear": 1584,
+      "deathYear": 1630,
+      "aliases": [
+        "袁元素"
+      ],
+      "summary": "明朝抗清名将，宁远大捷击退努尔哈赤，被崇祯帝冤杀。",
+      "content": "袁崇焕（1584—1630年），明朝抗清名将。东莞人，进士出身。宁远之战中以红衣大炮击退努尔哈赤，取得宁远大捷。后又取得宁锦大捷。崇祯帝中皇太极反间计，以通敌罪将袁崇焕凌迟处死，天下冤之。袁崇焕之死是自毁长城。"
+    },
+    {
+      "slug": "zheng-cheng-gong",
+      "name": "郑成功",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "hero"
+      ],
+      "importance": 95,
+      "birthYear": 1624,
+      "deathYear": 1662,
+      "aliases": [
+        "国姓爷",
+        "延平郡王"
+      ],
+      "summary": "南明抗清名将，收复台湾，击败荷兰殖民者，民族英雄。",
+      "content": "郑成功（1624—1662年），本名森，字明俨，南明抗清名将，民族英雄。1661年率军从金门出发，横渡台湾海峡，经过九个月激战，击败荷兰殖民者，收复台湾。郑成功收复台湾后，建立政权，发展经济，使台湾成为抗清基地。1662年病逝于台湾，年仅三十九岁。"
+    },
+    {
+      "slug": "shi-ke-fa",
+      "name": "史可法",
+      "primaryRole": "minister",
+      "roles": [
+        "minister",
+        "hero"
+      ],
+      "importance": 85,
+      "birthYear": 1602,
+      "deathYear": 1645,
+      "aliases": [
+        "史道邻"
+      ],
+      "summary": "南明大臣，坚守扬州，城破不屈而死，扬州十日。",
+      "content": "史可法（1602—1645年），南明大臣，抗清英雄。崇祯死后，史可法拥立福王在南京建立南明政权，任兵部尚书。清军南下时，史可法坚守扬州，城破后不屈而死。清军屠城十日，史称「扬州十日」。史可法是明末最忠烈的大臣之一。"
+    },
+    {
+      "slug": "zuo-liang-yu",
+      "name": "左良玉",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "warlord"
+      ],
+      "importance": 65,
+      "birthYear": 1599,
+      "deathYear": 1645,
+      "aliases": [
+        "左昆山"
+      ],
+      "summary": "明末将领，拥兵自重，名为清君侧，途中病死。",
+      "content": "左良玉（1599—1645年），明末将领。骁勇善战，但拥兵自重、不听调遣。李自成攻入北京后，左良玉率军东下，名为「清君侧」，实为抢夺地盘。途中病死，其子左梦庚降清。左良玉是明末军阀割据的典型代表。"
+    },
+    {
+      "slug": "wu-san-gui",
+      "name": "吴三桂",
+      "primaryRole": "general",
+      "roles": [
+        "general",
+        "rebel"
+      ],
+      "importance": 85,
+      "birthYear": 1612,
+      "deathYear": 1678,
+      "aliases": [
+        "平西王"
+      ],
+      "summary": "明末将领，引清兵入关，后发动三藩之乱，自称周帝。",
+      "content": "吴三桂（1612—1678年），明末清初将领。山海关总兵，李自成攻入北京后，吴三桂引清兵入关，击败李自成，清军得以入主中原。后镇守云南，被封为平西王。1673年发动三藩之乱，自称周帝，1678年病死。吴三桂是明清之际最关键的人物之一。"
+    },
+    {
+      "slug": "tang-yin",
+      "name": "唐寅",
+      "primaryRole": "artist",
+      "roles": [
+        "artist",
+        "poet"
+      ],
+      "importance": 85,
+      "birthYear": 1470,
+      "deathYear": 1524,
+      "aliases": [
+        "唐伯虎",
+        "六如居士"
+      ],
+      "summary": "明代画家、文学家，明四家之一，唐伯虎点秋香。",
+      "content": "唐寅（1470—1524年），字伯虎，号六如居士，明代著名画家、文学家。与沈周、文征明、仇英并称「明四家」。唐寅才华横溢，但仕途坎坷，因科场案被牵连，从此放浪形骸。其诗文书画俱佳，民间传说「唐伯虎点秋香」流传甚广。"
+    },
+    {
+      "slug": "wen-zheng-ming",
+      "name": "文征明",
+      "primaryRole": "artist",
+      "roles": [
+        "artist"
+      ],
+      "importance": 85,
+      "birthYear": 1470,
+      "deathYear": 1559,
+      "aliases": [
+        "文壁"
+      ],
+      "summary": "明代书画家，明四家之一，书法绘画俱佳。",
+      "content": "文征明（1470—1559年），原名壁，字征明，明代著名书画家。「明四家」之一，与唐寅齐名。书法诸体皆工，尤精小楷。绘画以山水著称，风格清雅秀逸。文征明是明代最杰出的艺术家之一，其子孙皆善书画，形成「文氏画派」。"
+    },
+    {
+      "slug": "xu-wei",
+      "name": "徐渭",
+      "primaryRole": "artist",
+      "roles": [
+        "artist",
+        "writer"
+      ],
+      "importance": 85,
+      "birthYear": 1521,
+      "deathYear": 1593,
+      "aliases": [
+        "徐文长",
+        "青藤道人"
+      ],
+      "summary": "明代书画家、文学家，大写意花鸟画开创者，明代三才子之一。",
+      "content": "徐渭（1521—1593年），字文长，号青藤道人，明代著名书画家、文学家。才华横溢但仕途坎坷，多次自杀未遂。其大写意花鸟画开创了中国绘画的新境界，对后世影响深远。徐渭是明代最杰出的艺术家之一，与解缙、杨慎并称「明代三才子」。"
+    }
   ],
   "events": [
-    {"slug": "ming-chao-jian-li-ming", "name": "明朝建立", "timeStart": 1368, "aliases": ["朱元璋称帝"], "summary": "朱元璋在南京称帝，建立明朝，国号大明。", "content": "1368年朱元璋在南京称帝，建立明朝，国号大明。同年北伐攻占大都，元朝灭亡。"},
-    {"slug": "nan-bei-bang-an", "name": "南北榜案", "timeStart": 1397, "aliases": ["洪武南北榜"], "summary": "朱元璋因科举录取全部为南方人，下令重新考试，分南北榜录取。", "content": "1397年科举考试，录取的五十二人全部是南方人。北方士子不满，朱元璋下令重新考试，分南北榜录取。"},
-    {"slug": "jing-nan-zhi-yi", "name": "靖难之役", "timeStart": 1399, "timeEnd": 1402, "aliases": ["朱棣夺位"], "summary": "燕王朱棣以「清君侧」为名起兵，攻占南京，夺取皇位。", "content": "1399年燕王朱棣以「清君侧」为名起兵。经过四年战争，1402年攻占南京，建文帝下落不明，朱棣即位。"},
-    {"slug": "zheng-he-xia-xi-yang", "name": "郑和下西洋", "timeStart": 1405, "timeEnd": 1433, "aliases": ["七下西洋"], "summary": "明朝郑和七次下西洋，到达东南亚、印度、阿拉伯、非洲东海岸。", "content": "1405年至1433年郑和七次下西洋，率领庞大船队，最远到达非洲东海岸。郑和下西洋是世界航海史上的壮举。"},
-    {"slug": "yong-le-da-dian", "name": "永乐大典", "timeStart": 1408, "aliases": ["编修大典"], "summary": "朱棣下令编修《永乐大典》，是中国古代最大的百科全书。", "content": "1408年《永乐大典》编成，共22937卷，约3.7亿字，是中国古代最大的百科全书。"},
-    {"slug": "tu-mu-bao-zhi-bian", "name": "土木堡之变", "timeStart": 1449, "aliases": ["明英宗被俘"], "summary": "明英宗亲征瓦剌，在土木堡大败被俘。于谦组织北京保卫战。", "content": "1449年瓦剌入侵，明英宗亲征。在土木堡（今河北怀来）大败，英宗被俘。于谦组织北京保卫战，击退瓦剌。"},
-    {"slug": "bei-jing-bao-wei-zhan", "name": "北京保卫战", "timeStart": 1449, "aliases": ["于谦守北京"], "summary": "土木堡之变后于谦组织北京保卫战，击退瓦剌军队。", "content": "土木堡之变后瓦剌军队进逼北京。于谦拥立景泰帝，组织北京保卫战，击退瓦剌军队。"},
-    {"slug": "kang-wo-zhan-zheng", "name": "抗倭战争", "timeStart": 1555, "timeEnd": 1566, "aliases": ["戚继光抗倭"], "summary": "戚继光、俞大猷等率军抗击倭寇，平定东南倭患。", "content": "明朝中期倭寇侵扰东南沿海。戚继光组建戚家军，俞大猷等配合，经过十余年战争，平定倭患。"},
-    {"slug": "wan-li-xin-zheng", "name": "万历新政", "timeStart": 1572, "timeEnd": 1582, "aliases": ["张居正改革"], "summary": "张居正推行万历新政，一条鞭法改革，增加财政收入。", "content": "1572年张居正任内阁首辅，推行万历新政。主要措施包括一条鞭法、考成法等。改革增加了财政收入，但触动了既得利益者。"},
-    {"slug": "wan-li-san-da-zheng", "name": "万历三大征", "timeStart": 1592, "timeEnd": 1600, "aliases": ["三大征"], "summary": "万历年间三次大规模军事行动：宁夏之役、播州之役、朝鲜之役。", "content": "万历年间明朝进行了三次大规模军事行动：1592年宁夏之役、1592年朝鲜之役（抗倭援朝）、1600年播州之役。"},
-    {"slug": "dong-lin-dang-zheng", "name": "东林党争", "timeStart": 1604, "timeEnd": 1627, "aliases": ["东林党"], "summary": "以顾宪成为首的东林党与阉党的斗争，是明末政治的重要事件。", "content": "1604年顾宪成在无锡重建东林书院，形成东林党。东林党与阉党魏忠贤等激烈斗争，党争削弱了明朝统治。"},
-    {"slug": "wei-zhong-xian-zhuan-quan", "name": "魏忠贤专权", "timeStart": 1620, "timeEnd": 1627, "aliases": ["阉党专权"], "summary": "宦官魏忠贤专权，迫害东林党人，被称为「九千岁」。", "content": "魏忠贤在天启年间专权，迫害东林党人，被称为「九千岁」。崇祯帝即位后将其铲除。"},
-    {"slug": "nong-min-qi-yi", "name": "明末农民起义", "timeStart": 1628, "timeEnd": 1644, "aliases": ["李自成起义"], "summary": "李自成、张献忠等领导的农民起义，推翻明朝统治。", "content": "1628年陕西爆发农民起义。李自成、张献忠等领导起义军转战各地。1644年李自成攻占北京，崇祯帝自缢，明朝灭亡。"},
-    {"slug": "ming-chao-mie-wang", "name": "明朝灭亡", "timeStart": 1644, "aliases": ["崇祯殉国"], "summary": "李自成攻占北京，崇祯帝自缢煤山，明朝灭亡。", "content": "1644年李自成攻占北京，崇祯帝在煤山（今景山）自缢。明朝灭亡，清军入关建立清朝。"}
+    {
+      "slug": "ming-chao-jian-li-ming",
+      "name": "明朝建立",
+      "timeStart": 1368,
+      "aliases": [
+        "朱元璋称帝"
+      ],
+      "summary": "朱元璋在南京称帝，建立明朝，国号大明。",
+      "content": "1368年朱元璋在南京称帝，建立明朝，国号大明。同年北伐攻占大都，元朝灭亡。"
+    },
+    {
+      "slug": "nan-bei-bang-an",
+      "name": "南北榜案",
+      "timeStart": 1397,
+      "aliases": [
+        "洪武南北榜"
+      ],
+      "summary": "朱元璋因科举录取全部为南方人，下令重新考试，分南北榜录取。",
+      "content": "1397年科举考试，录取的五十二人全部是南方人。北方士子不满，朱元璋下令重新考试，分南北榜录取。"
+    },
+    {
+      "slug": "jing-nan-zhi-yi",
+      "name": "靖难之役",
+      "timeStart": 1399,
+      "timeEnd": 1402,
+      "aliases": [
+        "朱棣夺位"
+      ],
+      "summary": "燕王朱棣以「清君侧」为名起兵，攻占南京，夺取皇位。",
+      "content": "1399年燕王朱棣以「清君侧」为名起兵。经过四年战争，1402年攻占南京，建文帝下落不明，朱棣即位。"
+    },
+    {
+      "slug": "zheng-he-xia-xi-yang",
+      "name": "郑和下西洋",
+      "timeStart": 1405,
+      "timeEnd": 1433,
+      "aliases": [
+        "七下西洋"
+      ],
+      "summary": "明朝郑和七次下西洋，到达东南亚、印度、阿拉伯、非洲东海岸。",
+      "content": "1405年至1433年郑和七次下西洋，率领庞大船队，最远到达非洲东海岸。郑和下西洋是世界航海史上的壮举。"
+    },
+    {
+      "slug": "yong-le-da-dian",
+      "name": "永乐大典",
+      "timeStart": 1408,
+      "aliases": [
+        "编修大典"
+      ],
+      "summary": "朱棣下令编修《永乐大典》，是中国古代最大的百科全书。",
+      "content": "1408年《永乐大典》编成，共22937卷，约3.7亿字，是中国古代最大的百科全书。"
+    },
+    {
+      "slug": "tu-mu-bao-zhi-bian",
+      "name": "土木堡之变",
+      "timeStart": 1449,
+      "aliases": [
+        "明英宗被俘"
+      ],
+      "summary": "明英宗亲征瓦剌，在土木堡大败被俘。于谦组织北京保卫战。",
+      "content": "1449年瓦剌入侵，明英宗亲征。在土木堡（今河北怀来）大败，英宗被俘。于谦组织北京保卫战，击退瓦剌。"
+    },
+    {
+      "slug": "bei-jing-bao-wei-zhan",
+      "name": "北京保卫战",
+      "timeStart": 1449,
+      "aliases": [
+        "于谦守北京"
+      ],
+      "summary": "土木堡之变后于谦组织北京保卫战，击退瓦剌军队。",
+      "content": "土木堡之变后瓦剌军队进逼北京。于谦拥立景泰帝，组织北京保卫战，击退瓦剌军队。"
+    },
+    {
+      "slug": "kang-wo-zhan-zheng",
+      "name": "抗倭战争",
+      "timeStart": 1555,
+      "timeEnd": 1566,
+      "aliases": [
+        "戚继光抗倭"
+      ],
+      "summary": "戚继光、俞大猷等率军抗击倭寇，平定东南倭患。",
+      "content": "明朝中期倭寇侵扰东南沿海。戚继光组建戚家军，俞大猷等配合，经过十余年战争，平定倭患。"
+    },
+    {
+      "slug": "wan-li-xin-zheng",
+      "name": "万历新政",
+      "timeStart": 1572,
+      "timeEnd": 1582,
+      "aliases": [
+        "张居正改革"
+      ],
+      "summary": "张居正推行万历新政，一条鞭法改革，增加财政收入。",
+      "content": "1572年张居正任内阁首辅，推行万历新政。主要措施包括一条鞭法、考成法等。改革增加了财政收入，但触动了既得利益者。"
+    },
+    {
+      "slug": "wan-li-san-da-zheng",
+      "name": "万历三大征",
+      "timeStart": 1592,
+      "timeEnd": 1600,
+      "aliases": [
+        "三大征"
+      ],
+      "summary": "万历年间三次大规模军事行动：宁夏之役、播州之役、朝鲜之役。",
+      "content": "万历年间明朝进行了三次大规模军事行动：1592年宁夏之役、1592年朝鲜之役（抗倭援朝）、1600年播州之役。"
+    },
+    {
+      "slug": "dong-lin-dang-zheng",
+      "name": "东林党争",
+      "timeStart": 1604,
+      "timeEnd": 1627,
+      "aliases": [
+        "东林党"
+      ],
+      "summary": "以顾宪成为首的东林党与阉党的斗争，是明末政治的重要事件。",
+      "content": "1604年顾宪成在无锡重建东林书院，形成东林党。东林党与阉党魏忠贤等激烈斗争，党争削弱了明朝统治。"
+    },
+    {
+      "slug": "wei-zhong-xian-zhuan-quan",
+      "name": "魏忠贤专权",
+      "timeStart": 1620,
+      "timeEnd": 1627,
+      "aliases": [
+        "阉党专权"
+      ],
+      "summary": "宦官魏忠贤专权，迫害东林党人，被称为「九千岁」。",
+      "content": "魏忠贤在天启年间专权，迫害东林党人，被称为「九千岁」。崇祯帝即位后将其铲除。"
+    },
+    {
+      "slug": "nong-min-qi-yi",
+      "name": "明末农民起义",
+      "timeStart": 1628,
+      "timeEnd": 1644,
+      "aliases": [
+        "李自成起义"
+      ],
+      "summary": "李自成、张献忠等领导的农民起义，推翻明朝统治。",
+      "content": "1628年陕西爆发农民起义。李自成、张献忠等领导起义军转战各地。1644年李自成攻占北京，崇祯帝自缢，明朝灭亡。"
+    },
+    {
+      "slug": "ming-chao-mie-wang",
+      "name": "明朝灭亡",
+      "timeStart": 1644,
+      "aliases": [
+        "崇祯殉国"
+      ],
+      "summary": "李自成攻占北京，崇祯帝自缢煤山，明朝灭亡。",
+      "content": "1644年李自成攻占北京，崇祯帝在煤山（今景山）自缢。明朝灭亡，清军入关建立清朝。"
+    },
+    {
+      "slug": "wan-li-chao-xian-zhan-zheng",
+      "name": "万历朝鲜战争",
+      "timeStart": 1592,
+      "timeEnd": 1598,
+      "aliases": [
+        "万历援朝战争"
+      ],
+      "summary": "日本丰臣秀吉入侵朝鲜，明朝派军援朝，击败日军。",
+      "content": "1592年，日本关白丰臣秀吉率二十万大军入侵朝鲜，企图以朝鲜为跳板进攻中国。朝鲜国王向明朝求援，明朝派李如松率军援朝。明军与朝鲜军队联合作战，收复平壤、汉城。1597年日军再次入侵，明军再次援朝。1598年丰臣秀吉病死，日军撤退。万历朝鲜战争是明朝对外战争中规模最大的一次，维护了东亚的和平稳定。"
+    },
+    {
+      "slug": "sa-er-hu-zhi-zhan",
+      "name": "萨尔浒之战",
+      "timeStart": 1619,
+      "timeEnd": 1619,
+      "aliases": [
+        "萨尔浒大战"
+      ],
+      "summary": "后金努尔哈赤以少胜多大败明军，后金崛起的关键战役。",
+      "content": "1619年，明朝集结十一万大军，分四路进攻后金。努尔哈赤采取「凭你几路来，我只一路去」的战术，集中兵力各个击破。明军主力杜松部在萨尔浒（今辽宁抚顺）被全歼，其他三路也先后溃败。萨尔浒之战是后金崛起的关键战役，此后明朝在辽东转入守势，后金开始战略反攻。"
+    },
+    {
+      "slug": "ning-yuan-zhi-zhan",
+      "name": "宁远之战",
+      "timeStart": 1626,
+      "timeEnd": 1626,
+      "aliases": [
+        "宁远大捷"
+      ],
+      "summary": "袁崇焕以红衣大炮击退努尔哈赤，取得宁远大捷。",
+      "content": "1626年，努尔哈赤率十三万大军进攻宁远（今辽宁兴城）。袁崇焕仅率一万余人坚守，以红衣大炮轰击后金军队。后金军队伤亡惨重，努尔哈赤被迫撤退，不久病死（一说被炮火击伤）。宁远之战是明朝对后金作战的第一次重大胜利，袁崇焕因此威名远震。"
+    },
+    {
+      "slug": "yang-zhou-shi-ri",
+      "name": "扬州十日",
+      "timeStart": 1645,
+      "timeEnd": 1645,
+      "aliases": [
+        "扬州屠城"
+      ],
+      "summary": "清军攻破扬州后屠城十日，史可法殉国。",
+      "content": "1645年，清军南下进攻扬州。南明兵部尚书史可法坚守扬州，拒绝投降。清军攻破扬州后，进行大规模屠杀，持续十日，死难者数十万人，史称「扬州十日」。史可法被俘后不屈而死。扬州十日是清军入关后最惨烈的屠杀之一，与「嘉定三屠」并称，是明末清初最悲惨的历史事件。"
+    },
+    {
+      "slug": "jia-ding-san-tu",
+      "name": "嘉定三屠",
+      "timeStart": 1645,
+      "timeEnd": 1645,
+      "aliases": [
+        "嘉定屠城"
+      ],
+      "summary": "清军在嘉定三次屠城，死难者数万人。",
+      "content": "1645年，清军颁布「剃发令」，强制汉人剃发易服。嘉定人民反抗，清军李成栋部三次攻破嘉定城，三次屠城，死难者数万人，史称「嘉定三屠」。嘉定三屠与「扬州十日」并称，是明末清初最悲惨的历史事件之一，反映了清军入关后的残暴统治。"
+    }
   ],
   "relations": [
-    {"from": "zhu-yuan-zhang-ming", "fromType": "person", "to": "zhu-di", "toType": "person", "type": "blood", "weight": 9, "note": "父子"},
-    {"from": "zhu-yuan-zhang-ming", "fromType": "person", "to": "ming-chao-jian-li-ming", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
-    {"from": "zhu-di", "fromType": "person", "to": "jing-nan-zhi-yi", "toType": "event", "type": "participation", "weight": 10, "note": "发动者"},
-    {"from": "zhu-di", "fromType": "person", "to": "zheng-he-xia-xi-yang", "toType": "event", "type": "participation", "weight": 10, "note": "决策者"},
-    {"from": "zheng-he", "fromType": "person", "to": "zheng-he-xia-xi-yang", "toType": "event", "type": "participation", "weight": 10, "note": "航海统帅"},
-    {"from": "zhu-qi-zhen", "fromType": "person", "to": "tu-mu-bao-zhi-bian", "toType": "event", "type": "participation", "weight": 10, "note": "被俘"},
-    {"from": "zhu-qi-yu", "fromType": "person", "to": "bei-jing-bao-wei-zhan", "toType": "event", "type": "participation", "weight": 10, "note": "组织者"},
-    {"from": "qi-ji-guang", "fromType": "person", "to": "kang-wo-zhan-zheng", "toType": "event", "type": "participation", "weight": 10, "note": "抗倭主将"},
-    {"from": "zhang-ju-zheng", "fromType": "person", "to": "wan-li-xin-zheng", "toType": "event", "type": "participation", "weight": 10, "note": "改革主持者"},
-    {"from": "wang-yang-ming", "fromType": "person", "to": "dong-lin-dang-zheng", "toType": "event", "type": "participation", "weight": 7, "note": "心学影响"},
-    {"from": "li-zi-cheng", "fromType": "person", "to": "nong-min-qi-yi", "toType": "event", "type": "participation", "weight": 10, "note": "起义领袖"},
-    {"from": "li-zi-cheng", "fromType": "person", "to": "ming-chao-mie-wang", "toType": "event", "type": "participation", "weight": 10, "note": "推翻者"},
-    {"from": "zhu-you-jian", "fromType": "person", "to": "ming-chao-mie-wang", "toType": "event", "type": "participation", "weight": 10, "note": "亡国之君"}
+    {
+      "from": "zhu-yuan-zhang-ming",
+      "fromType": "person",
+      "to": "zhu-di",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "父子"
+    },
+    {
+      "from": "zhu-yuan-zhang-ming",
+      "fromType": "person",
+      "to": "ming-chao-jian-li-ming",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "zhu-di",
+      "fromType": "person",
+      "to": "jing-nan-zhi-yi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "发动者"
+    },
+    {
+      "from": "zhu-di",
+      "fromType": "person",
+      "to": "zheng-he-xia-xi-yang",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "决策者"
+    },
+    {
+      "from": "zheng-he",
+      "fromType": "person",
+      "to": "zheng-he-xia-xi-yang",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "航海统帅"
+    },
+    {
+      "from": "zhu-qi-zhen",
+      "fromType": "person",
+      "to": "tu-mu-bao-zhi-bian",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "被俘"
+    },
+    {
+      "from": "zhu-qi-yu",
+      "fromType": "person",
+      "to": "bei-jing-bao-wei-zhan",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "组织者"
+    },
+    {
+      "from": "qi-ji-guang",
+      "fromType": "person",
+      "to": "kang-wo-zhan-zheng",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "抗倭主将"
+    },
+    {
+      "from": "zhang-ju-zheng",
+      "fromType": "person",
+      "to": "wan-li-xin-zheng",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "改革主持者"
+    },
+    {
+      "from": "wang-yang-ming",
+      "fromType": "person",
+      "to": "dong-lin-dang-zheng",
+      "toType": "event",
+      "type": "participation",
+      "weight": 7,
+      "note": "心学影响"
+    },
+    {
+      "from": "li-zi-cheng",
+      "fromType": "person",
+      "to": "nong-min-qi-yi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "起义领袖"
+    },
+    {
+      "from": "li-zi-cheng",
+      "fromType": "person",
+      "to": "ming-chao-mie-wang",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "推翻者"
+    },
+    {
+      "from": "zhu-you-jian",
+      "fromType": "person",
+      "to": "ming-chao-mie-wang",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "亡国之君"
+    }
   ],
   "timelines": [
-    {"eventSlug": "ming-chao-jian-li-ming", "year": 1368, "label": "明朝建立"},
-    {"eventSlug": "jing-nan-zhi-yi", "year": 1399, "label": "靖难之役"},
-    {"eventSlug": "zheng-he-xia-xi-yang", "year": 1405, "label": "郑和下西洋"},
-    {"eventSlug": "yong-le-da-dian", "year": 1408, "label": "永乐大典编成"},
-    {"eventSlug": "tu-mu-bao-zhi-bian", "year": 1449, "label": "土木堡之变"},
-    {"eventSlug": "bei-jing-bao-wei-zhan", "year": 1449, "label": "北京保卫战"},
-    {"eventSlug": "kang-wo-zhan-zheng", "year": 1555, "label": "抗倭战争"},
-    {"eventSlug": "wan-li-xin-zheng", "year": 1572, "label": "万历新政"},
-    {"eventSlug": "dong-lin-dang-zheng", "year": 1604, "label": "东林党争"},
-    {"eventSlug": "nong-min-qi-yi", "year": 1628, "label": "明末农民起义"},
-    {"eventSlug": "ming-chao-mie-wang", "year": 1644, "label": "明朝灭亡"}
+    {
+      "eventSlug": "ming-chao-jian-li-ming",
+      "year": 1368,
+      "label": "明朝建立"
+    },
+    {
+      "eventSlug": "jing-nan-zhi-yi",
+      "year": 1399,
+      "label": "靖难之役"
+    },
+    {
+      "eventSlug": "zheng-he-xia-xi-yang",
+      "year": 1405,
+      "label": "郑和下西洋"
+    },
+    {
+      "eventSlug": "yong-le-da-dian",
+      "year": 1408,
+      "label": "永乐大典编成"
+    },
+    {
+      "eventSlug": "tu-mu-bao-zhi-bian",
+      "year": 1449,
+      "label": "土木堡之变"
+    },
+    {
+      "eventSlug": "bei-jing-bao-wei-zhan",
+      "year": 1449,
+      "label": "北京保卫战"
+    },
+    {
+      "eventSlug": "kang-wo-zhan-zheng",
+      "year": 1555,
+      "label": "抗倭战争"
+    },
+    {
+      "eventSlug": "wan-li-xin-zheng",
+      "year": 1572,
+      "label": "万历新政"
+    },
+    {
+      "eventSlug": "dong-lin-dang-zheng",
+      "year": 1604,
+      "label": "东林党争"
+    },
+    {
+      "eventSlug": "nong-min-qi-yi",
+      "year": 1628,
+      "label": "明末农民起义"
+    },
+    {
+      "eventSlug": "ming-chao-mie-wang",
+      "year": 1644,
+      "label": "明朝灭亡"
+    }
   ]
 }

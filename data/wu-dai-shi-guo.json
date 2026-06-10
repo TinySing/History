@@ -7,46 +7,464 @@
     "summary": "五代十国是唐朝灭亡后的分裂时期。五代指后梁、后唐、后晋、后汉、后周五个朝代，十国指南方的十个割据政权。最终赵匡胤建立宋朝，统一全国。"
   },
   "persons": [
-    {"slug": "zhu-wen-wd", "name": "朱温", "primaryRole": "emperor", "roles": ["emperor"], "importance": 80, "birthYear": 852, "deathYear": 912, "aliases": ["后梁太祖", "朱全忠"], "summary": "后梁开国皇帝，篡唐建后梁。原为黄巢部将，后降唐，最终篡位。"},
-    {"slug": "li-cun-xu", "name": "李存勖", "primaryRole": "emperor", "roles": ["emperor", "general"], "importance": 80, "birthYear": 885, "deathYear": 926, "aliases": ["后唐庄宗"], "summary": "后唐开国皇帝，沙陀族。灭后梁建立后唐，后因骄奢被杀。"},
-    {"slug": "shi-jing-tang", "name": "石敬瑭", "primaryRole": "emperor", "roles": ["emperor"], "importance": 70, "birthYear": 892, "deathYear": 942, "aliases": ["后晋高祖", "儿皇帝"], "summary": "后晋开国皇帝，割让燕云十六州给契丹，自称儿皇帝，被后世唾骂。"},
-    {"slug": "guo-wei", "name": "郭威", "primaryRole": "emperor", "roles": ["emperor"], "importance": 75, "birthYear": 904, "deathYear": 954, "aliases": ["后周太祖"], "summary": "后周开国皇帝，改革弊政，为柴荣、赵匡胤统一奠定基础。"},
-    {"slug": "chai-rong", "name": "柴荣", "primaryRole": "emperor", "roles": ["emperor"], "importance": 85, "birthYear": 921, "deathYear": 959, "aliases": ["后周世宗", "周世宗"], "summary": "后周第二位皇帝，五代最英明的君主。南征北战，改革内政，为北宋统一奠定基础。"},
-    {"slug": "zhao-kuang-yin", "name": "赵匡胤", "primaryRole": "emperor", "roles": ["emperor", "general"], "importance": 95, "birthYear": 927, "deathYear": 976, "aliases": ["宋太祖"], "summary": "北宋开国皇帝，陈桥兵变黄袍加身。统一全国，杯酒释兵权，重文轻武。"},
-    {"slug": "li-yu", "name": "李煜", "primaryRole": "poet", "roles": ["poet", "emperor"], "importance": 85, "birthYear": 937, "deathYear": 978, "aliases": ["李后主", "南唐后主"], "summary": "南唐最后一位皇帝，著名词人。国破被俘，词风哀婉，代表作《虞美人》《浪淘沙》。"},
-    {"slug": "qian-liu", "name": "钱镠", "primaryRole": "emperor", "roles": ["emperor"], "importance": 75, "birthYear": 852, "deathYear": 932, "aliases": ["吴越王"], "summary": "吴越国建立者，保境安民，发展经济，纳土归宋。"},
-    {"slug": "meng-zhi-xiang", "name": "孟知祥", "primaryRole": "emperor", "roles": ["emperor"], "importance": 65, "birthYear": 874, "deathYear": 934, "aliases": ["后蜀高祖"], "summary": "后蜀建立者，割据四川。"},
-    {"slug": "liu-yan", "name": "刘岩", "primaryRole": "emperor", "roles": ["emperor"], "importance": 65, "birthYear": 889, "deathYear": 942, "aliases": ["南汉高祖"], "summary": "南汉建立者，割据岭南。"}
+    {
+      "slug": "zhu-wen-wd",
+      "name": "朱温",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 80,
+      "birthYear": 852,
+      "deathYear": 912,
+      "aliases": [
+        "后梁太祖",
+        "朱全忠"
+      ],
+      "summary": "后梁开国皇帝，篡唐建后梁。原为黄巢部将，后降唐，最终篡位。",
+      "content": "朱温（852—912年），宋州砀山人，后梁开国皇帝（梁太祖）。原为黄巢部将，降唐赐名全忠，据宣武镇渐成最强藩镇。挟天子、诛朝臣，907年代唐建后梁，开五代之局。在位有抑制藩镇、奖励农桑之举，然性残暴多疑，骨肉相残，终为子朱友珪所弑，后梁国祚短促。"
+    },
+    {
+      "slug": "li-cun-xu",
+      "name": "李存勖",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 80,
+      "birthYear": 885,
+      "deathYear": 926,
+      "aliases": [
+        "后唐庄宗"
+      ],
+      "summary": "后唐开国皇帝，沙陀族。灭后梁建立后唐，后因骄奢被杀。",
+      "content": "李存勖（885—926年），沙陀族，后唐开国皇帝（唐庄宗）。其父李克用与朱温世仇。存勖骁勇善战、用兵如神，灭后梁、定河北，又取前蜀，武功极盛，一度有统一之势。然得国后宠伶人、疏功臣、纵皇后干政，骄奢失政，兴教门之变中为乱兵所杀，「忧劳可以兴国，逸豫可以亡身」之叹由此而发。"
+    },
+    {
+      "slug": "shi-jing-tang",
+      "name": "石敬瑭",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 70,
+      "birthYear": 892,
+      "deathYear": 942,
+      "aliases": [
+        "后晋高祖",
+        "儿皇帝"
+      ],
+      "summary": "后晋开国皇帝，割让燕云十六州给契丹，自称儿皇帝，被后世唾骂。",
+      "content": "石敬瑭（892—942年），沙陀族，后晋开国皇帝（晋高祖）。原为后唐重将，936年为夺帝位，向契丹称臣称子，割让燕云十六州、岁输绢帛，借契丹兵灭后唐而立后晋，自称「儿皇帝」。燕云之失使中原失去北方屏障，影响此后四百年中原王朝的边防格局，为后世所唾骂。"
+    },
+    {
+      "slug": "guo-wei",
+      "name": "郭威",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "birthYear": 904,
+      "deathYear": 954,
+      "aliases": [
+        "后周太祖"
+      ],
+      "summary": "后周开国皇帝，改革弊政，为柴荣、赵匡胤统一奠定基础。",
+      "content": "郭威（904—954年），邢州尧山人，后周开国皇帝（周太祖）。出身寒微，行伍起家，为后汉重臣。951年因受猜忌起兵，代汉建后周。在位轻徭薄赋、惩贪倡廉、整顿弊政、与民休息，为后周强盛与日后统一奠定基础，是五代中难得勤俭爱民的君主。无子，传位养子柴荣。"
+    },
+    {
+      "slug": "chai-rong",
+      "name": "柴荣",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 85,
+      "birthYear": 921,
+      "deathYear": 959,
+      "aliases": [
+        "后周世宗",
+        "周世宗"
+      ],
+      "summary": "后周第二位皇帝，五代最英明的君主。南征北战，改革内政，为北宋统一奠定基础。",
+      "content": "柴荣（921—959年），邢州尧山人，郭威养子，后周第二位皇帝（周世宗），五代第一明君。即位后励精图治、整军经武、招抚流亡、均定田赋，又西败后蜀、南取南唐江北、北伐契丹连复三州。立志「以十年开拓天下，十年养百姓，十年致太平」，惜壮志未酬、英年早逝，所积基业为赵匡胤所承，开北宋统一之局。"
+    },
+    {
+      "slug": "zhao-kuang-yin",
+      "name": "赵匡胤",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 95,
+      "birthYear": 927,
+      "deathYear": 976,
+      "aliases": [
+        "宋太祖"
+      ],
+      "summary": "北宋开国皇帝，陈桥兵变黄袍加身。统一全国，杯酒释兵权，重文轻武。",
+      "content": "赵匡胤（927—976年），涿州人，北宋开国皇帝（宋太祖）。后周禁军统帅，屡立战功。960年陈桥兵变、黄袍加身，代周建宋。即位后行「杯酒释兵权」，收兵权于中央，确立崇文抑武、强干弱枝之策。先南后北，次第削平诸国，结束五代十国分裂，奠定北宋一统与文治格局。"
+    },
+    {
+      "slug": "li-yu",
+      "name": "李煜",
+      "primaryRole": "poet",
+      "roles": [
+        "poet",
+        "emperor"
+      ],
+      "importance": 85,
+      "birthYear": 937,
+      "deathYear": 978,
+      "aliases": [
+        "李后主",
+        "南唐后主"
+      ],
+      "summary": "南唐最后一位皇帝，著名词人。国破被俘，词风哀婉，代表作《虞美人》《浪淘沙》。",
+      "content": "李煜（937—978年），字重光，南唐后主，五代最杰出的词人。精书画、通音律、工诗文。在位时南唐已奉宋为正朔，975年金陵城破、肉袒出降，被掳至汴京封违命侯，受尽屈辱。亡国后词风骤变，由前期的绮丽宫词转为深沉哀婉、血泪交融，《虞美人》《浪淘沙》《相见欢》境界深远，被誉为「词中之帝」。"
+    },
+    {
+      "slug": "qian-liu",
+      "name": "钱镠",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 75,
+      "birthYear": 852,
+      "deathYear": 932,
+      "aliases": [
+        "吴越王"
+      ],
+      "summary": "吴越国建立者，保境安民，发展经济，纳土归宋。",
+      "content": "钱镠（852—932年），杭州临安人，吴越国建立者（吴越武肃王）。唐末镇压农民军起家，据有两浙。立国后奉中原王朝为正朔、不称帝，保境安民、休兵息民，大兴水利、修筑钱塘江海塘（捍海石塘），兴修苏杭，使两浙免于战乱、富庶安定。其子孙遵「善事中国」遗训，后纳土归宋，泽被东南。"
+    },
+    {
+      "slug": "meng-zhi-xiang",
+      "name": "孟知祥",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 65,
+      "birthYear": 874,
+      "deathYear": 934,
+      "aliases": [
+        "后蜀高祖"
+      ],
+      "summary": "后蜀建立者，割据四川。",
+      "content": "孟知祥（874—934年），邢州龙冈人，后蜀建立者（蜀高祖）。后唐重臣，受命镇守西川。后唐内乱之际据蜀自立，934年称帝，建后蜀，割据四川。蜀地险固、物产丰饶，后蜀偏安一隅，文教颇盛，至其子孟昶时尤以奢靡与词章著称。"
+    },
+    {
+      "slug": "liu-yan",
+      "name": "刘岩",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 65,
+      "birthYear": 889,
+      "deathYear": 942,
+      "aliases": [
+        "南汉高祖"
+      ],
+      "summary": "南汉建立者，割据岭南。",
+      "content": "刘岩（889—942年），又名刘龑，彭城人（生于岭南），南汉建立者（汉高祖）。其兄刘隐据有岭南，岩继之，917年称帝，建南汉，定都广州（兴王府）。据有两广，开科取士、兴海外贸易，岭南一时富庶。然性奢侈残忍，多用酷刑，又信用宦官，为南汉日后积弊埋下隐患。"
+    },
+    {
+      "slug": "wang-jian",
+      "name": "王建",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 70,
+      "birthYear": 847,
+      "deathYear": 918,
+      "aliases": [
+        "前蜀高祖"
+      ],
+      "summary": "前蜀开国皇帝，割据四川，保境安民，发展经济。",
+      "content": "王建（847—918年），前蜀开国皇帝。许州舞阳人，唐末忠武军将领。唐亡后割据四川，907年称帝，建国号蜀，史称前蜀。王建在位期间保境安民、发展经济，四川相对安定。但晚年荒淫无度，918年病死。"
+    },
+    {
+      "slug": "yang-hang-mi",
+      "name": "杨行密",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 75,
+      "birthYear": 852,
+      "deathYear": 905,
+      "aliases": [
+        "吴太祖"
+      ],
+      "summary": "吴国开国者，割据淮南，保境安民，使江淮免于战乱。",
+      "content": "杨行密（852—905年），吴国开国者。庐州合肥人，唐末淮南节度使。朱温篡唐后，杨行密割据淮南，建立吴国。在位期间发展经济、保境安民，使江淮地区免于战乱。杨行密是五代十国时期较有作为的君主之一。"
+    },
+    {
+      "slug": "xu-wen",
+      "name": "徐温",
+      "primaryRole": "regent",
+      "roles": [
+        "regent",
+        "general"
+      ],
+      "importance": 65,
+      "birthYear": 862,
+      "deathYear": 927,
+      "aliases": [
+        "徐温"
+      ],
+      "summary": "吴国权臣，掌握吴国大权，推行保境安民政策。",
+      "content": "徐温（862—927年），吴国权臣。原为杨行密部将，杨行密死后掌握吴国大权。徐温执政期间，继续推行保境安民政策，吴国国力得到发展。其养子徐知诰（李昪）后来代吴建南唐。"
+    },
+    {
+      "slug": "liu-zhi-yuan",
+      "name": "刘知远",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor",
+        "general"
+      ],
+      "importance": 65,
+      "birthYear": 895,
+      "deathYear": 948,
+      "aliases": [
+        "后汉高祖"
+      ],
+      "summary": "后汉开国皇帝，沙陀族，在位仅一年即病死。",
+      "content": "刘知远（895—948年），后汉开国皇帝。沙陀族，原为后晋河东节度使。契丹灭后晋后，刘知远在太原称帝，建国号汉，史称后汉。在位仅一年即病死，其子刘承祐继位后被郭威所灭。"
+    },
+    {
+      "slug": "shi-zhong-gui",
+      "name": "石重贵",
+      "primaryRole": "emperor",
+      "roles": [
+        "emperor"
+      ],
+      "importance": 55,
+      "birthYear": 914,
+      "deathYear": 974,
+      "aliases": [
+        "后晋出帝"
+      ],
+      "summary": "后晋出帝，拒绝向契丹称臣，被俘虏北迁，客死异乡。",
+      "content": "石重贵（914—974年），后晋出帝，石敬瑭之侄。石敬瑭死后继位，不甘心向契丹称臣，拒绝称孙，引发契丹南侵。946年契丹攻入开封，石重贵被俘虏北迁，后晋灭亡。石重贵在契丹被封为「负义侯」，客死异乡。"
+    }
   ],
   "events": [
-    {"slug": "hou-liang-jian-li", "name": "后梁建立", "timeStart": 907, "aliases": ["朱温篡唐"], "summary": "朱温篡唐建立后梁，五代十国开始。", "content": "907年朱温逼唐哀帝禅位，建立后梁，定都开封。唐朝灭亡，五代十国开始。"},
-    {"slug": "hou-tang-jian-li", "name": "后唐建立", "timeStart": 923, "aliases": ["李存勖灭梁"], "summary": "李存勖灭后梁建立后唐，统一北方大部分地区。", "content": "923年沙陀族李存勖灭后梁，建立后唐，定都洛阳。后唐是五代疆域最大的政权。"},
-    {"slug": "ge-rang-yan-yun", "name": "割让燕云十六州", "timeStart": 938, "aliases": ["石敬瑭卖国"], "summary": "石敬瑭为换取契丹支持，割让燕云十六州，自称儿皇帝。", "content": "938年石敬瑭将燕云十六州割让给契丹，自称儿皇帝。燕云十六州的丧失使中原失去北方屏障，影响数百年。"},
-    {"slug": "chen-qiao-bing-bian", "name": "陈桥兵变", "timeStart": 960, "aliases": ["黄袍加身"], "summary": "赵匡胤在陈桥驿发动兵变，黄袍加身，建立北宋。", "content": "960年赵匡胤率军北征，途经陈桥驿。将士拥立赵匡胤为帝，黄袍加身。赵匡胤回师开封，逼后周恭帝禅位，建立北宋。"},
-    {"slug": "bei-song-tong-yi", "name": "北宋统一", "timeStart": 960, "timeEnd": 979, "aliases": ["统一全国"], "summary": "赵匡胤、赵光义兄弟统一全国，结束五代十国分裂局面。", "content": "赵匡胤采取先南后北策略，先后灭荆南、后蜀、南汉、南唐等割据政权。赵光义灭北汉，基本统一全国。"},
-    {"slug": "bei-han-jian-li", "name": "北汉建立", "timeStart": 951, "aliases": ["刘崇建国"], "summary": "刘崇建立北汉，是十国中唯一在北方的政权。", "content": "951年刘崇建立北汉，割据山西。北汉是十国中唯一在北方的政权，依附契丹。"},
-    {"slug": "hou-zhou-gai-ge", "name": "后周改革", "timeStart": 954, "timeEnd": 959, "aliases": ["柴荣改革"], "summary": "后周世宗柴荣推行改革，整顿军事，发展经济，为北宋统一奠定基础。", "content": "柴荣在位期间整顿军纪，淘汰老弱，发展生产，限制佛教。改革增强了后周国力，为北宋统一奠定基础。"},
-    {"slug": "nan-tang-jian-li", "name": "南唐建立", "timeStart": 937, "aliases": ["李昪建国"], "summary": "李昪建立南唐，是南方最强大的割据政权。", "content": "937年李昪建立南唐，定都金陵（今南京）。南唐是南方最强大的政权，文化繁荣。"}
+    {
+      "slug": "hou-liang-jian-li",
+      "name": "后梁建立",
+      "timeStart": 907,
+      "aliases": [
+        "朱温篡唐"
+      ],
+      "summary": "朱温篡唐建立后梁，五代十国开始。",
+      "content": "907年朱温逼唐哀帝禅位，建立后梁，定都开封。唐朝灭亡，五代十国开始。"
+    },
+    {
+      "slug": "hou-tang-jian-li",
+      "name": "后唐建立",
+      "timeStart": 923,
+      "aliases": [
+        "李存勖灭梁"
+      ],
+      "summary": "李存勖灭后梁建立后唐，统一北方大部分地区。",
+      "content": "923年沙陀族李存勖灭后梁，建立后唐，定都洛阳。后唐是五代疆域最大的政权。"
+    },
+    {
+      "slug": "ge-rang-yan-yun",
+      "name": "割让燕云十六州",
+      "timeStart": 938,
+      "aliases": [
+        "石敬瑭卖国"
+      ],
+      "summary": "石敬瑭为换取契丹支持，割让燕云十六州，自称儿皇帝。",
+      "content": "938年石敬瑭将燕云十六州割让给契丹，自称儿皇帝。燕云十六州的丧失使中原失去北方屏障，影响数百年。"
+    },
+    {
+      "slug": "chen-qiao-bing-bian",
+      "name": "陈桥兵变",
+      "timeStart": 960,
+      "aliases": [
+        "黄袍加身"
+      ],
+      "summary": "赵匡胤在陈桥驿发动兵变，黄袍加身，建立北宋。",
+      "content": "960年赵匡胤率军北征，途经陈桥驿。将士拥立赵匡胤为帝，黄袍加身。赵匡胤回师开封，逼后周恭帝禅位，建立北宋。"
+    },
+    {
+      "slug": "bei-song-tong-yi",
+      "name": "北宋统一",
+      "timeStart": 960,
+      "timeEnd": 979,
+      "aliases": [
+        "统一全国"
+      ],
+      "summary": "赵匡胤、赵光义兄弟统一全国，结束五代十国分裂局面。",
+      "content": "赵匡胤采取先南后北策略，先后灭荆南、后蜀、南汉、南唐等割据政权。赵光义灭北汉，基本统一全国。"
+    },
+    {
+      "slug": "bei-han-jian-li",
+      "name": "北汉建立",
+      "timeStart": 951,
+      "aliases": [
+        "刘崇建国"
+      ],
+      "summary": "刘崇建立北汉，是十国中唯一在北方的政权。",
+      "content": "951年刘崇建立北汉，割据山西。北汉是十国中唯一在北方的政权，依附契丹。"
+    },
+    {
+      "slug": "hou-zhou-gai-ge",
+      "name": "后周改革",
+      "timeStart": 954,
+      "timeEnd": 959,
+      "aliases": [
+        "柴荣改革"
+      ],
+      "summary": "后周世宗柴荣推行改革，整顿军事，发展经济，为北宋统一奠定基础。",
+      "content": "柴荣在位期间整顿军纪，淘汰老弱，发展生产，限制佛教。改革增强了后周国力，为北宋统一奠定基础。"
+    },
+    {
+      "slug": "nan-tang-jian-li",
+      "name": "南唐建立",
+      "timeStart": 937,
+      "aliases": [
+        "李昪建国"
+      ],
+      "summary": "李昪建立南唐，是南方最强大的割据政权。",
+      "content": "937年李昪建立南唐，定都金陵（今南京）。南唐是南方最强大的政权，文化繁荣。"
+    }
   ],
   "relations": [
-    {"from": "zhu-wen-wd", "fromType": "person", "to": "hou-liang-jian-li", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
-    {"from": "li-cun-xu", "fromType": "person", "to": "hou-tang-jian-li", "toType": "event", "type": "participation", "weight": 10, "note": "建立者"},
-    {"from": "shi-jing-tang", "fromType": "person", "to": "ge-rang-yan-yun", "toType": "event", "type": "participation", "weight": 10, "note": "割让者"},
-    {"from": "guo-wei", "fromType": "person", "to": "chai-rong", "toType": "person", "type": "blood", "weight": 9, "note": "养父子"},
-    {"from": "chai-rong", "fromType": "person", "to": "hou-zhou-gai-ge", "toType": "event", "type": "participation", "weight": 10, "note": "改革者"},
-    {"from": "zhao-kuang-yin", "fromType": "person", "to": "chen-qiao-bing-bian", "toType": "event", "type": "participation", "weight": 10, "note": "兵变主角"},
-    {"from": "zhao-kuang-yin", "fromType": "person", "to": "bei-song-tong-yi", "toType": "event", "type": "participation", "weight": 10, "note": "统一者"},
-    {"from": "li-yu", "fromType": "person", "to": "nan-tang-jian-li", "toType": "event", "type": "participation", "weight": 8, "note": "末代君主"},
-    {"from": "qian-liu", "fromType": "person", "to": "bei-song-tong-yi", "toType": "event", "type": "participation", "weight": 8, "note": "纳土归宋"}
+    {
+      "from": "zhu-wen-wd",
+      "fromType": "person",
+      "to": "hou-liang-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "li-cun-xu",
+      "fromType": "person",
+      "to": "hou-tang-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "建立者"
+    },
+    {
+      "from": "shi-jing-tang",
+      "fromType": "person",
+      "to": "ge-rang-yan-yun",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "割让者"
+    },
+    {
+      "from": "guo-wei",
+      "fromType": "person",
+      "to": "chai-rong",
+      "toType": "person",
+      "type": "blood",
+      "weight": 9,
+      "note": "养父子"
+    },
+    {
+      "from": "chai-rong",
+      "fromType": "person",
+      "to": "hou-zhou-gai-ge",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "改革者"
+    },
+    {
+      "from": "zhao-kuang-yin",
+      "fromType": "person",
+      "to": "chen-qiao-bing-bian",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "兵变主角"
+    },
+    {
+      "from": "zhao-kuang-yin",
+      "fromType": "person",
+      "to": "bei-song-tong-yi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 10,
+      "note": "统一者"
+    },
+    {
+      "from": "li-yu",
+      "fromType": "person",
+      "to": "nan-tang-jian-li",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "末代君主"
+    },
+    {
+      "from": "qian-liu",
+      "fromType": "person",
+      "to": "bei-song-tong-yi",
+      "toType": "event",
+      "type": "participation",
+      "weight": 8,
+      "note": "纳土归宋"
+    }
   ],
   "timelines": [
-    {"eventSlug": "hou-liang-jian-li", "year": 907, "label": "后梁建立，五代十国开始"},
-    {"eventSlug": "hou-tang-jian-li", "year": 923, "label": "后唐建立"},
-    {"eventSlug": "ge-rang-yan-yun", "year": 938, "label": "割让燕云十六州"},
-    {"eventSlug": "nan-tang-jian-li", "year": 937, "label": "南唐建立"},
-    {"eventSlug": "bei-han-jian-li", "year": 951, "label": "北汉建立"},
-    {"eventSlug": "hou-zhou-gai-ge", "year": 954, "label": "后周柴荣改革"},
-    {"eventSlug": "chen-qiao-bing-bian", "year": 960, "label": "陈桥兵变"},
-    {"eventSlug": "bei-song-tong-yi", "year": 979, "label": "北宋统一"}
+    {
+      "eventSlug": "hou-liang-jian-li",
+      "year": 907,
+      "label": "后梁建立，五代十国开始"
+    },
+    {
+      "eventSlug": "hou-tang-jian-li",
+      "year": 923,
+      "label": "后唐建立"
+    },
+    {
+      "eventSlug": "nan-tang-jian-li",
+      "year": 937,
+      "label": "南唐建立"
+    },
+    {
+      "eventSlug": "ge-rang-yan-yun",
+      "year": 938,
+      "label": "割让燕云十六州"
+    },
+    {
+      "eventSlug": "bei-han-jian-li",
+      "year": 951,
+      "label": "北汉建立"
+    },
+    {
+      "eventSlug": "hou-zhou-gai-ge",
+      "year": 954,
+      "label": "后周柴荣改革"
+    },
+    {
+      "eventSlug": "chen-qiao-bing-bian",
+      "year": 960,
+      "label": "陈桥兵变"
+    },
+    {
+      "eventSlug": "bei-song-tong-yi",
+      "year": 979,
+      "label": "北宋统一"
+    }
   ]
 }
