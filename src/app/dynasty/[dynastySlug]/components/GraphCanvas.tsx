@@ -4,6 +4,7 @@ import { useRef, useState, useCallback, useMemo, useImperativeHandle, forwardRef
 import type { DynastyGraphBundle, DynastyBand, GraphEdge } from '@/lib/types';
 import { computeLayout, edgePath, lodMinImportance, RELATION_COLOR, ROLE_GLOW, type LayoutNode } from '@/utils/graphLayout';
 import { formatYear } from '@/utils/format';
+import { basePath } from '@/services/basePath';
 
 export interface GraphCanvasHandle {
   resetView: () => void;
@@ -457,7 +458,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
                   style={{ transition: 'r 0.2s' }} />
 
                 <image
-                  href={node.imageUrl || (node.entityType === 'event' ? '/images/default-event.svg' : '/images/default-person.svg')}
+                  href={basePath + (node.imageUrl || (node.entityType === 'event' ? '/images/default-event.svg' : '/images/default-person.svg'))}
                   x={-r} y={-r} width={r * 2} height={r * 2}
                   clipPath={`url(#clip-${node.id.replace(/[^a-zA-Z0-9-]/g, '-')})`}
                   preserveAspectRatio="xMidYMid slice"

@@ -3,6 +3,7 @@
 import { useRouter } from 'next/navigation';
 import type { EntityDetailProjection, PersonDetailProjection, EventDetailProjection } from '@/lib/types';
 import { formatYear } from '@/utils/format';
+import { basePath } from '@/services/basePath';
 
 const ROLE_LABEL: Record<string, string> = {
   emperor: '帝王', strategist: '谋士', general: '将领', minister: '臣子',
@@ -92,10 +93,10 @@ function PersonPanel({
       <div className="flex items-start gap-3 mb-5">
         <div className={`shrink-0 w-16 h-20 rounded-xl overflow-hidden bg-gradient-to-br ${avatarGrad} flex items-center justify-center font-serif text-2xl text-white shadow-lg ring-1 ring-white/10`}>
           <img
-            src={detail.imageUrl || '/images/default-person.svg'}
+            src={basePath + (detail.imageUrl || '/images/default-person.svg')}
             alt={detail.name}
             className="w-full h-full object-cover object-top"
-            onError={e => { (e.currentTarget as HTMLImageElement).src = '/images/default-person.svg'; }}
+            onError={e => { (e.currentTarget as HTMLImageElement).src = basePath + '/images/default-person.svg'; }}
           />
         </div>
         <div className="min-w-0 flex-1">
@@ -224,10 +225,10 @@ function EventPanel({
       <div className="flex items-start gap-3 mb-5">
         <div className="shrink-0 w-16 h-20 rounded-xl overflow-hidden bg-gradient-to-br from-rose-500 to-rose-800 flex items-center justify-center shadow-lg ring-1 ring-white/10">
           <img
-            src={detail.imageUrl || '/images/default-event.svg'}
+            src={basePath + (detail.imageUrl || '/images/default-event.svg')}
             alt={detail.name}
             className="w-full h-full object-cover"
-            onError={e => { (e.currentTarget as HTMLImageElement).src = '/images/default-event.svg'; }}
+            onError={e => { (e.currentTarget as HTMLImageElement).src = basePath + '/images/default-event.svg'; }}
           />
         </div>
         <div className="min-w-0 flex-1">
