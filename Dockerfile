@@ -7,6 +7,8 @@ COPY package.json package-lock.json* ./
 RUN npm ci
 
 FROM base AS builder
+ARG NEXT_PUBLIC_BASEPATH
+ENV NEXT_PUBLIC_BASEPATH=$NEXT_PUBLIC_BASEPATH
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
