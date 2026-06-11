@@ -66,38 +66,76 @@ export function computeLayout(
 
 const SIZE_MULTIPLIERS = [2.0, 1.8, 1.65, 1.5];
 
-const MIN_NODE_GAP = 20; // minimum pixel gap between node edges
-
-// Horizontal distance = 2x vertical distance (cluster stretched into an ellipse)
-const X_STRETCH = 2;
-// World-space gap between adjacent dynasty clusters (prevents overlap at any count)
+// World-space gap between adjacent dynasty time-strips (prevents overlap at any count)
 const CLUSTER_GAP = 180;
+
+// Time-strip tuning
+const STRIP_PX_PER_YEAR = 6;   // horizontal pixels per year inside a dynasty
+const STRIP_MIN_WIDTH = 440;   // minimum strip width (short dynasties)
+const LANE_GAP_Y = 40;         // vertical gap between stacked lanes
+const AXIS_GAP = 34;           // gap from the central emperor axis to the first lane
+const NODE_GAP_X = 24;         // minimum horizontal gap between nodes in the same lane
 
 function nodeDisplaySize(node: GraphNode, tier: number): number {
   return Math.min(node.size, 16) * SIZE_MULTIPLIERS[tier];
 }
 
-function safeTierRadius(
-  tier: GraphNode[],
-  tierIdx: number,
-  prevR: number,
-  prevMaxNodeR: number
-): number {
-  if (!tier.length) return prevR;
-  const maxNodeR = Math.max(...tier.map(n => nodeDisplaySize(n, tierIdx)));
-  const count = tier.length;
+type LocalNode = { node: GraphNode; localX: number; localY: number; size: number; tier: number };
 
-  // Must clear the previous tier
-  const minFromPrev = prevR + prevMaxNodeR + maxNodeR + MIN_NODE_GAP;
+// Lay one dynasty's nodes out as a left→right time strip:
+//   emperors (tier 0) sit on the central time axis (localY 0),
+//   other persons stack upward, events stack downward — each by activeYear.
+// Returns local coords (origin = strip center) plus the strip's half-width for packing.
+function layoutTimeStrip(dynNodes: GraphNode[], fixedWidth?: number): { locals: LocalNode[]; halfWidth: number } {
+  if (!dynNodes.length) return { locals: [], halfWidth: 0 };
 
-  // Must not overlap within same tier
-  let minFromSelf = minFromPrev;
-  if (count > 1) {
-    // chord = 2r*sin(π/count) >= 2*maxNodeR + MIN_NODE_GAP
-    minFromSelf = (maxNodeR + MIN_NODE_GAP / 2) / Math.sin(Math.PI / count);
+  const years = dynNodes.map(n => n.activeYear);
+  const minYear = Math.min(...years);
+  const maxYear = Math.max(...years);
+  const span = maxYear - minYear || 1;
+  const width = fixedWidth ?? Math.max(span * STRIP_PX_PER_YEAR, STRIP_MIN_WIDTH);
+  const xOf = (year: number) => ((year - minYear) / span) * width - width / 2;
+
+  const sized = dynNodes.map(n => {
+    const tier = getNodeTier(n);
+    return { node: n, tier, size: nodeDisplaySize(n, tier), localX: xOf(n.activeYear) };
+  });
+  const maxR = Math.max(...sized.map(s => s.size));
+  const rowH = maxR * 2 + LANE_GAP_Y;
+
+  const locals: LocalNode[] = [];
+  let extentX = width / 2;
+
+  // Emperors on the central axis, de-collided horizontally
+  const emperors = sized.filter(s => s.tier === 0).sort((a, b) => a.localX - b.localX);
+  let lastRight = -Infinity;
+  for (const s of emperors) {
+    let x = s.localX;
+    if (x - s.size < lastRight + NODE_GAP_X) x = lastRight + NODE_GAP_X + s.size;
+    lastRight = x + s.size;
+    locals.push({ node: s.node, localX: x, localY: 0, size: s.size, tier: s.tier });
+    extentX = Math.max(extentX, Math.abs(x) + s.size);
   }
 
-  return Math.max(minFromPrev, minFromSelf);
+  // Greedy lane packing: place each node in the first lane whose last node clears it
+  const pack = (items: typeof sized, dir: -1 | 1) => {
+    const ordered = [...items].sort((a, b) => a.localX - b.localX);
+    const laneRight: number[] = [];
+    for (const s of ordered) {
+      const left = s.localX - s.size;
+      let lane = laneRight.findIndex(r => r + NODE_GAP_X <= left);
+      if (lane === -1) { lane = laneRight.length; laneRight.push(s.localX + s.size); }
+      else laneRight[lane] = s.localX + s.size;
+      const y = dir * (AXIS_GAP + lane * rowH + rowH / 2);
+      locals.push({ node: s.node, localX: s.localX, localY: y, size: s.size, tier: s.tier });
+      extentX = Math.max(extentX, Math.abs(s.localX) + s.size);
+    }
+  };
+
+  pack(sized.filter(s => s.tier === 1 || s.tier === 2), -1); // persons stack upward
+  pack(sized.filter(s => s.tier === 3), 1);                  // events stack downward
+
+  return { locals, halfWidth: extentX };
 }
 
 function computeMultiDynastyLayout(
@@ -116,61 +154,11 @@ function computeMultiDynastyLayout(
   }
 
   const cy = h / 2;
-  // Offset each tier's start angle so 2-node tiers don't stack vertically
-  const TIER_START_ANGLE = [-Math.PI / 2, -Math.PI / 3, -Math.PI / 2.5, -Math.PI / 2];
 
-  // 1. Build each cluster in local coords (relative to its own center) and
-  //    measure its horizontal half-width so clusters can be packed without overlap.
-  type LocalNode = { node: GraphNode; localX: number; localY: number; size: number; tier: number };
-  const clusters = sorted.map(dynasty => {
-    const dynNodes = groups.get(dynasty.slug) ?? [];
+  // 1. Build each dynasty as a time strip and measure its half-width.
+  const clusters = sorted.map(dynasty => layoutTimeStrip(groups.get(dynasty.slug) ?? []));
 
-    const tiers: GraphNode[][] = [[], [], [], []];
-    for (const node of dynNodes) tiers[getNodeTier(node)].push(node);
-    for (const tier of tiers) tier.sort((a, b) => b.size - a.size);
-
-    // Compute safe radii for each tier (vertical radius; X is stretched on placement)
-    let prevR = 0;
-    let prevMaxNodeR = 0;
-    const tierRadii: number[] = [];
-    for (let t = 0; t < 4; t++) {
-      const tier = tiers[t];
-      if (!tier.length) { tierRadii.push(prevR); continue; }
-
-      if (t === 0 && tier.length === 1) {
-        prevMaxNodeR = nodeDisplaySize(tier[0], 0);
-        tierRadii.push(0);
-      } else {
-        const r = safeTierRadius(tier, t, prevR, prevMaxNodeR);
-        const maxNodeR = Math.max(...tier.map(nd => nodeDisplaySize(nd, t)));
-        prevR = r;
-        prevMaxNodeR = maxNodeR;
-        tierRadii.push(r);
-      }
-    }
-
-    const locals: LocalNode[] = [];
-    let halfWidth = 0;
-    for (let t = 0; t < 4; t++) {
-      const tier = tiers[t];
-      if (!tier.length) continue;
-      const r = tierRadii[t];
-      const startAngle = TIER_START_ANGLE[t];
-
-      tier.forEach((node, j) => {
-        const angle = r === 0 ? 0 : startAngle + (2 * Math.PI * j) / tier.length;
-        const size = nodeDisplaySize(node, t);
-        const localX = r === 0 ? 0 : X_STRETCH * r * Math.cos(angle);
-        const localY = r === 0 ? 0 : r * Math.sin(angle);
-        locals.push({ node, localX, localY, size, tier: t });
-        halfWidth = Math.max(halfWidth, Math.abs(localX) + size);
-      });
-    }
-
-    return { locals, halfWidth };
-  });
-
-  // 2. Pack clusters left-to-right by their actual extents.
+  // 2. Pack strips left-to-right by their actual extents.
   const result: LayoutNode[] = [];
   let prevCenter = 0;
   let prevHalf = 0;
@@ -198,45 +186,21 @@ function computeMultiDynastyLayout(
 
 function computeConcentricLayout(
   nodes: GraphNode[],
-  edges: DynastyGraphBundle['edges'],
+  _edges: DynastyGraphBundle['edges'],
   w: number,
   h: number
 ): LayoutNode[] {
+  // Single-dynasty view: one time strip filling most of the viewport width.
   const cx = w / 2;
   const cy = h / 2;
-  const minDim = Math.min(w, h);
-
-  const tiers: GraphNode[][] = [[], [], [], []];
-  for (const n of nodes) tiers[getNodeTier(n)].push(n);
-  for (const tier of tiers) {
-    tier.sort((a, b) => b.size - a.size);
-  }
-
-  const t0 = tiers[0];
-  const RADII = [
-    t0.length === 1 ? 0 : minDim * 0.13,
-    minDim * 0.28,
-    minDim * 0.40,
-    minDim * 0.52,
-  ];
-  const result: LayoutNode[] = [];
-
-  for (let t = 0; t < 4; t++) {
-    const tier = tiers[t];
-    if (tier.length === 0) continue;
-    const r = RADII[t];
-    tier.forEach((n, i) => {
-      const angle = r === 0 ? 0 : -Math.PI / 2 + (2 * Math.PI * i) / tier.length;
-      result.push({
-        ...n,
-        lx: r === 0 ? cx : cx + r * Math.cos(angle),
-        ly: r === 0 ? cy : cy + r * Math.sin(angle),
-        displaySize: Math.min(n.size, 16) * SIZE_MULTIPLIERS[t],
-        tier: t,
-      });
-    });
-  }
-  return result;
+  const { locals } = layoutTimeStrip(nodes, w * 0.78);
+  return locals.map(lc => ({
+    ...lc.node,
+    lx: cx + lc.localX,
+    ly: cy + lc.localY,
+    displaySize: lc.size,
+    tier: lc.tier,
+  }));
 }
 
 export function edgePath(

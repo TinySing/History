@@ -210,11 +210,6 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
       : layout;
     const lodIds = new Set(lodNodes.map(n => n.id));
 
-    if (!isGlobal) {
-      const edges = bundle.edges.filter(e => lodIds.has(e.source) && lodIds.has(e.target));
-      return { visibleNodes: lodNodes, visibleEdges: edges };
-    }
-
     // 计算视口在世界坐标中的范围（含缓冲边距）
     const padding = 200 / transform.scale;
     const expandedLeft = -transform.x / transform.scale - padding;
@@ -237,12 +232,13 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
     );
 
     return { visibleNodes: filteredNodes, visibleEdges: filteredEdges };
-  }, [layout, bundle.edges, transform, size, isGlobal]);
+  }, [layout, bundle.edges, transform, size]);
 
-  // 计算可见的朝代并通知父组件
+  // 计算可见的朝代并通知父组件。集合未变化则跳过回调，避免父组件无谓重渲染。
+  const lastVisibleSlugs = useRef<string>('');
   useEffect(() => {
     if (!onStateChange || !isGlobal) return;
-    
+
     const viewLeft = -transform.x / transform.scale;
     const viewRight = (size.w - transform.x) / transform.scale;
 
@@ -252,10 +248,16 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
       return g.maxX >= viewLeft && g.minX <= viewRight;
     }).map(b => b.slug);
 
+    const key = visibleSlugs.join(',');
+    if (key === lastVisibleSlugs.current) return;
+    lastVisibleSlugs.current = key;
     onStateChange({ visibleDynastySlugs: visibleSlugs });
   }, [transform, size.w, dynastyBands, isGlobal, onStateChange, bandGeometry]);
 
   const lodLevel = transform.scale < 0.35 ? '概览' : transform.scale < 0.6 ? '标准' : '详细';
+  // 节点密集时关闭普通节点的模糊滤镜（高斯模糊是最贵的绘制操作）。
+  // 帝王/聚焦/悬停节点数量少，仍保留发光。
+  const effectsLite = visibleNodes.length > 100;
 
   return (
     <div
@@ -343,30 +345,26 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
             });
           })()}
 
-          {/* Outer guide ellipse per dynasty (global mode) — extent from actual layout */}
+          {/* Central time axis per dynasty (global mode) — emperors sit on this line */}
           {isGlobal && dynastyBands.map(band => {
             const g = bandGeometry.get(band.slug);
             if (!g) return null;
-            const rx = (g.maxX - g.minX) / 2 + 14;
-            const ry = (g.maxY - g.minY) / 2 + 14;
             return (
-              <ellipse key={band.slug}
-                cx={g.cx} cy={(g.minY + g.maxY) / 2} rx={rx} ry={ry}
-                fill="none" stroke="#1e3a5f" strokeWidth={1}
-                strokeDasharray="4 10" opacity={0.2} />
+              <line key={band.slug}
+                x1={g.minX - 14} y1={cy} x2={g.maxX + 14} y2={cy}
+                stroke="#1e3a5f" strokeWidth={1} strokeDasharray="4 8" opacity={0.35} />
             );
           })}
 
-          {/* Concentric rings (single dynasty mode) */}
-          {!isGlobal && [0.28, 0.40, 0.52].map((ratio, i) => {
-            const r = Math.min(size.w, size.h) * ratio;
-            if (!layout.some(n => n.tier === i + 1)) return null;
+          {/* Central time axis (single dynasty mode) */}
+          {!isGlobal && layout.length > 0 && (() => {
+            const minX = Math.min(...layout.map(n => n.lx - n.displaySize));
+            const maxX = Math.max(...layout.map(n => n.lx + n.displaySize));
             return (
-              <circle key={i} cx={cx} cy={cy} r={r}
-                fill="none" stroke="#1e3a5f" strokeWidth={1}
-                strokeDasharray="4 8" opacity={0.35} />
+              <line x1={minX} y1={cy} x2={maxX} y2={cy}
+                stroke="#1e3a5f" strokeWidth={1} strokeDasharray="4 8" opacity={0.35} />
             );
-          })}
+          })()}
 
           {/* Edges — base pass (dimmed when something is active) */}
           {visibleEdges.map(edge => {
@@ -425,6 +423,8 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
             const glowColor = (node.personRole && ROLE_GLOW[node.personRole]) || node.color;
             const isEmperor = node.tier === 0;
             const opacity = isDimmed ? (isGlobal && isInFocusDynasty ? 0.15 : 0.07) : 1;
+            // 密集视图下，普通节点跳过模糊滤镜以省绘制开销
+            const useGlow = !effectsLite || isEmperor || isFocused || isHovered;
 
             return (
               <g
@@ -436,9 +436,11 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
                 onPointerEnter={() => setHoveredId(node.id)}
                 onPointerLeave={() => setHoveredId(null)}
               >
-                <circle r={r * 2} fill={glowColor}
-                  opacity={isFocused ? 0.18 : isHovered ? 0.12 : isEmperor ? 0.08 : 0.04}
-                  style={{ filter: 'blur(8px)' }} />
+                {useGlow && (
+                  <circle r={r * 2} fill={glowColor}
+                    opacity={isFocused ? 0.18 : isHovered ? 0.12 : isEmperor ? 0.08 : 0.04}
+                    style={{ filter: 'blur(8px)' }} />
+                )}
 
                 {node.entityType === 'event' && (
                   <circle r={r + 4} fill="none" stroke={node.color}
@@ -451,7 +453,7 @@ const GraphCanvas = forwardRef<GraphCanvasHandle, Props>(function GraphCanvas(
                 )}
 
                 <circle r={r} fill={node.color}
-                  filter={isEmperor || isFocused ? 'url(#glow-strong)' : 'url(#glow-soft)'}
+                  filter={isEmperor || isFocused ? 'url(#glow-strong)' : useGlow ? 'url(#glow-soft)' : undefined}
                   style={{ transition: 'r 0.2s' }} />
 
                 <image
