@@ -263,7 +263,7 @@
       "content": "鲁肃（172年—217年），字子敬，临淮东城（今安徽定远）人。东汉末年东吴战略家、外交家。\n\n鲁肃提出「塌上策」，为孙权规划占据长江以南、三分天下的战略。赤壁之战前力主联刘抗曹，是孙刘联盟的主要推动者。周瑜死后接任都督，维护孙刘联盟大局，217年病逝。"
     },
     {
-      "slug": "lu-xun",
+      "slug": "lu-xun-sanguo",
       "name": "陆逊",
       "primaryRole": "general",
       "roles": [
@@ -1070,7 +1070,7 @@
     {
       "from": "sun-quan",
       "fromType": "person",
-      "to": "lu-xun",
+      "to": "lu-xun-sanguo",
       "toType": "person",
       "type": "political",
       "weight": 8,
@@ -1133,7 +1133,7 @@
     {
       "from": "liu-bei",
       "fromType": "person",
-      "to": "lu-xun",
+      "to": "lu-xun-sanguo",
       "toType": "person",
       "type": "conflict",
       "weight": 8,
@@ -1232,7 +1232,7 @@
     {
       "from": "battle-of-yiling",
       "fromType": "event",
-      "to": "lu-xun",
+      "to": "lu-xun-sanguo",
       "toType": "person",
       "type": "participation",
       "weight": 10,
