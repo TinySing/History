@@ -1,81 +1,12 @@
 import Link from 'next/link';
 import { getDynasties } from '@/lib/queries';
 import SearchBox from '@/components/SearchBox';
+import DynastyTimeline from '@/components/DynastyTimeline';
 
 export const dynamic = 'force-dynamic';
 
 function fmtYear(y: number): string {
   return y < 0 ? `前${Math.abs(y)}年` : `${y}年`;
-}
-
-function DynastyTimeline({ dynasties }: { dynasties: { slug: string; name: string; startYear: number; endYear: number }[] }) {
-  if (dynasties.length === 0) return null;
-
-  const minYear = Math.min(...dynasties.map(d => d.startYear));
-  const maxYear = Math.max(...dynasties.map(d => d.endYear));
-  const span = maxYear - minYear || 1;
-
-  // Color palette per dynasty index
-  const COLORS = [
-    { bar: '#F59E0B', glow: 'shadow-amber-500/20', ring: 'hover:ring-amber-400/50', text: 'text-amber-300' },
-    { bar: '#60A5FA', glow: 'shadow-blue-500/20', ring: 'hover:ring-blue-400/50', text: 'text-blue-300' },
-    { bar: '#34D399', glow: 'shadow-emerald-500/20', ring: 'hover:ring-emerald-400/50', text: 'text-emerald-300' },
-    { bar: '#F472B6', glow: 'shadow-pink-500/20', ring: 'hover:ring-pink-400/50', text: 'text-pink-300' },
-    { bar: '#A78BFA', glow: 'shadow-violet-500/20', ring: 'hover:ring-violet-400/50', text: 'text-violet-300' },
-    { bar: '#FB923C', glow: 'shadow-orange-500/20', ring: 'hover:ring-orange-400/50', text: 'text-orange-300' },
-  ];
-
-  return (
-    <div className="relative mb-12">
-      <div className="flex items-center justify-between mb-2 text-xs text-slate-600 font-mono">
-        <span>{fmtYear(minYear)}</span>
-        <span>{fmtYear(maxYear)}</span>
-      </div>
-
-      {/* Timeline track */}
-      <div className="relative h-12 rounded-xl bg-slate-900 border border-slate-800 overflow-hidden">
-        {/* Axis line */}
-        <div className="absolute inset-y-0 left-0 right-0 flex items-center pointer-events-none px-0">
-          <div className="w-full h-px bg-slate-700/50" />
-        </div>
-
-        {dynasties.map((d, i) => {
-          const left = ((d.startYear - minYear) / span) * 100;
-          const width = Math.max(((d.endYear - d.startYear) / span) * 100, 2);
-          const color = COLORS[i % COLORS.length];
-
-          return (
-            <Link
-              key={d.slug}
-              href={`/dynasty/${d.slug}`}
-              className={`absolute top-1 bottom-1 rounded-lg flex items-center justify-center text-xs font-serif font-medium transition-all duration-200 hover:brightness-125 ring-1 ring-white/10 ${color.ring} hover:ring-2`}
-              style={{ left: `${left}%`, width: `${width}%`, background: `${color.bar}22`, borderColor: `${color.bar}44` }}
-              title={`${d.name} ${fmtYear(d.startYear)}–${fmtYear(d.endYear)}`}
-            >
-              <span className={`${color.text} truncate px-1.5`}>{d.name}</span>
-            </Link>
-          );
-        })}
-      </div>
-
-      {/* Year markers */}
-      <div className="relative h-4 mt-1">
-        {dynasties.map((d, i) => {
-          const left = ((d.startYear - minYear) / span) * 100;
-          const color = COLORS[i % COLORS.length];
-          return (
-            <span
-              key={d.slug}
-              className="absolute text-[10px] font-mono -translate-x-1/2"
-              style={{ left: `${left}%`, color: color.bar + 'aa' }}
-            >
-              {fmtYear(d.startYear)}
-            </span>
-          );
-        })}
-      </div>
-    </div>
-  );
 }
 
 export default async function HomePage() {
